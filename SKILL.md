@@ -136,8 +136,10 @@ https://chillclaw-web.vercel.app
 |------|---------|------|
 | `/api/v3/account` | 现货 | 现货余额，注意 LD 前缀是理财凭证不是真实资产 |
 | 资金账户接口 | 资金 | 用户可能在资金账户存有大量 USDT |
-| `/sapi/v1/simple-earn/flexible/position` | 活期理财 | 真实理财持仓，替代 LD 前缀代币 |
+| `/sapi/v1/simple-earn/flexible/position` | 活期理财 | 真实理财持仓，替代 LD 前缀代币。**必须读取 `tierAnnualPercentageRate`（Bonus 档位年化）和 `latestAnnualPercentageRate`（基础年化），前者才是用户实际享受的利率** |
 | `/sapi/v1/simple-earn/locked/position` | 定期理财 | 定期锁仓产品 |
+| `/sapi/v1/simple-earn/flexible/list` | 活期产品列表 | 全部可申购的活期产品 + Bonus 档位利率（有 API Key 时用这个替代 `get_earn`） |
+| `/sapi/v1/simple-earn/locked/list` | 定期产品列表 | 全部可申购的定期产品 |
 | `/fapi/v3/account` | U本位合约 | 合约余额和持仓 |
 | `/dapi/v1/account` | 币本位合约 | 币本位合约 |
 
@@ -178,10 +180,20 @@ https://chillclaw-web.vercel.app
 | 理财建议、闲钱怎么放、帮我优化 | → **先查用户持仓**（Binance API），**再查理财产品**（`get_earn`），交叉匹配后给建议 |
 | 到期提醒、我的定期什么时候到 | → 调用 Binance Simple Earn 接口查用户理财仓位 |
 
-**关键**：用户问"理财建议"时，不能只调 `get_earn` 就完事。正确流程是：
-1. 用 Binance API 扫描用户所有账户持仓
-2. 用 `get_earn` 获取当前可用理财产品
+**关键**：用户问"理财建议"时，不能只调 `get_earn` 就完事。正确流程取决于是否有 API Key：
+
+**有 Binance API Key 时（个性化推荐）：**
+1. 用 Binance API 扫描用户所有账户持仓（现货+资金+理财+合约）
+2. 用 `/sapi/v1/simple-earn/flexible/list` 和 `/sapi/v1/simple-earn/locked/list` 获取全部可申购产品及精确 Bonus 利率
 3. 匹配用户闲置资产 × 可用产品，给出个性化推荐
+4. **`get_earn` 在此场景下不需要调用**，Binance API 的数据更精确、更完整
+
+**无 Binance API Key 时（公开概览）：**
+1. 调 `get_earn` 获取公开产品利率概览
+2. 给出通用建议（无法个性化）
+3. 提示用户提供 API Key 以获得更精准的推荐
+
+> `get_earn` 定位为**无需登录的公开概览**，可能不包含所有 Bonus 档位。有 API Key 时，优先使用 Binance Simple Earn API 获取精确利率。
 
 ## 数据不可用时的兜底
 
