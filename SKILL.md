@@ -124,7 +124,49 @@ claude mcp add chillclaw -- uvx --from git+https://github.com/nobita1998/chillcl
 https://chillclaw-web.vercel.app
 ```
 
-**无需任何 API Key。** 如需查询个人币安账户持仓，用户需提供自己的 Binance API Key。
+**无需任何 API Key。** 如需查询个人币安账户持仓，用户需配置 Binance API Key（见下方说明）。
+
+---
+
+## Binance API Key 配置
+
+用户将 API Key 存入项目根目录的 `.env` 文件：
+
+```bash
+# .env（已在 .gitignore 中，不会被提交）
+BINANCE_API_KEY=your_api_key_here
+BINANCE_API_SECRET=your_api_secret_here
+```
+
+### 安全校验（强制执行）
+
+**拿到用户的 API Key 后，第一步必须做权限校验，再执行任何业务逻辑。**
+
+校验方法：调用 `/api/v3/account` 读取 `permissions` 字段。
+
+```python
+# 安全的权限：只读 + 现货交易
+# TRD_GRP_* 是交易组权限，可以接受
+# 绝对不能有的权限：WITHDRAW（提现）
+```
+
+**校验规则：**
+1. ✅ 只有 `TRD_GRP_*` 和/或 `PRE_MARKET` — 安全，继续使用
+2. ❌ 包含 `WITHDRAW` 或 `UNIVERSAL_TRANSFER` 等高危权限 — **立即停止**，输出以下警告：
+
+```
+⚠️ 安全警告：你的 API Key 拥有提现权限，存在资金安全风险！
+
+请立即执行以下操作：
+1. 打开币安 App → 个人中心 → API 管理
+2. 删除此 API Key
+3. 重新创建一个仅开启"读取"权限的 API Key
+4. 将新 Key 更新到 .env 文件
+
+ChillClaw 仅需读取权限即可工作，绝不需要提现权限。
+```
+
+3. 校验失败或网络错误 — 不继续，提示用户检查 Key 是否正确
 
 ---
 
