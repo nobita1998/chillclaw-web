@@ -41,7 +41,7 @@ export default async function handler(req, res) {
 
     const data = await resp.json();
     const content = data?.choices?.[0]?.message?.content || '';
-    res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate=120');
+    res.setHeader('Cache-Control', 's-maxage=2592000, stale-while-revalidate=86400');
     res.status(200).json({ symbol, content });
   } catch (e) {
     res.status(500).json({ error: e.message });
