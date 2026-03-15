@@ -27,7 +27,7 @@ Base URL: `https://chillclaw-web.vercel.app`，所有端点无需认证。
 | `/api/alpha` | Alpha 新币 | `upcoming`（未来空投，含 CA/链/日期）+ `listed`（已上线代币实时价格/成交量/持有人） |
 | `/api/booster` | Booster 解锁 | `upcoming[]`（按日期排序，含价格）+ `recent[]` |
 | `/api/earn` | Yield Arena 利率 | `products[]`（`asset`, `totalApr`, `bonusApr`, `bonusTier`） |
-| `/api/surf?symbol=XX` | Surf AI 投研 | Markdown 研报，30天缓存 |
+| `/research/XX.json` | 预热投研报告 | GitHub Actions 自动生成，静态文件 |
 | `/api/price?symbols=A,B` | 批量价格 | 合约→现货→DEX 优先级 |
 | `/api/overview` | 三场景汇总 | `{ alpha, booster, earn }` |
 | `/api/announcements?catalogId=N` | 币安官方公告 | catalogId: 93=活动, 48=新币, 49=Yield Arena, 128=空投 |
@@ -39,7 +39,7 @@ Base URL: `https://chillclaw-web.vercel.app`，所有端点无需认证。
 | 用户说 | 调用 |
 |--------|------|
 | 新币、Alpha、空投、TGE、上线 | `/api/alpha` |
-| 分析 XX、XX 值得买吗 | `/api/surf?symbol=XX` |
+| 分析 XX、XX 值得买吗 | 读 `/research/XX.json`（预热缓存），无缓存则提示"暂无投研数据" |
 | 解锁、Booster、抛压 | `/api/booster` |
 | 价格、多少钱 | `/api/price`（公开，无需 Key） |
 | 总览、今天有什么 | `/api/overview` |
@@ -72,9 +72,11 @@ Base URL: `https://chillclaw-web.vercel.app`，所有端点无需认证。
 ```
 /api/alpha 获取即将空投列表
   └─ 对每个 upcoming 代币
-       └─ /api/surf?symbol=TOKEN 获取投研
+       └─ /research/TOKEN.json 读取预热好的投研（GitHub Actions 已提前生成）
             └─ 合并展示：空投信息 + 投研摘要
 ```
+
+投研报告由 GitHub Actions 在发现新币时自动调用 Surf AI 生成并保存为静态文件。用户查询时零等待。如果某个代币没有预热缓存，说明是刚发现的极新代币，提示"投研报告生成中，请稍后再试"。
 
 **示例输出：**
 ```

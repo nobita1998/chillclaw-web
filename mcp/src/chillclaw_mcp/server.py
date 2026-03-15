@@ -16,13 +16,14 @@ _INSTRUCTIONS = """\
 ChillClaw 🦞 — 币安一站式躺赚助手 MCP Server
 
 提供三大核心工具：
-1. Alpha 投研 — 发现新代币 + Surf AI 专业分析
+1. Alpha 投研 — 发现新代币，投研报告已预热（GitHub Actions 自动生成）
 2. Booster 追踪 — 解锁日历 + 实时价格 + 倒计时
 3. 理财 Earn — Binance Yield Arena 最新产品和利率
 
 额外工具：
 - 批量价格查询（合约 → 现货 → DEX）
-- 单币深度投研（Surf AI）
+
+注意：投研报告通过 get_alpha 返回，不单独暴露实时调用接口。
 """
 
 mcp = FastMCP(
@@ -51,11 +52,29 @@ async def get_overview() -> dict:
 
 @mcp.tool()
 async def get_alpha() -> dict:
-    """获取 Binance Alpha 新币数据：即将上线/TGE 的代币列表、合约地址、链信息，以及今日 Alpha 交易量 Top3。"""
+    """获取 Alpha 新币数据 + 预热好的投研报告。返回 upcoming（即将空投，含 CA/链/日期）、listed（已上线代币实时数据）、research（预热的 Surf AI 投研，按代币符号索引）。"""
     client = await get_client()
-    resp = await client.get(f"{BASE_URL}/api/alpha")
-    resp.raise_for_status()
-    return resp.json()
+    # Get alpha data
+    alpha_resp = await client.get(f"{BASE_URL}/api/alpha")
+    alpha_resp.raise_for_status()
+    alpha_data = alpha_resp.json()
+
+    # Get pre-warmed research for upcoming tokens
+    research = {}
+    upcoming = alpha_data.get("upcoming", {}).get("airdrops", [])
+    for token in upcoming:
+        symbol = token.get("token", "")
+        if not symbol:
+            continue
+        try:
+            r = await client.get(f"{BASE_URL}/research/{symbol}.json")
+            if r.status_code == 200:
+                research[symbol] = r.json()
+        except Exception:
+            pass
+
+    alpha_data["research"] = research
+    return alpha_data
 
 
 @mcp.tool()
@@ -85,19 +104,6 @@ async def get_prices(symbols: str) -> dict:
     """
     client = await get_client()
     resp = await client.get(f"{BASE_URL}/api/price", params={"symbols": symbols})
-    resp.raise_for_status()
-    return resp.json()
-
-
-@mcp.tool()
-async def get_research(symbol: str) -> dict:
-    """获取单个代币的 Surf AI 投研报告：项目概览、链上数据、社交热度、风险评估、投资建议。首次调用约 15-30s，后续走缓存。
-
-    Args:
-        symbol: 代币符号，如 "KAT"
-    """
-    client = await get_client()
-    resp = await client.get(f"{BASE_URL}/api/surf", params={"symbol": symbol})
     resp.raise_for_status()
     return resp.json()
 
