@@ -17,7 +17,7 @@ jobs:
           node-version: '20'
 
       - name: Install Puppeteer
-        run: npx puppeteer browsers install chrome
+        run: npm install puppeteer
 
       - name: Fetch Alpha123 upcoming airdrops
         run: |
