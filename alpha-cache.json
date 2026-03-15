@@ -28,7 +28,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 77734
+      "count": 81151
     },
     {
       "key": "yesterday",
@@ -43,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "925936571.52679",
-      "trades": 3296583,
-      "avgBuyAmount": "280.88"
+      "buyQuoteVolume": "966204989.36893",
+      "trades": 3439992,
+      "avgBuyAmount": "280.87"
     },
     {
       "symbol": "VELVET",
-      "buyQuoteVolume": "52476027.162177",
-      "trades": 973498,
-      "avgBuyAmount": "53.9"
+      "buyQuoteVolume": "54827880.139274",
+      "trades": 1018991,
+      "avgBuyAmount": "53.81"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "20044595.668661",
-      "trades": 545463,
-      "avgBuyAmount": "36.75"
+      "buyQuoteVolume": "20859468.957202",
+      "trades": 572802,
+      "avgBuyAmount": "36.42"
     }
   ],
-  "bnb_price_usd": 658.14,
-  "bnb_price_ts": 1773580823,
+  "bnb_price_usd": 658.9,
+  "bnb_price_ts": 1773582922,
   "bnb_price_source": "coingecko"
 }
