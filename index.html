@@ -9,24 +9,31 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
         body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #0b0e11 0%, #1a1d29 50%, #2d1b69 100%);
             color: #fff;
-            min-height: 100vh;
-            padding: 16px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
         }
 
         /* ===== Header ===== */
         .dashboard-header {
             max-width: 1400px;
-            margin: 0 auto 16px;
+            width: 100%;
+            margin: 0 auto 12px;
             text-align: center;
-            padding: 20px 16px;
+            padding: 14px 16px;
             background: linear-gradient(145deg, #1e2329 0%, #2b3139 100%);
             border-radius: 16px;
             border: 1px solid rgba(240, 185, 11, 0.2);
             position: relative;
+            flex-shrink: 0;
         }
         .dashboard-header::before {
             content: '';
@@ -84,10 +91,13 @@
         .dashboard-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto auto;
-            gap: 16px;
+            grid-template-rows: 1fr 1fr;
+            gap: 12px;
             max-width: 1400px;
+            width: 100%;
             margin: 0 auto;
+            flex: 1;
+            min-height: 0;
         }
         .panel-alpha { grid-column: 1 / -1; }
 
@@ -99,7 +109,7 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            max-height: 85vh;
+            min-height: 0;
         }
         .panel-header {
             padding: 16px 20px;
@@ -228,7 +238,9 @@
 
         /* ===== Responsive ===== */
         @media (max-width: 1024px) {
-            .dashboard-grid { grid-template-columns: 1fr; }
+            html, body { overflow: auto; }
+            body { height: auto; min-height: 100vh; }
+            .dashboard-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
             .panel { max-height: none; }
             .panel.hidden-mobile { display: none; }
             .tab-bar { display: flex; }
@@ -292,10 +304,11 @@
         </div>
     </div>
 
-    <div class="dashboard-footer">
+    <!-- footer hidden to keep page fixed -->
+    <!-- <div class="dashboard-footer">
         <a href="https://x.com/NNNNNNOBITA" target="_blank">@NNNNNNOBITA</a> ·
         Powered by Surf AI · OpenNews · Alpha123 · Binance
-    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/lib/marked.umd.js"></script>
     <script src="scripts/analytics.js" defer></script>
