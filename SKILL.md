@@ -27,6 +27,16 @@ Base URL: `https://chillclaw-web.vercel.app`
 | `/api/earn` | Yield Arena 产品利率 | `products[]`（含 `asset`, `type`, `totalApr`, `bonusApr`, `bonusTier`） |
 | `/api/surf?symbol=XX` | Surf AI 投研 | `{ symbol, content }` Markdown 格式，30天缓存 |
 | `/api/price?symbols=A,B` | 批量价格 | `{ "A": { "price": 0.5, "source": "futures" } }` 优先级：合约→现货→DEX |
+| `/api/announcements?catalogId=93` | 币安官方公告 | `articles[]`（含 `title`, `code`, `publishDate`） |
+
+**币安公告 catalogId 速查：**
+
+| catalogId | 用途 | 对应场景 |
+|-----------|------|---------|
+| 93 | 最新活动 | Web3 Wallet Earn、交易竞赛、Booster |
+| 48 | 新币上线 | 补充 Alpha 模块 |
+| 49 | 公告更新 | Yield Arena 周报 |
+| 128 | 空投 | HODLer Airdrops |
 
 调用方式：`curl` 或 `fetch`，直接 GET 请求。
 
@@ -159,6 +169,8 @@ data = json.loads(urllib.request.urlopen(req).read())
 **其他规则：**
 - 只建议存入 Bonus 额度内的金额（如"存 200 USDT 拿满 4% 加息"），超出部分用户自定
 - 不要一刀切把所有闲钱推理财，用户需要灵活资金
+- 可调用 `/api/announcements?catalogId=93` 查看 Web3 Wallet Earn 等活动，作为 CEX 理财的补充信息展示（不混入主推荐）
+- ⚠️ **币安钱包 Earn 存款可能不计入 Alpha 积分余额，刷积分用户请优先保留 CEX 账户余额**
 
 ---
 
