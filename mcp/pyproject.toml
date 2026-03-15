@@ -1,0 +1,19 @@
+[project]
+name = "chillclaw-mcp"
+version = "1.0.0"
+description = "ChillClaw MCP server — Binance Alpha, Booster, Earn tools"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.25,<2",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+chillclaw-mcp = "chillclaw_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/chillclaw_mcp"]
