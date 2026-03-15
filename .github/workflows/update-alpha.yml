@@ -1,0 +1,32 @@
+name: Update Alpha Cache
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Alpha123 upcoming airdrops
+        run: |
+          curl -s 'https://alpha123.uk/api/data?fresh=1' \
+            -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+            -H 'Accept: application/json' \
+            -H 'Referer: https://alpha123.uk/' \
+            -H 'Origin: https://alpha123.uk' \
+            -o alpha-cache.json
+
+          # Validate JSON
+          python3 -c "import json; json.load(open('alpha-cache.json'))" || exit 1
+          echo "Fetched $(wc -c < alpha-cache.json) bytes"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add alpha-cache.json
+          git diff --cached --quiet || git commit -m "chore: auto-update alpha-cache.json [skip ci]" && git push
