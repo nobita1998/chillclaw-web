@@ -128,7 +128,7 @@ data = json.loads(urllib.request.urlopen(req).read())
 | 接口 | 用途 | 注意事项 |
 |------|------|---------|
 | `/api/v3/account` | 现货 | LD 前缀是理财凭证，忽略 |
-| 资金账户 | 资金 | 可能有大量 USDT |
+| `POST /sapi/v1/asset/get-funding-asset` | 资金 | **经常有大量 USDT 闲置**，必查。注意是 POST 请求 |
 | `/sapi/v1/simple-earn/flexible/position` | 活期理财 | 读 `tierAnnualPercentageRate`（实际利率），不是 `latestAnnualPercentageRate` |
 | `/sapi/v1/simple-earn/locked/position` | 定期理财 | |
 | `/fapi/v3/account` | U本位合约 | 可能是套保（如空单对冲理财持仓） |
