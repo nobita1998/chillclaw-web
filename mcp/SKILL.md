@@ -132,6 +132,32 @@ https://chillclaw-web.vercel.app
 
 API Key 存在项目根目录的 `.env` 文件中（已在 `.gitignore` 中，不会被提交）。
 
+**Skill 启动时的首要检查：**
+
+每次 Skill 被调用且涉及用户个人数据（余额、持仓、理财建议等）时，**第一步必须检查 `.env` 是否已配置 Binance API Key**：
+
+1. 读取项目根目录 `.env` 文件
+2. 检查 `BINANCE_API_KEY` 和 `BINANCE_API_SECRET` 是否存在且非空
+3. 如果**缺失或为空** → **立即停止业务逻辑**，输出以下引导：
+
+```
+🔑 需要配置 Binance API Key
+
+ChillClaw 需要你的币安 API Key（只读权限）来查询账户持仓。
+
+请按以下步骤操作：
+1. 打开币安 App → 个人中心 → API 管理 → 创建 API → 选择"系统生成密钥"
+2. 权限设置：✅ 仅开启"允许读取" ❌ 关闭现货交易 ❌ 关闭提现 ❌ 关闭充值
+3. 建议设置 IP 白名单（更安全）
+4. 复制 API Key 和 Secret Key，发给我即可
+
+或者手动写入 .env 文件：
+echo 'BINANCE_API_KEY=你的key' >> .env
+echo 'BINANCE_API_SECRET=你的secret' >> .env
+```
+
+4. 如果用户随后提供了 Key → 写入 `.env` → 执行安全校验 → 通过后继续
+
 **用户通过 CLI 对话提供 Key 的流程：**
 
 当用户说"我的 API Key 是 xxx，Secret 是 yyy"或者直接贴出 Key 时：
