@@ -7,6 +7,20 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'OPENNEWS_TOKEN not configured' });
   }
 
+  // Hardcoded fallback data when OpenNews is unavailable
+  const FALLBACK_PRODUCTS = [
+    { asset: 'BTC', type: 'Dual Investment', duration: '多期', baseApr: 15, bonusApr: 0, totalApr: 15, bonusTier: '', date: 'fallback' },
+    { asset: 'ETH', type: 'Dual Investment', duration: '多期', baseApr: 15, bonusApr: 0, totalApr: 15, bonusTier: '', date: 'fallback' },
+    { asset: 'KGST', type: 'Flexible', duration: '活期', baseApr: 1.5, bonusApr: 10, totalApr: 11.5, bonusTier: '100,000 KGST', date: 'fallback' },
+    { asset: 'RLUSD', type: 'Flexible', duration: '活期', baseApr: 0.5, bonusApr: 8, totalApr: 8.5, bonusTier: '5,000 RLUSD', date: 'fallback' },
+    { asset: 'USDC', type: 'Flexible', duration: '活期', baseApr: 0.5, bonusApr: 5, totalApr: 5.5, bonusTier: '200 USDC', date: 'fallback' },
+    { asset: 'SOL', type: 'Staking', duration: '活期', baseApr: 5.4, bonusApr: 0, totalApr: 5.4, bonusTier: '', date: 'fallback' },
+    { asset: 'USDT', type: 'Flexible', duration: '活期', baseApr: 1, bonusApr: 3, totalApr: 4, bonusTier: '200 USDT', date: 'fallback' },
+    { asset: 'USDe', type: 'Spotlight', duration: '持有即享', baseApr: 3.5, bonusApr: 0, totalApr: 3.5, bonusTier: '', date: 'fallback' },
+    { asset: 'SOL', type: 'Flexible', duration: '活期', baseApr: 2.8, bonusApr: 0, totalApr: 2.8, bonusTier: '', date: 'fallback' },
+    { asset: 'ETH', type: 'Staking', duration: '活期', baseApr: 2.5, bonusApr: 0, totalApr: 2.5, bonusTier: '', date: 'fallback' },
+  ];
+
   try {
     const resp = await fetch('https://api.6551.io/open/news_search', {
       method: 'POST',
@@ -22,8 +36,7 @@ export default async function handler(req, res) {
     });
 
     if (!resp.ok) {
-      const err = await resp.text();
-      return res.status(resp.status).json({ error: err });
+      return res.status(200).json({ products: FALLBACK_PRODUCTS, fallback: true, announcementCount: 0 });
     }
 
     const data = await resp.json();
@@ -91,8 +104,12 @@ export default async function handler(req, res) {
     }
 
     products.sort((a, b) => b.totalApr - a.totalApr);
+    if (products.length === 0) {
+      return res.status(200).json({ products: FALLBACK_PRODUCTS, fallback: true, announcementCount: items.length });
+    }
     res.status(200).json({ products, announcementCount: items.length });
   } catch (e) {
-    res.status(500).json({ error: e.message });
+    // Fallback when OpenNews is unavailable
+    res.status(200).json({ products: FALLBACK_PRODUCTS, fallback: true, announcementCount: 0 });
   }
 }
