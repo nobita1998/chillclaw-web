@@ -83,11 +83,13 @@
         /* ===== Grid ===== */
         .dashboard-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
             gap: 16px;
             max-width: 1400px;
             margin: 0 auto;
         }
+        .panel-alpha { grid-column: 1 / -1; }
 
         /* ===== Panel ===== */
         .panel {
@@ -125,6 +127,8 @@
         .panel-booster .panel-header { border-bottom: 2px solid #0ecb81; color: #0ecb81; }
         .panel-alpha .panel-header { border-bottom: 2px solid #f0b90b; color: #f0b90b; }
         .panel-earn .panel-header { border-bottom: 2px solid #1e90ff; color: #1e90ff; }
+        .alpha-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        @media (max-width: 768px) { .alpha-grid { grid-template-columns: 1fr; } }
 
         .panel-content {
             flex: 1;
@@ -249,24 +253,13 @@
     </div>
 
     <div class="tab-bar">
-        <button class="tab-btn active" onclick="switchTab('booster')">📅 Booster</button>
-        <button class="tab-btn" onclick="switchTab('alpha')">📡 Alpha</button>
+        <button class="tab-btn active" onclick="switchTab('alpha')">📡 Alpha</button>
+        <button class="tab-btn" onclick="switchTab('booster')">📅 Booster</button>
         <button class="tab-btn" onclick="switchTab('earn')">💰 Earn</button>
     </div>
 
     <div class="dashboard-grid">
-        <!-- Booster Panel -->
-        <div class="panel panel-booster" id="panel-booster">
-            <div class="panel-header">
-                <span>📅 Booster 解锁</span>
-                <a href="https://booster-unlock.vercel.app" target="_blank" class="panel-link">完整日历 →</a>
-            </div>
-            <div class="panel-content" id="boosterContent">
-                <div class="loading"><div class="loading-spinner"></div><div>加载解锁数据...</div></div>
-            </div>
-        </div>
-
-        <!-- Alpha Panel -->
+        <!-- Alpha Panel (full width top row) -->
         <div class="panel panel-alpha" id="panel-alpha">
             <div class="panel-header">
                 <span>📡 Alpha 新币</span>
@@ -277,7 +270,18 @@
             </div>
         </div>
 
-        <!-- Earn Panel -->
+        <!-- Booster Panel (bottom left) -->
+        <div class="panel panel-booster" id="panel-booster">
+            <div class="panel-header">
+                <span>📅 Booster 解锁</span>
+                <a href="https://booster-unlock.vercel.app" target="_blank" class="panel-link">完整日历 →</a>
+            </div>
+            <div class="panel-content" id="boosterContent">
+                <div class="loading"><div class="loading-spinner"></div><div>加载解锁数据...</div></div>
+            </div>
+        </div>
+
+        <!-- Earn Panel (bottom right) -->
         <div class="panel panel-earn" id="panel-earn">
             <div class="panel-header">
                 <span>💰 理财 Earn</span>
@@ -317,7 +321,7 @@
 
     // ===== Mobile Tab =====
     function switchTab(tab) {
-        const panels = ['booster', 'alpha', 'earn'];
+        const panels = ['alpha', 'booster', 'earn'];
         const btns = document.querySelectorAll('.tab-btn');
         panels.forEach((p, i) => {
             const el = document.getElementById('panel-' + p);
@@ -427,13 +431,14 @@
 
             const airdrops = (data.airdrops || []).filter(a => !a.completed);
             const top3 = data.top3_tokens || [];
-            let html = '';
+            let leftHtml = '';
+            let rightHtml = '';
 
             if (top3.length > 0) {
-                html += '<div class="card-sub" style="margin-bottom:8px;font-weight:600;color:#f0b90b">🔥 今日 Alpha 热门</div>';
+                leftHtml += '<div class="card-sub" style="margin-bottom:8px;font-weight:600;color:#f0b90b">🔥 今日 Alpha 热门</div>';
                 top3.forEach((t, i) => {
                     const vol = (parseFloat(t.buyQuoteVolume) / 1e6).toFixed(1);
-                    html += `
+                    leftHtml += `
                     <div class="card" style="padding:10px 14px;margin-bottom:6px">
                         <div class="card-row">
                             <div class="card-title" style="font-size:14px">#${i + 1} ${t.symbol}</div>
@@ -444,11 +449,10 @@
                         </div>
                     </div>`;
                 });
-                html += '<div style="height:12px"></div>';
             }
 
             if (airdrops.length > 0) {
-                html += '<div class="card-sub" style="margin-bottom:8px;font-weight:600;color:#f0b90b">📡 即将上线</div>';
+                rightHtml += '<div class="card-sub" style="margin-bottom:8px;font-weight:600;color:#f0b90b">📡 即将上线</div>';
                 airdrops.forEach(a => {
                     const chain = chainName(a.chain_id);
                     const typeBadge = a.type === 'tge'
@@ -457,7 +461,7 @@
                     const contractShort = a.contract_address
                         ? `${a.contract_address.slice(0, 6)}...${a.contract_address.slice(-4)}`
                         : '';
-                    html += `
+                    rightHtml += `
                     <div class="card" id="alpha-${a.token}">
                         <div class="card-row">
                             <div>
@@ -475,9 +479,9 @@
                     </div>`;
                 });
             } else {
-                html += '<div class="empty-state">暂无即将上线的 Alpha 代币</div>';
+                rightHtml += '<div class="empty-state">暂无即将上线的 Alpha 代币</div>';
             }
-            container.innerHTML = html;
+            container.innerHTML = `<div class="alpha-grid"><div>${leftHtml}</div><div>${rightHtml}</div></div>`;
         } catch (e) { container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`; }
     }
 
