@@ -11,18 +11,51 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Puppeteer
+        run: npx puppeteer browsers install chrome
+
       - name: Fetch Alpha123 upcoming airdrops
         run: |
-          curl -s 'https://alpha123.uk/api/data?fresh=1' \
-            -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
-            -H 'Accept: application/json' \
-            -H 'Referer: https://alpha123.uk/' \
-            -H 'Origin: https://alpha123.uk' \
-            -o alpha-cache.json
+          node -e "
+          const puppeteer = require('puppeteer');
+          const fs = require('fs');
+          (async () => {
+            const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+            const page = await browser.newPage();
+            await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36');
 
-          # Validate JSON
-          python3 -c "import json; json.load(open('alpha-cache.json'))" || exit 1
-          echo "Fetched $(wc -c < alpha-cache.json) bytes"
+            // Intercept the API response
+            let data = null;
+            page.on('response', async (resp) => {
+              if (resp.url().includes('/api/data')) {
+                try { data = await resp.json(); } catch (_) {}
+              }
+            });
+
+            await page.goto('https://alpha123.uk', { waitUntil: 'networkidle2', timeout: 30000 });
+            await new Promise(r => setTimeout(r, 5000));
+
+            if (!data) {
+              // Try direct fetch from page context
+              data = await page.evaluate(() => fetch('/api/data?fresh=1').then(r => r.json()).catch(() => null));
+            }
+
+            await browser.close();
+
+            if (data && data.airdrops) {
+              fs.writeFileSync('alpha-cache.json', JSON.stringify(data, null, 2));
+              console.log('Fetched ' + data.airdrops.length + ' airdrops');
+            } else {
+              console.log('Failed to fetch data, keeping existing cache');
+              process.exit(0);
+            }
+          })();
+          "
 
       - name: Commit and push if changed
         run: |
