@@ -159,19 +159,22 @@ BINANCE_API_SECRET=your_api_secret_here
 ```
 
 **校验规则：**
-1. ✅ 只有 `TRD_GRP_*` 和/或 `PRE_MARKET` — 安全，继续使用
-2. ❌ 包含 `WITHDRAW` 或 `UNIVERSAL_TRANSFER` 等高危权限 — **立即停止**，输出以下警告：
+
+调用 `/api/v3/account`，检查返回的 `canTrade`、`canWithdraw`、`canDeposit` 字段：
+
+1. ✅ `canTrade=false` + `canWithdraw=false` + `canDeposit=false` — **纯只读，安全**，继续使用
+2. ❌ 任何一项为 `true`（可交易/可提现/可充值）— **立即停止**，清空 `.env` 中的 Key，输出以下警告：
 
 ```
-⚠️ 安全警告：你的 API Key 拥有提现权限，存在资金安全风险！
+⚠️ 安全警告：你的 API Key 拥有超出只读的权限，存在资金安全风险！
 
-请立即执行以下操作：
+已自动清除 .env 中的 API Key。请立即执行以下操作：
 1. 打开币安 App → 个人中心 → API 管理
-2. 删除此 API Key
-3. 重新创建一个仅开启"读取"权限的 API Key
-4. 将新 Key 更新到 .env 文件
+2. 删除此 API Key（防止泄露后被利用）
+3. 重新创建一个仅开启"读取"权限的 API Key（关闭现货交易、提现、充值）
+4. 将新 Key 提供给我
 
-ChillClaw 仅需读取权限即可工作，绝不需要提现权限。
+ChillClaw 仅需只读权限即可工作。
 ```
 
 3. 校验失败或网络错误 — 不继续，提示用户检查 Key 是否正确
