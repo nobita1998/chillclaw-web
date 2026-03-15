@@ -293,7 +293,7 @@
         Powered by Surf AI · OpenNews · Alpha123 · Binance
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/lib/marked.umd.js"></script>
     <script src="scripts/analytics.js" defer></script>
     <script>
     // ===== Helpers =====
@@ -483,11 +483,18 @@
 
     // ===== Markdown to HTML (using marked.js) =====
     function md2html(md) {
-        if (typeof marked !== 'undefined') {
-            return marked.parse(md);
-        }
-        // Bare fallback if marked.js fails to load
-        return md.replace(/\n/g, '<br>');
+        try {
+            if (typeof marked !== 'undefined') {
+                const fn = marked.parse || marked;
+                return fn(md);
+            }
+        } catch (_) {}
+        // Bare fallback
+        return md
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+            .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+            .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+            .replace(/\n/g, '<br>');
     }
 
     // ===== Surf AI Research =====
