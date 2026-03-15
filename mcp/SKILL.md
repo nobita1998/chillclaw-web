@@ -22,7 +22,7 @@ Base URL: `https://chillclaw-web.vercel.app`
 | 端点 | 功能 | 返回关键字段 |
 |------|------|-------------|
 | `/api/overview` | 三场景汇总 | `{ alpha, booster, earn }` |
-| `/api/alpha` | Alpha 新币 + 热门 Top3 | `airdrops[]`, `top3_tokens[]`, `bnb_price_usd` |
+| `/api/alpha` | Alpha 新币（双数据源） | `upcoming`（未来空投预告，含 CA/链/日期）+ `listed`（已上线代币实时数据，含价格/成交量/持有人） |
 | `/api/booster` | 解锁倒计时 + 价格 | `upcoming[]`, `recent[]`, `prices{}` |
 | `/api/earn` | Yield Arena 产品利率 | `products[]`（含 `asset`, `type`, `totalApr`, `bonusApr`, `bonusTier`） |
 | `/api/surf?symbol=XX` | Surf AI 投研 | `{ symbol, content }` Markdown 格式，30天缓存 |
