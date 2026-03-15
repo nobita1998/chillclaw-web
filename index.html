@@ -343,13 +343,31 @@
 
             if (sorted.length === 0) { container.innerHTML = '<div class="empty-state">暂无解锁数据</div>'; return; }
 
-            // Fetch prices
+            // Fetch prices: futures → spot → DexScreener (on-chain)
             const symbols = [...new Set(sorted.map(e => e.symbol.toUpperCase()))];
+            const tokenNames = {};
+            sorted.forEach(e => { tokenNames[e.symbol.toUpperCase()] = e.name; });
             const prices = {};
             await Promise.allSettled(symbols.map(async s => {
                 try {
+                    const r = await fetch(`https://fapi.binance.com/fapi/v2/ticker/price?symbol=${s}USDT`);
+                    if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); return; } }
+                } catch (_) {}
+                try {
                     const r = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${s}USDT`);
-                    if (r.ok) { const d = await r.json(); prices[s] = parseFloat(d.price); }
+                    if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); return; } }
+                } catch (_) {}
+                try {
+                    const name = tokenNames[s] || s;
+                    const r = await fetch(`https://api.dexscreener.com/latest/dex/search?q=${encodeURIComponent(name)}`);
+                    if (r.ok) {
+                        const d = await r.json();
+                        const match = (d.pairs || []).find(p => p.baseToken.symbol.toUpperCase() === s && p.quoteToken.symbol === 'USDT');
+                        const bscMatch = (d.pairs || []).find(p => p.baseToken.symbol.toUpperCase() === s && p.chainId === 'bsc');
+                        const any = (d.pairs || []).find(p => p.baseToken.symbol.toUpperCase() === s && p.priceUsd);
+                        const best = match || bscMatch || any;
+                        if (best && best.priceUsd) { prices[s] = parseFloat(best.priceUsd); }
+                    }
                 } catch (_) {}
             }));
 
@@ -359,7 +377,7 @@
                 const daysText = ev.days === 0 ? '今天' : (isFuture ? ev.days : Math.abs(ev.days));
                 const daysLabel = ev.days === 0 ? '' : (isFuture ? '天后' : '天前');
                 const priceKey = ev.symbol.toUpperCase();
-                const priceStr = prices[priceKey] ? `$${prices[priceKey].toFixed(prices[priceKey] < 1 ? 4 : 2)}` : '--';
+                const priceStr = prices[priceKey] ? `$${prices[priceKey].toFixed(prices[priceKey] < 1 ? 4 : 2)}` : '';
 
                 let badge = '';
                 if (ev.pending) badge = '<span class="badge badge-red">待发放</span>';
