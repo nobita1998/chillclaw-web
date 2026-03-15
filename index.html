@@ -343,33 +343,28 @@
 
             if (sorted.length === 0) { container.innerHTML = '<div class="empty-state">暂无解锁数据</div>'; return; }
 
-            // Fetch prices: futures → spot → DexScreener (on-chain)
+            // Fetch prices via serverless proxy (futures → spot → DexScreener)
             const symbols = [...new Set(sorted.map(e => e.symbol.toUpperCase()))];
-            const tokenNames = {};
-            sorted.forEach(e => { tokenNames[e.symbol.toUpperCase()] = e.name; });
             const prices = {};
-            await Promise.allSettled(symbols.map(async s => {
-                try {
-                    const r = await fetch(`https://fapi.binance.com/fapi/v2/ticker/price?symbol=${s}USDT`);
-                    if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); return; } }
-                } catch (_) {}
-                try {
-                    const r = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${s}USDT`);
-                    if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); return; } }
-                } catch (_) {}
-                try {
-                    const name = tokenNames[s] || s;
-                    const r = await fetch(`https://api.dexscreener.com/latest/dex/search?q=${encodeURIComponent(name)}`);
-                    if (r.ok) {
-                        const d = await r.json();
-                        const match = (d.pairs || []).find(p => p.baseToken.symbol.toUpperCase() === s && p.quoteToken.symbol === 'USDT');
-                        const bscMatch = (d.pairs || []).find(p => p.baseToken.symbol.toUpperCase() === s && p.chainId === 'bsc');
-                        const any = (d.pairs || []).find(p => p.baseToken.symbol.toUpperCase() === s && p.priceUsd);
-                        const best = match || bscMatch || any;
-                        if (best && best.priceUsd) { prices[s] = parseFloat(best.priceUsd); }
-                    }
-                } catch (_) {}
-            }));
+            try {
+                const r = await fetch(`/api/price?symbols=${symbols.join(',')}`);
+                if (r.ok) {
+                    const data = await r.json();
+                    Object.entries(data).forEach(([k, v]) => { prices[k] = v.price; });
+                }
+            } catch (_) {
+                // Fallback: direct client-side fetch (for local dev)
+                await Promise.allSettled(symbols.map(async s => {
+                    try {
+                        const r = await fetch(`https://fapi.binance.com/fapi/v2/ticker/price?symbol=${s}USDT`);
+                        if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); return; } }
+                    } catch (_) {}
+                    try {
+                        const r = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${s}USDT`);
+                        if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); return; } }
+                    } catch (_) {}
+                }));
+            }
 
             let html = '';
             sorted.forEach(ev => {
