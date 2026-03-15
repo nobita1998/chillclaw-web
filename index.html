@@ -518,10 +518,23 @@
     // ===== Surf AI Research =====
     async function getResearch(symbol, btn) {
         btn.disabled = true;
-        btn.textContent = '⏳ 分析中（约 15-30s）...';
         const card = document.getElementById('alpha-' + symbol);
         let resultDiv = card.querySelector('.research-result');
         if (!resultDiv) { resultDiv = document.createElement('div'); resultDiv.className = 'research-result'; card.appendChild(resultDiv); }
+
+        // 1. Try static cache first
+        try {
+            const r = await fetch(`research/${symbol}.json`);
+            if (r.ok) {
+                const data = await r.json();
+                resultDiv.innerHTML = md2html(data.content || '无结果');
+                btn.textContent = '✅ 投研报告';
+                return;
+            }
+        } catch (_) {}
+
+        // 2. Fallback to live API
+        btn.textContent = '⏳ 分析中（约 15-30s）...';
         resultDiv.textContent = '正在调用 Surf AI 分析...';
         try {
             const resp = await fetch(`/api/surf?symbol=${encodeURIComponent(symbol)}`);
