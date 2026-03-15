@@ -2,8 +2,8 @@ name: Update Alpha Cache
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes
-  workflow_dispatch: # Manual trigger
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,6 +22,19 @@ jobs:
       - name: Install Puppeteer
         run: npm install puppeteer
 
+      - name: Save old token list
+        run: |
+          if [ -f alpha-cache.json ]; then
+            cat alpha-cache.json | node -e "
+              const fs = require('fs');
+              const data = JSON.parse(fs.readFileSync('/dev/stdin','utf8'));
+              const tokens = (data.airdrops || []).filter(a => !a.completed).map(a => a.token);
+              fs.writeFileSync('/tmp/old-tokens.json', JSON.stringify(tokens));
+            "
+          else
+            echo "[]" > /tmp/old-tokens.json
+          fi
+
       - name: Fetch Alpha123 upcoming airdrops
         run: |
           node -e "
@@ -31,25 +44,18 @@ jobs:
             const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
             const page = await browser.newPage();
             await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36');
-
-            // Intercept the API response
             let data = null;
             page.on('response', async (resp) => {
               if (resp.url().includes('/api/data')) {
                 try { data = await resp.json(); } catch (_) {}
               }
             });
-
             await page.goto('https://alpha123.uk', { waitUntil: 'networkidle2', timeout: 30000 });
             await new Promise(r => setTimeout(r, 5000));
-
             if (!data) {
-              // Try direct fetch from page context
               data = await page.evaluate(() => fetch('/api/data?fresh=1').then(r => r.json()).catch(() => null));
             }
-
             await browser.close();
-
             if (data && data.airdrops) {
               fs.writeFileSync('alpha-cache.json', JSON.stringify(data, null, 2));
               console.log('Fetched ' + data.airdrops.length + ' airdrops');
@@ -60,9 +66,53 @@ jobs:
           })();
           "
 
+      - name: Pre-warm Surf AI for new tokens
+        env:
+          SURF_API_URL: https://chillclaw-web.vercel.app/api/surf
+        run: |
+          node -e "
+          const fs = require('fs');
+          const oldTokens = JSON.parse(fs.readFileSync('/tmp/old-tokens.json', 'utf8'));
+          const newData = JSON.parse(fs.readFileSync('alpha-cache.json', 'utf8'));
+          const upcoming = (newData.airdrops || []).filter(a => !a.completed).map(a => a.token);
+          const brandNew = upcoming.filter(t => !oldTokens.includes(t));
+
+          if (brandNew.length === 0) {
+            console.log('No new tokens, skipping Surf AI pre-warm');
+            return;
+          }
+
+          console.log('New tokens found: ' + brandNew.join(', '));
+
+          (async () => {
+            for (const symbol of brandNew) {
+              console.log('Pre-warming Surf AI for ' + symbol + '...');
+              try {
+                const resp = await fetch(process.env.SURF_API_URL + '?symbol=' + symbol);
+                if (resp.ok) {
+                  const data = await resp.json();
+                  // Save to research cache
+                  const dir = 'research';
+                  if (!fs.existsSync(dir)) fs.mkdirSync(dir);
+                  fs.writeFileSync(dir + '/' + symbol + '.json', JSON.stringify({
+                    symbol,
+                    content: data.content || '',
+                    timestamp: new Date().toISOString()
+                  }, null, 2));
+                  console.log('Cached research for ' + symbol + ' (' + (data.content || '').length + ' chars)');
+                } else {
+                  console.log('Surf AI returned ' + resp.status + ' for ' + symbol);
+                }
+              } catch (e) {
+                console.log('Failed for ' + symbol + ': ' + e.message);
+              }
+            }
+          })();
+          "
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add alpha-cache.json
-          git diff --cached --quiet || git commit -m "chore: auto-update alpha-cache.json [skip ci]" && git push
+          git add alpha-cache.json research/
+          git diff --cached --quiet || git commit -m "chore: auto-update alpha + pre-warm research [skip ci]" && git push
