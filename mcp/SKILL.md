@@ -163,10 +163,25 @@ https://chillclaw-web.vercel.app
 |--------|------|
 | 新币、Alpha、上线、投研、值得买 | → `get_alpha` 或 `get_research` |
 | 活动、Launchpool、Booster、解锁 | → `get_booster` |
-| 理财、Earn、利率、闲钱、年化 | → `get_earn` |
+| 理财产品、利率、年化、Yield Arena | → `get_earn`（查公开产品数据） |
 | 总览、今天有什么、一键 | → `get_overview` |
 | XX 多少钱、价格 | → `get_prices` |
 | 帮我看看 XX、分析 XX | → `get_research` |
+
+### 涉及用户个人数据的意图（需要 Binance API Key）
+
+以下意图**必须使用用户的 Binance API Key 直接调用币安 API**，ChillClaw 公开 API 无法获取用户个人数据：
+
+| 关键词 | 操作 |
+|--------|------|
+| 扫描余额、我的持仓、我有多少 | → 调用 Binance API 查所有账户（现货+资金+理财+合约） |
+| 理财建议、闲钱怎么放、帮我优化 | → **先查用户持仓**（Binance API），**再查理财产品**（`get_earn`），交叉匹配后给建议 |
+| 到期提醒、我的定期什么时候到 | → 调用 Binance Simple Earn 接口查用户理财仓位 |
+
+**关键**：用户问"理财建议"时，不能只调 `get_earn` 就完事。正确流程是：
+1. 用 Binance API 扫描用户所有账户持仓
+2. 用 `get_earn` 获取当前可用理财产品
+3. 匹配用户闲置资产 × 可用产品，给出个性化推荐
 
 ## 回复风格
 
