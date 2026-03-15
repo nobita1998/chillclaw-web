@@ -96,6 +96,10 @@ BINANCE_API_SECRET=your_secret
 - ✅ `enableReading=true` 且其余全为 false → 纯只读，安全
 - ❌ `enableSpotAndMarginTrading=true` 或 `enableWithdrawals=true` 或 `enableFutures=true` → **立即清空 .env**，警告用户删除此 Key 并重新创建只读 Key
 
+### Key/Secret 顺序容错
+
+用户提供的 Key 和 Secret 经常弄反。如果调用 Binance API 返回 `-2015 Invalid API-key`，应自动**调换 Key 和 Secret 顺序重试**，成功则用调换后的顺序写入 `.env`。不要直接报错让用户重新输入。
+
 ### Binance API 签名方法
 
 ```python
