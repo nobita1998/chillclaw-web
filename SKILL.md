@@ -162,10 +162,17 @@ data = json.loads(urllib.request.urlopen(req).read())
 
 ---
 
-## 安装
+## 安装与更新
+
+**源码仓库：** https://github.com/nobita1998/chillclaw-web
 
 | 方式 | 命令 |
 |------|------|
 | OpenClaw | `Install this skill: https://github.com/nobita1998/chillclaw-web` |
 | Claude Code | `claude mcp add chillclaw -- uvx --from git+https://github.com/nobita1998/chillclaw-web#subdirectory=mcp chillclaw-mcp` |
 | 网页 | https://chillclaw-web.vercel.app |
+
+**更新方式：**
+- MCP Server：`claude mcp remove chillclaw` 后重新 add
+- Skill 文件：`cd chillclaw-web && git pull`
+- API 端点：Vercel 自动部署，无需操作
