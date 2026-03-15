@@ -71,11 +71,7 @@ async def get_booster() -> dict:
 async def get_earn() -> dict:
     """获取 Binance Earn 理财产品：从 Yield Arena 公告解析的最新产品列表，含币种、类型、年化收益率。"""
     client = await get_client()
-    resp = await client.get(f"{BASE_URL}/api/news", params={
-        "q": "Yield Arena Simple Earn Flexible Locked",
-        "limit": "5",
-        "parse": "1",
-    })
+    resp = await client.get(f"{BASE_URL}/api/earn")
     resp.raise_for_status()
     return resp.json()
 
