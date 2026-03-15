@@ -26,8 +26,19 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: 'surf-ask',
         messages: [
-          { role: 'system', content: 'You are Surf, a crypto research assistant. Always respond in Chinese (简体中文). Keep the response concise (under 300 words).' },
-          { role: 'user', content: `简要分析 ${symbol} 代币的投资价值，包括项目概览、链上数据、社交热度、风险评估和投资建议。` },
+          { role: 'system', content: 'You are Surf, a crypto research assistant. Always respond in Chinese (简体中文). Use markdown format with clear sections.' },
+          { role: 'user', content: `分析 ${symbol} 代币，严格按以下三部分输出：
+
+## 1. 项目概览
+做什么的、哪条链、技术栈、团队背景、竞争优势
+
+## 2. 融资情况
+投资方、融资轮次、金额、估值
+
+## 3. 代币经济学
+总量、分配比例（团队/投资人/社区/生态）、解锁计划、预估 FDV
+
+每部分尽量用数据说话，没有数据的标注"暂无公开信息"。` },
         ],
         stream: false,
         ability: ['search', 'evm_onchain', 'market_analysis'],
