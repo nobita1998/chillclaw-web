@@ -90,9 +90,11 @@ BINANCE_API_SECRET=your_secret
 
 ### 安全校验（拿到 Key 后立即执行）
 
-调用 `https://api.binance.com/api/v3/account`（需 HMAC 签名），检查返回值：
-- ✅ `canTrade=false` + `canWithdraw=false` + `canDeposit=false` → 安全
-- ❌ 任何一项为 true → **立即清空 .env**，警告用户删除此 Key 并重新创建只读 Key
+**必须用 `/sapi/v1/account/apiRestrictions`**（不是 `/api/v3/account`！后者返回的是账户能力，不是 Key 权限，只读 Key 也会显示 `canTrade=true`，会误判）。
+
+调用 `https://api.binance.com/sapi/v1/account/apiRestrictions`（需 HMAC 签名），检查返回值：
+- ✅ `enableReading=true` 且其余全为 false → 纯只读，安全
+- ❌ `enableSpotAndMarginTrading=true` 或 `enableWithdrawals=true` 或 `enableFutures=true` → **立即清空 .env**，警告用户删除此 Key 并重新创建只读 Key
 
 ### Binance API 签名方法
 
@@ -104,12 +106,18 @@ api_secret = "从 .env 读取"
 timestamp = int(time.time() * 1000)
 params = f"timestamp={timestamp}"
 signature = hmac.new(api_secret.encode(), params.encode(), hashlib.sha256).hexdigest()
-url = f"https://api.binance.com/api/v3/account?{params}&signature={signature}"
+
+# 安全校验（第一步必须调这个）
+url = f"https://api.binance.com/sapi/v1/account/apiRestrictions?{params}&signature={signature}"
 req = urllib.request.Request(url, headers={"X-MBX-APIKEY": api_key})
 data = json.loads(urllib.request.urlopen(req).read())
+# 检查 enableReading=true 且 enableWithdrawals/enableSpotAndMarginTrading/enableFutures 全为 false
 ```
 
-合约账户用 `https://fapi.binance.com`，理财用 `https://api.binance.com/sapi/v1/...`，签名方式相同。
+其他接口签名方式相同，只换 URL：
+- 现货：`https://api.binance.com/api/v3/account`
+- 理财：`https://api.binance.com/sapi/v1/simple-earn/...`
+- 合约：`https://fapi.binance.com/fapi/v3/account`
 
 ---
 
