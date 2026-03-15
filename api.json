@@ -1,0 +1,144 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-03-11",
+  "tokens": [
+    {
+      "symbol": "BAS",
+      "name": "BAS Token",
+      "tgeDate": "2025-08-19",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Week1-2", "profitLink": null },
+        { "round": "第二次解锁", "daysFromTGE": 31, "period": "Week3-4", "profitLink": "binance_bas_second_unlock.html" },
+        { "round": "第三次解锁", "daysFromTGE": 61, "period": "Week5-6", "profitLink": "binance_bas_third_unlock.html" },
+        { "round": "第四次解锁", "daysFromTGE": 91, "period": "Week7-9", "profitLink": "binance_bas_fourth_unlock.html" },
+        { "round": "第五次解锁", "daysFromTGE": 121, "period": "Week10-11", "profitLink": "binance_bas_fifth_unlock.html", "pending": true }
+      ]
+    },
+    {
+      "symbol": "XNY",
+      "name": "XNY Token",
+      "tgeDate": "2025-07-23",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Week1-2", "profitLink": null },
+        { "round": "第二次解锁", "daysFromTGE": 30, "period": "Week3-4", "profitLink": null },
+        { "round": "第三次解锁", "daysFromTGE": 60, "period": "Week5-8", "profitLink": "binance_xny_third_unlock.html" },
+        { "round": "第四次解锁", "daysFromTGE": 121, "period": "Week9-12", "profitLink": "binance_xny_fourth_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "BTR",
+      "name": "BTR Token",
+      "tgeDate": "2025-08-27",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase1+CreatorPad Special", "profitLink": null },
+        { "round": "第二次解锁", "daysFromTGE": 60, "period": "Phase2", "profitLink": "binance_bitlayer_second_unlock.html" },
+        { "round": "第三次解锁", "daysFromTGE": 90, "period": "Phase3", "profitLink": "binance_bitlayer_third_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "HEMI",
+      "name": "HEMI Token",
+      "tgeDate": "2025-08-29",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase1", "profitLink": "binance_hemi_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "Open",
+      "name": "Open Token",
+      "tgeDate": "2025-09-08",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase1", "profitLink": null }
+      ]
+    },
+    {
+      "symbol": "HOLO",
+      "name": "HOLO Token",
+      "tgeDate": "2025-09-11",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_holo_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "RVV",
+      "name": "RVV Token",
+      "tgeDate": "2025-10-18",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_rvv_first_unlock.html" },
+        { "round": "第二次解锁", "daysFromTGE": 123, "period": "Phase 2", "profitLink": "binance_rvv_second_unlock.html" },
+        { "round": "第三次解锁", "daysFromTGE": 130, "period": "Phase 3", "profitLink": "binance_rvv_third_unlock.html" },
+        { "round": "第四次解锁", "daysFromTGE": 137, "period": "Phase 4", "profitLink": "binance_rvv_fourth_unlock.html" },
+        { "round": "第五次解锁", "daysFromTGE": 144, "period": "Phase 5", "profitLink": "binance_rvv_fifth_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "Eden",
+      "name": "Eden",
+      "tgeDate": "2025-09-30",
+      "unlockSchedule": [
+        { "round": "第一次解锁", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_eden_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "Turtle",
+      "name": "Turtle Token",
+      "tgeDate": "2025-10-22",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_turtle_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "Pieverse",
+      "name": "Pieverse Token",
+      "tgeDate": "2025-11-14",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Round 1", "profitLink": "binance_pieverse_unlock.html" },
+        { "round": "第二次解锁", "daysFromTGE": 29, "period": "Round 2", "profitLink": "binance_pieverse_unlock.html" },
+        { "round": "第三次解锁", "daysFromTGE": 59, "period": "Round 3", "profitLink": "binance_pieverse_unlock.html" },
+        { "round": "第四次解锁", "daysFromTGE": 89, "period": "Round 4", "profitLink": "binance_pieverse_unlock.html" },
+        { "round": "第五次解锁", "daysFromTGE": 119, "period": "Round 5", "profitLink": "binance_pieverse_unlock.html" },
+        { "round": "第六次解锁", "daysFromTGE": 149, "period": "Round 6", "profitLink": "binance_pieverse_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "Tree",
+      "name": "Tree Token",
+      "tgeDate": "2025-11-27",
+      "unlockSchedule": [
+        { "round": "第一期解锁", "daysFromTGE": 0, "period": "Phase 1", "profitLink": null }
+      ]
+    },
+    {
+      "symbol": "Bitway",
+      "name": "Bitway Token",
+      "tgeDate": "2026-03-02",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_bitway_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "ZKP",
+      "name": "zkPass",
+      "tgeDate": "2025-12-19",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_zkp_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "OPN",
+      "name": "Opinion Token",
+      "tgeDate": "2026-03-05",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_opn_first_unlock.html" }
+      ]
+    },
+    {
+      "symbol": "UP",
+      "name": "Unitas Booster",
+      "tgeDate": "2026-03-13",
+      "unlockSchedule": [
+        { "round": "第一次解锁 (TGE)", "daysFromTGE": 0, "period": "Phase 1", "profitLink": "binance_unitas_booster_first_unlock.html" }
+      ]
+    }
+  ]
+}

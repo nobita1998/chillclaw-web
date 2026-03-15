@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "asset": "BTC",
+      "type": "双币投资",
+      "duration": "多期",
+      "baseApr": 15.0,
+      "bonusApr": 0,
+      "totalApr": 15.0,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "ETH",
+      "type": "双币投资",
+      "duration": "多期",
+      "baseApr": 15.0,
+      "bonusApr": 0,
+      "totalApr": 15.0,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "KGST",
+      "type": "活期",
+      "duration": "Flexible",
+      "baseApr": 1.5,
+      "bonusApr": 10.0,
+      "totalApr": 11.5,
+      "bonusTier": "100,000 KGST",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "RLUSD",
+      "type": "活期",
+      "duration": "Flexible",
+      "baseApr": 0.5,
+      "bonusApr": 8.0,
+      "totalApr": 8.5,
+      "bonusTier": "5,000 RLUSD",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "USDC",
+      "type": "活期",
+      "duration": "Flexible",
+      "baseApr": 0.5,
+      "bonusApr": 5.0,
+      "totalApr": 5.5,
+      "bonusTier": "200 USDC",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "SOL",
+      "type": "Staking",
+      "duration": "活期",
+      "baseApr": 5.4,
+      "bonusApr": 0,
+      "totalApr": 5.4,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "USDT",
+      "type": "活期",
+      "duration": "Flexible",
+      "baseApr": 1.0,
+      "bonusApr": 3.0,
+      "totalApr": 4.0,
+      "bonusTier": "200 USDT",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "USDe",
+      "type": "限时活动",
+      "duration": "持有即享",
+      "baseApr": 3.5,
+      "bonusApr": 0,
+      "totalApr": 3.5,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "SOL",
+      "type": "活期",
+      "duration": "Flexible",
+      "baseApr": 2.8,
+      "bonusApr": 0,
+      "totalApr": 2.8,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "NXPC",
+      "type": "定期",
+      "duration": "60天",
+      "baseApr": 2.5,
+      "bonusApr": 0,
+      "totalApr": 2.5,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "ETH",
+      "type": "Staking",
+      "duration": "活期",
+      "baseApr": 2.5,
+      "bonusApr": 0,
+      "totalApr": 2.5,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "TRX",
+      "type": "定期",
+      "duration": "120天",
+      "baseApr": 2.3,
+      "bonusApr": 0,
+      "totalApr": 2.3,
+      "bonusTier": "",
+      "date": "2026-03-11"
+    },
+    {
+      "asset": "ETH",
+      "type": "活期",
+      "duration": "Flexible",
+      "baseApr": 1.5,
+      "bonusApr": 0.1,
+      "totalApr": 1.6,
+      "bonusTier": "0.2 ETH",
+      "date": "2026-03-11"
+    }
+  ]
+}

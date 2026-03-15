@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillClaw 🦞 躺赚龙虾 — 币安一站式助手</title>
+    <link rel="icon" type="image/png" sizes="1024x1024" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0b0e11 0%, #1a1d29 50%, #2d1b69 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 16px;
+        }
+
+        /* ===== Header ===== */
+        .dashboard-header {
+            max-width: 1400px;
+            margin: 0 auto 16px;
+            text-align: center;
+            padding: 20px 16px;
+            background: linear-gradient(145deg, #1e2329 0%, #2b3139 100%);
+            border-radius: 16px;
+            border: 1px solid rgba(240, 185, 11, 0.2);
+            position: relative;
+        }
+        .dashboard-header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #f0b90b, #0ecb81, #f0b90b);
+            border-radius: 16px 16px 0 0;
+        }
+        .dashboard-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #f0b90b, #f8d12f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .dashboard-subtitle {
+            font-size: 14px;
+            color: #848e9c;
+            margin-top: 6px;
+        }
+        .dashboard-subtitle a {
+            color: #f0b90b;
+            text-decoration: none;
+        }
+        .dashboard-subtitle a:hover { text-decoration: underline; }
+
+        /* ===== Tab bar (mobile) ===== */
+        .tab-bar {
+            display: none;
+            max-width: 1400px;
+            margin: 0 auto 12px;
+            gap: 4px;
+        }
+        .tab-btn {
+            flex: 1;
+            padding: 10px 8px;
+            border: 1px solid rgba(240, 185, 11, 0.3);
+            background: rgba(30, 35, 41, 0.8);
+            color: #848e9c;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            background: linear-gradient(135deg, #f0b90b 0%, #f8d12f 100%);
+            color: #000;
+            border-color: #f0b90b;
+        }
+
+        /* ===== Grid ===== */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* ===== Panel ===== */
+        .panel {
+            background: linear-gradient(145deg, #1e2329 0%, #2b3139 100%);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            max-height: 85vh;
+        }
+        .panel-header {
+            padding: 16px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+        .panel-header .panel-link {
+            font-size: 12px;
+            color: #848e9c;
+            text-decoration: none;
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 4px 10px;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        .panel-header .panel-link:hover {
+            color: #f0b90b;
+            border-color: rgba(240, 185, 11, 0.4);
+        }
+        .panel-booster .panel-header { border-bottom: 2px solid #0ecb81; color: #0ecb81; }
+        .panel-alpha .panel-header { border-bottom: 2px solid #f0b90b; color: #f0b90b; }
+        .panel-earn .panel-header { border-bottom: 2px solid #1e90ff; color: #1e90ff; }
+
+        .panel-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px 16px 16px;
+        }
+        .panel-content::-webkit-scrollbar { width: 4px; }
+        .panel-content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+
+        /* ===== Cards (shared) ===== */
+        .card {
+            background: linear-gradient(145deg, #2b3139 0%, #343b44 100%);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-bottom: 10px;
+            transition: all 0.2s;
+        }
+        .card:hover {
+            border-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .card:last-child { margin-bottom: 0; }
+        .card-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-title { font-size: 15px; font-weight: 700; }
+        .card-sub { font-size: 12px; color: #848e9c; margin-top: 4px; line-height: 1.5; }
+
+        /* ===== Badges ===== */
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+        .badge-green { background: rgba(14, 203, 129, 0.15); color: #0ecb81; }
+        .badge-yellow { background: rgba(240, 185, 11, 0.15); color: #f0b90b; }
+        .badge-red { background: rgba(246, 70, 93, 0.15); color: #f6465d; }
+        .badge-blue { background: rgba(30, 144, 255, 0.15); color: #1e90ff; }
+        .badge-chain { background: rgba(255,255,255,0.08); color: #848e9c; font-size: 10px; padding: 1px 6px; }
+
+        /* ===== Booster ===== */
+        .unlock-days { font-size: 22px; font-weight: 800; color: #0ecb81; min-width: 42px; text-align: center; }
+        .unlock-days.past { color: #848e9c; }
+        .unlock-days-label { font-size: 10px; color: #848e9c; text-align: center; }
+        .price-tag { font-size: 13px; font-weight: 600; color: #fff; }
+
+        /* ===== Alpha ===== */
+        .alpha-card-actions { margin-top: 10px; }
+        .research-btn {
+            background: linear-gradient(135deg, #f0b90b 0%, #f8d12f 100%);
+            border: none; padding: 6px 14px; border-radius: 6px;
+            color: #000; font-weight: 700; font-size: 12px; cursor: pointer; transition: all 0.2s;
+        }
+        .research-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(240, 185, 11, 0.4); }
+        .research-btn:disabled { background: #474d57; color: #848e9c; cursor: not-allowed; transform: none; box-shadow: none; }
+        .research-result {
+            margin-top: 10px; padding: 12px; background: rgba(0, 0, 0, 0.3); border-radius: 8px;
+            font-size: 13px; line-height: 1.6; color: #e6e6e6; max-height: 300px; overflow-y: auto;
+            white-space: pre-wrap; word-break: break-word;
+        }
+
+        /* ===== Loading / Empty ===== */
+        .loading { text-align: center; padding: 40px 20px; color: #848e9c; }
+        .loading-spinner {
+            display: inline-block; width: 24px; height: 24px;
+            border: 3px solid rgba(255,255,255,0.1); border-top-color: #f0b90b;
+            border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 8px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .empty-state { text-align: center; padding: 40px 20px; color: #474d57; font-size: 14px; }
+
+        /* ===== Footer ===== */
+        .dashboard-footer {
+            max-width: 1400px; margin: 16px auto 0; text-align: center;
+            padding: 16px; font-size: 12px; color: #474d57;
+        }
+        .dashboard-footer a { color: #f0b90b; text-decoration: none; }
+        .dashboard-footer a:hover { text-decoration: underline; }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 1024px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+            .panel { max-height: none; }
+            .panel.hidden-mobile { display: none; }
+            .tab-bar { display: flex; }
+        }
+        @media (max-width: 480px) {
+            body { padding: 10px; }
+            .dashboard-title { font-size: 22px; }
+            .dashboard-header { padding: 16px 12px; }
+            .panel-header { padding: 12px 14px; font-size: 16px; }
+            .panel-content { padding: 10px 12px 14px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-header">
+        <div class="dashboard-title">🦞 ChillClaw — 躺赚龙虾</div>
+        <div class="dashboard-subtitle">
+            币安一站式智能助手 · Alpha 投研 · Booster 追踪 · 理财优化 ·
+            <a href="https://x.com/NNNNNNOBITA" target="_blank">@NNNNNNOBITA</a>
+        </div>
+    </div>
+
+    <div class="tab-bar">
+        <button class="tab-btn active" onclick="switchTab('booster')">📅 Booster</button>
+        <button class="tab-btn" onclick="switchTab('alpha')">📡 Alpha</button>
+        <button class="tab-btn" onclick="switchTab('earn')">💰 Earn</button>
+    </div>
+
+    <div class="dashboard-grid">
+        <!-- Booster Panel -->
+        <div class="panel panel-booster" id="panel-booster">
+            <div class="panel-header">
+                <span>📅 Booster 解锁</span>
+                <a href="https://booster-unlock.vercel.app" target="_blank" class="panel-link">完整日历 →</a>
+            </div>
+            <div class="panel-content" id="boosterContent">
+                <div class="loading"><div class="loading-spinner"></div><div>加载解锁数据...</div></div>
+            </div>
+        </div>
+
+        <!-- Alpha Panel -->
+        <div class="panel panel-alpha" id="panel-alpha">
+            <div class="panel-header">
+                <span>📡 Alpha 新币</span>
+                <a href="https://alpha123.uk" target="_blank" class="panel-link">Alpha123 →</a>
+            </div>
+            <div class="panel-content" id="alphaContent">
+                <div class="loading"><div class="loading-spinner"></div><div>加载 Alpha 数据...</div></div>
+            </div>
+        </div>
+
+        <!-- Earn Panel -->
+        <div class="panel panel-earn" id="panel-earn">
+            <div class="panel-header">
+                <span>💰 理财 Earn</span>
+            </div>
+            <div class="panel-content" id="earnContent">
+                <div class="loading"><div class="loading-spinner"></div><div>加载理财数据...</div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-footer">
+        <a href="https://x.com/NNNNNNOBITA" target="_blank">@NNNNNNOBITA</a> ·
+        Powered by Surf AI · OpenNews · Alpha123 · Binance
+    </div>
+
+    <script src="scripts/analytics.js" defer></script>
+    <script>
+    // ===== Helpers =====
+    function getTodayUTC8() {
+        const now = new Date();
+        const utcTime = now.getTime() + (now.getTimezoneOffset() * 60000);
+        return new Date(utcTime + (8 * 60 * 60 * 1000));
+    }
+
+    function daysBetween(dateStr) {
+        const target = new Date(dateStr + 'T00:00:00');
+        const today = getTodayUTC8();
+        today.setHours(0, 0, 0, 0);
+        return Math.ceil((target - today) / (1000 * 60 * 60 * 24));
+    }
+
+    function chainName(chainId) {
+        const map = { '56': 'BSC', '1': 'ETH', '8453': 'Base', '137': 'Polygon' };
+        return map[chainId] || `Chain ${chainId}`;
+    }
+
+    // ===== Mobile Tab =====
+    function switchTab(tab) {
+        const panels = ['booster', 'alpha', 'earn'];
+        const btns = document.querySelectorAll('.tab-btn');
+        panels.forEach((p, i) => {
+            const el = document.getElementById('panel-' + p);
+            if (p === tab) { el.classList.remove('hidden-mobile'); btns[i].classList.add('active'); }
+            else { el.classList.add('hidden-mobile'); btns[i].classList.remove('active'); }
+        });
+    }
+
+    // ===== Booster Panel =====
+    async function loadBooster() {
+        const container = document.getElementById('boosterContent');
+        try {
+            const resp = await fetch('api.json');
+            const data = await resp.json();
+
+            const events = [];
+            data.tokens.forEach(token => {
+                const tge = new Date(token.tgeDate + 'T00:00:00');
+                token.unlockSchedule.forEach(u => {
+                    const unlockDate = new Date(tge);
+                    unlockDate.setDate(unlockDate.getDate() + u.daysFromTGE);
+                    const dateStr = unlockDate.toISOString().split('T')[0];
+                    events.push({
+                        symbol: token.symbol, name: token.name, date: dateStr,
+                        round: u.round, period: u.period,
+                        pending: u.pending || false, profitLink: u.profitLink || null,
+                        days: daysBetween(dateStr)
+                    });
+                });
+            });
+
+            const future = events.filter(e => e.days >= 0).sort((a, b) => a.days - b.days);
+            const recent = events.filter(e => e.days < 0 && e.days >= -30).sort((a, b) => b.days - a.days);
+            const sorted = [...future, ...recent];
+
+            if (sorted.length === 0) { container.innerHTML = '<div class="empty-state">暂无解锁数据</div>'; return; }
+
+            // Fetch prices
+            const symbols = [...new Set(sorted.map(e => e.symbol.toUpperCase()))];
+            const prices = {};
+            await Promise.allSettled(symbols.map(async s => {
+                try {
+                    const r = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${s}USDT`);
+                    if (r.ok) { const d = await r.json(); prices[s] = parseFloat(d.price); }
+                } catch (_) {}
+            }));
+
+            let html = '';
+            sorted.forEach(ev => {
+                const isFuture = ev.days >= 0;
+                const daysText = ev.days === 0 ? '今天' : (isFuture ? ev.days : Math.abs(ev.days));
+                const daysLabel = ev.days === 0 ? '' : (isFuture ? '天后' : '天前');
+                const priceKey = ev.symbol.toUpperCase();
+                const priceStr = prices[priceKey] ? `$${prices[priceKey].toFixed(prices[priceKey] < 1 ? 4 : 2)}` : '--';
+
+                let badge = '';
+                if (ev.pending) badge = '<span class="badge badge-red">待发放</span>';
+                else if (ev.days === 0) badge = '<span class="badge badge-green">今天解锁</span>';
+                else if (ev.days > 0 && ev.days <= 3) badge = '<span class="badge badge-yellow">即将解锁</span>';
+
+                const linkAttr = ev.profitLink
+                    ? `onclick="window.open('https://booster-unlock.vercel.app/${ev.profitLink}','_blank')" style="cursor:pointer"`
+                    : '';
+
+                html += `
+                <div class="card" ${linkAttr}>
+                    <div class="card-row">
+                        <div>
+                            <div class="card-title">${ev.symbol} ${badge}</div>
+                            <div class="card-sub">${ev.round} · ${ev.date}</div>
+                        </div>
+                        <div style="text-align:right">
+                            <div class="unlock-days ${isFuture ? '' : 'past'}">${daysText}</div>
+                            <div class="unlock-days-label">${daysLabel}</div>
+                            <div class="price-tag">${priceStr}</div>
+                        </div>
+                    </div>
+                </div>`;
+            });
+            container.innerHTML = html;
+        } catch (e) { container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`; }
+    }
+
+    // ===== Alpha Panel =====
+    async function loadAlpha() {
+        const container = document.getElementById('alphaContent');
+        try {
+            let data;
+            const alphaUrls = ['/api/alpha', 'alpha-cache.json', 'https://alpha123.uk/api/data?fresh=1'];
+            for (const url of alphaUrls) {
+                try { const resp = await fetch(url); if (resp.ok) { data = await resp.json(); break; } } catch (_) {}
+            }
+            if (!data) throw new Error('所有数据源不可用');
+
+            const airdrops = (data.airdrops || []).filter(a => !a.completed);
+            const top3 = data.top3_tokens || [];
+            let html = '';
+
+            if (top3.length > 0) {
+                html += '<div class="card-sub" style="margin-bottom:8px;font-weight:600;color:#f0b90b">🔥 今日 Alpha 热门</div>';
+                top3.forEach((t, i) => {
+                    const vol = (parseFloat(t.buyQuoteVolume) / 1e6).toFixed(1);
+                    html += `
+                    <div class="card" style="padding:10px 14px;margin-bottom:6px">
+                        <div class="card-row">
+                            <div class="card-title" style="font-size:14px">#${i + 1} ${t.symbol}</div>
+                            <div>
+                                <span class="badge badge-yellow">$${vol}M</span>
+                                <span class="card-sub" style="margin:0"> ${Number(t.trades).toLocaleString()} 笔</span>
+                            </div>
+                        </div>
+                    </div>`;
+                });
+                html += '<div style="height:12px"></div>';
+            }
+
+            if (airdrops.length > 0) {
+                html += '<div class="card-sub" style="margin-bottom:8px;font-weight:600;color:#f0b90b">📡 即将上线</div>';
+                airdrops.forEach(a => {
+                    const chain = chainName(a.chain_id);
+                    const typeBadge = a.type === 'tge'
+                        ? '<span class="badge badge-green">TGE</span>'
+                        : '<span class="badge badge-blue">空投</span>';
+                    const contractShort = a.contract_address
+                        ? `${a.contract_address.slice(0, 6)}...${a.contract_address.slice(-4)}`
+                        : '';
+                    html += `
+                    <div class="card" id="alpha-${a.token}">
+                        <div class="card-row">
+                            <div>
+                                <div class="card-title">${a.token} <span style="color:#848e9c;font-weight:400;font-size:12px">${a.name}</span></div>
+                                <div class="card-sub">
+                                    ${typeBadge} <span class="badge badge-chain">${chain}</span>
+                                    ${a.date} ${a.time || ''} ${a.points ? ' · 积分: ' + a.points : ''}
+                                </div>
+                                ${contractShort ? `<div class="card-sub" style="font-family:monospace;font-size:11px;margin-top:2px">${contractShort}</div>` : ''}
+                            </div>
+                        </div>
+                        <div class="alpha-card-actions">
+                            <button class="research-btn" onclick="getResearch('${a.token}', this)">🔬 Surf AI 投研</button>
+                        </div>
+                    </div>`;
+                });
+            } else {
+                html += '<div class="empty-state">暂无即将上线的 Alpha 代币</div>';
+            }
+            container.innerHTML = html;
+        } catch (e) { container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`; }
+    }
+
+    // ===== Surf AI Research =====
+    async function getResearch(symbol, btn) {
+        btn.disabled = true;
+        btn.textContent = '⏳ 分析中（约 15-30s）...';
+        const card = document.getElementById('alpha-' + symbol);
+        let resultDiv = card.querySelector('.research-result');
+        if (!resultDiv) { resultDiv = document.createElement('div'); resultDiv.className = 'research-result'; card.appendChild(resultDiv); }
+        resultDiv.textContent = '正在调用 Surf AI 分析...';
+        try {
+            const resp = await fetch(`/api/surf?symbol=${encodeURIComponent(symbol)}`);
+            const contentType = resp.headers.get('content-type') || '';
+            if (!contentType.includes('application/json')) throw new Error('Surf AI 服务仅在部署后可用');
+            const data = await resp.json();
+            if (data.error) { resultDiv.textContent = '❌ ' + data.error; }
+            else { resultDiv.textContent = data.content || '无结果'; }
+            btn.textContent = '✅ 分析完成';
+        } catch (e) { resultDiv.textContent = '⚠️ ' + e.message; btn.textContent = '🔬 重新分析'; btn.disabled = false; }
+    }
+
+    // ===== Earn Panel =====
+    async function loadEarn() {
+        const container = document.getElementById('earnContent');
+        try {
+            let data;
+            const earnUrls = ['/api/news?q=Yield+Arena+Simple+Earn+Flexible+Locked&limit=5&parse=1', 'earn-cache.json'];
+            for (const url of earnUrls) {
+                try { const resp = await fetch(url); if (resp.ok) { data = await resp.json(); break; } } catch (_) {}
+            }
+            if (!data) { container.innerHTML = '<div class="empty-state">理财数据加载失败</div>'; return; }
+
+            const products = data.products || [];
+            if (products.length === 0) { container.innerHTML = '<div class="empty-state">暂无理财产品数据</div>'; return; }
+
+            const typeColors = { '活期': '#0ecb81', '定期': '#f0b90b', 'Staking': '#1e90ff', '双币投资': '#e040fb', '限时活动': '#ff6b6b' };
+
+            let html = '';
+            if (products[0].date) {
+                html += `<div class="card-sub" style="margin-bottom:10px;color:#848e9c">数据来源: Binance Yield Arena (${products[0].date})</div>`;
+            }
+
+            html += `<table style="width:100%;border-collapse:collapse;font-size:13px">
+                <thead><tr style="border-bottom:1px solid rgba(255,255,255,0.1);color:#848e9c;font-size:11px">
+                    <th style="text-align:left;padding:8px 4px">币种</th>
+                    <th style="text-align:left;padding:8px 4px">类型</th>
+                    <th style="text-align:right;padding:8px 4px">年化</th>
+                </tr></thead><tbody>`;
+
+            products.forEach(p => {
+                const aprColor = p.totalApr >= 10 ? '#0ecb81' : (p.totalApr >= 5 ? '#1e90ff' : '#fff');
+                const typeColor = typeColors[p.type] || '#848e9c';
+                const bonusHtml = p.bonusApr
+                    ? `<div style="font-size:10px;color:#848e9c;margin-top:2px">含 ${p.bonusApr}% Bonus (≤${p.bonusTier})</div>` : '';
+                const durationHtml = p.duration !== 'Flexible' && p.duration !== '活期'
+                    ? ` <span style="color:#848e9c;font-size:11px">${p.duration}</span>` : '';
+
+                html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.04)">
+                    <td style="padding:10px 4px;font-weight:700">${p.asset}</td>
+                    <td style="padding:10px 4px"><span style="color:${typeColor};font-weight:600;font-size:12px">${p.type}</span>${durationHtml}</td>
+                    <td style="padding:10px 4px;text-align:right">
+                        <div style="font-weight:800;font-size:16px;color:${aprColor}">${p.totalApr}%</div>${bonusHtml}
+                    </td></tr>`;
+            });
+
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        } catch (e) { container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`; }
+    }
+
+    // ===== Init =====
+    document.addEventListener('DOMContentLoaded', () => { loadBooster(); loadAlpha(); loadEarn(); });
+    </script>
+</body>
+</html>

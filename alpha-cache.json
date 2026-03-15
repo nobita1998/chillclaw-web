@@ -1,0 +1,66 @@
+{
+    "airdrops": [
+        {
+            "token": "KAT",
+            "name": "Katana",
+            "date": "2026-03-16",
+            "time": "20:00",
+            "points": "",
+            "type": "tge",
+            "phase": 1,
+            "language": "zh",
+            "status": "announced",
+            "pretge": true,
+            "bctge": false,
+            "futures_listed": false,
+            "amount": "",
+            "created_timestamp": 1773365885,
+            "updated_timestamp": 1773482652,
+            "system_timestamp": 1773482652,
+            "contract_address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
+            "completed": false,
+            "has_homonym": false,
+            "spot_listed": false,
+            "total_amount": "",
+            "chain_id": "1"
+        }
+    ],
+    "alpha_checkins": [
+        {
+            "key": "today",
+            "count": 43307
+        },
+        {
+            "key": "yesterday",
+            "count": 103290
+        },
+        {
+            "key": "before_yesterday",
+            "count": 102416
+        }
+    ],
+    "last_rollover_date": "2026-03-15",
+    "top3_tokens": [
+        {
+            "symbol": "GUA",
+            "buyQuoteVolume": "521671608.80895",
+            "trades": 1880202,
+            "avgBuyAmount": "277.46"
+        },
+        {
+            "symbol": "VELVET",
+            "buyQuoteVolume": "23747524.779097",
+            "trades": 443005,
+            "avgBuyAmount": "53.61"
+        },
+        {
+            "symbol": "BTW",
+            "buyQuoteVolume": "11971637.12974",
+            "trades": 326571,
+            "avgBuyAmount": "36.66"
+        }
+    ],
+    "bnb_price_usd": 658.6,
+    "bnb_price_ts": 1773558323,
+    "bnb_price_source": "coingecko"
+}
