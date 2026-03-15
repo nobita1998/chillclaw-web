@@ -130,10 +130,18 @@ https://chillclaw-web.vercel.app
 
 ## Binance API Key 配置
 
-用户将 API Key 存入项目根目录的 `.env` 文件：
+API Key 存在项目根目录的 `.env` 文件中（已在 `.gitignore` 中，不会被提交）。
 
+**用户通过 CLI 对话提供 Key 的流程：**
+
+当用户说"我的 API Key 是 xxx，Secret 是 yyy"或者直接贴出 Key 时：
+1. 读取现有 `.env` 文件（如果存在）
+2. 更新或新增 `BINANCE_API_KEY` 和 `BINANCE_API_SECRET` 两行，保留其他已有变量
+3. 写回 `.env` 文件
+4. 立即执行安全校验（见下方）
+
+`.env` 格式：
 ```bash
-# .env（已在 .gitignore 中，不会被提交）
 BINANCE_API_KEY=your_api_key_here
 BINANCE_API_SECRET=your_api_secret_here
 ```
