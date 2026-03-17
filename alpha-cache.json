@@ -5,7 +5,7 @@
       "name": "Katana",
       "date": "2026-03-16",
       "time": "20:00",
-      "points": "",
+      "points": 241,
       "type": "tge",
       "phase": 1,
       "language": "zh",
@@ -13,54 +13,59 @@
       "pretge": true,
       "bctge": false,
       "futures_listed": false,
-      "amount": "",
+      "amount": "6814",
       "created_timestamp": 1773365885,
-      "updated_timestamp": 1773482652,
-      "system_timestamp": 1773482652,
+      "updated_timestamp": 1773648467,
+      "system_timestamp": 1773648467,
       "contract_address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
-      "total_amount": "",
-      "chain_id": "1"
+      "total_amount": "100000000",
+      "chain_id": "1",
+      "target_bnb": "1368.15",
+      "actual_bnb": "44007.59",
+      "collection_address": "0x832061a427c1441d48a069212c6104e3d52a8f79",
+      "bnb_limit": "3",
+      "tge_total": "100000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 81151
+      "count": 31127
     },
     {
       "key": "yesterday",
-      "count": 103290
+      "count": 105851
     },
     {
       "key": "before_yesterday",
-      "count": 102416
+      "count": 105175
     }
   ],
-  "last_rollover_date": "2026-03-15",
+  "last_rollover_date": "2026-03-17",
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "966204989.36893",
-      "trades": 3439992,
-      "avgBuyAmount": "280.87"
+      "buyQuoteVolume": "357368081.07063",
+      "trades": 1332003,
+      "avgBuyAmount": "268.29"
     },
     {
       "symbol": "VELVET",
-      "buyQuoteVolume": "54827880.139274",
-      "trades": 1018991,
-      "avgBuyAmount": "53.81"
+      "buyQuoteVolume": "36542502.813931",
+      "trades": 517826,
+      "avgBuyAmount": "70.57"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "20859468.957202",
-      "trades": 572802,
-      "avgBuyAmount": "36.42"
+      "buyQuoteVolume": "4042464.8804184",
+      "trades": 184241,
+      "avgBuyAmount": "21.94"
     }
   ],
-  "bnb_price_usd": 658.9,
-  "bnb_price_ts": 1773582922,
+  "bnb_price_usd": 675.19,
+  "bnb_price_ts": 1773726023,
   "bnb_price_source": "coingecko"
 }
