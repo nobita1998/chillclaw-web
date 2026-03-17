@@ -36,19 +36,19 @@ export default async function handler(req, res) {
       }
     }
 
-    // Fetch prices — per-symbol sequentially to avoid rate limits
+    // Fetch prices via /api/price (handles futures→spot→dex fallback)
     const symbols = [...symbolSet];
     const prices = {};
-    for (const s of symbols) {
-      try {
-        const r = await fetch(`https://fapi.binance.com/fapi/v2/ticker/price?symbol=${s}USDT`);
-        if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); continue; } }
-      } catch (_) {}
-      try {
-        const r = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${s}USDT`);
-        if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); continue; } }
-      } catch (_) {}
-    }
+    try {
+      const base = req.headers.host?.startsWith('localhost') ? `http://${req.headers.host}` : `https://${req.headers.host}`;
+      const r = await fetch(`${base}/api/price?symbols=${symbols.join(',')}`);
+      if (r.ok) {
+        const data = await r.json();
+        for (const [sym, info] of Object.entries(data)) {
+          if (info?.price) prices[sym] = info.price;
+        }
+      }
+    } catch (_) {}
 
     // Attach prices and sort
     events.forEach(e => { e.price = prices[e.symbol.toUpperCase()] || null; });
