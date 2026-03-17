@@ -5,11 +5,12 @@ export default async function handler(req, res) {
   // catalogId: 93=活动, 48=新币上线, 49=公告更新(Yield Arena), 128=空投
   const catalogId = req.query.catalogId || '93';
   const pageSize = Math.min(parseInt(req.query.limit) || 20, 50);
+  const lang = req.query.lang || 'zh-CN';
 
   try {
     const resp = await fetch(
       `https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&pageNo=1&pageSize=${pageSize}&catalogId=${catalogId}`,
-      { headers: { 'User-Agent': 'Mozilla/5.0', 'Accept-Encoding': 'gzip, deflate, br' } }
+      { headers: { 'User-Agent': 'Mozilla/5.0', 'Accept-Encoding': 'gzip, deflate, br', 'lang': lang } }
     );
 
     if (!resp.ok) {
