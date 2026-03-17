@@ -79,7 +79,7 @@ jobs:
 
           if (brandNew.length === 0) {
             console.log('No new tokens, skipping Surf AI pre-warm');
-            return;
+            process.exit(0);
           }
 
           console.log('New tokens found: ' + brandNew.join(', '));
