@@ -36,28 +36,19 @@ export default async function handler(req, res) {
       }
     }
 
-    // Fetch prices — batch query instead of per-symbol to avoid rate limits
+    // Fetch prices — per-symbol sequentially to avoid rate limits
     const symbols = [...symbolSet];
     const prices = {};
-    try {
-      const [futuresResp, spotResp] = await Promise.allSettled([
-        fetch('https://fapi.binance.com/fapi/v2/ticker/price'),
-        fetch('https://api.binance.com/api/v3/ticker/price'),
-      ]);
-      const futuresData = futuresResp.status === 'fulfilled' && futuresResp.value.ok
-        ? await futuresResp.value.json() : [];
-      const spotData = spotResp.status === 'fulfilled' && spotResp.value.ok
-        ? await spotResp.value.json() : [];
-      // Index futures prices first (preferred), then fill gaps with spot
-      for (const d of futuresData) {
-        const sym = d.symbol?.replace('USDT', '');
-        if (sym && symbols.includes(sym) && d.price) prices[sym] = parseFloat(d.price);
-      }
-      for (const d of spotData) {
-        const sym = d.symbol?.replace('USDT', '');
-        if (sym && symbols.includes(sym) && d.price && !prices[sym]) prices[sym] = parseFloat(d.price);
-      }
-    } catch (_) {}
+    for (const s of symbols) {
+      try {
+        const r = await fetch(`https://fapi.binance.com/fapi/v2/ticker/price?symbol=${s}USDT`);
+        if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); continue; } }
+      } catch (_) {}
+      try {
+        const r = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${s}USDT`);
+        if (r.ok) { const d = await r.json(); if (d.price) { prices[s] = parseFloat(d.price); continue; } }
+      } catch (_) {}
+    }
 
     // Attach prices and sort
     events.forEach(e => { e.price = prices[e.symbol.toUpperCase()] || null; });
