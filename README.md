@@ -8,7 +8,7 @@
 
 ## 🎬 演示
 
-<!-- 演示视频/GIF 放这里 -->
+https://github.com/nobita1998/chillclaw-web/blob/main/chillClaw.mp4
 
 ---
 
