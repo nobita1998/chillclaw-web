@@ -6,7 +6,7 @@ metadata:
   openclaw:
     emoji: "🦞"
     os: [darwin, linux, win32]
-  version: 3.0.0
+  version: 4.0.0
 ---
 
 # ChillClaw 🦞 — 币安躺赚助手
@@ -39,9 +39,12 @@ Base URL: `https://chillclaw-web.vercel.app`，所有端点无需认证。
 | 用户说 | 调用 |
 |--------|------|
 | 新币、Alpha、空投、TGE、上线 | `/api/alpha` |
-| 分析 XX、XX 值得买吗 | 读 `/research/XX.json`（预热缓存），无缓存则提示"暂无投研数据" |
+| 分析 XX、XX 值得买吗 | 读 `/research/XX.json`（预热缓存）+ `query-token-info` + `query-token-audit` + `trading-signal` |
 | 解锁、Booster、抛压 | `/api/booster` |
-| 价格、多少钱 | `/api/price`（公开，无需 Key） |
+| 价格、多少钱 | `query-token-info`（优先）→ 降级 `/api/price` |
+| 合约安全、是否貔貅、审计 | `query-token-audit` |
+| 地址持仓、钱包分析 | `query-address-info` |
+| 趋势榜、Smart Money 流入 | `crypto-market-rank` |
 | 总览、今天有什么 | `/api/overview` |
 | 理财、Earn、闲钱、利率 | → 理财决策树（见下方） |
 | 余额、持仓、我有多少 | → 需 Binance Key（见下方） |
@@ -67,16 +70,21 @@ Base URL: `https://chillclaw-web.vercel.app`，所有端点无需认证。
 
 **工作流：Alpha 查询 → 自动投研**
 
-查到即将空投的代币后，自动为每个代币调用 `/api/surf?symbol=XX` 获取 Surf AI 投研，一次性展示完整信息。用户不需要再单独问"帮我分析一下"。
+查到即将空投的代币后，自动为每个代币完成完整投研，一次性展示，用户无需再单独提问。
 
 ```
 /api/alpha 获取即将空投列表
-  └─ 对每个 upcoming 代币
-       └─ /research/TOKEN.json 读取预热好的投研（GitHub Actions 已提前生成）
-            └─ 合并展示：空投信息 + 投研摘要
+  └─ 对每个 upcoming 代币（最多前3个）
+       ├─ /research/TOKEN.json        — Surf AI 预热投研（GitHub Actions 提前生成）
+       ├─ query-token-info            — 实时价格/市值/交易量/K线
+       ├─ query-token-audit           — 合约安全审计（貔貅检测/风险项）
+       └─ trading-signal              — Smart Money 买卖信号
+            └─ 合并展示：空投信息 + 投研摘要 + 安全评级 + Smart Money 动向
 ```
 
-投研报告由 GitHub Actions 在发现新币时自动调用 Surf AI 生成并保存为静态文件。用户查询时零等待。如果某个代币没有预热缓存，说明是刚发现的极新代币，提示"投研报告生成中，请稍后再试"。
+- 预热投研缓存存在 → 直接使用，零等待
+- 无缓存（极新代币）→ 用 `query-token-info` + `query-token-audit` + `trading-signal` 实时合成简版投研
+- 合约地址存在时，优先跑 `query-token-audit`，风险项 ≥3 条时在报告顶部加 ⚠️ 安全警告
 
 **示例输出：**
 ```
@@ -200,6 +208,31 @@ data = json.loads(urllib.request.urlopen(req).read())
 - 不要一刀切把所有闲钱推理财——用户需要灵活资金刷 Alpha、应对市场机会
 - Web3 Wallet Earn 活动可从 `/api/announcements?catalogId=93` 查，作为补充展示
 - ⚠️ 币安钱包 Earn 存款可能不计入 Alpha 积分余额，刷积分用户优先保留 CEX 余额
+
+---
+
+## Binance Skills Hub 集成
+
+ChillClaw 集成了以下官方 Binance Skills Hub skill，安装方式：
+
+```
+npx skills add https://github.com/binance/binance-skills-hub
+```
+
+| Skill | 用途 | 在 ChillClaw 中的角色 |
+|-------|------|----------------------|
+| `query-token-info` | 代币实时价格/市值/持有人/K线 | Alpha 投研 + 价格查询主力 |
+| `query-token-audit` | 合约安全审计，貔貅/蜜罐检测 | Alpha 投研安全评级 |
+| `trading-signal` | Smart Money 买卖信号监控 | Alpha 投研信号层 |
+| `crypto-market-rank` | 趋势榜/Alpha榜/Smart Money 流入排名 | Alpha 刷积分推荐辅助 |
+| `query-address-info` | 链上钱包地址持仓分析 | Web3 地址查询场景 |
+
+### Web3 地址分析场景
+
+用户提供钱包地址时，调用 `query-address-info` 获取链上持仓，展示：
+- 各代币余额 + 当前价格 + 24h 涨跌
+- 自动对持仓中的代币跑 `query-token-audit`，标注风险项
+- 如持仓代币出现在 Alpha upcoming 列表中，标注"⏰ 即将 TGE"
 
 ---
 
