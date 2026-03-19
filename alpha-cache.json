@@ -1,32 +1,60 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_69bbc6cfe2ffe5.86503168",
+      "token": "IN",
+      "name": "IN",
       "date": "2026-03-19",
       "time": "18:00",
-      "points": 240,
       "type": "grab",
       "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "",
-      "name": "Alpha Box",
-      "created_timestamp": 1773907269,
-      "updated_timestamp": 1773910808,
-      "system_timestamp": 1773910808,
-      "completed": false,
+      "status": "pending",
+      "timestamp": 1773913807,
+      "points": "240",
+      "amount": "470",
+      "total_amount": "3906170",
+      "contract_address": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
+      "chain_id": "56",
       "has_homonym": false,
+      "d976_tx_hash": "0xa387aa37283515ea7b6c4a5c5e29dfa75760c04a2fd52eef962bbfd430ca0a7f",
+      "d976_tx_time": "2026-03-19 17:50:05",
+      "updated_at": "2026-03-19 17:51:47",
+      "system_timestamp": 1773913914,
+      "completed": true,
+      "futures_listed": false,
       "spot_listed": false,
-      "total_amount": "",
-      "contract_address": "",
-      "chain_id": ""
+      "pre_price": ""
+    },
+    {
+      "id": "warning_69bbc712c2d820.28872200",
+      "token": "BLUAI",
+      "name": "BLUAI",
+      "date": "2026-03-19",
+      "time": "18:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1773913874,
+      "points": "240",
+      "amount": "5000",
+      "total_amount": "41665000",
+      "contract_address": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
+      "chain_id": "56",
+      "has_homonym": false,
+      "d976_tx_hash": "0x8a411950b73a7c96fc4b3bc93d318af1a3d4f49f1a5ddb99f96f3ac90b319aea",
+      "d976_tx_time": "2026-03-19 17:51:12",
+      "updated_at": "2026-03-19 17:52:25",
+      "system_timestamp": 1773913951,
+      "completed": true,
+      "futures_listed": false,
+      "spot_listed": false,
+      "pre_price": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 49103
+      "count": 54102
     },
     {
       "key": "yesterday",
@@ -41,24 +69,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "570775241.93774",
-      "trades": 2266393,
-      "avgBuyAmount": "251.84"
+      "buyQuoteVolume": "630349329.6929",
+      "trades": 2581232,
+      "avgBuyAmount": "244.2"
     },
     {
       "symbol": "VELVET",
-      "buyQuoteVolume": "56326232.820195",
-      "trades": 760524,
-      "avgBuyAmount": "74.06"
+      "buyQuoteVolume": "60620669.666567",
+      "trades": 828247,
+      "avgBuyAmount": "73.19"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "3327908.1522546",
-      "trades": 193151,
-      "avgBuyAmount": "17.23"
+      "buyQuoteVolume": "3857358.4554427",
+      "trades": 239952,
+      "avgBuyAmount": "16.08"
     }
   ],
-  "bnb_price_usd": 644.98,
-  "bnb_price_ts": 1773911123,
+  "bnb_price_usd": 648.13,
+  "bnb_price_ts": 1773914423,
   "bnb_price_source": "coingecko"
 }
