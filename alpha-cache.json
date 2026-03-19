@@ -4,23 +4,29 @@
       "token": "",
       "date": "2026-03-19",
       "time": "18:00",
-      "points": "240",
+      "points": 240,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "futures_listed": false,
       "amount": "",
-      "name": "",
+      "name": "Alpha Box",
       "created_timestamp": 1773907269,
-      "updated_timestamp": 1773907269,
-      "system_timestamp": 1773907269
+      "updated_timestamp": 1773910808,
+      "system_timestamp": 1773910808,
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "",
+      "contract_address": "",
+      "chain_id": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 42987
+      "count": 49103
     },
     {
       "key": "yesterday",
@@ -35,24 +41,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "499027717.88109",
-      "trades": 1898950,
-      "avgBuyAmount": "262.79"
+      "buyQuoteVolume": "570775241.93774",
+      "trades": 2266393,
+      "avgBuyAmount": "251.84"
     },
     {
       "symbol": "VELVET",
-      "buyQuoteVolume": "50067584.326511",
-      "trades": 672203,
-      "avgBuyAmount": "74.48"
+      "buyQuoteVolume": "56326232.820195",
+      "trades": 760524,
+      "avgBuyAmount": "74.06"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "2683752.8660428",
-      "trades": 151386,
-      "avgBuyAmount": "17.73"
+      "buyQuoteVolume": "3327908.1522546",
+      "trades": 193151,
+      "avgBuyAmount": "17.23"
     }
   ],
-  "bnb_price_usd": 645.69,
-  "bnb_price_ts": 1773907224,
+  "bnb_price_usd": 644.98,
+  "bnb_price_ts": 1773911123,
   "bnb_price_source": "coingecko"
 }
