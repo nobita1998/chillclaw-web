@@ -51,45 +51,34 @@
       "pre_price": ""
     },
     {
-      "token": "",
-      "date": "2026-03-20",
-      "time": "16:00",
-      "points": "240",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1773987124,
-      "updated_timestamp": 1773992708,
-      "system_timestamp": 1773992708
-    },
-    {
       "id": "warning_69bcfc2b8adc58.30059764",
       "token": "CYS",
       "name": "CYS",
       "date": "2026-03-20",
       "time": "16:00",
-      "type": "warning",
+      "type": "grab",
       "phase": 1,
       "status": "announced",
       "timestamp": 1773993003,
-      "points": "240",
+      "points": 240,
       "amount": "60",
       "total_amount": "1040000",
       "contract_address": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
       "chain_id": "56",
       "has_homonym": false,
-      "system_timestamp": 1773993141,
-      "completed": false
+      "system_timestamp": 1773993774,
+      "completed": true,
+      "created_timestamp": 1773993141,
+      "updated_timestamp": 1773993774,
+      "language": "en",
+      "futures_listed": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 43045
+      "count": 48343
     },
     {
       "key": "yesterday",
@@ -104,24 +93,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "530332620.45905",
-      "trades": 2561426,
-      "avgBuyAmount": "207.05"
+      "buyQuoteVolume": "596732208.47592",
+      "trades": 2828079,
+      "avgBuyAmount": "211"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "22975493.342956",
-      "trades": 834072,
-      "avgBuyAmount": "27.55"
+      "buyQuoteVolume": "24906837.615493",
+      "trades": 927320,
+      "avgBuyAmount": "26.86"
     },
     {
       "symbol": "KOGE",
-      "buyQuoteVolume": "2713742.4853746",
-      "trades": 4573,
-      "avgBuyAmount": "593.43"
+      "buyQuoteVolume": "3129081.0546111",
+      "trades": 5239,
+      "avgBuyAmount": "597.27"
     }
   ],
-  "bnb_price_usd": 643.99,
-  "bnb_price_ts": 1773993322,
+  "bnb_price_usd": 646.34,
+  "bnb_price_ts": 1773995723,
   "bnb_price_source": "coingecko"
 }
