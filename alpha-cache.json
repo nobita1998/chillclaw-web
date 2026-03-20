@@ -49,12 +49,28 @@
       "futures_listed": false,
       "spot_listed": false,
       "pre_price": ""
+    },
+    {
+      "token": "",
+      "date": "2026-03-20",
+      "time": "16:00",
+      "points": "240",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1773987124,
+      "updated_timestamp": 1773990909,
+      "system_timestamp": 1773990909
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 30430
+      "count": 39162
     },
     {
       "key": "yesterday",
@@ -69,24 +85,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "372029880.51947",
-      "trades": 1901022,
-      "avgBuyAmount": "195.7"
+      "buyQuoteVolume": "481986032.63332",
+      "trades": 2341352,
+      "avgBuyAmount": "205.86"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "18492688.046674",
-      "trades": 607889,
-      "avgBuyAmount": "30.42"
+      "buyQuoteVolume": "21280512.827217",
+      "trades": 745814,
+      "avgBuyAmount": "28.53"
     },
     {
       "symbol": "KOGE",
-      "buyQuoteVolume": "2240050.3550145",
-      "trades": 3797,
-      "avgBuyAmount": "589.95"
+      "buyQuoteVolume": "2528371.8013193",
+      "trades": 4280,
+      "avgBuyAmount": "590.74"
     }
   ],
-  "bnb_price_usd": 642.9,
-  "bnb_price_ts": 1773986723,
+  "bnb_price_usd": 640.41,
+  "bnb_price_ts": 1773990922,
   "bnb_price_source": "coingecko"
 }
