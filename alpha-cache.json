@@ -63,14 +63,33 @@
       "amount": "",
       "name": "",
       "created_timestamp": 1773987124,
-      "updated_timestamp": 1773990909,
-      "system_timestamp": 1773990909
+      "updated_timestamp": 1773992708,
+      "system_timestamp": 1773992708
+    },
+    {
+      "id": "warning_69bcfc2b8adc58.30059764",
+      "token": "CYS",
+      "name": "CYS",
+      "date": "2026-03-20",
+      "time": "16:00",
+      "type": "warning",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1773993003,
+      "points": "240",
+      "amount": "60",
+      "total_amount": "1040000",
+      "contract_address": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "chain_id": "56",
+      "has_homonym": false,
+      "system_timestamp": 1773993141,
+      "completed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39162
+      "count": 43045
     },
     {
       "key": "yesterday",
@@ -85,24 +104,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "481986032.63332",
-      "trades": 2341352,
-      "avgBuyAmount": "205.86"
+      "buyQuoteVolume": "530332620.45905",
+      "trades": 2561426,
+      "avgBuyAmount": "207.05"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "21280512.827217",
-      "trades": 745814,
-      "avgBuyAmount": "28.53"
+      "buyQuoteVolume": "22975493.342956",
+      "trades": 834072,
+      "avgBuyAmount": "27.55"
     },
     {
       "symbol": "KOGE",
-      "buyQuoteVolume": "2528371.8013193",
-      "trades": 4280,
-      "avgBuyAmount": "590.74"
+      "buyQuoteVolume": "2713742.4853746",
+      "trades": 4573,
+      "avgBuyAmount": "593.43"
     }
   ],
-  "bnb_price_usd": 640.41,
-  "bnb_price_ts": 1773990922,
+  "bnb_price_usd": 643.99,
+  "bnb_price_ts": 1773993322,
   "bnb_price_source": "coingecko"
 }
