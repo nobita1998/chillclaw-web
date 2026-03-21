@@ -28,39 +28,39 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 108752
+      "count": 1531
     },
     {
       "key": "yesterday",
-      "count": 108011
+      "count": 109146
     },
     {
       "key": "before_yesterday",
-      "count": 106653
+      "count": 108011
     }
   ],
-  "last_rollover_date": "2026-03-20",
+  "last_rollover_date": "2026-03-21",
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "1276551102.7664",
-      "trades": 6718160,
-      "avgBuyAmount": "190.01"
+      "buyQuoteVolume": "15172198.244746",
+      "trades": 153365,
+      "avgBuyAmount": "98.93"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "118628375.59179",
-      "trades": 3340275,
-      "avgBuyAmount": "35.51"
+      "buyQuoteVolume": "4325958.0575306",
+      "trades": 120465,
+      "avgBuyAmount": "35.91"
     },
     {
       "symbol": "KOGE",
-      "buyQuoteVolume": "11208953.427104",
-      "trades": 19054,
-      "avgBuyAmount": "588.27"
+      "buyQuoteVolume": "191321.50755746",
+      "trades": 349,
+      "avgBuyAmount": "548.2"
     }
   ],
-  "bnb_price_usd": 642.07,
-  "bnb_price_ts": 1774050322,
+  "bnb_price_usd": 641.46,
+  "bnb_price_ts": 1774054223,
   "bnb_price_source": "coingecko"
 }
