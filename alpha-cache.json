@@ -1,34 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_69bcfc2b8adc58.30059764",
-      "token": "CYS",
-      "name": "CYS",
-      "date": "2026-03-20",
-      "time": "16:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1773993003,
-      "points": 240,
-      "amount": "60",
-      "total_amount": "1040000",
-      "contract_address": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-      "chain_id": "56",
-      "has_homonym": false,
-      "system_timestamp": 1773993774,
-      "completed": true,
-      "created_timestamp": 1773993141,
-      "updated_timestamp": 1773993774,
-      "language": "en",
-      "futures_listed": false,
-      "spot_listed": false
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 43253
+      "count": 46846
     },
     {
       "key": "yesterday",
@@ -43,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "444450648.44965",
-      "trades": 2226855,
-      "avgBuyAmount": "199.59"
+      "buyQuoteVolume": "483525926.31863",
+      "trades": 2407114,
+      "avgBuyAmount": "200.87"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "109415311.54263",
-      "trades": 1803056,
-      "avgBuyAmount": "60.68"
+      "buyQuoteVolume": "116351096.59965",
+      "trades": 1918331,
+      "avgBuyAmount": "60.65"
     },
     {
       "symbol": "UP",
-      "buyQuoteVolume": "2926095.4614807",
-      "trades": 189279,
-      "avgBuyAmount": "15.46"
+      "buyQuoteVolume": "3229607.6827476",
+      "trades": 206624,
+      "avgBuyAmount": "15.63"
     }
   ],
-  "bnb_price_usd": 643.77,
-  "bnb_price_ts": 1774079123,
+  "bnb_price_usd": 643.11,
+  "bnb_price_ts": 1774080923,
   "bnb_price_source": "coingecko"
 }
