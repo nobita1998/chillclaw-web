@@ -1,9 +1,26 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-03-24",
+      "time": "18:00",
+      "points": "251",
+      "type": "grab",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1774339289,
+      "updated_timestamp": 1774341007,
+      "system_timestamp": 1774341007
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 49549
+      "count": 56262
     },
     {
       "key": "yesterday",
@@ -18,24 +35,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "459755566.34805",
-      "trades": 2292580,
-      "avgBuyAmount": "200.54"
+      "buyQuoteVolume": "522127343.12976",
+      "trades": 2593646,
+      "avgBuyAmount": "201.31"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "135935590.32992",
-      "trades": 1810596,
-      "avgBuyAmount": "75.08"
+      "buyQuoteVolume": "154617347.51092",
+      "trades": 2060403,
+      "avgBuyAmount": "75.04"
     },
     {
       "symbol": "UP",
-      "buyQuoteVolume": "45516417.428529",
-      "trades": 1290281,
-      "avgBuyAmount": "35.28"
+      "buyQuoteVolume": "51360347.786838",
+      "trades": 1450064,
+      "avgBuyAmount": "35.42"
     }
   ],
-  "bnb_price_usd": 634.47,
-  "bnb_price_ts": 1774338022,
+  "bnb_price_usd": 634.82,
+  "bnb_price_ts": 1774341323,
   "bnb_price_source": "coingecko"
 }
