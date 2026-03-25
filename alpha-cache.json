@@ -62,9 +62,9 @@
       "futures_listed": false,
       "system_timestamp": 1774425610,
       "created_timestamp": 1774420891,
-      "updated_timestamp": 1774425610,
+      "updated_timestamp": 1774430427,
       "points": 242,
-      "amount": 1139.89,
+      "amount": 580.33,
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
@@ -73,7 +73,7 @@
       "chain_id": "56",
       "collection_address": "0xd4b27c86228ec0a3286f0c93f73fa2e2832519a0",
       "target_bnb": "159.59",
-      "actual_bnb": "26318.37",
+      "actual_bnb": "51694.83",
       "bnb_limit": "3",
       "tge_total": "10000000"
     }
@@ -81,7 +81,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 53893
+      "count": 60944
     },
     {
       "key": "yesterday",
@@ -96,24 +96,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "486719718.81309",
-      "trades": 2526860,
-      "avgBuyAmount": "192.62"
+      "buyQuoteVolume": "528953085.60161",
+      "trades": 2804576,
+      "avgBuyAmount": "188.6"
     },
     {
       "symbol": "UP",
-      "buyQuoteVolume": "160258343.25125",
-      "trades": 2107322,
-      "avgBuyAmount": "76.05"
+      "buyQuoteVolume": "206479381.55697",
+      "trades": 2436668,
+      "avgBuyAmount": "84.74"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "28992536.098996",
-      "trades": 118787,
-      "avgBuyAmount": "244.07"
+      "buyQuoteVolume": "29756605.246902",
+      "trades": 126056,
+      "avgBuyAmount": "236.06"
     }
   ],
-  "bnb_price_usd": 646.2,
-  "bnb_price_ts": 1774427423,
+  "bnb_price_usd": 648.96,
+  "bnb_price_ts": 1774431323,
   "bnb_price_source": "coingecko"
 }
