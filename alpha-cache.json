@@ -47,12 +47,30 @@
       "created_timestamp": 1774345886,
       "updated_timestamp": 1774346492,
       "language": "zh"
+    },
+    {
+      "token": "PRL",
+      "name": "Perle",
+      "date": "2026-03-25",
+      "time": "16:00",
+      "type": "tge",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "pretge": false,
+      "bctge": false,
+      "futures_listed": false,
+      "system_timestamp": 1774407708,
+      "created_timestamp": 1774407698,
+      "updated_timestamp": 1774407708,
+      "points": "",
+      "amount": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 3619
+      "count": 24062
     },
     {
       "key": "yesterday",
@@ -67,24 +85,24 @@
   "top3_tokens": [
     {
       "symbol": "GUA",
-      "buyQuoteVolume": "41647997.614453",
-      "trades": 266510,
-      "avgBuyAmount": "156.27"
+      "buyQuoteVolume": "253333462.8597",
+      "trades": 1202732,
+      "avgBuyAmount": "210.63"
     },
     {
       "symbol": "UP",
-      "buyQuoteVolume": "4043208.5464361",
-      "trades": 159940,
-      "avgBuyAmount": "25.28"
+      "buyQuoteVolume": "35813332.671826",
+      "trades": 771994,
+      "avgBuyAmount": "46.39"
     },
     {
-      "symbol": "BSB",
-      "buyQuoteVolume": "1109146.0984633",
-      "trades": 57599,
-      "avgBuyAmount": "19.26"
+      "symbol": "BTW",
+      "buyQuoteVolume": "17848635.693914",
+      "trades": 52296,
+      "avgBuyAmount": "341.3"
     }
   ],
-  "bnb_price_usd": 640.09,
-  "bnb_price_ts": 1774400423,
+  "bnb_price_usd": 642.43,
+  "bnb_price_ts": 1774410623,
   "bnb_price_source": "coingecko"
 }
