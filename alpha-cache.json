@@ -1,74 +1,34 @@
 {
   "airdrops": [
     {
-      "token": "PRL",
-      "name": "Perle",
-      "date": "2026-03-25",
-      "time": "16:00",
-      "type": "tge",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "pretge": false,
-      "bctge": false,
-      "futures_listed": false,
-      "system_timestamp": 1774425610,
-      "created_timestamp": 1774420891,
-      "updated_timestamp": 1774432828,
-      "points": 242,
-      "amount": "485",
-      "completed": false,
-      "has_homonym": false,
-      "spot_listed": false,
-      "total_amount": "10000000",
-      "contract_address": "0xd20fb09a49a8e75fef536a2dbc68222900287bac",
-      "chain_id": "56",
-      "collection_address": "0xd4b27c86228ec0a3286f0c93f73fa2e2832519a0",
-      "target_bnb": "159.59",
-      "actual_bnb": "61858.82143261",
-      "bnb_limit": "3",
-      "tge_total": "10000000"
-    },
-    {
-      "token": "",
-      "date": "2026-03-26",
-      "time": "16:00",
-      "points": "242",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1774504957,
-      "updated_timestamp": 1774511107,
-      "system_timestamp": 1774511107
-    },
-    {
       "id": "warning_69c4e49427cb43.01165011",
       "token": "TRADOOR",
       "name": "TRADOOR",
       "date": "2026-03-26",
       "time": "16:00",
-      "type": "warning",
+      "type": "grab",
       "phase": 1,
       "status": "announced",
       "timestamp": 1774511252,
-      "points": "242",
+      "points": 242,
       "amount": "14",
       "total_amount": "232550",
       "contract_address": "0x9123400446a56176eb1b6be9ee5cf703e409f492",
       "chain_id": "56",
       "has_homonym": false,
-      "system_timestamp": 1774511332,
-      "completed": false
+      "system_timestamp": 1774512025,
+      "completed": true,
+      "created_timestamp": 1774511332,
+      "updated_timestamp": 1774512025,
+      "language": "zh",
+      "futures_listed": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 47971
+      "count": 51554
     },
     {
       "key": "yesterday",
@@ -83,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "556079863.51602",
-      "trades": 2927230,
-      "avgBuyAmount": "189.97"
+      "buyQuoteVolume": "591885205.55468",
+      "trades": 3148148,
+      "avgBuyAmount": "188.01"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "56175688.736022",
-      "trades": 441915,
-      "avgBuyAmount": "127.12"
+      "buyQuoteVolume": "64430009.559332",
+      "trades": 544139,
+      "avgBuyAmount": "118.41"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "5364532.3663571",
-      "trades": 271167,
-      "avgBuyAmount": "19.78"
+      "buyQuoteVolume": "7062460.7684631",
+      "trades": 316379,
+      "avgBuyAmount": "22.32"
     }
   ],
-  "bnb_price_usd": 635.08,
-  "bnb_price_ts": 1774511423,
+  "bnb_price_usd": 632.77,
+  "bnb_price_ts": 1774514122,
   "bnb_price_source": "coingecko"
 }
