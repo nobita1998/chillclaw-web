@@ -42,14 +42,33 @@
       "amount": "",
       "name": "",
       "created_timestamp": 1774504957,
-      "updated_timestamp": 1774507506,
-      "system_timestamp": 1774507506
+      "updated_timestamp": 1774511107,
+      "system_timestamp": 1774511107
+    },
+    {
+      "id": "warning_69c4e49427cb43.01165011",
+      "token": "TRADOOR",
+      "name": "TRADOOR",
+      "date": "2026-03-26",
+      "time": "16:00",
+      "type": "warning",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1774511252,
+      "points": "242",
+      "amount": "14",
+      "total_amount": "232550",
+      "contract_address": "0x9123400446a56176eb1b6be9ee5cf703e409f492",
+      "chain_id": "56",
+      "has_homonym": false,
+      "system_timestamp": 1774511332,
+      "completed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 40947
+      "count": 47971
     },
     {
       "key": "yesterday",
@@ -64,24 +83,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "473359949.50429",
-      "trades": 2550595,
-      "avgBuyAmount": "185.59"
+      "buyQuoteVolume": "556079863.51602",
+      "trades": 2927230,
+      "avgBuyAmount": "189.97"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "49796610.129696",
-      "trades": 345873,
-      "avgBuyAmount": "143.97"
+      "buyQuoteVolume": "56175688.736022",
+      "trades": 441915,
+      "avgBuyAmount": "127.12"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "4247312.1412047",
-      "trades": 229755,
-      "avgBuyAmount": "18.49"
+      "buyQuoteVolume": "5364532.3663571",
+      "trades": 271167,
+      "avgBuyAmount": "19.78"
     }
   ],
-  "bnb_price_usd": 634.46,
-  "bnb_price_ts": 1774507823,
+  "bnb_price_usd": 635.08,
+  "bnb_price_ts": 1774511423,
   "bnb_price_source": "coingecko"
 }
