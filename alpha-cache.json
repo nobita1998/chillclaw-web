@@ -1,34 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_69c4e49427cb43.01165011",
-      "token": "TRADOOR",
-      "name": "TRADOOR",
-      "date": "2026-03-26",
-      "time": "16:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1774511252,
-      "points": 242,
-      "amount": "14",
-      "total_amount": "232550",
-      "contract_address": "0x9123400446a56176eb1b6be9ee5cf703e409f492",
-      "chain_id": "56",
-      "has_homonym": false,
-      "system_timestamp": 1774512025,
-      "completed": true,
-      "created_timestamp": 1774511332,
-      "updated_timestamp": 1774512025,
-      "language": "zh",
-      "futures_listed": false,
-      "spot_listed": false
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 67293
+      "count": 74870
     },
     {
       "key": "yesterday",
@@ -43,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "827740781.23828",
-      "trades": 3987125,
-      "avgBuyAmount": "207.6"
+      "buyQuoteVolume": "920583372.78153",
+      "trades": 4401231,
+      "avgBuyAmount": "209.16"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "24045239.714778",
-      "trades": 512868,
-      "avgBuyAmount": "46.88"
+      "buyQuoteVolume": "27206568.767327",
+      "trades": 575572,
+      "avgBuyAmount": "47.27"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "17009765.400768",
-      "trades": 98925,
-      "avgBuyAmount": "171.95"
+      "buyQuoteVolume": "18687798.432836",
+      "trades": 107679,
+      "avgBuyAmount": "173.55"
     }
   ],
-  "bnb_price_usd": 628.27,
-  "bnb_price_ts": 1774597822,
+  "bnb_price_usd": 624.86,
+  "bnb_price_ts": 1774600523,
   "bnb_price_source": "coingecko"
 }
