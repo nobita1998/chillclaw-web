@@ -18,12 +18,31 @@
       "system_timestamp": 1774688794,
       "contract_address": "0x223A20E1B83AA3832E78D4B7B132dF022e739222",
       "chain_id": "56"
+    },
+    {
+      "token": "BASED",
+      "name": "Based",
+      "date": "2026-03-30",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1774695998,
+      "updated_timestamp": 1774696305,
+      "system_timestamp": 1774696305,
+      "contract_address": "0x4f2b33840227ddd0e28da8d4185d6fa07adfed87",
+      "chain_id": "1"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 67413
+      "count": 70037
     },
     {
       "key": "yesterday",
@@ -38,24 +57,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "798626431.98178",
-      "trades": 4070229,
-      "avgBuyAmount": "196.21"
+      "buyQuoteVolume": "831061804.0843",
+      "trades": 4232896,
+      "avgBuyAmount": "196.33"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "36123213.799048",
-      "trades": 531503,
-      "avgBuyAmount": "67.96"
+      "buyQuoteVolume": "36372613.452793",
+      "trades": 544111,
+      "avgBuyAmount": "66.85"
     },
     {
       "symbol": "SIREN",
-      "buyQuoteVolume": "35144160.792417",
-      "trades": 240948,
-      "avgBuyAmount": "145.86"
+      "buyQuoteVolume": "35592715.015149",
+      "trades": 247485,
+      "avgBuyAmount": "143.82"
     }
   ],
-  "bnb_price_usd": 610.46,
-  "bnb_price_ts": 1774695022,
+  "bnb_price_usd": 611.47,
+  "bnb_price_ts": 1774696522,
   "bnb_price_source": "coingecko"
 }
