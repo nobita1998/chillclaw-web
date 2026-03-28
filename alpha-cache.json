@@ -33,16 +33,16 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1774695998,
-      "updated_timestamp": 1774696305,
-      "system_timestamp": 1774696305,
-      "contract_address": "0x4f2b33840227ddd0e28da8d4185d6fa07adfed87",
-      "chain_id": "1"
+      "updated_timestamp": 1774698079,
+      "system_timestamp": 1774698079,
+      "contract_address": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
+      "chain_id": "56"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 70037
+      "count": 73581
     },
     {
       "key": "yesterday",
@@ -57,24 +57,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "831061804.0843",
-      "trades": 4232896,
-      "avgBuyAmount": "196.33"
+      "buyQuoteVolume": "874673545.828",
+      "trades": 4442283,
+      "avgBuyAmount": "196.9"
     },
     {
       "symbol": "BTW",
-      "buyQuoteVolume": "36372613.452793",
-      "trades": 544111,
-      "avgBuyAmount": "66.85"
+      "buyQuoteVolume": "37124702.6642",
+      "trades": 575044,
+      "avgBuyAmount": "64.56"
     },
     {
       "symbol": "SIREN",
-      "buyQuoteVolume": "35592715.015149",
-      "trades": 247485,
-      "avgBuyAmount": "143.82"
+      "buyQuoteVolume": "35841635.604857",
+      "trades": 252655,
+      "avgBuyAmount": "141.86"
     }
   ],
-  "bnb_price_usd": 611.47,
-  "bnb_price_ts": 1774696522,
+  "bnb_price_usd": 612.01,
+  "bnb_price_ts": 1774698323,
   "bnb_price_source": "coingecko"
 }
