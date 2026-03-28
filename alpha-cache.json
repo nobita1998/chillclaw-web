@@ -1,9 +1,29 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "R2",
+      "name": "R2 Protocol",
+      "date": "2026-03-30",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1774688607,
+      "updated_timestamp": 1774688794,
+      "system_timestamp": 1774688794,
+      "contract_address": "0x223A20E1B83AA3832E78D4B7B132dF022e739222",
+      "chain_id": "56"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 54969
+      "count": 59125
     },
     {
       "key": "yesterday",
@@ -18,24 +38,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "650635745.78716",
-      "trades": 3255505,
-      "avgBuyAmount": "199.86"
-    },
-    {
-      "symbol": "BTW",
-      "buyQuoteVolume": "30949922.721058",
-      "trades": 393893,
-      "avgBuyAmount": "78.57"
+      "buyQuoteVolume": "697852133.84945",
+      "trades": 3531086,
+      "avgBuyAmount": "197.63"
     },
     {
       "symbol": "SIREN",
-      "buyQuoteVolume": "29355967.759701",
-      "trades": 198472,
-      "avgBuyAmount": "147.91"
+      "buyQuoteVolume": "34042853.532654",
+      "trades": 222656,
+      "avgBuyAmount": "152.89"
+    },
+    {
+      "symbol": "BTW",
+      "buyQuoteVolume": "33961116.643035",
+      "trades": 458003,
+      "avgBuyAmount": "74.15"
     }
   ],
-  "bnb_price_usd": 613.38,
-  "bnb_price_ts": 1774686624,
+  "bnb_price_usd": 611.3,
+  "bnb_price_ts": 1774689623,
   "bnb_price_source": "coingecko"
 }
