@@ -1,25 +1,6 @@
 {
   "airdrops": [
     {
-      "token": "R2",
-      "name": "R2 Protocol",
-      "date": "2026-03-30",
-      "time": "18:00",
-      "points": "",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": false,
-      "amount": "",
-      "type": "",
-      "created_timestamp": 1774688607,
-      "updated_timestamp": 1774688794,
-      "system_timestamp": 1774688794,
-      "contract_address": "0x223A20E1B83AA3832E78D4B7B132dF022e739222",
-      "chain_id": "56"
-    },
-    {
       "token": "BASED",
       "name": "Based",
       "date": "2026-03-30",
@@ -33,16 +14,37 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1774695998,
-      "updated_timestamp": 1774698079,
-      "system_timestamp": 1774698079,
+      "updated_timestamp": 1774845371,
+      "system_timestamp": 1774845371,
       "contract_address": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
-      "chain_id": "56"
+      "chain_id": "56",
+      "total_amount": "9999866"
+    },
+    {
+      "token": "R2",
+      "name": "R2 Protocol",
+      "date": "2026-03-30",
+      "time": "18:00",
+      "points": "252",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "750",
+      "type": "grab",
+      "created_timestamp": 1774688607,
+      "updated_timestamp": 1774848951,
+      "system_timestamp": 1774848951,
+      "contract_address": "0x223A20E1B83AA3832E78D4B7B132dF022e739222",
+      "chain_id": "56",
+      "total_amount": "9999750"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 28516
+      "count": 41770
     },
     {
       "key": "yesterday",
@@ -57,24 +59,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "361568579.31141",
-      "trades": 1658674,
-      "avgBuyAmount": "217.99"
+      "buyQuoteVolume": "528237934.56813",
+      "trades": 2416756,
+      "avgBuyAmount": "218.57"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "6469582.6332418",
-      "trades": 38600,
-      "avgBuyAmount": "167.61"
+      "buyQuoteVolume": "10923919.939269",
+      "trades": 62943,
+      "avgBuyAmount": "173.55"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "893633.67915651",
-      "trades": 46391,
-      "avgBuyAmount": "19.26"
+      "buyQuoteVolume": "1326768.5623172",
+      "trades": 66743,
+      "avgBuyAmount": "19.88"
     }
   ],
-  "bnb_price_usd": 616.74,
-  "bnb_price_ts": 1774844123,
+  "bnb_price_usd": 617.16,
+  "bnb_price_ts": 1774851023,
   "bnb_price_source": "coingecko"
 }
