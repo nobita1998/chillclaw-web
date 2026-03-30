@@ -5,17 +5,17 @@
       "name": "Based",
       "date": "2026-03-30",
       "time": "16:00",
-      "points": "",
+      "points": "241",
       "phase": 1,
       "language": "zh",
       "status": "announced",
       "utc": "",
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "320",
+      "type": "grab",
       "created_timestamp": 1774695998,
-      "updated_timestamp": 1774845371,
-      "system_timestamp": 1774845371,
+      "updated_timestamp": 1774852322,
+      "system_timestamp": 1774852322,
       "contract_address": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
       "chain_id": "56",
       "total_amount": "9999866"
@@ -44,7 +44,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 41770
+      "count": 54755
     },
     {
       "key": "yesterday",
@@ -59,24 +59,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "528237934.56813",
-      "trades": 2416756,
-      "avgBuyAmount": "218.57"
+      "buyQuoteVolume": "691535641.94215",
+      "trades": 3164671,
+      "avgBuyAmount": "218.52"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "10923919.939269",
-      "trades": 62943,
-      "avgBuyAmount": "173.55"
+      "buyQuoteVolume": "15213131.683588",
+      "trades": 89063,
+      "avgBuyAmount": "170.81"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "1326768.5623172",
-      "trades": 66743,
-      "avgBuyAmount": "19.88"
+      "buyQuoteVolume": "1647454.2471017",
+      "trades": 85903,
+      "avgBuyAmount": "19.18"
     }
   ],
-  "bnb_price_usd": 617.16,
-  "bnb_price_ts": 1774851023,
+  "bnb_price_usd": 617.29,
+  "bnb_price_ts": 1774857922,
   "bnb_price_source": "coingecko"
 }
