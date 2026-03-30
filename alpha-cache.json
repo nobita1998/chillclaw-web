@@ -5,20 +5,23 @@
       "name": "Based",
       "date": "2026-03-30",
       "time": "16:00",
-      "points": "241",
+      "points": 241,
       "phase": 1,
       "language": "zh",
       "status": "announced",
       "utc": "",
-      "futures_listed": false,
+      "futures_listed": true,
       "amount": "320",
       "type": "grab",
       "created_timestamp": 1774695998,
-      "updated_timestamp": 1774852322,
-      "system_timestamp": 1774852322,
+      "updated_timestamp": 1774863736,
+      "system_timestamp": 1774863736,
       "contract_address": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
       "chain_id": "56",
-      "total_amount": "9999866"
+      "total_amount": "9999866",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false
     },
     {
       "token": "R2",
@@ -44,7 +47,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 54755
+      "count": 65802
     },
     {
       "key": "yesterday",
@@ -59,24 +62,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "691535641.94215",
-      "trades": 3164671,
-      "avgBuyAmount": "218.52"
+      "buyQuoteVolume": "829175303.57293",
+      "trades": 3816990,
+      "avgBuyAmount": "217.23"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "15213131.683588",
-      "trades": 89063,
-      "avgBuyAmount": "170.81"
+      "buyQuoteVolume": "19895630.866048",
+      "trades": 115505,
+      "avgBuyAmount": "172.25"
     },
     {
-      "symbol": "BSB",
-      "buyQuoteVolume": "1647454.2471017",
-      "trades": 85903,
-      "avgBuyAmount": "19.18"
+      "symbol": "KOGE",
+      "buyQuoteVolume": "1963378.864985",
+      "trades": 3916,
+      "avgBuyAmount": "501.37"
     }
   ],
-  "bnb_price_usd": 617.29,
-  "bnb_price_ts": 1774857922,
+  "bnb_price_usd": 617.75,
+  "bnb_price_ts": 1774864223,
   "bnb_price_source": "coingecko"
 }
