@@ -39,15 +39,16 @@
       "created_timestamp": 1774688607,
       "updated_timestamp": 1774848951,
       "system_timestamp": 1774848951,
-      "contract_address": "0x223A20E1B83AA3832E78D4B7B132dF022e739222",
+      "contract_address": "0x223a20e1b83aa3832e78d4b7b132df022e739222",
       "chain_id": "56",
-      "total_amount": "9999750"
+      "total_amount": "9999750",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 65802
+      "count": 70644
     },
     {
       "key": "yesterday",
@@ -62,24 +63,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "829175303.57293",
-      "trades": 3816990,
-      "avgBuyAmount": "217.23"
+      "buyQuoteVolume": "888426661.40867",
+      "trades": 4161370,
+      "avgBuyAmount": "213.49"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "19895630.866048",
-      "trades": 115505,
-      "avgBuyAmount": "172.25"
+      "buyQuoteVolume": "22949815.47527",
+      "trades": 121505,
+      "avgBuyAmount": "188.88"
     },
     {
       "symbol": "KOGE",
-      "buyQuoteVolume": "1963378.864985",
-      "trades": 3916,
-      "avgBuyAmount": "501.37"
+      "buyQuoteVolume": "2532416.1606686",
+      "trades": 4721,
+      "avgBuyAmount": "536.42"
     }
   ],
-  "bnb_price_usd": 617.75,
-  "bnb_price_ts": 1774864223,
+  "bnb_price_usd": 616.52,
+  "bnb_price_ts": 1774867823,
   "bnb_price_source": "coingecko"
 }
