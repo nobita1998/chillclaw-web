@@ -1,9 +1,38 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "id": "warning_69cbbc412e7367.16481158",
+      "token": "EDGE",
+      "name": "edgeX",
+      "date": "2026-03-31",
+      "time": "20:30",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1774959681,
+      "points": 242,
+      "amount": "66",
+      "total_amount": "998580",
+      "contract_address": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+      "chain_id": "56",
+      "has_homonym": true,
+      "d976_tx_hash": "0x27cf3d6733704865444996a7101c64b57f3d50e4d9f5489c36a01a5545ea257b",
+      "d976_tx_time": "2026-03-31 20:20:19",
+      "system_timestamp": 1774960318,
+      "completed": true,
+      "confirmed_at": "2026-03-31 20:22:56",
+      "confirm_source": "manual_confirm",
+      "updated_timestamp": 1774960318,
+      "futures_listed": false,
+      "spot_listed": false,
+      "language": "en",
+      "created_timestamp": 1774959792
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 74495
+      "count": 81503
     },
     {
       "key": "yesterday",
@@ -18,24 +47,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "915228868.64457",
-      "trades": 4027091,
-      "avgBuyAmount": "227.27"
+      "buyQuoteVolume": "1000484162.2173",
+      "trades": 4424672,
+      "avgBuyAmount": "226.11"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "44374852.060959",
-      "trades": 93130,
-      "avgBuyAmount": "476.48"
+      "buyQuoteVolume": "49019353.286465",
+      "trades": 100192,
+      "avgBuyAmount": "489.25"
     },
     {
       "symbol": "KOGE",
-      "buyQuoteVolume": "3192545.0128877",
-      "trades": 4758,
-      "avgBuyAmount": "670.98"
+      "buyQuoteVolume": "3848289.2497776",
+      "trades": 5403,
+      "avgBuyAmount": "712.25"
     }
   ],
-  "bnb_price_usd": 604.91,
-  "bnb_price_ts": 1774956922,
+  "bnb_price_usd": 606.88,
+  "bnb_price_ts": 1774960823,
   "bnb_price_source": "coingecko"
 }
