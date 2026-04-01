@@ -1,38 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_69cbbc412e7367.16481158",
-      "token": "EDGE",
-      "name": "edgeX",
-      "date": "2026-03-31",
-      "time": "20:30",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1774959681,
-      "points": 242,
-      "amount": "66",
-      "total_amount": "998580",
-      "contract_address": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
-      "chain_id": "56",
-      "has_homonym": true,
-      "d976_tx_hash": "0x27cf3d6733704865444996a7101c64b57f3d50e4d9f5489c36a01a5545ea257b",
-      "d976_tx_time": "2026-03-31 20:20:19",
-      "system_timestamp": 1774960318,
-      "completed": true,
-      "confirmed_at": "2026-03-31 20:22:56",
-      "confirm_source": "manual_confirm",
-      "updated_timestamp": 1774960318,
-      "futures_listed": false,
-      "spot_listed": false,
-      "language": "en",
-      "created_timestamp": 1774959792
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 72806
+      "count": 85360
     },
     {
       "key": "yesterday",
@@ -47,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "878593847.69052",
-      "trades": 4245606,
-      "avgBuyAmount": "206.94"
+      "buyQuoteVolume": "1016415158.1354",
+      "trades": 4963255,
+      "avgBuyAmount": "204.79"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "39027607.529589",
-      "trades": 115925,
-      "avgBuyAmount": "336.66"
+      "buyQuoteVolume": "50764801.011605",
+      "trades": 153701,
+      "avgBuyAmount": "330.28"
     },
     {
       "symbol": "SIREN",
-      "buyQuoteVolume": "31069144.296465",
-      "trades": 300121,
-      "avgBuyAmount": "103.52"
+      "buyQuoteVolume": "31664230.441162",
+      "trades": 308123,
+      "avgBuyAmount": "102.76"
     }
   ],
-  "bnb_price_usd": 614.65,
-  "bnb_price_ts": 1775045123,
+  "bnb_price_usd": 611.32,
+  "bnb_price_ts": 1775052324,
   "bnb_price_source": "coingecko"
 }
