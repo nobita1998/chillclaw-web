@@ -1,9 +1,26 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-04-02",
+      "time": "16:00",
+      "points": "242",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1775110079,
+      "updated_timestamp": 1775112315,
+      "system_timestamp": 1775112315
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39604
+      "count": 49808
     },
     {
       "key": "yesterday",
@@ -18,24 +35,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "409858225.18621",
-      "trades": 2001163,
-      "avgBuyAmount": "204.81"
+      "buyQuoteVolume": "495081590.82716",
+      "trades": 2384584,
+      "avgBuyAmount": "207.62"
     },
     {
       "symbol": "BLUAI",
-      "buyQuoteVolume": "91667491.547579",
-      "trades": 1341293,
-      "avgBuyAmount": "68.34"
+      "buyQuoteVolume": "137996938.84381",
+      "trades": 1783446,
+      "avgBuyAmount": "77.38"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "9761135.8367624",
-      "trades": 135229,
-      "avgBuyAmount": "72.18"
+      "buyQuoteVolume": "9975680.1752145",
+      "trades": 155335,
+      "avgBuyAmount": "64.22"
     }
   ],
-  "bnb_price_usd": 590.55,
-  "bnb_price_ts": 1775109023,
+  "bnb_price_usd": 589.6,
+  "bnb_price_ts": 1775112923,
   "bnb_price_source": "coingecko"
 }
