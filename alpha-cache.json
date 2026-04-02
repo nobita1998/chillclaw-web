@@ -13,14 +13,38 @@
       "amount": "",
       "name": "",
       "created_timestamp": 1775110079,
-      "updated_timestamp": 1775112315,
-      "system_timestamp": 1775112315
+      "updated_timestamp": 1775115919,
+      "system_timestamp": 1775115919
+    },
+    {
+      "id": "warning_69ce2044bb6bf8.50125497",
+      "token": "CHECK",
+      "name": "CHECK",
+      "date": "2026-04-02",
+      "time": "16:00",
+      "type": "warning",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1775116356,
+      "points": 242,
+      "amount": "500",
+      "total_amount": "8000000",
+      "contract_address": "0x9126236476efba9ad8ab77855c60eb5bf37586eb",
+      "chain_id": "8453",
+      "has_homonym": false,
+      "updated_at": "2026-04-02 15:53:02",
+      "system_timestamp": 1775116448,
+      "completed": false,
+      "confirmed_at": "2026-04-02 15:54:08",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 49808
+      "count": 61670
     },
     {
       "key": "yesterday",
@@ -35,24 +59,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "495081590.82716",
-      "trades": 2384584,
-      "avgBuyAmount": "207.62"
+      "buyQuoteVolume": "599295733.56501",
+      "trades": 2792385,
+      "avgBuyAmount": "214.62"
     },
     {
       "symbol": "BLUAI",
-      "buyQuoteVolume": "137996938.84381",
-      "trades": 1783446,
-      "avgBuyAmount": "77.38"
+      "buyQuoteVolume": "187053483.79564",
+      "trades": 2212728,
+      "avgBuyAmount": "84.54"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "9975680.1752145",
-      "trades": 155335,
-      "avgBuyAmount": "64.22"
+      "buyQuoteVolume": "10103868.714292",
+      "trades": 170021,
+      "avgBuyAmount": "59.43"
     }
   ],
-  "bnb_price_usd": 589.6,
-  "bnb_price_ts": 1775112923,
+  "bnb_price_usd": 592,
+  "bnb_price_ts": 1775116523,
   "bnb_price_source": "coingecko"
 }
