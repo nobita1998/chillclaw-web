@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 3199
+      "count": 25941
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "32491276.656914",
-      "trades": 235682,
-      "avgBuyAmount": "137.86"
+      "buyQuoteVolume": "271415090.48718",
+      "trades": 1363479,
+      "avgBuyAmount": "199.06"
     },
     {
       "symbol": "BLUAI",
-      "buyQuoteVolume": "5271837.0643915",
-      "trades": 120187,
-      "avgBuyAmount": "43.86"
+      "buyQuoteVolume": "54041502.393217",
+      "trades": 837219,
+      "avgBuyAmount": "64.55"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "3373104.2702342",
-      "trades": 26178,
-      "avgBuyAmount": "128.85"
+      "buyQuoteVolume": "9414627.9218412",
+      "trades": 108363,
+      "avgBuyAmount": "86.88"
     }
   ],
-  "bnb_price_usd": 613.2,
-  "bnb_price_ts": 1775091624,
+  "bnb_price_usd": 592.11,
+  "bnb_price_ts": 1775102423,
   "bnb_price_source": "coingecko"
 }
