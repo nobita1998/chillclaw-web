@@ -1,30 +1,34 @@
 {
   "airdrops": [
     {
-      "token": "CHECK",
-      "date": "2026-04-02",
+      "token": "ST",
+      "name": "sentio",
+      "date": "2026-04-07",
       "time": "16:00",
-      "points": "242",
-      "type": "grab",
+      "type": "tge",
       "phase": 1,
       "language": "en",
       "status": "announced",
+      "pretge": true,
+      "bctge": false,
       "futures_listed": false,
-      "amount": "500",
-      "name": "Checkmate",
-      "created_timestamp": 1775110079,
-      "updated_timestamp": 1775116888,
-      "system_timestamp": 1775116888,
-      "contract_address": "0x9126236476efba9ad8ab77855c60eb5bf37586eb",
-      "chain_id": "8453",
-      "total_amount": "8000000",
-      "completed": true
+      "system_timestamp": 1775203323,
+      "created_timestamp": 1775203274,
+      "updated_timestamp": 1775203323,
+      "points": "",
+      "amount": "",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "",
+      "contract_address": "",
+      "chain_id": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 53932
+      "count": 58853
     },
     {
       "key": "yesterday",
@@ -39,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "670182327.69807",
-      "trades": 3182024,
-      "avgBuyAmount": "210.62"
+      "buyQuoteVolume": "729538307.51263",
+      "trades": 3487698,
+      "avgBuyAmount": "209.17"
     },
     {
       "symbol": "BLUAI",
-      "buyQuoteVolume": "24252333.258551",
-      "trades": 686946,
-      "avgBuyAmount": "35.3"
+      "buyQuoteVolume": "28030824.150952",
+      "trades": 793678,
+      "avgBuyAmount": "35.32"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "2608371.2512629",
-      "trades": 292938,
-      "avgBuyAmount": "8.9"
+      "buyQuoteVolume": "3044289.1493915",
+      "trades": 329351,
+      "avgBuyAmount": "9.24"
     }
   ],
-  "bnb_price_usd": 586.73,
-  "bnb_price_ts": 1775202622,
+  "bnb_price_usd": 586.74,
+  "bnb_price_ts": 1775205322,
   "bnb_price_source": "coingecko"
 }
