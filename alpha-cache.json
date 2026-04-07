@@ -2,33 +2,38 @@
   "airdrops": [
     {
       "token": "ST",
-      "name": "sentio",
+      "name": "Sentio",
       "date": "2026-04-07",
       "time": "16:00",
       "type": "tge",
       "phase": 1,
-      "language": "en",
+      "language": "zh",
       "status": "announced",
       "pretge": true,
       "bctge": false,
       "futures_listed": false,
-      "system_timestamp": 1775529004,
-      "created_timestamp": 1775203274,
-      "updated_timestamp": 1775529004,
-      "points": "",
+      "system_timestamp": 1775542860,
+      "created_timestamp": 1775542860,
+      "updated_timestamp": 1775544598,
+      "points": "243",
       "amount": "",
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
       "total_amount": "",
-      "contract_address": "0x7c0F60ea8B102650A09E5E4d6868A491a3AC1d2d",
-      "chain_id": "56"
+      "contract_address": "0x70BE40667385500c5da7f108a022E21B606045DD",
+      "chain_id": "56",
+      "collection_address": "0x8343179c139f2de6059fa85a9ce5876d1dbff5b1",
+      "target_bnb": "332.47996808",
+      "actual_bnb": "0",
+      "bnb_limit": "3",
+      "tge_total": "10000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 26769
+      "count": 33870
     },
     {
       "key": "yesterday",
@@ -43,24 +48,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "291079409.53454",
-      "trades": 1576633,
-      "avgBuyAmount": "184.62"
+      "buyQuoteVolume": "353887201.03292",
+      "trades": 1934641,
+      "avgBuyAmount": "182.92"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "37078408.076169",
-      "trades": 822565,
-      "avgBuyAmount": "45.08"
+      "buyQuoteVolume": "47576991.023887",
+      "trades": 1083935,
+      "avgBuyAmount": "43.89"
     },
     {
       "symbol": "BASED",
-      "buyQuoteVolume": "13793163.02629",
-      "trades": 563743,
-      "avgBuyAmount": "24.47"
+      "buyQuoteVolume": "31241367.61743",
+      "trades": 902321,
+      "avgBuyAmount": "34.62"
     }
   ],
-  "bnb_price_usd": 597.54,
-  "bnb_price_ts": 1775541322,
+  "bnb_price_usd": 598.34,
+  "bnb_price_ts": 1775545823,
   "bnb_price_source": "coingecko"
 }
