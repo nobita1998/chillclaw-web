@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 66721
+      "count": 72233
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "530015419.89564",
-      "trades": 2845936,
-      "avgBuyAmount": "186.24"
+      "buyQuoteVolume": "539723592.88392",
+      "trades": 2935485,
+      "avgBuyAmount": "183.86"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "300868407.56192",
-      "trades": 3216570,
-      "avgBuyAmount": "93.54"
+      "buyQuoteVolume": "357970962.02437",
+      "trades": 3667010,
+      "avgBuyAmount": "97.62"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "24806230.483435",
-      "trades": 985641,
-      "avgBuyAmount": "25.17"
+      "buyQuoteVolume": "28251915.342702",
+      "trades": 1085008,
+      "avgBuyAmount": "26.04"
     }
   ],
-  "bnb_price_usd": 611.7,
-  "bnb_price_ts": 1775642123,
+  "bnb_price_usd": 611.73,
+  "bnb_price_ts": 1775645123,
   "bnb_price_source": "coingecko"
 }
