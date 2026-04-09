@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "SOON",
       "date": "2026-04-09",
       "time": "17:00",
       "points": "242",
@@ -10,17 +10,20 @@
       "language": "zh",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "280",
+      "name": "SOON",
       "created_timestamp": 1775714458,
-      "updated_timestamp": 1775718927,
-      "system_timestamp": 1775718927
+      "updated_timestamp": 1775725273,
+      "system_timestamp": 1775725273,
+      "contract_address": "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721",
+      "chain_id": "56",
+      "total_amount": "4550000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 52227
+      "count": 62528
     },
     {
       "key": "yesterday",
@@ -35,24 +38,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "323823876.31445",
-      "trades": 2034150,
-      "avgBuyAmount": "159.19"
+      "buyQuoteVolume": "388211484.83056",
+      "trades": 2389996,
+      "avgBuyAmount": "162.43"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "235862011.38913",
-      "trades": 2478619,
-      "avgBuyAmount": "95.16"
+      "buyQuoteVolume": "298285256.62901",
+      "trades": 2971553,
+      "avgBuyAmount": "100.38"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "111633086.53004",
-      "trades": 1365638,
-      "avgBuyAmount": "81.74"
+      "buyQuoteVolume": "117779920.92516",
+      "trades": 1498305,
+      "avgBuyAmount": "78.61"
     }
   ],
-  "bnb_price_usd": 600.34,
-  "bnb_price_ts": 1775721322,
+  "bnb_price_usd": 600.87,
+  "bnb_price_ts": 1775725223,
   "bnb_price_source": "coingecko"
 }
