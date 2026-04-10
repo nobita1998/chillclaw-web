@@ -1,47 +1,81 @@
 {
   "airdrops": [
     {
-      "token": "SOON",
-      "date": "2026-04-09",
-      "time": "17:00",
-      "points": "242",
-      "type": "grab",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "280",
-      "name": "SOON",
-      "created_timestamp": 1775714458,
-      "updated_timestamp": 1775725273,
-      "system_timestamp": 1775725273,
-      "contract_address": "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721",
-      "chain_id": "56",
-      "total_amount": "4550000",
-      "completed": true
-    },
-    {
-      "token": "",
+      "token": "AOP",
       "date": "2026-04-10",
       "time": "17:00",
-      "points": "240",
+      "points": 240,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "system_timestamp": 1775805098,
+      "system_timestamp": 1775813828,
       "created_timestamp": 1775805098,
-      "updated_timestamp": 1775807664,
-      "amount": "",
+      "updated_timestamp": 1775813828,
+      "amount": "715",
       "name": "Alpha Box",
-      "utc": "utc8"
+      "utc": "utc8",
+      "contract_address": "0xd5df4d260d7a0145f655bcbf3b398076f21016c7",
+      "chain_id": "56",
+      "total_amount": "7142370",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false
+    },
+    {
+      "token": "CLO",
+      "name": "Alpha Box",
+      "date": "2026-04-10",
+      "time": "17:00",
+      "points": 240,
+      "phase": 1,
+      "language": "zh",
+      "status": "ongoing",
+      "utc": "",
+      "futures_listed": false,
+      "system_timestamp": 1775813828,
+      "created_timestamp": 1775811668,
+      "updated_timestamp": 1775813828,
+      "amount": "335",
+      "type": "grab",
+      "contract_address": "0x81d3a238b02827f62b9f390f947d36d4a5bf89d2",
+      "chain_id": "56",
+      "total_amount": "3333225",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false
+    },
+    {
+      "id": "warning_69d8b9fe829e81.79482125",
+      "token": "REKT",
+      "name": "Alpha Box",
+      "date": "2026-04-10",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1775811070,
+      "points": 240,
+      "amount": "192307700",
+      "total_amount": "1922923120930",
+      "contract_address": "0x20482b0b4d9d8f60d3ab432b92f4c4b901a0d10c",
+      "chain_id": "56",
+      "has_homonym": false,
+      "updated_at": "2026-04-10 17:01:39",
+      "system_timestamp": 1775813573,
+      "completed": true,
+      "confirmed_at": "2026-04-10 17:01:55",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false,
+      "updated_timestamp": 1775813573
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 41888
+      "count": 50930
     },
     {
       "key": "yesterday",
@@ -56,24 +90,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "469851704.5523",
-      "trades": 2472537,
-      "avgBuyAmount": "190.03"
+      "buyQuoteVolume": "570405693.94836",
+      "trades": 2995900,
+      "avgBuyAmount": "190.4"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "47224050.244258",
-      "trades": 1137565,
-      "avgBuyAmount": "41.51"
+      "buyQuoteVolume": "58774596.700705",
+      "trades": 1410129,
+      "avgBuyAmount": "41.68"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "21943047.87209",
-      "trades": 755218,
-      "avgBuyAmount": "29.06"
+      "buyQuoteVolume": "25928683.990282",
+      "trades": 906292,
+      "avgBuyAmount": "28.61"
     }
   ],
-  "bnb_price_usd": 599.36,
-  "bnb_price_ts": 1775808023,
+  "bnb_price_usd": 601.36,
+  "bnb_price_ts": 1775814023,
   "bnb_price_source": "coingecko"
 }
