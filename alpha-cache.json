@@ -19,12 +19,29 @@
       "chain_id": "56",
       "total_amount": "4550000",
       "completed": true
+    },
+    {
+      "token": "",
+      "date": "2026-04-10",
+      "time": "17:00",
+      "points": "240",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "system_timestamp": 1775805098,
+      "created_timestamp": 1775805098,
+      "updated_timestamp": 1775807664,
+      "amount": "",
+      "name": "Alpha Box",
+      "utc": "utc8"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 31515
+      "count": 41888
     },
     {
       "key": "yesterday",
@@ -39,24 +56,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "355940091.68741",
-      "trades": 1886168,
-      "avgBuyAmount": "188.71"
+      "buyQuoteVolume": "469851704.5523",
+      "trades": 2472537,
+      "avgBuyAmount": "190.03"
     },
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "33128715.521872",
-      "trades": 811062,
-      "avgBuyAmount": "40.85"
+      "buyQuoteVolume": "47224050.244258",
+      "trades": 1137565,
+      "avgBuyAmount": "41.51"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "16463746.441736",
-      "trades": 563127,
-      "avgBuyAmount": "29.24"
+      "buyQuoteVolume": "21943047.87209",
+      "trades": 755218,
+      "avgBuyAmount": "29.06"
     }
   ],
-  "bnb_price_usd": 601.6,
-  "bnb_price_ts": 1775801422,
+  "bnb_price_usd": 599.36,
+  "bnb_price_ts": 1775808023,
   "bnb_price_source": "coingecko"
 }
