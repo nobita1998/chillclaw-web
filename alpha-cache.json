@@ -4,8 +4,8 @@
       "token": "GENIUS",
       "name": "Genius Foundation",
       "date": "2026-04-13",
-      "time": "19:00",
-      "points": "230",
+      "time": "22:00",
+      "points": 230,
       "phase": 1,
       "language": "zh",
       "status": "announced",
@@ -18,13 +18,16 @@
       "system_timestamp": 1776076882,
       "contract_address": "0x1f12b85aac097e43aa1555b2881e98a51090e9a6",
       "chain_id": "56",
-      "total_amount": "7500000"
+      "total_amount": "7500000",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 61502
+      "count": 68256
     },
     {
       "key": "yesterday",
@@ -39,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "664991360.67243",
-      "trades": 4012462,
-      "avgBuyAmount": "165.73"
+      "buyQuoteVolume": "738559094.62618",
+      "trades": 4421562,
+      "avgBuyAmount": "167.04"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "115013633.39444",
-      "trades": 1965231,
-      "avgBuyAmount": "58.52"
+      "buyQuoteVolume": "125036954.61256",
+      "trades": 2156770,
+      "avgBuyAmount": "57.97"
     },
     {
       "symbol": "BASED",
-      "buyQuoteVolume": "16261802.19668",
-      "trades": 768824,
-      "avgBuyAmount": "21.15"
+      "buyQuoteVolume": "20150700.7943",
+      "trades": 889276,
+      "avgBuyAmount": "22.66"
     }
   ],
-  "bnb_price_usd": 597.81,
-  "bnb_price_ts": 1776077722,
+  "bnb_price_usd": 597.52,
+  "bnb_price_ts": 1776081623,
   "bnb_price_source": "coingecko"
 }
