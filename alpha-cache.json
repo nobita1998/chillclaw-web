@@ -4,7 +4,7 @@
       "token": "GENIUS",
       "name": "Genius Foundation",
       "date": "2026-04-13",
-      "time": "22:00",
+      "time": "23:00",
       "points": 230,
       "phase": 1,
       "language": "zh",
@@ -27,7 +27,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 68256
+      "count": 81162
     },
     {
       "key": "yesterday",
@@ -42,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "738559094.62618",
-      "trades": 4421562,
-      "avgBuyAmount": "167.04"
+      "buyQuoteVolume": "881068549.52261",
+      "trades": 5209383,
+      "avgBuyAmount": "169.13"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "125036954.61256",
-      "trades": 2156770,
-      "avgBuyAmount": "57.97"
+      "buyQuoteVolume": "142741603.6236",
+      "trades": 2538377,
+      "avgBuyAmount": "56.23"
     },
     {
       "symbol": "BASED",
-      "buyQuoteVolume": "20150700.7943",
-      "trades": 889276,
-      "avgBuyAmount": "22.66"
+      "buyQuoteVolume": "26973792.388649",
+      "trades": 1103137,
+      "avgBuyAmount": "24.45"
     }
   ],
-  "bnb_price_usd": 597.52,
-  "bnb_price_ts": 1776081623,
+  "bnb_price_usd": 598.96,
+  "bnb_price_ts": 1776089422,
   "bnb_price_source": "coingecko"
 }
