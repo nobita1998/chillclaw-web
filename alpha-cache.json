@@ -24,26 +24,92 @@
       "spot_listed": false
     },
     {
-      "token": "",
+      "token": "ANOME",
       "date": "2026-04-14",
       "time": "17:00",
-      "points": "235",
+      "points": 235,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "824",
+      "name": "ANOME",
       "created_timestamp": 1776150970,
-      "updated_timestamp": 1776153620,
-      "system_timestamp": 1776153620
+      "updated_timestamp": 1776157250,
+      "system_timestamp": 1776157250,
+      "contract_address": "0x6bc3855827fa6ee1229c937a26bb9fca1a0ffbf0",
+      "chain_id": "56",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "2941020"
+    },
+    {
+      "id": "warning_69ddfffc6c3bd5.89419025",
+      "token": "VELO",
+      "name": "VELO",
+      "date": "2026-04-14",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1776156668,
+      "points": 235,
+      "amount": "8750",
+      "total_amount": "62502928",
+      "contract_address": "0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46",
+      "chain_id": "56",
+      "has_homonym": false,
+      "paired_transfer": true,
+      "paired_from": "0xb5893a55965a4a01c239f852d93ac47942415231",
+      "paired_tx_hash": "0x733418a8d25efb2d81176c87cd4896db5a05433e3d4c83a69e6423397f258f84",
+      "paired_time_diff": 10,
+      "d976_tx_hash": "0xeb3b1f4ab81244cdb82eb44128d1318d846d7654b1111f5e613ef0510cc2f5b4",
+      "d976_tx_time": "2026-04-14 16:51:05",
+      "updated_at": "2026-04-14 16:51:38",
+      "system_timestamp": 1776157250,
+      "completed": true,
+      "confirmed_at": "2026-04-14 16:51:45",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false,
+      "updated_timestamp": 1776157250,
+      "created_timestamp": 1776156911,
+      "language": "zh"
+    },
+    {
+      "id": "warning_69de00323defd4.74284140",
+      "token": "POWER",
+      "name": "POWER",
+      "date": "2026-04-14",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1776156722,
+      "points": 235,
+      "amount": "315",
+      "total_amount": "2222180",
+      "contract_address": "0x9dc44ae5be187eca9e2a67e33f27a4c91cea1223",
+      "chain_id": "56",
+      "has_homonym": false,
+      "updated_at": "2026-04-14 16:52:59",
+      "system_timestamp": 1776156911,
+      "completed": true,
+      "confirmed_at": "2026-04-14 16:53:13",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false,
+      "updated_timestamp": 1776156911,
+      "created_timestamp": 1776156911,
+      "language": "zh"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 52395
+      "count": 65555
     },
     {
       "key": "yesterday",
@@ -58,24 +124,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "537737616.17739",
-      "trades": 2778632,
-      "avgBuyAmount": "193.53"
+      "buyQuoteVolume": "649868738.75394",
+      "trades": 3338386,
+      "avgBuyAmount": "194.67"
     },
     {
       "symbol": "BASED",
-      "buyQuoteVolume": "84775384.101624",
-      "trades": 1657485,
-      "avgBuyAmount": "51.15"
+      "buyQuoteVolume": "129187522.43748",
+      "trades": 2188098,
+      "avgBuyAmount": "59.04"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "53109328.069771",
-      "trades": 1239131,
-      "avgBuyAmount": "42.86"
+      "buyQuoteVolume": "66141009.915177",
+      "trades": 1504318,
+      "avgBuyAmount": "43.97"
     }
   ],
-  "bnb_price_usd": 614.58,
-  "bnb_price_ts": 1776153923,
+  "bnb_price_usd": 618.16,
+  "bnb_price_ts": 1776160222,
   "bnb_price_source": "coingecko"
 }
