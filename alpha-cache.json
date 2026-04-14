@@ -1,29 +1,6 @@
 {
   "airdrops": [
     {
-      "token": "GENIUS",
-      "name": "Genius",
-      "date": "2026-04-13",
-      "time": "23:30",
-      "points": 230,
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": false,
-      "amount": "240",
-      "type": "grab",
-      "created_timestamp": 1775976105,
-      "updated_timestamp": 1776076882,
-      "system_timestamp": 1776076882,
-      "contract_address": "0x1f12b85aac097e43aa1555b2881e98a51090e9a6",
-      "chain_id": "56",
-      "total_amount": "7500000",
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false
-    },
-    {
       "token": "ANOME",
       "date": "2026-04-14",
       "time": "17:00",
@@ -109,7 +86,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 100575
+      "count": 107271
     },
     {
       "key": "yesterday",
@@ -124,24 +101,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "921639503.98598",
-      "trades": 4834918,
-      "avgBuyAmount": "190.62"
+      "buyQuoteVolume": "993180508.1371",
+      "trades": 5286926,
+      "avgBuyAmount": "187.86"
     },
     {
       "symbol": "BASED",
-      "buyQuoteVolume": "270604631.70654",
-      "trades": 3633869,
-      "avgBuyAmount": "74.47"
+      "buyQuoteVolume": "271959716.4476",
+      "trades": 3703849,
+      "avgBuyAmount": "73.43"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "103303219.65248",
-      "trades": 2247960,
-      "avgBuyAmount": "45.95"
+      "buyQuoteVolume": "116340577.94724",
+      "trades": 2491515,
+      "avgBuyAmount": "46.69"
     }
   ],
-  "bnb_price_usd": 620.82,
-  "bnb_price_ts": 1776177023,
+  "bnb_price_usd": 623.7,
+  "bnb_price_ts": 1776182123,
   "bnb_price_source": "coingecko"
 }
