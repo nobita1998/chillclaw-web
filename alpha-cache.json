@@ -1,49 +1,25 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "HANA",
       "date": "2026-04-17",
       "time": "17:00",
-      "points": "242",
+      "points": 242,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1776407433,
-      "updated_timestamp": 1776415508,
-      "system_timestamp": 1776415508
-    },
-    {
-      "id": "warning_69e1f35d7e8231.60966820",
-      "token": "HANA",
+      "amount": "700",
       "name": "HANA",
-      "date": "2026-04-17",
-      "time": "17:00",
-      "type": "warning",
-      "phase": 1,
-      "status": "pending",
-      "timestamp": 1776415581,
-      "points": 242,
-      "amount": "800",
-      "total_amount": "19998700",
+      "created_timestamp": 1776407433,
+      "updated_timestamp": 1776416435,
+      "system_timestamp": 1776416435,
       "contract_address": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
       "chain_id": "56",
+      "total_amount": "2499400",
+      "completed": true,
       "has_homonym": false,
-      "paired_transfer": true,
-      "paired_from": "0x9b2e856c4d7e1bb27a85f7b2b8451fcfd981d52b",
-      "paired_tx_hash": "0x3d0ab0788be879c64f94508f06875ccbf9c5b4484c2088de178f33add685c305",
-      "paired_time_diff": 22,
-      "d976_tx_hash": "0xfca113c28f7900762acd086af6127ac624a2240658e1f8b7f900f625ea5a15e0",
-      "d976_tx_time": "2026-04-17 16:46:17",
-      "updated_at": "2026-04-17 16:48:40",
-      "system_timestamp": 1776415760,
-      "completed": false,
-      "confirmed_at": "2026-04-17 16:49:20",
-      "confirm_source": "manual_confirm",
-      "futures_listed": false,
       "spot_listed": false
     },
     {
@@ -52,22 +28,25 @@
       "name": "DAM",
       "date": "2026-04-17",
       "time": "17:00",
-      "type": "warning",
+      "type": "grab",
       "phase": 1,
       "status": "announced",
       "timestamp": 1776415631,
       "points": 242,
-      "amount": "800",
-      "total_amount": "",
+      "amount": "700",
+      "total_amount": "3884800",
       "contract_address": "0xf9ca3fe094212ffa705742d3626a8ab96aababf8",
       "chain_id": "56",
       "has_homonym": false,
-      "system_timestamp": 1776415777,
-      "completed": false,
+      "system_timestamp": 1776416435,
+      "completed": true,
       "confirmed_at": "2026-04-17 16:49:37",
       "confirm_source": "manual_confirm",
       "futures_listed": false,
-      "spot_listed": false
+      "spot_listed": false,
+      "created_timestamp": 1776415777,
+      "updated_timestamp": 1776416435,
+      "language": "zh"
     },
     {
       "id": "warning_69e1f3c7f07898.03709980",
@@ -75,29 +54,31 @@
       "name": "AGT",
       "date": "2026-04-17",
       "time": "17:00",
-      "type": "warning",
+      "type": "grab",
       "phase": 1,
       "status": "announced",
       "timestamp": 1776415687,
       "points": 242,
-      "amount": "2500",
+      "amount": "2800",
       "total_amount": "19998700",
       "contract_address": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
       "chain_id": "56",
       "has_homonym": false,
-      "system_timestamp": 1776416112,
-      "completed": false,
+      "system_timestamp": 1776416435,
+      "completed": true,
       "confirmed_at": "2026-04-17 16:53:23",
       "confirm_source": "manual_confirm",
       "futures_listed": false,
       "spot_listed": false,
-      "updated_timestamp": 1776416112
+      "updated_timestamp": 1776416435,
+      "created_timestamp": 1776416112,
+      "language": "zh"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 27281
+      "count": 32678
     },
     {
       "key": "yesterday",
@@ -112,24 +93,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "281897178.35832",
-      "trades": 1436714,
-      "avgBuyAmount": "196.21"
+      "buyQuoteVolume": "338950377.61605",
+      "trades": 1750041,
+      "avgBuyAmount": "193.68"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "52621745.546457",
-      "trades": 1136278,
-      "avgBuyAmount": "46.31"
+      "buyQuoteVolume": "60610817.478609",
+      "trades": 1281136,
+      "avgBuyAmount": "47.31"
     },
     {
       "symbol": "SIREN",
-      "buyQuoteVolume": "24609712.860365",
-      "trades": 224211,
-      "avgBuyAmount": "109.76"
+      "buyQuoteVolume": "35579379.444864",
+      "trades": 330046,
+      "avgBuyAmount": "107.8"
     }
   ],
-  "bnb_price_usd": 630.08,
-  "bnb_price_ts": 1776416124,
+  "bnb_price_usd": 633.02,
+  "bnb_price_ts": 1776420323,
   "bnb_price_source": "coingecko"
 }
