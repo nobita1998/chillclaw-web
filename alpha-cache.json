@@ -1,84 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "HANA",
-      "date": "2026-04-17",
-      "time": "17:00",
-      "points": 242,
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "700",
-      "name": "HANA",
-      "created_timestamp": 1776407433,
-      "updated_timestamp": 1776416435,
-      "system_timestamp": 1776416435,
-      "contract_address": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-      "chain_id": "56",
-      "total_amount": "2499400",
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false
-    },
-    {
-      "id": "warning_69e1f38f7d0281.33661363",
-      "token": "DAM",
-      "name": "DAM",
-      "date": "2026-04-17",
-      "time": "17:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1776415631,
-      "points": 242,
-      "amount": "700",
-      "total_amount": "3884800",
-      "contract_address": "0xf9ca3fe094212ffa705742d3626a8ab96aababf8",
-      "chain_id": "56",
-      "has_homonym": false,
-      "system_timestamp": 1776416435,
-      "completed": true,
-      "confirmed_at": "2026-04-17 16:49:37",
-      "confirm_source": "manual_confirm",
-      "futures_listed": false,
-      "spot_listed": false,
-      "created_timestamp": 1776415777,
-      "updated_timestamp": 1776416435,
-      "language": "zh"
-    },
-    {
-      "id": "warning_69e1f3c7f07898.03709980",
-      "token": "AGT",
-      "name": "AGT",
-      "date": "2026-04-17",
-      "time": "17:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1776415687,
-      "points": 242,
-      "amount": "2800",
-      "total_amount": "19998700",
-      "contract_address": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
-      "chain_id": "56",
-      "has_homonym": false,
-      "system_timestamp": 1776416435,
-      "completed": true,
-      "confirmed_at": "2026-04-17 16:53:23",
-      "confirm_source": "manual_confirm",
-      "futures_listed": false,
-      "spot_listed": false,
-      "updated_timestamp": 1776416435,
-      "created_timestamp": 1776416112,
-      "language": "zh"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39884
+      "count": 44549
     },
     {
       "key": "yesterday",
@@ -93,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "463638988.72649",
-      "trades": 2553329,
-      "avgBuyAmount": "181.58"
+      "buyQuoteVolume": "516494235.48537",
+      "trades": 2878639,
+      "avgBuyAmount": "179.42"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "34950049.717946",
-      "trades": 984169,
-      "avgBuyAmount": "35.51"
+      "buyQuoteVolume": "40589773.913981",
+      "trades": 1135226,
+      "avgBuyAmount": "35.75"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "15150386.29099",
-      "trades": 551996,
-      "avgBuyAmount": "27.45"
+      "buyQuoteVolume": "16751890.738908",
+      "trades": 622858,
+      "avgBuyAmount": "26.9"
     }
   ],
-  "bnb_price_usd": 638.62,
-  "bnb_price_ts": 1776501023,
+  "bnb_price_usd": 636.42,
+  "bnb_price_ts": 1776504923,
   "bnb_price_source": "coingecko"
 }
