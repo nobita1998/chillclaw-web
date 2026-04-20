@@ -1,9 +1,35 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "OPG",
+      "name": "opengradient",
+      "date": "2026-04-21",
+      "time": "17:00",
+      "points": "",
+      "type": "tge",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "pretge": false,
+      "bctge": false,
+      "futures_listed": false,
+      "amount": "",
+      "created_timestamp": 1776689346,
+      "updated_timestamp": 1776692403,
+      "system_timestamp": 1776692403,
+      "contract_address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
+      "chain_id": "56",
+      "collection_address": "0x3530204d59c3e19e8a5cb88c6bdd703f63997c85",
+      "target_bnb": "162.2",
+      "actual_bnb": "0",
+      "bnb_limit": "3",
+      "tge_total": "10000000"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 57868
+      "count": 73541
     },
     {
       "key": "yesterday",
@@ -18,24 +44,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "636775364.99729",
-      "trades": 3720114,
-      "avgBuyAmount": "171.17"
+      "buyQuoteVolume": "772814551.06613",
+      "trades": 4499791,
+      "avgBuyAmount": "171.74"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "90907917.490365",
-      "trades": 2205408,
-      "avgBuyAmount": "41.22"
+      "buyQuoteVolume": "152993828.79476",
+      "trades": 2933094,
+      "avgBuyAmount": "52.16"
     },
     {
-      "symbol": "PIEVERSE",
-      "buyQuoteVolume": "9629697.2609293",
-      "trades": 117845,
-      "avgBuyAmount": "81.71"
+      "symbol": "EDGE",
+      "buyQuoteVolume": "11891687.253637",
+      "trades": 780485,
+      "avgBuyAmount": "15.24"
     }
   ],
-  "bnb_price_usd": 625.76,
-  "bnb_price_ts": 1776686423,
+  "bnb_price_usd": 625.14,
+  "bnb_price_ts": 1776694523,
   "bnb_price_source": "coingecko"
 }
