@@ -1,32 +1,6 @@
 {
   "airdrops": [
     {
-      "token": "OPG",
-      "name": "OpenGradient",
-      "date": "2026-04-21",
-      "time": "17:00",
-      "points": "226",
-      "type": "tge",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "pretge": false,
-      "bctge": false,
-      "futures_listed": false,
-      "amount": 254.56,
-      "created_timestamp": 1776689346,
-      "updated_timestamp": 1776769250,
-      "system_timestamp": 1776756281,
-      "contract_address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
-      "chain_id": "56",
-      "collection_address": "0x3530204d59c3e19e8a5cb88c6bdd703f63997c85",
-      "target_bnb": "162.2",
-      "actual_bnb": "117907.25858394",
-      "bnb_limit": "3",
-      "tge_total": "10000000",
-      "total_amount": "10000000"
-    },
-    {
       "token": "CHIP",
       "name": "USD.AI",
       "date": "2026-04-21",
@@ -48,27 +22,39 @@
       "completed": true
     },
     {
-      "token": "USDAI",
-      "name": "CHIP",
+      "token": "OPG",
+      "name": "OpenGradient",
       "date": "2026-04-21",
-      "time": "",
+      "time": "17:00",
+      "points": 226,
+      "type": "tge",
       "phase": 1,
-      "language": "zh",
+      "language": "en",
       "status": "announced",
-      "utc": "",
+      "pretge": false,
+      "bctge": false,
       "futures_listed": false,
-      "system_timestamp": 1776772665,
-      "created_timestamp": 1776772665,
-      "updated_timestamp": 1776772665,
-      "points": "",
-      "amount": "",
-      "type": ""
+      "amount": "254",
+      "created_timestamp": 1776689346,
+      "updated_timestamp": 1776769250,
+      "system_timestamp": 1776756281,
+      "contract_address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
+      "chain_id": "56",
+      "collection_address": "0x3530204d59c3e19e8a5cb88c6bdd703f63997c85",
+      "target_bnb": "162.2",
+      "actual_bnb": "117907.25858394",
+      "bnb_limit": "3",
+      "tge_total": "10000000",
+      "total_amount": "10000000",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 60603
+      "count": 71785
     },
     {
       "key": "yesterday",
@@ -83,24 +69,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "650541041.60734",
-      "trades": 3881930,
-      "avgBuyAmount": "167.58"
+      "buyQuoteVolume": "754568984.2292",
+      "trades": 4473045,
+      "avgBuyAmount": "168.69"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "105552417.67393",
-      "trades": 2451116,
-      "avgBuyAmount": "43.06"
+      "buyQuoteVolume": "143086620.9587",
+      "trades": 2988960,
+      "avgBuyAmount": "47.87"
     },
     {
       "symbol": "RAVE",
-      "buyQuoteVolume": "40141248.421132",
-      "trades": 309880,
-      "avgBuyAmount": "129.54"
+      "buyQuoteVolume": "42737556.999791",
+      "trades": 330141,
+      "avgBuyAmount": "129.45"
     }
   ],
-  "bnb_price_usd": 632.08,
-  "bnb_price_ts": 1776776723,
+  "bnb_price_usd": 633.99,
+  "bnb_price_ts": 1776783023,
   "bnb_price_source": "coingecko"
 }
