@@ -5,7 +5,7 @@
       "name": "opengradient",
       "date": "2026-04-21",
       "time": "17:00",
-      "points": "",
+      "points": "226",
       "type": "tge",
       "phase": 1,
       "language": "en",
@@ -15,8 +15,8 @@
       "futures_listed": false,
       "amount": "",
       "created_timestamp": 1776689346,
-      "updated_timestamp": 1776692403,
-      "system_timestamp": 1776692403,
+      "updated_timestamp": 1776756281,
+      "system_timestamp": 1776756281,
       "contract_address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
       "chain_id": "56",
       "collection_address": "0x3530204d59c3e19e8a5cb88c6bdd703f63997c85",
@@ -29,7 +29,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 28092
+      "count": 39257
     },
     {
       "key": "yesterday",
@@ -44,24 +44,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "308115864.91943",
-      "trades": 1833857,
-      "avgBuyAmount": "168.02"
+      "buyQuoteVolume": "433621997.04449",
+      "trades": 2488738,
+      "avgBuyAmount": "174.23"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "41676742.191377",
-      "trades": 1055595,
-      "avgBuyAmount": "39.48"
+      "buyQuoteVolume": "56444983.751666",
+      "trades": 1427474,
+      "avgBuyAmount": "39.54"
     },
     {
       "symbol": "RAVE",
-      "buyQuoteVolume": "24032867.679734",
-      "trades": 179881,
-      "avgBuyAmount": "133.6"
+      "buyQuoteVolume": "30547259.039611",
+      "trades": 230004,
+      "avgBuyAmount": "132.81"
     }
   ],
-  "bnb_price_usd": 630.61,
-  "bnb_price_ts": 1776752123,
+  "bnb_price_usd": 633.23,
+  "bnb_price_ts": 1776759023,
   "bnb_price_source": "coingecko"
 }
