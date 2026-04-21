@@ -13,23 +13,24 @@
       "pretge": false,
       "bctge": false,
       "futures_listed": false,
-      "amount": 426.39,
+      "amount": 257.15,
       "created_timestamp": 1776689346,
-      "updated_timestamp": 1776764450,
+      "updated_timestamp": 1776768049,
       "system_timestamp": 1776756281,
       "contract_address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
       "chain_id": "56",
       "collection_address": "0x3530204d59c3e19e8a5cb88c6bdd703f63997c85",
       "target_bnb": "162.2",
-      "actual_bnb": "70358.28",
+      "actual_bnb": "116662.29",
       "bnb_limit": "3",
-      "tge_total": "10000000"
+      "tge_total": "10000000",
+      "total_amount": "10000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 45896
+      "count": 49027
     },
     {
       "key": "yesterday",
@@ -44,24 +45,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "500787233.51134",
-      "trades": 2943527,
-      "avgBuyAmount": "170.13"
+      "buyQuoteVolume": "534342942.21335",
+      "trades": 3185078,
+      "avgBuyAmount": "167.76"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "71247878.948809",
-      "trades": 1757311,
-      "avgBuyAmount": "40.54"
+      "buyQuoteVolume": "76258691.290364",
+      "trades": 1916162,
+      "avgBuyAmount": "39.8"
     },
     {
       "symbol": "RAVE",
-      "buyQuoteVolume": "35061843.171672",
-      "trades": 270267,
-      "avgBuyAmount": "129.73"
+      "buyQuoteVolume": "36482077.445284",
+      "trades": 283528,
+      "avgBuyAmount": "128.67"
     }
   ],
-  "bnb_price_usd": 636.71,
-  "bnb_price_ts": 1776765323,
+  "bnb_price_usd": 640.57,
+  "bnb_price_ts": 1776768923,
   "bnb_price_source": "coingecko"
 }
