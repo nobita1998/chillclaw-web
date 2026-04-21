@@ -25,12 +25,50 @@
       "bnb_limit": "3",
       "tge_total": "10000000",
       "total_amount": "10000000"
+    },
+    {
+      "token": "CHIP",
+      "name": "USD.AI",
+      "date": "2026-04-21",
+      "time": "20:20",
+      "points": "230",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "750",
+      "type": "grab",
+      "created_timestamp": 1776772665,
+      "updated_timestamp": 1776773951,
+      "system_timestamp": 1776773951,
+      "contract_address": "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e",
+      "chain_id": "42161",
+      "total_amount": "24984750",
+      "completed": true
+    },
+    {
+      "token": "USDAI",
+      "name": "CHIP",
+      "date": "2026-04-21",
+      "time": "",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "system_timestamp": 1776772665,
+      "created_timestamp": 1776772665,
+      "updated_timestamp": 1776772665,
+      "points": "",
+      "amount": "",
+      "type": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 53673
+      "count": 60603
     },
     {
       "key": "yesterday",
@@ -45,24 +83,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "581108943.63831",
-      "trades": 3480249,
-      "avgBuyAmount": "166.97"
+      "buyQuoteVolume": "650541041.60734",
+      "trades": 3881930,
+      "avgBuyAmount": "167.58"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "87729504.791257",
-      "trades": 2130790,
-      "avgBuyAmount": "41.17"
+      "buyQuoteVolume": "105552417.67393",
+      "trades": 2451116,
+      "avgBuyAmount": "43.06"
     },
     {
       "symbol": "RAVE",
-      "buyQuoteVolume": "37856866.841658",
-      "trades": 293896,
-      "avgBuyAmount": "128.81"
+      "buyQuoteVolume": "40141248.421132",
+      "trades": 309880,
+      "avgBuyAmount": "129.54"
     }
   ],
-  "bnb_price_usd": 633.96,
-  "bnb_price_ts": 1776772523,
+  "bnb_price_usd": 632.08,
+  "bnb_price_ts": 1776776723,
   "bnb_price_source": "coingecko"
 }
