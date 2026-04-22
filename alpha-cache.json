@@ -20,41 +20,12 @@
       "chain_id": "42161",
       "total_amount": "24984750",
       "completed": true
-    },
-    {
-      "token": "OPG",
-      "name": "OpenGradient",
-      "date": "2026-04-21",
-      "time": "17:00",
-      "points": 226,
-      "type": "tge",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "pretge": false,
-      "bctge": false,
-      "futures_listed": false,
-      "amount": "254",
-      "created_timestamp": 1776689346,
-      "updated_timestamp": 1776769250,
-      "system_timestamp": 1776756281,
-      "contract_address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
-      "chain_id": "56",
-      "collection_address": "0x3530204d59c3e19e8a5cb88c6bdd703f63997c85",
-      "target_bnb": "162.2",
-      "actual_bnb": "117907.25858394",
-      "bnb_limit": "3",
-      "tge_total": "10000000",
-      "total_amount": "10000000",
-      "completed": false,
-      "has_homonym": false,
-      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 41797
+      "count": 49811
     },
     {
       "key": "yesterday",
@@ -69,24 +40,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "472215389.0097",
-      "trades": 2557739,
-      "avgBuyAmount": "184.62"
+      "buyQuoteVolume": "562856627.74013",
+      "trades": 3093356,
+      "avgBuyAmount": "181.96"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "53717491.291054",
-      "trades": 1472805,
-      "avgBuyAmount": "36.47"
+      "buyQuoteVolume": "63939482.497606",
+      "trades": 1769392,
+      "avgBuyAmount": "36.14"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "8384830.324128",
-      "trades": 436164,
-      "avgBuyAmount": "19.22"
+      "buyQuoteVolume": "9871267.7205902",
+      "trades": 529291,
+      "avgBuyAmount": "18.65"
     }
   ],
-  "bnb_price_usd": 642.34,
-  "bnb_price_ts": 1776845423,
+  "bnb_price_usd": 642.53,
+  "bnb_price_ts": 1776851723,
   "bnb_price_source": "coingecko"
 }
