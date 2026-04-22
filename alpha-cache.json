@@ -1,31 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "CHIP",
-      "name": "USD.AI",
-      "date": "2026-04-21",
-      "time": "20:20",
-      "points": "230",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": false,
-      "amount": "750",
-      "type": "grab",
-      "created_timestamp": 1776772665,
-      "updated_timestamp": 1776773951,
-      "system_timestamp": 1776773951,
-      "contract_address": "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e",
-      "chain_id": "42161",
-      "total_amount": "24984750",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 57023
+      "count": 61896
     },
     {
       "key": "yesterday",
@@ -40,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "PRL",
-      "buyQuoteVolume": "623913621.0901",
-      "trades": 3590890,
-      "avgBuyAmount": "173.75"
+      "buyQuoteVolume": "669296625.49756",
+      "trades": 3875435,
+      "avgBuyAmount": "172.7"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "91939209.268758",
-      "trades": 2228947,
-      "avgBuyAmount": "41.25"
+      "buyQuoteVolume": "107541346.99955",
+      "trades": 2444705,
+      "avgBuyAmount": "43.99"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "12344834.009482",
-      "trades": 654756,
-      "avgBuyAmount": "18.85"
+      "buyQuoteVolume": "13649596.523017",
+      "trades": 717848,
+      "avgBuyAmount": "19.01"
     }
   ],
-  "bnb_price_usd": 642.9,
-  "bnb_price_ts": 1776858923,
+  "bnb_price_usd": 643.09,
+  "bnb_price_ts": 1776862223,
   "bnb_price_source": "coingecko"
 }
