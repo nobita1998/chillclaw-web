@@ -1,26 +1,103 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_69eb2e5059fb01.68959523",
+      "token": "EVAA",
+      "name": "EVAA",
       "date": "2026-04-24",
       "time": "17:00",
-      "points": "228",
       "type": "grab",
       "phase": 1,
-      "language": "zh",
-      "status": "announced",
+      "status": "pending",
+      "timestamp": 1777020496,
+      "points": 228,
+      "amount": "46",
+      "total_amount": "246796",
+      "contract_address": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+      "chain_id": "56",
+      "has_homonym": false,
+      "updated_at": "2026-04-24 16:51:53",
+      "paired_transfer": true,
+      "paired_from": "0xdd228b0b58ec7bd9aa8f759f1359c460931ef969",
+      "paired_tx_hash": "0x23c74ff6351ae9fca8efb1a58ff7e8c8589d2b4bf2be94e05c45087b80706e80",
+      "paired_time_diff": 4,
+      "d976_tx_hash": "0x6b38bb7ccffc3d8cdb9ef781f8a9921fdd6bd1af24ec6439e7099f031b46ea04",
+      "d976_tx_time": "2026-04-24 16:48:12",
+      "system_timestamp": 1777021032,
+      "completed": true,
+      "confirmed_at": "2026-04-24 16:51:57",
+      "confirm_source": "manual_confirm",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1777014212,
-      "updated_timestamp": 1777018507,
-      "system_timestamp": 1777018507
+      "spot_listed": false,
+      "updated_timestamp": 1777021032
+    },
+    {
+      "id": "warning_69eb2e4a94fe89.26495352",
+      "token": "ROLL",
+      "name": "ROLL",
+      "date": "2026-04-24",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1777020490,
+      "points": 228,
+      "amount": "466",
+      "total_amount": "3328955",
+      "contract_address": "0xab6363da0c80cef3ae105bd6241e30872355d021",
+      "chain_id": "8453",
+      "has_homonym": false,
+      "paired_transfer": true,
+      "paired_from": "0x4afccac4cce1b7b50d7b0d164919d8af1431aa58",
+      "paired_tx_hash": "0xf7f1560c9115c99583b99bcc6f4b825b9d33212eb6fae96f7d1e25c2da2d2b39",
+      "paired_time_diff": 4,
+      "tx_hash": "0xf7f1560c9115c99583b99bcc6f4b825b9d33212eb6fae96f7d1e25c2da2d2b39",
+      "tx_time": "2026-04-24 16:48:03",
+      "d976_tx_hash": "0xe4512b2c13c784c6be6ad812fa74086a1a921fa39389ffdce7bad6f119c1640c",
+      "d976_tx_time": "2026-04-24 16:48:07",
+      "updated_at": "2026-04-24 16:54:12",
+      "system_timestamp": 1777020857,
+      "completed": true,
+      "confirmed_at": "2026-04-24 16:54:17",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false
+    },
+    {
+      "id": "warning_69eb2e4336d572.27575757",
+      "token": "RION",
+      "name": "RION",
+      "date": "2026-04-24",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1777020483,
+      "points": 228,
+      "amount": "93",
+      "total_amount": "498532",
+      "contract_address": "0xc0c240c870606a5cb3150795e2d0dfff9f1f7456",
+      "chain_id": "56",
+      "has_homonym": false,
+      "paired_transfer": true,
+      "paired_from": "0x14ac6f20b2555de6bb53a7d64ec95aaf775f5c3d",
+      "paired_tx_hash": "0x646e970ab2347a0d4d1f749249adf1eb2153138100e6f9503cce87b82b80da78",
+      "paired_time_diff": 3,
+      "d976_tx_hash": "0xa98ad51e740b4f9db0ccc4812fa44d0e0c8cfef31aebd99c0a2eaf87a6573dc8",
+      "d976_tx_time": "2026-04-24 16:47:59",
+      "updated_at": "2026-04-24 16:55:37",
+      "system_timestamp": 1777020942,
+      "completed": true,
+      "confirmed_at": "2026-04-24 16:55:42",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 32089
+      "count": 38717
     },
     {
       "key": "yesterday",
@@ -35,24 +112,24 @@
   "top3_tokens": [
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "396204922.46613",
-      "trades": 2618369,
-      "avgBuyAmount": "151.32"
+      "buyQuoteVolume": "476080544.23299",
+      "trades": 3113702,
+      "avgBuyAmount": "152.9"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "14017440.313483",
-      "trades": 522400,
-      "avgBuyAmount": "26.83"
+      "buyQuoteVolume": "18859509.425768",
+      "trades": 638637,
+      "avgBuyAmount": "29.53"
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "4290445.5951719",
-      "trades": 148725,
-      "avgBuyAmount": "28.85"
+      "buyQuoteVolume": "4761938.9789043",
+      "trades": 154740,
+      "avgBuyAmount": "30.77"
     }
   ],
-  "bnb_price_usd": 637.5,
-  "bnb_price_ts": 1777019122,
+  "bnb_price_usd": 633.8,
+  "bnb_price_ts": 1777024523,
   "bnb_price_source": "coingecko"
 }
