@@ -1,9 +1,26 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-04-24",
+      "time": "17:00",
+      "points": "228",
+      "type": "grab",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1777014212,
+      "updated_timestamp": 1777018507,
+      "system_timestamp": 1777018507
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 21793
+      "count": 32089
     },
     {
       "key": "yesterday",
@@ -18,24 +35,24 @@
   "top3_tokens": [
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "269220247.07144",
-      "trades": 1856589,
-      "avgBuyAmount": "145.01"
+      "buyQuoteVolume": "396204922.46613",
+      "trades": 2618369,
+      "avgBuyAmount": "151.32"
     },
     {
       "symbol": "EDGE",
-      "buyQuoteVolume": "8987697.6763833",
-      "trades": 374631,
-      "avgBuyAmount": "23.99"
+      "buyQuoteVolume": "14017440.313483",
+      "trades": 522400,
+      "avgBuyAmount": "26.83"
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "3216909.8239925",
-      "trades": 135521,
-      "avgBuyAmount": "23.74"
+      "buyQuoteVolume": "4290445.5951719",
+      "trades": 148725,
+      "avgBuyAmount": "28.85"
     }
   ],
-  "bnb_price_usd": 634.82,
-  "bnb_price_ts": 1777011623,
+  "bnb_price_usd": 637.5,
+  "bnb_price_ts": 1777019122,
   "bnb_price_source": "coingecko"
 }
