@@ -1,9 +1,33 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "AIGENSYN",
+      "name": "Gensyn",
+      "date": "2026-04-29",
+      "time": "17:00",
+      "points": 227,
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "715",
+      "type": "grab",
+      "created_timestamp": 1777447148,
+      "updated_timestamp": 1777450749,
+      "system_timestamp": 1777450749,
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "20000001",
+      "contract_address": "0x4d7078ddd6ccfed2f85db5b7d3ff16828d378d48",
+      "chain_id": "1"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 45167
+      "count": 56214
     },
     {
       "key": "yesterday",
@@ -18,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "468311303.67556",
-      "trades": 2650790,
-      "avgBuyAmount": "176.67"
+      "buyQuoteVolume": "606108595.74978",
+      "trades": 3420306,
+      "avgBuyAmount": "177.21"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "424901786.56202",
+      "buyQuoteVolume": "427549517.01426",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "8683649.5797711",
-      "trades": 437000,
-      "avgBuyAmount": "19.87"
+      "buyQuoteVolume": "12145560.15965",
+      "trades": 601381,
+      "avgBuyAmount": "20.2"
     }
   ],
-  "bnb_price_usd": 626.01,
-  "bnb_price_ts": 1777446623,
+  "bnb_price_usd": 626.39,
+  "bnb_price_ts": 1777454722,
   "bnb_price_source": "coingecko"
 }
