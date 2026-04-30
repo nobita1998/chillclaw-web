@@ -1,26 +1,95 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_69f325ebed2971.64455233",
+      "token": "TAC",
+      "name": "TAC",
       "date": "2026-04-30",
       "time": "18:00",
-      "points": "240",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1777542635,
+      "points": 240,
+      "amount": "1870",
+      "total_amount": "13332310",
+      "contract_address": "0x1219c409fabe2c27bd0d1a565daeed9bd9f271de",
+      "chain_id": "56",
+      "has_homonym": false,
+      "paired_transfer": true,
+      "paired_from": "0xb5893a55965a4a01c239f852d93ac47942415231",
+      "paired_tx_hash": "0xc0b80d4485ae1a2c589f2574731134869a165fa67e001d39e1a0ca8eb861d8e4",
+      "paired_time_diff": 3,
+      "tx_hash": "0x61cfaa145b1a49be34fc9a503da67aa7f41f562d84ae775cbe0ba338cd2f0255",
+      "tx_time": "2026-04-30 17:50:09",
+      "d976_tx_hash": "0x61cfaa145b1a49be34fc9a503da67aa7f41f562d84ae775cbe0ba338cd2f0255",
+      "d976_tx_time": "2026-04-30 17:50:09",
+      "system_timestamp": 1777542731,
+      "completed": true,
+      "confirmed_at": "2026-04-30 17:52:11",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false
+    },
+    {
+      "id": "large_transfer_69f3261a277e21.49640991",
+      "token": "RECALL",
+      "name": "RECALL",
+      "date": "2026-04-30",
+      "time": "18:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1777542682,
+      "points": 240,
+      "amount": "575",
+      "total_amount": "4081390",
+      "contract_address": "0x1f16e03c1a5908818f47f6ee7bb16690b40d0671",
+      "chain_id": "8453",
+      "has_homonym": false,
+      "tx_hash": "0xa6144cad92aa49a472dea82fdabf4d12a3fff0da7c5651dc85a1cf8e6b5ff7da",
+      "tx_time": "2026-04-30 17:50:53",
+      "source": "large_transfer_monitor",
+      "paired_transfer": true,
+      "paired_from": "0xea3d09297360fd9288b67680e2e93bc1e02cbbda",
+      "paired_tx_hash": "0xa6144cad92aa49a472dea82fdabf4d12a3fff0da7c5651dc85a1cf8e6b5ff7da",
+      "paired_time_diff": 12,
+      "d976_tx_hash": "0x4c34598f3041a3fef88e4ead95ed95857858aa38cf652109839c789e99bcb4b2",
+      "d976_tx_time": "2026-04-30 17:51:05",
+      "system_timestamp": 1777542741,
+      "completed": true,
+      "confirmed_at": "2026-04-30 17:52:21",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false
+    },
+    {
+      "token": "CARV",
+      "date": "2026-04-30",
+      "time": "18:00",
+      "points": 240,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "ongoing",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "510",
+      "name": "CARV",
       "created_timestamp": 1777532504,
-      "updated_timestamp": 1777541406,
-      "system_timestamp": 1777541406
+      "updated_timestamp": 1777543471,
+      "system_timestamp": 1777543471,
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "",
+      "contract_address": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+      "chain_id": "56"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 59219
+      "count": 68785
     },
     {
       "key": "yesterday",
@@ -35,24 +104,24 @@
   "top3_tokens": [
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "635922723.59421",
-      "trades": 4747827,
-      "avgBuyAmount": "133.94"
+      "buyQuoteVolume": "751718173.41972",
+      "trades": 5731071,
+      "avgBuyAmount": "131.17"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "420805980.21047",
+      "buyQuoteVolume": "412388231.38433",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "24948799.222241",
-      "trades": 920667,
-      "avgBuyAmount": "27.1"
+      "buyQuoteVolume": "33100040.665812",
+      "trades": 1123142,
+      "avgBuyAmount": "29.47"
     }
   ],
-  "bnb_price_usd": 616.94,
-  "bnb_price_ts": 1777541422,
+  "bnb_price_usd": 616.5,
+  "bnb_price_ts": 1777548022,
   "bnb_price_source": "coingecko"
 }
