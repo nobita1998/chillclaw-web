@@ -22,12 +22,28 @@
       "total_amount": "20000001",
       "contract_address": "0x4d7078ddd6ccfed2f85db5b7d3ff16828d378d48",
       "chain_id": "1"
+    },
+    {
+      "token": "",
+      "date": "2026-04-30",
+      "time": "18:00",
+      "points": "240",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "ongoing",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1777532504,
+      "updated_timestamp": 1777533548,
+      "system_timestamp": 1777533548
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 29916
+      "count": 46343
     },
     {
       "key": "yesterday",
@@ -41,25 +57,25 @@
   "last_rollover_date": "2026-04-30",
   "top3_tokens": [
     {
+      "symbol": "GENIUS",
+      "buyQuoteVolume": "477947727.86043",
+      "trades": 3561137,
+      "avgBuyAmount": "134.21"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "405993473.26939",
+      "buyQuoteVolume": "413364920.07899",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "GENIUS",
-      "buyQuoteVolume": "273807881.94322",
-      "trades": 2159299,
-      "avgBuyAmount": "126.8"
-    },
-    {
       "symbol": "OPG",
-      "buyQuoteVolume": "12290583.454886",
-      "trades": 413347,
-      "avgBuyAmount": "29.73"
+      "buyQuoteVolume": "18793030.863975",
+      "trades": 690273,
+      "avgBuyAmount": "27.23"
     }
   ],
-  "bnb_price_usd": 614.4,
-  "bnb_price_ts": 1777524323,
+  "bnb_price_usd": 616,
+  "bnb_price_ts": 1777533622,
   "bnb_price_source": "coingecko"
 }
