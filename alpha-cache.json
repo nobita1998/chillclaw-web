@@ -1,30 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "UAI",
-      "date": "2026-05-01",
-      "time": "15:00",
-      "points": "237",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "ongoing",
-      "futures_listed": false,
-      "system_timestamp": 1777618851,
-      "created_timestamp": 1777613477,
-      "updated_timestamp": 1777618851,
-      "amount": "95",
-      "name": "UAI",
-      "contract_address": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
-      "chain_id": "56",
-      "total_amount": "1060580",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 42312
+      "count": 51422
     },
     {
       "key": "yesterday",
@@ -39,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "430172167.518",
+      "buyQuoteVolume": "423694400.96098",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "260214108.38179",
-      "trades": 1808344,
-      "avgBuyAmount": "143.9"
+      "buyQuoteVolume": "317961720.55544",
+      "trades": 2172614,
+      "avgBuyAmount": "146.35"
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "151383703.12598",
-      "trades": 1820911,
-      "avgBuyAmount": "83.14"
+      "buyQuoteVolume": "205252927.2348",
+      "trades": 2277044,
+      "avgBuyAmount": "90.14"
     }
   ],
-  "bnb_price_usd": 615.64,
-  "bnb_price_ts": 1777704623,
+  "bnb_price_usd": 615.56,
+  "bnb_price_ts": 1777709423,
   "bnb_price_source": "coingecko"
 }
