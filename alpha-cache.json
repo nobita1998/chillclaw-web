@@ -23,7 +23,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 62756
+      "count": 67996
     },
     {
       "key": "yesterday",
@@ -37,25 +37,25 @@
   "last_rollover_date": "2026-05-03",
   "top3_tokens": [
     {
+      "symbol": "OPG",
+      "buyQuoteVolume": "462565805.99763",
+      "trades": 3440055,
+      "avgBuyAmount": "134.46"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "446912356.58262",
+      "buyQuoteVolume": "453204100.36467",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "OPG",
-      "buyQuoteVolume": "424637424.0939",
-      "trades": 3151125,
-      "avgBuyAmount": "134.76"
-    },
-    {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "191760448.57477",
-      "trades": 2127861,
-      "avgBuyAmount": "90.12"
+      "buyQuoteVolume": "207464366.2566",
+      "trades": 2312980,
+      "avgBuyAmount": "89.7"
     }
   ],
-  "bnb_price_usd": 618.78,
-  "bnb_price_ts": 1777801523,
+  "bnb_price_usd": 618.07,
+  "bnb_price_ts": 1777804823,
   "bnb_price_source": "coingecko"
 }
