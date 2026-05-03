@@ -4,7 +4,7 @@
       "token": "BILL",
       "name": "Billions Network",
       "date": "2026-05-04",
-      "time": "",
+      "time": "15:00",
       "points": "",
       "phase": 1,
       "language": "zh",
@@ -23,7 +23,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 105147
+      "count": 105724
     },
     {
       "key": "yesterday",
@@ -38,24 +38,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "749787447.93727",
-      "trades": 6061330,
-      "avgBuyAmount": "123.7"
+      "buyQuoteVolume": "753499394.52743",
+      "trades": 6167526,
+      "avgBuyAmount": "122.17"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "451257707.24249",
+      "buyQuoteVolume": "455005366.7642",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "345287506.61628",
-      "trades": 4245016,
-      "avgBuyAmount": "81.34"
+      "buyQuoteVolume": "347285768.14366",
+      "trades": 4327298,
+      "avgBuyAmount": "80.25"
     }
   ],
-  "bnb_price_usd": 619.16,
-  "bnb_price_ts": 1777839923,
+  "bnb_price_usd": 619.2,
+  "bnb_price_ts": 1777842323,
   "bnb_price_source": "coingecko"
 }
