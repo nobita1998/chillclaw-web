@@ -18,13 +18,14 @@
       "system_timestamp": 1777873310,
       "contract_address": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
       "chain_id": "56",
-      "total_amount": "80000000"
+      "total_amount": "80000000",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 47543
+      "count": 60839
     },
     {
       "key": "yesterday",
@@ -39,24 +40,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "441523576.28857",
+      "buyQuoteVolume": "427355531.84938",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "313328191.47867",
-      "trades": 2242769,
-      "avgBuyAmount": "139.71"
+      "buyQuoteVolume": "410962634.8078",
+      "trades": 2909992,
+      "avgBuyAmount": "141.22"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "100260674.37007",
-      "trades": 1458055,
-      "avgBuyAmount": "68.76"
+      "buyQuoteVolume": "136799800.80564",
+      "trades": 1904822,
+      "avgBuyAmount": "71.82"
     }
   ],
-  "bnb_price_usd": 629.08,
-  "bnb_price_ts": 1777879522,
+  "bnb_price_usd": 629.75,
+  "bnb_price_ts": 1777887322,
   "bnb_price_source": "coingecko"
 }
