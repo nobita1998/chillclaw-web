@@ -5,25 +5,26 @@
       "name": "Billions Network",
       "date": "2026-05-04",
       "time": "15:00",
-      "points": "",
+      "points": "220",
       "phase": 1,
       "language": "zh",
       "status": "announced",
       "utc": "",
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "2000",
+      "type": "grab",
       "created_timestamp": 1777714893,
-      "updated_timestamp": 1777728200,
-      "system_timestamp": 1777728200,
+      "updated_timestamp": 1777873310,
+      "system_timestamp": 1777873310,
       "contract_address": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
-      "chain_id": "56"
+      "chain_id": "56",
+      "total_amount": "80000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 26651
+      "count": 47543
     },
     {
       "key": "yesterday",
@@ -38,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "447676680.50303",
+      "buyQuoteVolume": "441523576.28857",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "135458465.94678",
-      "trades": 1142754,
-      "avgBuyAmount": "118.54"
+      "buyQuoteVolume": "313328191.47867",
+      "trades": 2242769,
+      "avgBuyAmount": "139.71"
     },
     {
       "symbol": "GENIUS",
-      "buyQuoteVolume": "57976243.498562",
-      "trades": 821502,
-      "avgBuyAmount": "70.57"
+      "buyQuoteVolume": "100260674.37007",
+      "trades": 1458055,
+      "avgBuyAmount": "68.76"
     }
   ],
-  "bnb_price_usd": 628.24,
-  "bnb_price_ts": 1777867823,
+  "bnb_price_usd": 629.08,
+  "bnb_price_ts": 1777879522,
   "bnb_price_source": "coingecko"
 }
