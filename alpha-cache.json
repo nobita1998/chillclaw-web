@@ -25,7 +25,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 78883
+      "count": 91499
     },
     {
       "key": "yesterday",
@@ -40,24 +40,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "542907547.99397",
-      "trades": 3901022,
-      "avgBuyAmount": "139.17"
+      "buyQuoteVolume": "658870639.01123",
+      "trades": 4660442,
+      "avgBuyAmount": "141.38"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "417567088.07687",
+      "buyQuoteVolume": "414568300.77396",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ST",
-      "buyQuoteVolume": "196671855.76466",
-      "trades": 3569250,
-      "avgBuyAmount": "55.1"
+      "buyQuoteVolume": "216100798.12997",
+      "trades": 4020499,
+      "avgBuyAmount": "53.75"
     }
   ],
-  "bnb_price_usd": 621.6,
-  "bnb_price_ts": 1777899922,
+  "bnb_price_usd": 624.44,
+  "bnb_price_ts": 1777908323,
   "bnb_price_source": "coingecko"
 }
