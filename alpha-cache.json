@@ -1,31 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "BILL",
-      "name": "Billions Network",
-      "date": "2026-05-04",
-      "time": "15:00",
-      "points": "220",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": false,
-      "amount": "2000",
-      "type": "grab",
-      "created_timestamp": 1777714893,
-      "updated_timestamp": 1777873310,
-      "system_timestamp": 1777873310,
-      "contract_address": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
-      "chain_id": "56",
-      "total_amount": "80000000",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 30441
+      "count": 45862
     },
     {
       "key": "yesterday",
@@ -40,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "418224705.3643",
+      "buyQuoteVolume": "419427114.90801",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "185290236.97025",
-      "trades": 1330140,
-      "avgBuyAmount": "139.3"
+      "buyQuoteVolume": "332350878.12386",
+      "trades": 2209304,
+      "avgBuyAmount": "150.43"
     },
     {
-      "symbol": "GENIUS",
-      "buyQuoteVolume": "45876007.366175",
-      "trades": 827344,
-      "avgBuyAmount": "55.45"
+      "symbol": "ST",
+      "buyQuoteVolume": "78784450.680923",
+      "trades": 1398499,
+      "avgBuyAmount": "56.34"
     }
   ],
-  "bnb_price_usd": 626.77,
-  "bnb_price_ts": 1777955427,
+  "bnb_price_usd": 626.79,
+  "bnb_price_ts": 1777964723,
   "bnb_price_source": "coingecko"
 }
