@@ -31,12 +31,31 @@
       "futures_listed": false,
       "spot_listed": false,
       "pre_price": ""
+    },
+    {
+      "token": "SHARE",
+      "name": "ShareX",
+      "date": "2026-05-08",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1778158884,
+      "updated_timestamp": 1778160195,
+      "system_timestamp": 1778160195,
+      "contract_address": "0x5fca51aff213bfbeab0b711b93c3374252fd6ac3",
+      "chain_id": "56"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 75661
+      "count": 91843
     },
     {
       "key": "yesterday",
@@ -51,24 +70,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "631014081.83217",
-      "trades": 3921666,
-      "avgBuyAmount": "160.9"
+      "buyQuoteVolume": "786751846.66382",
+      "trades": 4949471,
+      "avgBuyAmount": "158.96"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "417765377.15461",
+      "buyQuoteVolume": "430123214.59764",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ST",
-      "buyQuoteVolume": "189115554.91877",
-      "trades": 2993397,
-      "avgBuyAmount": "63.18"
+      "buyQuoteVolume": "224323977.87013",
+      "trades": 3666364,
+      "avgBuyAmount": "61.18"
     }
   ],
-  "bnb_price_usd": 648.35,
-  "bnb_price_ts": 1778155823,
+  "bnb_price_usd": 642.68,
+  "bnb_price_ts": 1778166323,
   "bnb_price_source": "coingecko"
 }
