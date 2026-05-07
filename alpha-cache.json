@@ -1,26 +1,42 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_69fc6074bfca94.64137959",
+      "token": "PLAY",
+      "name": "PlaysOut",
       "date": "2026-05-07",
       "time": "18:00",
-      "points": "245",
       "type": "grab",
       "phase": 1,
-      "language": "zh",
       "status": "announced",
+      "timestamp": 1778147444,
+      "points": 245,
+      "amount": "360",
+      "total_amount": "3888720",
+      "contract_address": "0x853a7c99227499dba9db8c3a02aa691afdebf841",
+      "chain_id": "8453",
+      "has_homonym": false,
+      "paired_transfer": true,
+      "paired_from": "0x26fadb3e79326f66317d994abd6b9ad7aee161b8",
+      "paired_tx_hash": "0x2c7066bb07b1742733c3c6bfbab2f5c592d35731b28b25424084ebe664774f12",
+      "paired_time_diff": 4,
+      "tx_hash": "0x2c7066bb07b1742733c3c6bfbab2f5c592d35731b28b25424084ebe664774f12",
+      "tx_time": "2026-05-07 17:50:21",
+      "d976_tx_hash": "0x972fadd5a3ed55d8379ee5dcd31907564c317b757a34bf65a7716d7030ac6dce",
+      "d976_tx_time": "2026-05-07 17:50:25",
+      "system_timestamp": 1778147470,
+      "completed": true,
+      "confirmed_at": "2026-05-07 17:51:10",
+      "confirm_source": "manual_confirm",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1778137576,
-      "updated_timestamp": 1778138107,
-      "system_timestamp": 1778138107
+      "spot_listed": false,
+      "pre_price": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 53780
+      "count": 66602
     },
     {
       "key": "yesterday",
@@ -35,24 +51,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "428847970.97652",
-      "trades": 2607679,
-      "avgBuyAmount": "164.46"
+      "buyQuoteVolume": "543332567.82014",
+      "trades": 3349444,
+      "avgBuyAmount": "162.22"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "428487946.01562",
+      "buyQuoteVolume": "425703447.89959",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ST",
-      "buyQuoteVolume": "125854227.7456",
-      "trades": 1918489,
-      "avgBuyAmount": "65.6"
+      "buyQuoteVolume": "165124204.09881",
+      "trades": 2540008,
+      "avgBuyAmount": "65.01"
     }
   ],
-  "bnb_price_usd": 651.38,
-  "bnb_price_ts": 1778139322,
+  "bnb_price_usd": 649.02,
+  "bnb_price_ts": 1778148622,
   "bnb_price_source": "coingecko"
 }
