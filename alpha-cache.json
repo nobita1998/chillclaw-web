@@ -36,7 +36,7 @@
       "token": "SHARE",
       "name": "ShareX",
       "date": "2026-05-08",
-      "time": "",
+      "time": "18:00",
       "points": "",
       "phase": 1,
       "language": "en",
@@ -55,7 +55,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 103122
+      "count": 103798
     },
     {
       "key": "yesterday",
@@ -70,24 +70,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "894135561.99649",
-      "trades": 6392707,
-      "avgBuyAmount": "139.87"
+      "buyQuoteVolume": "900874319.84648",
+      "trades": 6581573,
+      "avgBuyAmount": "136.88"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "441635724.39525",
+      "buyQuoteVolume": "443204216.74938",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ST",
-      "buyQuoteVolume": "241808410.8046",
-      "trades": 4336297,
-      "avgBuyAmount": "55.76"
+      "buyQuoteVolume": "242360825.11241",
+      "trades": 4384891,
+      "avgBuyAmount": "55.27"
     }
   ],
-  "bnb_price_usd": 644.3,
-  "bnb_price_ts": 1778186423,
+  "bnb_price_usd": 643.5,
+  "bnb_price_ts": 1778190025,
   "bnb_price_source": "coingecko"
 }
