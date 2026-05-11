@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "BR",
       "date": "2026-05-11",
       "time": "17:00",
       "points": "241",
@@ -10,17 +10,21 @@
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "system_timestamp": 1778489109,
+      "system_timestamp": 1778490090,
       "created_timestamp": 1778488812,
-      "updated_timestamp": 1778489109,
-      "amount": "",
-      "name": ""
+      "updated_timestamp": 1778490090,
+      "amount": "225",
+      "name": "Bedrock",
+      "contract_address": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+      "chain_id": "56",
+      "total_amount": "2684475",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 60811
+      "count": 75990
     },
     {
       "key": "yesterday",
@@ -35,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "ST",
-      "buyQuoteVolume": "496828180.07825",
-      "trades": 3323250,
-      "avgBuyAmount": "149.5"
+      "buyQuoteVolume": "626128086.20059",
+      "trades": 4376020,
+      "avgBuyAmount": "143.08"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "431888129.89324",
+      "buyQuoteVolume": "416500021.12575",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "161057371.32871",
-      "trades": 1847267,
-      "avgBuyAmount": "87.19"
+      "buyQuoteVolume": "224279228.04669",
+      "trades": 2508668,
+      "avgBuyAmount": "89.4"
     }
   ],
-  "bnb_price_usd": 651.31,
-  "bnb_price_ts": 1778489423,
+  "bnb_price_usd": 655.5,
+  "bnb_price_ts": 1778500222,
   "bnb_price_source": "coingecko"
 }
