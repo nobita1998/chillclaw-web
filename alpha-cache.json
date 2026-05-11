@@ -1,9 +1,26 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-05-11",
+      "time": "17:00",
+      "points": "241",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "system_timestamp": 1778489109,
+      "created_timestamp": 1778488812,
+      "updated_timestamp": 1778489109,
+      "amount": "",
+      "name": ""
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39006
+      "count": 60811
     },
     {
       "key": "yesterday",
@@ -17,25 +34,25 @@
   "last_rollover_date": "2026-05-11",
   "top3_tokens": [
     {
+      "symbol": "ST",
+      "buyQuoteVolume": "496828180.07825",
+      "trades": 3323250,
+      "avgBuyAmount": "149.5"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "419807883.48488",
+      "buyQuoteVolume": "431888129.89324",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "ST",
-      "buyQuoteVolume": "265344772.86922",
-      "trades": 1946054,
-      "avgBuyAmount": "136.35"
-    },
-    {
       "symbol": "OPG",
-      "buyQuoteVolume": "121134637.38343",
-      "trades": 1274375,
-      "avgBuyAmount": "95.05"
+      "buyQuoteVolume": "161057371.32871",
+      "trades": 1847267,
+      "avgBuyAmount": "87.19"
     }
   ],
-  "bnb_price_usd": 652.74,
-  "bnb_price_ts": 1778478323,
+  "bnb_price_usd": 651.31,
+  "bnb_price_ts": 1778489423,
   "bnb_price_source": "coingecko"
 }
