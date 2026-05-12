@@ -1,30 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "BR",
-      "date": "2026-05-11",
-      "time": "17:00",
-      "points": "241",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "system_timestamp": 1778490090,
-      "created_timestamp": 1778488812,
-      "updated_timestamp": 1778490090,
-      "amount": "225",
-      "name": "Bedrock",
-      "contract_address": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-      "chain_id": "56",
-      "total_amount": "2684475",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 56981
+      "count": 71764
     },
     {
       "key": "yesterday",
@@ -38,25 +17,25 @@
   "last_rollover_date": "2026-05-12",
   "top3_tokens": [
     {
+      "symbol": "ST",
+      "buyQuoteVolume": "552815414.58559",
+      "trades": 3648210,
+      "avgBuyAmount": "151.53"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "464864145.10729",
+      "buyQuoteVolume": "469431304.47435",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "ST",
-      "buyQuoteVolume": "442372561.78953",
-      "trades": 2838893,
-      "avgBuyAmount": "155.83"
-    },
-    {
       "symbol": "BILL",
-      "buyQuoteVolume": "91792427.544074",
-      "trades": 1837960,
-      "avgBuyAmount": "49.94"
+      "buyQuoteVolume": "134515648.44643",
+      "trades": 2648661,
+      "avgBuyAmount": "50.79"
     }
   ],
-  "bnb_price_usd": 659.91,
-  "bnb_price_ts": 1778571323,
+  "bnb_price_usd": 662.03,
+  "bnb_price_ts": 1778580922,
   "bnb_price_source": "coingecko"
 }
