@@ -21,12 +21,34 @@
       "total_amount": "1999980",
       "contract_address": "0x8b7dde054be9d180c1be7fae0874697374a49832",
       "chain_id": "8453"
+    },
+    {
+      "token": "",
+      "date": "2026-05-14",
+      "time": "17:00",
+      "points": 225,
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1778740328,
+      "updated_timestamp": 1778746758,
+      "system_timestamp": 1778746758,
+      "contract_address": "",
+      "chain_id": "",
+      "total_amount": "",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 36242
+      "count": 51632
     },
     {
       "key": "yesterday",
@@ -40,25 +62,25 @@
   "last_rollover_date": "2026-05-14",
   "top3_tokens": [
     {
+      "symbol": "ST",
+      "buyQuoteVolume": "448436225.42819",
+      "trades": 2802355,
+      "avgBuyAmount": "160.02"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "421634135.03136",
+      "buyQuoteVolume": "444047931.77964",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "ST",
-      "buyQuoteVolume": "303634047.72511",
-      "trades": 1904841,
-      "avgBuyAmount": "159.4"
-    },
-    {
       "symbol": "BILL",
-      "buyQuoteVolume": "34834150.689591",
-      "trades": 853863,
-      "avgBuyAmount": "40.8"
+      "buyQuoteVolume": "63141616.707445",
+      "trades": 1442866,
+      "avgBuyAmount": "43.76"
     }
   ],
-  "bnb_price_usd": 668.88,
-  "bnb_price_ts": 1778736922,
+  "bnb_price_usd": 670.42,
+  "bnb_price_ts": 1778746822,
   "bnb_price_source": "coingecko"
 }
