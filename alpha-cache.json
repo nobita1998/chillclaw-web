@@ -9,10 +9,10 @@
       "phase": 1,
       "language": "en",
       "status": "announced",
-      "futures_listed": false,
-      "system_timestamp": 1778684446,
+      "futures_listed": true,
+      "system_timestamp": 1778732057,
       "created_timestamp": 1778681972,
-      "updated_timestamp": 1778684446,
+      "updated_timestamp": 1778732057,
       "amount": "45",
       "name": "Pharos",
       "completed": true,
@@ -26,7 +26,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 16213
+      "count": 36242
     },
     {
       "key": "yesterday",
@@ -41,24 +41,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "443999225.35473",
+      "buyQuoteVolume": "421634135.03136",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ST",
-      "buyQuoteVolume": "82352866.908386",
-      "trades": 553395,
-      "avgBuyAmount": "148.81"
+      "buyQuoteVolume": "303634047.72511",
+      "trades": 1904841,
+      "avgBuyAmount": "159.4"
     },
     {
-      "symbol": "OPG",
-      "buyQuoteVolume": "8640447.7857914",
-      "trades": 183528,
-      "avgBuyAmount": "47.08"
+      "symbol": "BILL",
+      "buyQuoteVolume": "34834150.689591",
+      "trades": 853863,
+      "avgBuyAmount": "40.8"
     }
   ],
-  "bnb_price_usd": 674.56,
-  "bnb_price_ts": 1778723123,
+  "bnb_price_usd": 668.88,
+  "bnb_price_ts": 1778736922,
   "bnb_price_source": "coingecko"
 }
