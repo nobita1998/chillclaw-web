@@ -23,7 +23,7 @@
       "chain_id": "8453"
     },
     {
-      "token": "",
+      "token": "B2",
       "date": "2026-05-14",
       "time": "17:00",
       "points": 225,
@@ -32,15 +32,15 @@
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "50",
+      "name": "B2",
       "created_timestamp": 1778740328,
-      "updated_timestamp": 1778746758,
-      "system_timestamp": 1778746758,
-      "contract_address": "",
-      "chain_id": "",
-      "total_amount": "",
-      "completed": false,
+      "updated_timestamp": 1778749239,
+      "system_timestamp": 1778749239,
+      "contract_address": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+      "chain_id": "56",
+      "total_amount": "833300",
+      "completed": true,
       "has_homonym": false,
       "spot_listed": false
     }
@@ -48,7 +48,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 51632
+      "count": 62076
     },
     {
       "key": "yesterday",
@@ -63,24 +63,24 @@
   "top3_tokens": [
     {
       "symbol": "ST",
-      "buyQuoteVolume": "448436225.42819",
-      "trades": 2802355,
-      "avgBuyAmount": "160.02"
+      "buyQuoteVolume": "534188007.63187",
+      "trades": 3413232,
+      "avgBuyAmount": "156.51"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "444047931.77964",
+      "buyQuoteVolume": "458776271.08531",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "63141616.707445",
-      "trades": 1442866,
-      "avgBuyAmount": "43.76"
+      "buyQuoteVolume": "90581238.657098",
+      "trades": 1943450,
+      "avgBuyAmount": "46.61"
     }
   ],
-  "bnb_price_usd": 670.42,
-  "bnb_price_ts": 1778746822,
+  "bnb_price_usd": 671.6,
+  "bnb_price_ts": 1778754922,
   "bnb_price_source": "coingecko"
 }
