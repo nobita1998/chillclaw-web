@@ -1,28 +1,6 @@
 {
   "airdrops": [
     {
-      "token": "PHAROS",
-      "date": "2026-05-13",
-      "time": "23:00",
-      "points": 200,
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": true,
-      "system_timestamp": 1778732057,
-      "created_timestamp": 1778681972,
-      "updated_timestamp": 1778732057,
-      "amount": "45",
-      "name": "Pharos",
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false,
-      "total_amount": "1999980",
-      "contract_address": "0x8b7dde054be9d180c1be7fae0874697374a49832",
-      "chain_id": "8453"
-    },
-    {
       "token": "B2",
       "date": "2026-05-14",
       "time": "17:00",
@@ -48,7 +26,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 70219
+      "count": 85138
     },
     {
       "key": "yesterday",
@@ -63,24 +41,24 @@
   "top3_tokens": [
     {
       "symbol": "ST",
-      "buyQuoteVolume": "601083723.24879",
-      "trades": 3882444,
-      "avgBuyAmount": "154.82"
+      "buyQuoteVolume": "728219194.92868",
+      "trades": 4728799,
+      "avgBuyAmount": "154"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "452345152.88704",
+      "buyQuoteVolume": "445499640.71506",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "119852763.81891",
-      "trades": 2409951,
-      "avgBuyAmount": "49.73"
+      "buyQuoteVolume": "164915261.02563",
+      "trades": 3036970,
+      "avgBuyAmount": "54.3"
     }
   ],
-  "bnb_price_usd": 671.4,
-  "bnb_price_ts": 1778761223,
+  "bnb_price_usd": 678.11,
+  "bnb_price_ts": 1778770823,
   "bnb_price_source": "coingecko"
 }
