@@ -1,32 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "B2",
-      "date": "2026-05-14",
-      "time": "17:00",
-      "points": 225,
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "50",
-      "name": "B2",
-      "created_timestamp": 1778740328,
-      "updated_timestamp": 1778749239,
-      "system_timestamp": 1778749239,
-      "contract_address": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
-      "chain_id": "56",
-      "total_amount": "833300",
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 50025
+      "count": 64302
     },
     {
       "key": "yesterday",
@@ -41,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "431149585.20963",
+      "buyQuoteVolume": "427211045.01448",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "292630407.61377",
-      "trades": 2559068,
-      "avgBuyAmount": "114.35"
+      "buyQuoteVolume": "393651820.92952",
+      "trades": 3349239,
+      "avgBuyAmount": "117.53"
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "247788043.20709",
-      "trades": 2939970,
-      "avgBuyAmount": "84.28"
+      "buyQuoteVolume": "332734938.76181",
+      "trades": 3865082,
+      "avgBuyAmount": "86.09"
     }
   ],
-  "bnb_price_usd": 684.08,
-  "bnb_price_ts": 1778833823,
+  "bnb_price_usd": 688.47,
+  "bnb_price_ts": 1778843122,
   "bnb_price_source": "coingecko"
 }
