@@ -1,9 +1,27 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "ZEST",
+      "name": "Zest Protocol",
+      "date": "2026-05-19",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1779014768,
+      "updated_timestamp": 1779016747,
+      "system_timestamp": 1779016747
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 60627
+      "count": 67749
     },
     {
       "key": "yesterday",
@@ -18,24 +36,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "592932823.29432",
-      "trades": 3749567,
-      "avgBuyAmount": "158.13"
+      "buyQuoteVolume": "668079019.76177",
+      "trades": 4258982,
+      "avgBuyAmount": "156.86"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "444492377.93741",
+      "buyQuoteVolume": "450968740.98291",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "81556261.683745",
-      "trades": 1852834,
-      "avgBuyAmount": "44.02"
+      "buyQuoteVolume": "97087841.299242",
+      "trades": 2185428,
+      "avgBuyAmount": "44.43"
     }
   ],
-  "bnb_price_usd": 652.91,
-  "bnb_price_ts": 1779012023,
+  "bnb_price_usd": 654.09,
+  "bnb_price_ts": 1779017423,
   "bnb_price_source": "coingecko"
 }
