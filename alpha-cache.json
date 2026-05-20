@@ -1,27 +1,6 @@
 {
   "airdrops": [
     {
-      "token": "ZEST",
-      "name": "Zest Protocol",
-      "date": "2026-05-19",
-      "time": "21:00",
-      "points": "240",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": true,
-      "amount": "800",
-      "type": "grab",
-      "created_timestamp": 1779014768,
-      "updated_timestamp": 1779202992,
-      "system_timestamp": 1779202992,
-      "contract_address": "0x5506599c722389a60580b5213ea1da60d64754a1",
-      "chain_id": "56",
-      "total_amount": "10000000",
-      "completed": true
-    },
-    {
       "token": "NEX",
       "name": "Nexus",
       "date": "2026-05-20",
@@ -45,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 71406
+      "count": 86051
     },
     {
       "key": "yesterday",
@@ -60,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "674862153.34356",
-      "trades": 4109248,
-      "avgBuyAmount": "164.23"
+      "buyQuoteVolume": "825156538.08501",
+      "trades": 5071113,
+      "avgBuyAmount": "162.72"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "418467321.48536",
+      "buyQuoteVolume": "423289396.32722",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "133850152.72876",
-      "trades": 2522230,
-      "avgBuyAmount": "53.07"
+      "buyQuoteVolume": "170193801.5284",
+      "trades": 3193193,
+      "avgBuyAmount": "53.3"
     }
   ],
-  "bnb_price_usd": 642.62,
-  "bnb_price_ts": 1779276922,
+  "bnb_price_usd": 644.15,
+  "bnb_price_ts": 1779286822,
   "bnb_price_source": "coingecko"
 }
