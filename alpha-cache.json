@@ -26,25 +26,26 @@
       "name": "Nexus",
       "date": "2026-05-20",
       "time": "22:00",
-      "points": "",
+      "points": "210",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "utc": "14:00",
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "20000250",
+      "type": "grab",
       "created_timestamp": 1779251480,
-      "updated_timestamp": 1779266708,
-      "system_timestamp": 1779266708,
+      "updated_timestamp": 1779276851,
+      "system_timestamp": 1779276851,
       "contract_address": "0x365de036a1f7dccb621530d517133521debb2013",
-      "chain_id": "56"
+      "chain_id": "56",
+      "total_amount": "999992499750"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 56809
+      "count": 71406
     },
     {
       "key": "yesterday",
@@ -59,24 +60,24 @@
   "top3_tokens": [
     {
       "symbol": "OPG",
-      "buyQuoteVolume": "531877881.9598",
-      "trades": 3177466,
-      "avgBuyAmount": "167.39"
+      "buyQuoteVolume": "674862153.34356",
+      "trades": 4109248,
+      "avgBuyAmount": "164.23"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "412473992.75006",
+      "buyQuoteVolume": "418467321.48536",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "91114190.224784",
-      "trades": 1728396,
-      "avgBuyAmount": "52.72"
+      "buyQuoteVolume": "133850152.72876",
+      "trades": 2522230,
+      "avgBuyAmount": "53.07"
     }
   ],
-  "bnb_price_usd": 644.08,
-  "bnb_price_ts": 1779266722,
+  "bnb_price_usd": 642.62,
+  "bnb_price_ts": 1779276922,
   "bnb_price_source": "coingecko"
 }
