@@ -1,28 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "NEX",
-      "name": "Nexus",
-      "date": "2026-05-20",
-      "time": "22:00",
-      "points": "210",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "14:00",
-      "futures_listed": false,
-      "amount": "20000250",
-      "type": "grab",
-      "created_timestamp": 1779251480,
-      "updated_timestamp": 1779276851,
-      "system_timestamp": 1779276851,
-      "contract_address": "0x365de036a1f7dccb621530d517133521debb2013",
-      "chain_id": "56",
-      "total_amount": "999992499750",
-      "completed": true
-    },
-    {
-      "token": "",
+      "token": "GWEI",
       "date": "2026-05-21",
       "time": "20:00",
       "points": "230",
@@ -31,44 +10,21 @@
       "language": "zh",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1779352724,
-      "updated_timestamp": 1779361220,
-      "system_timestamp": 1779361220
-    },
-    {
-      "id": "warning_6a0ef0acd22cd3.32613314",
-      "token": "GWEI",
-      "name": "GWEI",
-      "date": "2026-05-21",
-      "time": "20:00",
-      "type": "warning",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1779364012,
-      "points": "230",
       "amount": "250",
-      "total_amount": "4170000",
+      "name": "GWEI",
+      "created_timestamp": 1779352724,
+      "updated_timestamp": 1779364877,
+      "system_timestamp": 1779364877,
       "contract_address": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
       "chain_id": "56",
-      "has_homonym": false,
-      "paired_transfer": true,
-      "paired_from": "0x22cfe9cda95c7ad13fe0f270da2bdaa1e47b9332",
-      "paired_tx_hash": "0x62fd5937ff4304be504229cb622bcd17c8ee30b31b824adee30845c38fca2877",
-      "paired_time_diff": 36,
-      "d976_tx_hash": "0xf99a54c1f80933d3b16a037268c3497525e2954836b244119befb0a0d3f1a061",
-      "d976_tx_time": "2026-05-21 19:47:25",
-      "system_timestamp": 1779364164,
-      "completed": false,
-      "confirmed_at": "2026-05-21 19:49:24",
-      "confirm_source": "manual_confirm"
+      "total_amount": "4170000",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 59687
+      "count": 77015
     },
     {
       "key": "yesterday",
@@ -83,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "641042950.40218",
-      "trades": 4417627,
-      "avgBuyAmount": "145.11"
+      "buyQuoteVolume": "855005082.72824",
+      "trades": 5707862,
+      "avgBuyAmount": "149.79"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "436497777.64456",
+      "buyQuoteVolume": "426487338.87603",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "NEX",
-      "buyQuoteVolume": "17562073.121073",
-      "trades": 223314,
-      "avgBuyAmount": "78.64"
+      "buyQuoteVolume": "27115188.034229",
+      "trades": 344050,
+      "avgBuyAmount": "78.81"
     }
   ],
-  "bnb_price_usd": 648.3,
-  "bnb_price_ts": 1779364522,
+  "bnb_price_usd": 648.4,
+  "bnb_price_ts": 1779375324,
   "bnb_price_source": "coingecko"
 }
