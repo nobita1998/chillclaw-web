@@ -20,12 +20,28 @@
       "chain_id": "56",
       "total_amount": "999992499750",
       "completed": true
+    },
+    {
+      "token": "",
+      "date": "2026-05-21",
+      "time": "20:00",
+      "points": "230",
+      "type": "grab",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1779352724,
+      "updated_timestamp": 1779353115,
+      "system_timestamp": 1779353115
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 27953
+      "count": 43787
     },
     {
       "key": "yesterday",
@@ -40,24 +56,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "440225639.9516",
+      "buyQuoteVolume": "443770530.08924",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "246459467.43407",
-      "trades": 1904145,
-      "avgBuyAmount": "129.43"
+      "buyQuoteVolume": "442893193.73164",
+      "trades": 3189492,
+      "avgBuyAmount": "138.86"
     },
     {
       "symbol": "NEX",
-      "buyQuoteVolume": "3859465.4539272",
-      "trades": 56130,
-      "avgBuyAmount": "68.76"
+      "buyQuoteVolume": "10014798.265583",
+      "trades": 125066,
+      "avgBuyAmount": "80.08"
     }
   ],
-  "bnb_price_usd": 652.87,
-  "bnb_price_ts": 1779342022,
+  "bnb_price_usd": 654.26,
+  "bnb_price_ts": 1779353122,
   "bnb_price_source": "coingecko"
 }
