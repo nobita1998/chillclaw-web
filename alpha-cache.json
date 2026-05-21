@@ -34,14 +34,41 @@
       "amount": "",
       "name": "",
       "created_timestamp": 1779352724,
-      "updated_timestamp": 1779353115,
-      "system_timestamp": 1779353115
+      "updated_timestamp": 1779361220,
+      "system_timestamp": 1779361220
+    },
+    {
+      "id": "warning_6a0ef0acd22cd3.32613314",
+      "token": "GWEI",
+      "name": "GWEI",
+      "date": "2026-05-21",
+      "time": "20:00",
+      "type": "warning",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1779364012,
+      "points": "230",
+      "amount": "250",
+      "total_amount": "4170000",
+      "contract_address": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
+      "chain_id": "56",
+      "has_homonym": false,
+      "paired_transfer": true,
+      "paired_from": "0x22cfe9cda95c7ad13fe0f270da2bdaa1e47b9332",
+      "paired_tx_hash": "0x62fd5937ff4304be504229cb622bcd17c8ee30b31b824adee30845c38fca2877",
+      "paired_time_diff": 36,
+      "d976_tx_hash": "0xf99a54c1f80933d3b16a037268c3497525e2954836b244119befb0a0d3f1a061",
+      "d976_tx_time": "2026-05-21 19:47:25",
+      "system_timestamp": 1779364164,
+      "completed": false,
+      "confirmed_at": "2026-05-21 19:49:24",
+      "confirm_source": "manual_confirm"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 43787
+      "count": 59687
     },
     {
       "key": "yesterday",
@@ -55,25 +82,25 @@
   "last_rollover_date": "2026-05-21",
   "top3_tokens": [
     {
+      "symbol": "BILL",
+      "buyQuoteVolume": "641042950.40218",
+      "trades": 4417627,
+      "avgBuyAmount": "145.11"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "443770530.08924",
+      "buyQuoteVolume": "436497777.64456",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "BILL",
-      "buyQuoteVolume": "442893193.73164",
-      "trades": 3189492,
-      "avgBuyAmount": "138.86"
-    },
-    {
       "symbol": "NEX",
-      "buyQuoteVolume": "10014798.265583",
-      "trades": 125066,
-      "avgBuyAmount": "80.08"
+      "buyQuoteVolume": "17562073.121073",
+      "trades": 223314,
+      "avgBuyAmount": "78.64"
     }
   ],
-  "bnb_price_usd": 654.26,
-  "bnb_price_ts": 1779353122,
+  "bnb_price_usd": 648.3,
+  "bnb_price_ts": 1779364522,
   "bnb_price_source": "coingecko"
 }
