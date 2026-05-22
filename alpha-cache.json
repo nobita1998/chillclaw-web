@@ -1,30 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "GWEI",
-      "date": "2026-05-21",
-      "time": "20:00",
-      "points": "230",
-      "type": "grab",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "250",
-      "name": "GWEI",
-      "created_timestamp": 1779352724,
-      "updated_timestamp": 1779364877,
-      "system_timestamp": 1779364877,
-      "contract_address": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
-      "chain_id": "56",
-      "total_amount": "4170000",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 61866
+      "count": 75437
     },
     {
       "key": "yesterday",
@@ -39,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "670180459.06207",
-      "trades": 4694652,
-      "avgBuyAmount": "142.75"
+      "buyQuoteVolume": "834973226.79138",
+      "trades": 5752237,
+      "avgBuyAmount": "145.16"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "422863779.49288",
+      "buyQuoteVolume": "445419642.18044",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "NEX",
-      "buyQuoteVolume": "17651030.931471",
-      "trades": 474428,
-      "avgBuyAmount": "37.2"
+      "buyQuoteVolume": "19899402.757185",
+      "trades": 566450,
+      "avgBuyAmount": "35.13"
     }
   ],
-  "bnb_price_usd": 655.62,
-  "bnb_price_ts": 1779449722,
+  "bnb_price_usd": 662.96,
+  "bnb_price_ts": 1779458723,
   "bnb_price_source": "coingecko"
 }
