@@ -1,9 +1,27 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "SLX",
+      "name": "Solstice",
+      "date": "2026-05-25",
+      "time": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "system_timestamp": 1779538763,
+      "created_timestamp": 1779537755,
+      "updated_timestamp": 1779538763,
+      "points": "",
+      "amount": "",
+      "type": ""
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 56078
+      "count": 60410
     },
     {
       "key": "yesterday",
@@ -18,24 +36,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "592649394.76271",
-      "trades": 4291610,
-      "avgBuyAmount": "138.09"
+      "buyQuoteVolume": "645926180.56238",
+      "trades": 4674639,
+      "avgBuyAmount": "138.18"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "481096916.15937",
+      "buyQuoteVolume": "485059332.63446",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "NEX",
-      "buyQuoteVolume": "8207709.1272228",
-      "trades": 284947,
-      "avgBuyAmount": "28.8"
+      "buyQuoteVolume": "8586574.8615782",
+      "trades": 304531,
+      "avgBuyAmount": "28.2"
     }
   ],
-  "bnb_price_usd": 639.24,
-  "bnb_price_ts": 1779537022,
+  "bnb_price_usd": 639.71,
+  "bnb_price_ts": 1779540622,
   "bnb_price_source": "coingecko"
 }
