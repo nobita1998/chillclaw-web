@@ -22,12 +22,29 @@
       "total_amount": "",
       "contract_address": "0x02bcC4C181B83a8c0A342BC003389CbEcb4BC54D",
       "chain_id": "56"
+    },
+    {
+      "token": "CTR",
+      "name": "Citrea",
+      "date": "2026-05-26",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1779617162,
+      "updated_timestamp": 1779617651,
+      "system_timestamp": 1779617651
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 47164
+      "count": 54945
     },
     {
       "key": "yesterday",
@@ -41,25 +58,25 @@
   "last_rollover_date": "2026-05-24",
   "top3_tokens": [
     {
+      "symbol": "BILL",
+      "buyQuoteVolume": "580455514.74918",
+      "trades": 4249446,
+      "avgBuyAmount": "136.6"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "501900948.70203",
+      "buyQuoteVolume": "501685851.81111",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "BILL",
-      "buyQuoteVolume": "481886484.59559",
-      "trades": 3427563,
-      "avgBuyAmount": "140.59"
-    },
-    {
       "symbol": "NEX",
-      "buyQuoteVolume": "2382583.9164596",
-      "trades": 41367,
-      "avgBuyAmount": "57.6"
+      "buyQuoteVolume": "3848379.8085232",
+      "trades": 70703,
+      "avgBuyAmount": "54.43"
     }
   ],
-  "bnb_price_usd": 655.71,
-  "bnb_price_ts": 1779610222,
+  "bnb_price_usd": 658.83,
+  "bnb_price_ts": 1779617423,
   "bnb_price_source": "coingecko"
 }
