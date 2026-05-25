@@ -39,14 +39,18 @@
       "created_timestamp": 1779617162,
       "updated_timestamp": 1779618603,
       "system_timestamp": 1779618603,
-      "contract_address": "0x6dfbbb567ee504016ad06e0880a96238c7eac61d",
-      "chain_id": "56"
+      "contract_address": "0x11030f79109269d796fd0fb956d6244e502757f7",
+      "chain_id": "8453",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 104378
+      "count": 104940
     },
     {
       "key": "yesterday",
@@ -61,24 +65,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "1215695461.5954",
-      "trades": 9019921,
-      "avgBuyAmount": "134.78"
+      "buyQuoteVolume": "1222386959.4105",
+      "trades": 9176308,
+      "avgBuyAmount": "133.21"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "474670741.3442",
+      "buyQuoteVolume": "475434961.02553",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ESPORTS",
-      "buyQuoteVolume": "16957121.750865",
-      "trades": 184459,
-      "avgBuyAmount": "91.93"
+      "buyQuoteVolume": "17292993.269977",
+      "trades": 193140,
+      "avgBuyAmount": "89.54"
     }
   ],
-  "bnb_price_usd": 661.63,
-  "bnb_price_ts": 1779744922,
+  "bnb_price_usd": 660.47,
+  "bnb_price_ts": 1779749123,
   "bnb_price_source": "coingecko"
 }
