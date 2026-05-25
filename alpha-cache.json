@@ -16,11 +16,11 @@
       "points": 215,
       "amount": "250",
       "type": "grab",
-      "completed": false,
+      "completed": true,
       "has_homonym": true,
       "spot_listed": false,
       "total_amount": "10000000",
-      "contract_address": "0x02bcC4C181B83a8c0A342BC003389CbEcb4BC54D",
+      "contract_address": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
       "chain_id": "56"
     },
     {
@@ -46,7 +46,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 71169
+      "count": 89130
     },
     {
       "key": "yesterday",
@@ -61,24 +61,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "778505312.12756",
-      "trades": 5402024,
-      "avgBuyAmount": "144.11"
+      "buyQuoteVolume": "1014168634.6462",
+      "trades": 7076943,
+      "avgBuyAmount": "143.31"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "547579796.81556",
+      "buyQuoteVolume": "515339705.6577",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "NEX",
-      "buyQuoteVolume": "5804127.404905",
-      "trades": 135684,
-      "avgBuyAmount": "42.78"
+      "symbol": "ESPORTS",
+      "buyQuoteVolume": "11399885.177706",
+      "trades": 96711,
+      "avgBuyAmount": "117.88"
     }
   ],
-  "bnb_price_usd": 661.22,
-  "bnb_price_ts": 1779706222,
+  "bnb_price_usd": 670.87,
+  "bnb_price_ts": 1779717022,
   "bnb_price_source": "coingecko"
 }
