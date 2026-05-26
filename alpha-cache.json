@@ -27,7 +27,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 93647
+      "count": 94743
     },
     {
       "key": "yesterday",
@@ -42,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "978234590.81673",
-      "trades": 7745865,
-      "avgBuyAmount": "126.29"
+      "buyQuoteVolume": "989600642.36711",
+      "trades": 8053632,
+      "avgBuyAmount": "122.88"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "459823630.23108",
+      "buyQuoteVolume": "460490099.60874",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ZEST",
-      "buyQuoteVolume": "89266001.557693",
-      "trades": 1859829,
-      "avgBuyAmount": "48"
+      "buyQuoteVolume": "90712508.757282",
+      "trades": 1946583,
+      "avgBuyAmount": "46.6"
     }
   ],
-  "bnb_price_usd": 655.7,
-  "bnb_price_ts": 1779833422,
+  "bnb_price_usd": 655.86,
+  "bnb_price_ts": 1779838522,
   "bnb_price_source": "coingecko"
 }
