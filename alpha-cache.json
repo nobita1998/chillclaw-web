@@ -1,48 +1,25 @@
 {
   "airdrops": [
     {
-      "token": "SLX",
-      "name": "Solstice",
-      "date": "2026-05-25",
-      "time": "20:00",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": false,
-      "system_timestamp": 1779704716,
-      "created_timestamp": 1779537755,
-      "updated_timestamp": 1779704716,
-      "points": 215,
-      "amount": "250",
-      "type": "grab",
-      "completed": true,
-      "has_homonym": true,
-      "spot_listed": false,
-      "total_amount": "10000000",
-      "contract_address": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
-      "chain_id": "56"
-    },
-    {
       "token": "CTR",
       "name": "Citrea",
       "date": "2026-05-26",
-      "time": "",
-      "points": "",
+      "time": "21:00",
+      "points": 211,
       "phase": 1,
       "language": "en",
       "status": "announced",
       "utc": "",
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "1090",
+      "type": "grab",
       "created_timestamp": 1779617162,
-      "updated_timestamp": 1779784196,
-      "system_timestamp": 1779784196,
+      "updated_timestamp": 1779787146,
+      "system_timestamp": 1779787146,
       "contract_address": "0x11030f79109269d796fd0fb956d6244e502757f7",
       "chain_id": "8453",
-      "completed": false,
-      "has_homonym": false,
+      "completed": true,
+      "has_homonym": true,
       "spot_listed": false,
       "total_amount": "39998640"
     }
@@ -50,7 +27,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 50315
+      "count": 85444
     },
     {
       "key": "yesterday",
@@ -65,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "525328966.01713",
-      "trades": 3513068,
-      "avgBuyAmount": "149.54"
+      "buyQuoteVolume": "897503122.65463",
+      "trades": 6309379,
+      "avgBuyAmount": "142.25"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "454834988.45752",
+      "buyQuoteVolume": "464519589.23725",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "SLX",
-      "buyQuoteVolume": "7671620.5370934",
-      "trades": 188604,
-      "avgBuyAmount": "40.68"
+      "symbol": "ZEST",
+      "buyQuoteVolume": "68418647.997603",
+      "trades": 1191105,
+      "avgBuyAmount": "57.44"
     }
   ],
-  "bnb_price_usd": 656.43,
-  "bnb_price_ts": 1779786023,
+  "bnb_price_usd": 658.51,
+  "bnb_price_ts": 1779811823,
   "bnb_price_source": "coingecko"
 }
