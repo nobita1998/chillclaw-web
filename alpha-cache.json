@@ -37,20 +37,20 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1779617162,
-      "updated_timestamp": 1779618603,
-      "system_timestamp": 1779618603,
+      "updated_timestamp": 1779784196,
+      "system_timestamp": 1779784196,
       "contract_address": "0x11030f79109269d796fd0fb956d6244e502757f7",
       "chain_id": "8453",
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
-      "total_amount": ""
+      "total_amount": "39998640"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 36004
+      "count": 50315
     },
     {
       "key": "yesterday",
@@ -64,25 +64,25 @@
   "last_rollover_date": "2026-05-26",
   "top3_tokens": [
     {
+      "symbol": "BILL",
+      "buyQuoteVolume": "525328966.01713",
+      "trades": 3513068,
+      "avgBuyAmount": "149.54"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "445975359.27015",
+      "buyQuoteVolume": "454834988.45752",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "BILL",
-      "buyQuoteVolume": "346368328.58427",
-      "trades": 2250843,
-      "avgBuyAmount": "153.88"
-    },
-    {
       "symbol": "SLX",
-      "buyQuoteVolume": "5516143.4891676",
-      "trades": 140813,
-      "avgBuyAmount": "39.17"
+      "buyQuoteVolume": "7671620.5370934",
+      "trades": 188604,
+      "avgBuyAmount": "40.68"
     }
   ],
-  "bnb_price_usd": 658.23,
-  "bnb_price_ts": 1779774622,
+  "bnb_price_usd": 656.43,
+  "bnb_price_ts": 1779786023,
   "bnb_price_source": "coingecko"
 }
