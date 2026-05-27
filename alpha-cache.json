@@ -1,33 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "CTR",
-      "name": "Citrea",
-      "date": "2026-05-26",
-      "time": "21:00",
-      "points": 211,
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": false,
-      "amount": "1090",
-      "type": "grab",
-      "created_timestamp": 1779617162,
-      "updated_timestamp": 1779787146,
-      "system_timestamp": 1779787146,
-      "contract_address": "0x11030f79109269d796fd0fb956d6244e502757f7",
-      "chain_id": "8453",
-      "completed": true,
-      "has_homonym": true,
-      "spot_listed": false,
-      "total_amount": "39998640"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 79005
+      "count": 104849
     },
     {
       "key": "yesterday",
@@ -42,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "575972326.77916",
-      "trades": 4062648,
-      "avgBuyAmount": "141.77"
+      "buyQuoteVolume": "765144104.13391",
+      "trades": 5466054,
+      "avgBuyAmount": "139.98"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "445800560.49969",
+      "buyQuoteVolume": "434039070.5601",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ZEST",
-      "buyQuoteVolume": "207281468.32815",
-      "trades": 3441761,
-      "avgBuyAmount": "60.23"
+      "buyQuoteVolume": "314326270.45729",
+      "trades": 4937832,
+      "avgBuyAmount": "63.66"
     }
   ],
-  "bnb_price_usd": 654.32,
-  "bnb_price_ts": 1779877822,
+  "bnb_price_usd": 651.93,
+  "bnb_price_ts": 1779891322,
   "bnb_price_source": "coingecko"
 }
