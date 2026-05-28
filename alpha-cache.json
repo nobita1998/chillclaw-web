@@ -14,8 +14,8 @@
       "amount": "31111",
       "type": "grab",
       "created_timestamp": 1779948982,
-      "updated_timestamp": 1779959947,
-      "system_timestamp": 1779959947,
+      "updated_timestamp": 1779973045,
+      "system_timestamp": 1779973045,
       "contract_address": "0x4d41a5d412f4ef44a35b9f53b06db65ede249493",
       "chain_id": "56",
       "total_amount": "99990754"
@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 72534
+      "count": 96329
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "BILL",
-      "buyQuoteVolume": "505749201.81396",
-      "trades": 3700646,
-      "avgBuyAmount": "136.67"
+      "buyQuoteVolume": "660945215.59602",
+      "trades": 4985304,
+      "avgBuyAmount": "132.58"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "444942488.95383",
+      "buyQuoteVolume": "462474979.03316",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ZEST",
-      "buyQuoteVolume": "185033624.70619",
-      "trades": 3049669,
-      "avgBuyAmount": "60.67"
+      "buyQuoteVolume": "291873692.69846",
+      "trades": 4406294,
+      "avgBuyAmount": "66.24"
     }
   ],
-  "bnb_price_usd": 632.33,
-  "bnb_price_ts": 1779960923,
+  "bnb_price_usd": 631.77,
+  "bnb_price_ts": 1779972923,
   "bnb_price_source": "coingecko"
 }
