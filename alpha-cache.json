@@ -1,9 +1,30 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "QAIT",
+      "name": "Sealcoin",
+      "date": "2026-05-28",
+      "time": "21:00",
+      "points": "241",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "31111",
+      "type": "grab",
+      "created_timestamp": 1779948982,
+      "updated_timestamp": 1779959947,
+      "system_timestamp": 1779959947,
+      "contract_address": "0x4d41a5d412f4ef44a35b9f53b06db65ede249493",
+      "chain_id": "56",
+      "total_amount": "99990754"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 41945
+      "count": 72534
     },
     {
       "key": "yesterday",
@@ -17,25 +38,25 @@
   "last_rollover_date": "2026-05-28",
   "top3_tokens": [
     {
+      "symbol": "BILL",
+      "buyQuoteVolume": "505749201.81396",
+      "trades": 3700646,
+      "avgBuyAmount": "136.67"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "439859560.01248",
+      "buyQuoteVolume": "444942488.95383",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "BILL",
-      "buyQuoteVolume": "290675984.95919",
-      "trades": 2133605,
-      "avgBuyAmount": "136.24"
-    },
-    {
       "symbol": "ZEST",
-      "buyQuoteVolume": "78433673.123499",
-      "trades": 1542417,
-      "avgBuyAmount": "50.85"
+      "buyQuoteVolume": "185033624.70619",
+      "trades": 3049669,
+      "avgBuyAmount": "60.67"
     }
   ],
-  "bnb_price_usd": 633.36,
-  "bnb_price_ts": 1779946523,
+  "bnb_price_usd": 632.33,
+  "bnb_price_ts": 1779960923,
   "bnb_price_source": "coingecko"
 }
