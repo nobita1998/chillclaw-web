@@ -1,55 +1,32 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "RTX",
       "date": "2026-06-02",
       "time": "15:00",
-      "points": "240",
+      "points": 240,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "ongoing",
       "futures_listed": false,
-      "system_timestamp": 1780376931,
+      "system_timestamp": 1780383709,
       "created_timestamp": 1780376431,
-      "updated_timestamp": 1780376931,
-      "amount": "",
-      "name": ""
-    },
-    {
-      "id": "warning_6a1e7cbf2ce5a3.68469376",
-      "token": "RTX",
-      "name": "RTX",
-      "date": "2026-06-02",
-      "time": "15:00",
-      "type": "warning",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1780382911,
-      "points": 240,
+      "updated_timestamp": 1780383709,
       "amount": "26",
-      "total_amount": "250000",
+      "name": "RTX",
       "contract_address": "0x4829a1d1fb6ded1f81d26868ab8976648baf9893",
       "chain_id": "56",
+      "total_amount": "318162",
       "has_homonym": true,
-      "d976_tx_time": "2026-06-02 14:48:33",
-      "d976_auto_confirm_value": 30.2858,
-      "d976_auto_confirm_price": 1.164838,
-      "d976_auto_confirm_divisor": 100,
-      "d976_auto_confirm_source": "d976",
-      "system_timestamp": 1780382952,
-      "completed": false,
-      "confirmed_at": "2026-06-02 14:48:34",
-      "confirm_source": "d976_pending_value_match",
-      "updated_timestamp": 1780382952,
-      "futures_listed": false,
+      "completed": true,
       "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 69000
+      "count": 97583
     },
     {
       "key": "yesterday",
@@ -63,25 +40,25 @@
   "last_rollover_date": "2026-06-02",
   "top3_tokens": [
     {
+      "symbol": "B2",
+      "buyQuoteVolume": "662316735.775",
+      "trades": 4819729,
+      "avgBuyAmount": "137.42"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "505886300.81878",
+      "buyQuoteVolume": "515657477.75817",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "B2",
-      "buyQuoteVolume": "419910401.96676",
-      "trades": 2882562,
-      "avgBuyAmount": "145.67"
-    },
-    {
       "symbol": "QAIT",
-      "buyQuoteVolume": "146183950.35819",
-      "trades": 173454,
-      "avgBuyAmount": "842.78"
+      "buyQuoteVolume": "147385503.26566",
+      "trades": 262675,
+      "avgBuyAmount": "561.09"
     }
   ],
-  "bnb_price_usd": 682.36,
-  "bnb_price_ts": 1780383625,
+  "bnb_price_usd": 678.3,
+  "bnb_price_ts": 1780400723,
   "bnb_price_source": "coingecko"
 }
