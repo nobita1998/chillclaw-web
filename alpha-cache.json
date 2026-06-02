@@ -1,9 +1,55 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-06-02",
+      "time": "15:00",
+      "points": "240",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "ongoing",
+      "futures_listed": false,
+      "system_timestamp": 1780376931,
+      "created_timestamp": 1780376431,
+      "updated_timestamp": 1780376931,
+      "amount": "",
+      "name": ""
+    },
+    {
+      "id": "warning_6a1e7cbf2ce5a3.68469376",
+      "token": "RTX",
+      "name": "RTX",
+      "date": "2026-06-02",
+      "time": "15:00",
+      "type": "warning",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1780382911,
+      "points": 240,
+      "amount": "26",
+      "total_amount": "250000",
+      "contract_address": "0x4829a1d1fb6ded1f81d26868ab8976648baf9893",
+      "chain_id": "56",
+      "has_homonym": true,
+      "d976_tx_time": "2026-06-02 14:48:33",
+      "d976_auto_confirm_value": 30.2858,
+      "d976_auto_confirm_price": 1.164838,
+      "d976_auto_confirm_divisor": 100,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1780382952,
+      "completed": false,
+      "confirmed_at": "2026-06-02 14:48:34",
+      "confirm_source": "d976_pending_value_match",
+      "updated_timestamp": 1780382952,
+      "futures_listed": false,
+      "spot_listed": false
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 21379
+      "count": 69000
     },
     {
       "key": "yesterday",
@@ -18,24 +64,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "495241070.98743",
+      "buyQuoteVolume": "505886300.81878",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "B2",
-      "buyQuoteVolume": "118022348.09926",
-      "trades": 848549,
-      "avgBuyAmount": "139.09"
+      "buyQuoteVolume": "419910401.96676",
+      "trades": 2882562,
+      "avgBuyAmount": "145.67"
     },
     {
-      "symbol": "BILL",
-      "buyQuoteVolume": "23002213.702154",
-      "trades": 407139,
-      "avgBuyAmount": "56.5"
+      "symbol": "QAIT",
+      "buyQuoteVolume": "146183950.35819",
+      "trades": 173454,
+      "avgBuyAmount": "842.78"
     }
   ],
-  "bnb_price_usd": 684.72,
-  "bnb_price_ts": 1780365925,
+  "bnb_price_usd": 682.36,
+  "bnb_price_ts": 1780383625,
   "bnb_price_source": "coingecko"
 }
