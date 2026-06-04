@@ -1,63 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "FOLKS",
-      "date": "2026-06-03",
-      "time": "15:00",
-      "points": 230,
-      "type": "grab",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "futures_listed": false,
-      "system_timestamp": 1780470055,
-      "created_timestamp": 1780464668,
-      "updated_timestamp": 1780470055,
-      "amount": "21",
-      "name": "FOLKS",
-      "contract_address": "0xff7f8f301f7a706e3cfd3d2275f5dc0b9ee8009b",
-      "chain_id": "56",
-      "total_amount": "185188",
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false
-    },
-    {
-      "id": "warning_6a1fcee59e08f3.42462081",
-      "token": "FOREST",
-      "name": "FOREST",
-      "date": "2026-06-03",
-      "time": "15:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1780469477,
-      "points": 230,
-      "amount": "590",
-      "total_amount": "5207955",
-      "contract_address": "0x11cf6bf6d87cb0eb9c294fd6cbfec91ee3a1a7d0",
-      "chain_id": "56",
-      "has_homonym": false,
-      "d976_tx_time": "2026-06-03 14:51:19",
-      "d976_auto_confirm_value": 30.0292,
-      "d976_auto_confirm_price": 0.051157,
-      "d976_auto_confirm_divisor": 174.64,
-      "d976_auto_confirm_source": "d976",
-      "system_timestamp": 1780470055,
-      "completed": true,
-      "confirmed_at": "2026-06-03 14:51:19",
-      "confirm_source": "d976_pending_value_match",
-      "updated_timestamp": 1780470055,
-      "created_timestamp": 1780469531,
-      "language": "zh",
-      "futures_listed": false,
-      "spot_listed": false
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39160
+      "count": 61957
     },
     {
       "key": "yesterday",
@@ -71,25 +17,25 @@
   "last_rollover_date": "2026-06-04",
   "top3_tokens": [
     {
+      "symbol": "B2",
+      "buyQuoteVolume": "610312730.98786",
+      "trades": 4132076,
+      "avgBuyAmount": "147.7"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "431635910.98375",
+      "buyQuoteVolume": "427180728.16657",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "B2",
-      "buyQuoteVolume": "357551190.65904",
-      "trades": 2409940,
-      "avgBuyAmount": "148.37"
-    },
-    {
       "symbol": "ZEST",
-      "buyQuoteVolume": "23038118.200398",
-      "trades": 794936,
-      "avgBuyAmount": "28.98"
+      "buyQuoteVolume": "46828644.663253",
+      "trades": 1571502,
+      "avgBuyAmount": "29.8"
     }
   ],
-  "bnb_price_usd": 608.62,
-  "bnb_price_ts": 1780549822,
+  "bnb_price_usd": 600.01,
+  "bnb_price_ts": 1780563923,
   "bnb_price_source": "coingecko"
 }
