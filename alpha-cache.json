@@ -1,26 +1,38 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_6a2272b3d1c695.57212740",
+      "token": "TRIA",
+      "name": "TRIA",
       "date": "2026-06-05",
       "time": "15:00",
-      "points": "241",
       "type": "grab",
       "phase": 1,
-      "language": "en",
-      "status": "announced",
+      "status": "pending",
+      "timestamp": 1780642483,
+      "points": 241,
+      "amount": "1000",
+      "total_amount": "15490000",
+      "contract_address": "0xb0b92de23baa85fb06208277e925ced53edab482",
+      "chain_id": "56",
+      "has_homonym": false,
+      "updated_at": "2026-06-05 14:55:59",
+      "system_timestamp": 1780643234,
+      "completed": true,
+      "confirmed_at": "2026-06-05 14:56:06",
+      "confirm_source": "manual_confirm",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1780638699,
-      "updated_timestamp": 1780639211,
-      "system_timestamp": 1780639211
+      "spot_listed": false,
+      "pre_price": "",
+      "created_timestamp": 1780642566,
+      "updated_timestamp": 1780643234,
+      "language": "en"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 46540
+      "count": 68500
     },
     {
       "key": "yesterday",
@@ -34,25 +46,25 @@
   "last_rollover_date": "2026-06-05",
   "top3_tokens": [
     {
+      "symbol": "B2",
+      "buyQuoteVolume": "629843360.34028",
+      "trades": 4303243,
+      "avgBuyAmount": "146.36"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "410469001.74795",
+      "buyQuoteVolume": "370990673.57447",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "B2",
-      "buyQuoteVolume": "404295621.01469",
-      "trades": 2614466,
-      "avgBuyAmount": "154.64"
-    },
-    {
       "symbol": "NEX",
-      "buyQuoteVolume": "76794515.227777",
-      "trades": 980912,
-      "avgBuyAmount": "78.29"
+      "buyQuoteVolume": "121131831.50024",
+      "trades": 1820245,
+      "avgBuyAmount": "66.55"
     }
   ],
-  "bnb_price_usd": 581.18,
-  "bnb_price_ts": 1780639523,
+  "bnb_price_usd": 591.94,
+  "bnb_price_ts": 1780655123,
   "bnb_price_source": "coingecko"
 }
