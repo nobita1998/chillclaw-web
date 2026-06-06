@@ -1,38 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_6a2272b3d1c695.57212740",
-      "token": "TRIA",
-      "name": "TRIA",
-      "date": "2026-06-05",
-      "time": "15:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "pending",
-      "timestamp": 1780642483,
-      "points": 241,
-      "amount": "1000",
-      "total_amount": "15490000",
-      "contract_address": "0xb0b92de23baa85fb06208277e925ced53edab482",
-      "chain_id": "56",
-      "has_homonym": false,
-      "updated_at": "2026-06-05 14:55:59",
-      "system_timestamp": 1780643234,
-      "completed": true,
-      "confirmed_at": "2026-06-05 14:56:06",
-      "confirm_source": "manual_confirm",
-      "futures_listed": false,
-      "spot_listed": false,
-      "pre_price": "",
-      "created_timestamp": 1780642566,
-      "updated_timestamp": 1780643234,
-      "language": "en"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 40624
+      "count": 63903
     },
     {
       "key": "yesterday",
@@ -46,25 +17,25 @@
   "last_rollover_date": "2026-06-06",
   "top3_tokens": [
     {
+      "symbol": "B2",
+      "buyQuoteVolume": "486242730.39146",
+      "trades": 3177619,
+      "avgBuyAmount": "153.02"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "357563052.84953",
+      "buyQuoteVolume": "373730864.24706",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "B2",
-      "buyQuoteVolume": "310818057.39914",
-      "trades": 2098316,
-      "avgBuyAmount": "148.13"
-    },
-    {
       "symbol": "QAIT",
-      "buyQuoteVolume": "87329862.842618",
-      "trades": 1632081,
-      "avgBuyAmount": "53.51"
+      "buyQuoteVolume": "184516297.3218",
+      "trades": 2907235,
+      "avgBuyAmount": "63.47"
     }
   ],
-  "bnb_price_usd": 571.2,
-  "bnb_price_ts": 1780724423,
+  "bnb_price_usd": 579.94,
+  "bnb_price_ts": 1780733723,
   "bnb_price_source": "coingecko"
 }
