@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "KGEN",
       "date": "2026-06-09",
       "time": "17:00",
       "points": "241",
@@ -10,44 +10,21 @@
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1780987295,
-      "updated_timestamp": 1780994718,
-      "system_timestamp": 1780994718
-    },
-    {
-      "id": "warning_6a27d3312b9da1.11222876",
-      "token": "KGEN",
-      "name": "KGEN",
-      "date": "2026-06-09",
-      "time": "17:00",
-      "type": "warning",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1780994865,
-      "points": "241",
       "amount": "160",
-      "total_amount": "2780000",
+      "name": "KGEN",
+      "created_timestamp": 1780987295,
+      "updated_timestamp": 1780995685,
+      "system_timestamp": 1780995685,
       "contract_address": "0xf3d5b4c34ed623478cc5141861776e6cf7ae3a1e",
       "chain_id": "56",
-      "has_homonym": false,
-      "d976_tx_time": "2026-06-09 16:48:22",
-      "d976_auto_confirm_value": 29.3139,
-      "d976_auto_confirm_price": 0.183212,
-      "d976_auto_confirm_divisor": 100,
-      "d976_auto_confirm_source": "d976",
-      "system_timestamp": 1780994902,
-      "completed": false,
-      "confirmed_at": "2026-06-09 16:48:22",
-      "confirm_source": "d976_pending_value_match",
-      "updated_timestamp": 1780994904
+      "total_amount": "2780000",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 67445
+      "count": 82445
     },
     {
       "key": "yesterday",
@@ -62,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "B2",
-      "buyQuoteVolume": "591083458.09931",
-      "trades": 3714614,
-      "avgBuyAmount": "159.12"
+      "buyQuoteVolume": "733631887.42253",
+      "trades": 4695425,
+      "avgBuyAmount": "156.24"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "379756732.54273",
+      "buyQuoteVolume": "378218142.19804",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "SLX",
-      "buyQuoteVolume": "79420968.327656",
-      "trades": 1995106,
-      "avgBuyAmount": "39.81"
+      "buyQuoteVolume": "87072398.102322",
+      "trades": 2391839,
+      "avgBuyAmount": "36.4"
     }
   ],
-  "bnb_price_usd": 602.06,
-  "bnb_price_ts": 1780995323,
+  "bnb_price_usd": 597.09,
+  "bnb_price_ts": 1781005822,
   "bnb_price_source": "coingecko"
 }
