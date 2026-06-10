@@ -19,12 +19,28 @@
       "chain_id": "56",
       "total_amount": "2780000",
       "completed": true
+    },
+    {
+      "token": "",
+      "date": "2026-06-10",
+      "time": "17:00",
+      "points": "245",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1781075059,
+      "updated_timestamp": 1781080211,
+      "system_timestamp": 1781080211
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 35914
+      "count": 59011
     },
     {
       "key": "yesterday",
@@ -38,25 +54,25 @@
   "last_rollover_date": "2026-06-10",
   "top3_tokens": [
     {
+      "symbol": "B2",
+      "buyQuoteVolume": "552539593.64148",
+      "trades": 3432411,
+      "avgBuyAmount": "160.98"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "408196119.18136",
+      "buyQuoteVolume": "408989478.1385",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "B2",
-      "buyQuoteVolume": "310965992.11404",
-      "trades": 1933282,
-      "avgBuyAmount": "160.85"
-    },
-    {
-      "symbol": "SLX",
-      "buyQuoteVolume": "20679084.077706",
-      "trades": 836183,
-      "avgBuyAmount": "24.73"
+      "symbol": "QAIT",
+      "buyQuoteVolume": "42554704.431036",
+      "trades": 1466726,
+      "avgBuyAmount": "29.01"
     }
   ],
-  "bnb_price_usd": 584.93,
-  "bnb_price_ts": 1781067023,
+  "bnb_price_usd": 584.88,
+  "bnb_price_ts": 1781080823,
   "bnb_price_source": "coingecko"
 }
