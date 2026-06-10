@@ -1,46 +1,63 @@
 {
   "airdrops": [
     {
-      "token": "KGEN",
-      "date": "2026-06-09",
-      "time": "17:00",
-      "points": "241",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "160",
-      "name": "KGEN",
-      "created_timestamp": 1780987295,
-      "updated_timestamp": 1780995685,
-      "system_timestamp": 1780995685,
-      "contract_address": "0xf3d5b4c34ed623478cc5141861776e6cf7ae3a1e",
-      "chain_id": "56",
-      "total_amount": "2780000",
-      "completed": true
-    },
-    {
-      "token": "",
+      "token": "TRUST",
       "date": "2026-06-10",
       "time": "17:00",
-      "points": "245",
+      "points": 245,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "585",
+      "name": "TRUST",
       "created_timestamp": 1781075059,
-      "updated_timestamp": 1781080211,
-      "system_timestamp": 1781080211
+      "updated_timestamp": 1781082073,
+      "system_timestamp": 1781082073,
+      "contract_address": "0x6cd905df2ed214b22e0d48ff17cd4200c1c6d8a3",
+      "chain_id": "8453",
+      "total_amount": "2083355",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false
+    },
+    {
+      "id": "warning_6a292626cfac84.10791755",
+      "token": "BLESS",
+      "name": "BLESS",
+      "date": "2026-06-10",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1781081638,
+      "points": 245,
+      "amount": "4670",
+      "total_amount": "24997930",
+      "contract_address": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+      "chain_id": "56",
+      "has_homonym": false,
+      "d976_tx_time": "2026-06-10 16:54:00",
+      "d976_auto_confirm_value": 27.1925,
+      "d976_auto_confirm_price": 0.007139,
+      "d976_auto_confirm_divisor": 174.64,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1781082073,
+      "completed": true,
+      "confirmed_at": "2026-06-10 16:54:00",
+      "confirm_source": "d976_pending_value_match",
+      "updated_timestamp": 1781082073,
+      "created_timestamp": 1781081711,
+      "language": "zh",
+      "futures_listed": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 59011
+      "count": 74599
     },
     {
       "key": "yesterday",
@@ -55,24 +72,24 @@
   "top3_tokens": [
     {
       "symbol": "B2",
-      "buyQuoteVolume": "552539593.64148",
-      "trades": 3432411,
-      "avgBuyAmount": "160.98"
+      "buyQuoteVolume": "715636332.61679",
+      "trades": 4665918,
+      "avgBuyAmount": "153.38"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "408989478.1385",
+      "buyQuoteVolume": "411593649.5055",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "42554704.431036",
-      "trades": 1466726,
-      "avgBuyAmount": "29.01"
+      "buyQuoteVolume": "53632942.153897",
+      "trades": 1961974,
+      "avgBuyAmount": "27.34"
     }
   ],
-  "bnb_price_usd": 584.88,
-  "bnb_price_ts": 1781080823,
+  "bnb_price_usd": 582.92,
+  "bnb_price_ts": 1781093423,
   "bnb_price_source": "coingecko"
 }
