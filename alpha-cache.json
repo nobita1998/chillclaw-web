@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 17736
+      "count": 54886
     },
     {
       "key": "yesterday",
@@ -17,25 +17,25 @@
   "last_rollover_date": "2026-06-14",
   "top3_tokens": [
     {
+      "symbol": "QAIT",
+      "buyQuoteVolume": "501175847.37123",
+      "trades": 4029229,
+      "avgBuyAmount": "124.39"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "423633372.07103",
+      "buyQuoteVolume": "433458937.72575",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "QAIT",
-      "buyQuoteVolume": "100254653.29572",
-      "trades": 890199,
-      "avgBuyAmount": "112.62"
-    },
-    {
-      "symbol": "NEX",
-      "buyQuoteVolume": "16127186.497011",
-      "trades": 86432,
-      "avgBuyAmount": "186.59"
+      "symbol": "SLX",
+      "buyQuoteVolume": "52412790.096498",
+      "trades": 1527983,
+      "avgBuyAmount": "34.3"
     }
   ],
-  "bnb_price_usd": 609.26,
-  "bnb_price_ts": 1781402722,
+  "bnb_price_usd": 610.94,
+  "bnb_price_ts": 1781420422,
   "bnb_price_source": "coingecko"
 }
