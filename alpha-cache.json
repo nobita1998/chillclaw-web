@@ -1,9 +1,27 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "O",
+      "name": "o1 exchange",
+      "date": "2026-06-17",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1781507206,
+      "updated_timestamp": 1781507963,
+      "system_timestamp": 1781507963
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 18903
+      "count": 57225
     },
     {
       "key": "yesterday",
@@ -17,25 +35,25 @@
   "last_rollover_date": "2026-06-15",
   "top3_tokens": [
     {
+      "symbol": "QAIT",
+      "buyQuoteVolume": "574448256.18761",
+      "trades": 4227686,
+      "avgBuyAmount": "135.88"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "422884889.3504",
+      "buyQuoteVolume": "413103164.89703",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "QAIT",
-      "buyQuoteVolume": "113215358.94823",
-      "trades": 900909,
-      "avgBuyAmount": "125.67"
-    },
-    {
-      "symbol": "NEX",
-      "buyQuoteVolume": "17328097.43929",
-      "trades": 122232,
-      "avgBuyAmount": "141.76"
+      "symbol": "SLX",
+      "buyQuoteVolume": "32475635.2203",
+      "trades": 1211993,
+      "avgBuyAmount": "26.8"
     }
   ],
-  "bnb_price_usd": 614.12,
-  "bnb_price_ts": 1781489422,
+  "bnb_price_usd": 615.45,
+  "bnb_price_ts": 1781509223,
   "bnb_price_source": "coingecko"
 }
