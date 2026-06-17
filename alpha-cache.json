@@ -31,7 +31,7 @@
     },
     {
       "token": "O",
-      "name": "o1 exchange",
+      "name": "o1.exchange",
       "date": "2026-06-17",
       "time": "22:00",
       "points": 225,
@@ -47,7 +47,7 @@
       "system_timestamp": 1781685314,
       "contract_address": "0x500A02a20B0B0A3F3efCCFc0559543F5743bd1C4",
       "chain_id": "56",
-      "completed": false,
+      "completed": true,
       "has_homonym": false,
       "spot_listed": false,
       "total_amount": "10000000"
@@ -56,7 +56,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 94635
+      "count": 109319
     },
     {
       "key": "yesterday",
@@ -71,24 +71,24 @@
   "top3_tokens": [
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "962827304.67041",
-      "trades": 6808985,
-      "avgBuyAmount": "141.41"
+      "buyQuoteVolume": "1140437351.8834",
+      "trades": 8229171,
+      "avgBuyAmount": "138.58"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "430207457.93711",
+      "buyQuoteVolume": "439058700.39718",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "GWEI",
-      "buyQuoteVolume": "134662308.41162",
-      "trades": 3911326,
-      "avgBuyAmount": "34.43"
+      "buyQuoteVolume": "141510471.16842",
+      "trades": 4409703,
+      "avgBuyAmount": "32.09"
     }
   ],
-  "bnb_price_usd": 606.83,
-  "bnb_price_ts": 1781705123,
+  "bnb_price_usd": 605.85,
+  "bnb_price_ts": 1781717122,
   "bnb_price_source": "coingecko"
 }
