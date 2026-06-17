@@ -1,6 +1,24 @@
 {
   "airdrops": [
     {
+      "token": "RE",
+      "name": "re",
+      "date": "2026-06-17",
+      "time": "20:00",
+      "points": "",
+      "type": "tge",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "pretge": true,
+      "bctge": false,
+      "futures_listed": false,
+      "amount": "",
+      "created_timestamp": 1781669293,
+      "updated_timestamp": 1781669806,
+      "system_timestamp": 1781669806
+    },
+    {
       "token": "O",
       "name": "o1 exchange",
       "date": "2026-06-17",
@@ -23,7 +41,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 8568
+      "count": 43496
     },
     {
       "key": "yesterday",
@@ -38,24 +56,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "422887372.73879",
+      "buyQuoteVolume": "434846381.66665",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "5086059.1333241",
-      "trades": 51056,
-      "avgBuyAmount": "99.62"
+      "buyQuoteVolume": "426485937.43071",
+      "trades": 2890238,
+      "avgBuyAmount": "147.56"
     },
     {
-      "symbol": "NEX",
-      "buyQuoteVolume": "120022.76181075",
-      "trades": 5403,
-      "avgBuyAmount": "22.21"
+      "symbol": "GWEI",
+      "buyQuoteVolume": "15341354.74896",
+      "trades": 829735,
+      "avgBuyAmount": "18.49"
     }
   ],
-  "bnb_price_usd": 605.23,
-  "bnb_price_ts": 1781655022,
+  "bnb_price_usd": 606.63,
+  "bnb_price_ts": 1781673623,
   "bnb_price_source": "coingecko"
 }
