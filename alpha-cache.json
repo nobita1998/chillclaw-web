@@ -5,7 +5,7 @@
       "name": "re",
       "date": "2026-06-17",
       "time": "20:00",
-      "points": "",
+      "points": "255",
       "type": "tge",
       "phase": 1,
       "language": "en",
@@ -15,25 +15,36 @@
       "futures_listed": false,
       "amount": "",
       "created_timestamp": 1781669293,
-      "updated_timestamp": 1781669806,
-      "system_timestamp": 1781669806
+      "updated_timestamp": 1781690429,
+      "system_timestamp": 1781690429,
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "",
+      "contract_address": "0x526526528f35ac738177003b8773b402b8df8143",
+      "chain_id": "1",
+      "collection_address": "0xc5510b179d80451d3b062732b1768085d9ef8689",
+      "target_bnb": "809.82151533",
+      "actual_bnb": "0",
+      "bnb_limit": "3",
+      "tge_total": "10000000"
     },
     {
       "token": "O",
       "name": "o1 exchange",
       "date": "2026-06-17",
-      "time": "",
-      "points": "",
+      "time": "22:00",
+      "points": "225",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "utc": "",
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "200",
+      "type": "grab",
       "created_timestamp": 1781507206,
-      "updated_timestamp": 1781525145,
-      "system_timestamp": 1781525145,
+      "updated_timestamp": 1781685314,
+      "system_timestamp": 1781685314,
       "contract_address": "0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2",
       "chain_id": "8453"
     }
@@ -41,7 +52,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 43496
+      "count": 75344
     },
     {
       "key": "yesterday",
@@ -55,25 +66,25 @@
   "last_rollover_date": "2026-06-17",
   "top3_tokens": [
     {
+      "symbol": "QAIT",
+      "buyQuoteVolume": "777931836.67544",
+      "trades": 5305119,
+      "avgBuyAmount": "146.64"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "434846381.66665",
+      "buyQuoteVolume": "455781526.04738",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "QAIT",
-      "buyQuoteVolume": "426485937.43071",
-      "trades": 2890238,
-      "avgBuyAmount": "147.56"
-    },
-    {
       "symbol": "GWEI",
-      "buyQuoteVolume": "15341354.74896",
-      "trades": 829735,
-      "avgBuyAmount": "18.49"
+      "buyQuoteVolume": "65179613.338193",
+      "trades": 2469782,
+      "avgBuyAmount": "26.39"
     }
   ],
-  "bnb_price_usd": 606.63,
-  "bnb_price_ts": 1781673623,
+  "bnb_price_usd": 601.17,
+  "bnb_price_ts": 1781691023,
   "bnb_price_source": "coingecko"
 }
