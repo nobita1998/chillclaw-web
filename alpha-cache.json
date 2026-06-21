@@ -4,7 +4,7 @@
       "token": "ARX",
       "name": "Arcium",
       "date": "2026-06-22",
-      "time": "",
+      "time": "18:00",
       "points": "",
       "phase": 1,
       "language": "en",
@@ -23,7 +23,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 102830
+      "count": 104059
     },
     {
       "key": "yesterday",
@@ -38,24 +38,24 @@
   "top3_tokens": [
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "1209527822.788",
-      "trades": 7770330,
-      "avgBuyAmount": "155.66"
+      "buyQuoteVolume": "1225183566.957",
+      "trades": 8134934,
+      "avgBuyAmount": "150.61"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "470692033.71439",
+      "buyQuoteVolume": "470974696.57097",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "O",
-      "buyQuoteVolume": "2951850.8115815",
-      "trades": 28771,
-      "avgBuyAmount": "102.6"
+      "buyQuoteVolume": "3105223.1612421",
+      "trades": 30140,
+      "avgBuyAmount": "103.03"
     }
   ],
-  "bnb_price_usd": 590.8,
-  "bnb_price_ts": 1782072322,
+  "bnb_price_usd": 587.63,
+  "bnb_price_ts": 1782078323,
   "bnb_price_source": "coingecko"
 }
