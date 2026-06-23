@@ -1,31 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "ARX",
-      "name": "Arcium",
-      "date": "2026-06-22",
-      "time": "18:00",
-      "points": "225",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "futures_listed": true,
-      "amount": "172",
-      "type": "grab",
-      "created_timestamp": 1782026341,
-      "updated_timestamp": 1782185537,
-      "system_timestamp": 1782185537,
-      "contract_address": "0xd5f6ef5deabe61e6d5cdb49bfb6f156f2c1ca715",
-      "chain_id": "56",
-      "total_amount": "8499896",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 62117
+      "count": 75209
     },
     {
       "key": "yesterday",
@@ -40,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "681212992.71642",
-      "trades": 4040899,
-      "avgBuyAmount": "168.58"
+      "buyQuoteVolume": "846191446.03825",
+      "trades": 5179009,
+      "avgBuyAmount": "163.39"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "431021710.74594",
+      "buyQuoteVolume": "441029044.31676",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "14099649.462703",
-      "trades": 458910,
-      "avgBuyAmount": "30.72"
+      "buyQuoteVolume": "15940356.284087",
+      "trades": 596140,
+      "avgBuyAmount": "26.74"
     }
   ],
-  "bnb_price_usd": 573.49,
-  "bnb_price_ts": 1782204623,
+  "bnb_price_usd": 573.45,
+  "bnb_price_ts": 1782215123,
   "bnb_price_source": "coingecko"
 }
