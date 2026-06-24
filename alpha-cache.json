@@ -5,17 +5,17 @@
       "name": "Nesa",
       "date": "2026-06-24",
       "time": "20:00",
-      "points": "",
+      "points": "200",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "utc": "",
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "160",
+      "type": "grab",
       "created_timestamp": 1782271831,
-      "updated_timestamp": 1782290712,
-      "system_timestamp": 1782290712,
+      "updated_timestamp": 1782299982,
+      "system_timestamp": 1782299982,
       "contract_address": "0x3131f6b80c26936ab03f7d9d29eb4ddf36ac3fb5",
       "chain_id": "56",
       "total_amount": "10000000"
@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 61854
+      "count": 75882
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "640860289.22284",
-      "trades": 3626084,
-      "avgBuyAmount": "176.74"
+      "buyQuoteVolume": "792307369.42565",
+      "trades": 4668157,
+      "avgBuyAmount": "169.73"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "483743009.57892",
+      "buyQuoteVolume": "483887061.37544",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "39451588.017025",
-      "trades": 1648061,
-      "avgBuyAmount": "23.94"
+      "buyQuoteVolume": "67161625.04427",
+      "trades": 2398418,
+      "avgBuyAmount": "28"
     }
   ],
-  "bnb_price_usd": 576.78,
-  "bnb_price_ts": 1782290723,
+  "bnb_price_usd": 574.53,
+  "bnb_price_ts": 1782300623,
   "bnb_price_source": "coingecko"
 }
