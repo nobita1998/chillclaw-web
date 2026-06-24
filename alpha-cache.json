@@ -14,17 +14,18 @@
       "amount": "160",
       "type": "grab",
       "created_timestamp": 1782271831,
-      "updated_timestamp": 1782299982,
-      "system_timestamp": 1782299982,
+      "updated_timestamp": 1782308027,
+      "system_timestamp": 1782308027,
       "contract_address": "0x3131f6b80c26936ab03f7d9d29eb4ddf36ac3fb5",
       "chain_id": "56",
-      "total_amount": "10000000"
+      "total_amount": "10000000",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 75882
+      "count": 89602
     },
     {
       "key": "yesterday",
@@ -39,24 +40,24 @@
   "top3_tokens": [
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "792307369.42565",
-      "trades": 4668157,
-      "avgBuyAmount": "169.73"
+      "buyQuoteVolume": "944181894.41238",
+      "trades": 5692780,
+      "avgBuyAmount": "165.86"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "483887061.37544",
+      "buyQuoteVolume": "472295776.16429",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "67161625.04427",
-      "trades": 2398418,
-      "avgBuyAmount": "28"
+      "buyQuoteVolume": "94151823.000108",
+      "trades": 3079493,
+      "avgBuyAmount": "30.57"
     }
   ],
-  "bnb_price_usd": 574.53,
-  "bnb_price_ts": 1782300623,
+  "bnb_price_usd": 571.1,
+  "bnb_price_ts": 1782309323,
   "bnb_price_source": "coingecko"
 }
