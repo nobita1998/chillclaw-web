@@ -14,16 +14,17 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1782271831,
-      "updated_timestamp": 1782272794,
-      "system_timestamp": 1782272794,
+      "updated_timestamp": 1782290712,
+      "system_timestamp": 1782290712,
       "contract_address": "0x3131f6b80c26936ab03f7d9d29eb4ddf36ac3fb5",
-      "chain_id": "56"
+      "chain_id": "56",
+      "total_amount": "10000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 44862
+      "count": 61854
     },
     {
       "key": "yesterday",
@@ -37,25 +38,25 @@
   "last_rollover_date": "2026-06-24",
   "top3_tokens": [
     {
+      "symbol": "QAIT",
+      "buyQuoteVolume": "640860289.22284",
+      "trades": 3626084,
+      "avgBuyAmount": "176.74"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "489328292.30263",
+      "buyQuoteVolume": "483743009.57892",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "QAIT",
-      "buyQuoteVolume": "440665056.49185",
-      "trades": 2409767,
-      "avgBuyAmount": "182.87"
-    },
-    {
       "symbol": "ARX",
-      "buyQuoteVolume": "18166102.500238",
-      "trades": 953720,
-      "avgBuyAmount": "19.05"
+      "buyQuoteVolume": "39451588.017025",
+      "trades": 1648061,
+      "avgBuyAmount": "23.94"
     }
   ],
-  "bnb_price_usd": 579.65,
-  "bnb_price_ts": 1782280223,
+  "bnb_price_usd": 576.78,
+  "bnb_price_ts": 1782290723,
   "bnb_price_source": "coingecko"
 }
