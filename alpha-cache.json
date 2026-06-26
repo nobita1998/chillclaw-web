@@ -1,9 +1,34 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "CAP",
+      "name": "CapApp",
+      "date": "2026-06-26",
+      "time": "18:00",
+      "points": "",
+      "type": "tge",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "pretge": false,
+      "bctge": false,
+      "futures_listed": false,
+      "amount": "",
+      "created_timestamp": 1782448299,
+      "updated_timestamp": 1782448589,
+      "system_timestamp": 1782448589,
+      "contract_address": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+      "chain_id": "1",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": ""
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 9189
+      "count": 38850
     },
     {
       "key": "yesterday",
@@ -18,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "476342956.30797",
+      "buyQuoteVolume": "484663969.32827",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "QAIT",
-      "buyQuoteVolume": "18950.63304442",
-      "trades": 361,
-      "avgBuyAmount": "52.49"
+      "buyQuoteVolume": "370176759.49176",
+      "trades": 2035588,
+      "avgBuyAmount": "181.85"
     },
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "8358.88736768",
-      "trades": 374,
-      "avgBuyAmount": "22.35"
+      "buyQuoteVolume": "10518710.903258",
+      "trades": 673508,
+      "avgBuyAmount": "15.62"
     }
   ],
-  "bnb_price_usd": 559.77,
-  "bnb_price_ts": 1782432023,
+  "bnb_price_usd": 559.83,
+  "bnb_price_ts": 1782449123,
   "bnb_price_source": "coingecko"
 }
