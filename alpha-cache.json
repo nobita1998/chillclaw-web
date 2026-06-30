@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "COLLECT",
       "date": "2026-06-30",
       "time": "18:00",
       "points": "224",
@@ -10,17 +10,21 @@
       "language": "zh",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "800",
+      "name": "Collect on Fanable",
       "created_timestamp": 1782804712,
-      "updated_timestamp": 1782810023,
-      "system_timestamp": 1782810023
+      "updated_timestamp": 1782813903,
+      "system_timestamp": 1782813903,
+      "contract_address": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+      "chain_id": "56",
+      "total_amount": "12500000",
+      "completed": true
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 69954
+      "count": 85897
     },
     {
       "key": "yesterday",
@@ -35,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "631493404.1605",
-      "trades": 4288502,
-      "avgBuyAmount": "147.25"
+      "buyQuoteVolume": "804169995.09756",
+      "trades": 5512398,
+      "avgBuyAmount": "145.88"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "465847109.0146",
+      "buyQuoteVolume": "473668088.06765",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "KGEN",
-      "buyQuoteVolume": "151026715.11814",
-      "trades": 2550148,
-      "avgBuyAmount": "59.22"
+      "buyQuoteVolume": "181442828.20845",
+      "trades": 3293919,
+      "avgBuyAmount": "55.08"
     }
   ],
-  "bnb_price_usd": 549.95,
-  "bnb_price_ts": 1782811523,
+  "bnb_price_usd": 547.12,
+  "bnb_price_ts": 1782820523,
   "bnb_price_source": "coingecko"
 }
