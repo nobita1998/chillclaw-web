@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 16416
+      "count": 49226
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "quq",
-      "buyQuoteVolume": "485777548.8238",
+      "buyQuoteVolume": "489222145.88895",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "83690055.470749",
-      "trades": 668384,
-      "avgBuyAmount": "125.21"
+      "buyQuoteVolume": "460990466.40376",
+      "trades": 3120900,
+      "avgBuyAmount": "147.71"
     },
     {
       "symbol": "KGEN",
-      "buyQuoteVolume": "6995555.4982879",
-      "trades": 263239,
-      "avgBuyAmount": "26.57"
+      "buyQuoteVolume": "52439893.14482",
+      "trades": 1338703,
+      "avgBuyAmount": "39.17"
     }
   ],
-  "bnb_price_usd": 544.46,
-  "bnb_price_ts": 1782869723,
+  "bnb_price_usd": 549.21,
+  "bnb_price_ts": 1782886223,
   "bnb_price_source": "coingecko"
 }
