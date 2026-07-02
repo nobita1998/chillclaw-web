@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "ACU",
       "date": "2026-07-02",
       "time": "18:00",
       "points": "226",
@@ -10,17 +10,52 @@
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "355",
+      "name": "ACU",
       "created_timestamp": 1782976460,
-      "updated_timestamp": 1782981012,
-      "system_timestamp": 1782981012
+      "updated_timestamp": 1782986482,
+      "system_timestamp": 1782986482,
+      "contract_address": "0x6ef2ffb38d64afe18ce782da280b300e358cfeaf",
+      "chain_id": "56",
+      "total_amount": "1899075",
+      "completed": true
+    },
+    {
+      "id": "warning_6a46346ba016e6.76866378",
+      "token": "WMTX",
+      "name": "WMTX",
+      "date": "2026-07-02",
+      "time": "18:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1782985835,
+      "points": 226,
+      "amount": "737",
+      "total_amount": "3947592",
+      "contract_address": "0xdbb5cf12408a3ac17d668037ce289f9ea75439d7",
+      "chain_id": "56",
+      "has_homonym": false,
+      "d976_tx_time": "2026-07-02 17:50:36",
+      "d976_auto_confirm_value": 37.0985,
+      "d976_auto_confirm_price": 0.038806,
+      "d976_auto_confirm_divisor": 100,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1782986482,
+      "completed": true,
+      "confirmed_at": "2026-07-02 17:50:36",
+      "confirm_source": "d976_pending_value_match",
+      "updated_timestamp": 1782986482,
+      "futures_listed": false,
+      "spot_listed": false,
+      "created_timestamp": 1782985871,
+      "language": "zh"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 62794
+      "count": 83123
     },
     {
       "key": "yesterday",
@@ -35,24 +70,24 @@
   "top3_tokens": [
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "588061998.68964",
-      "trades": 4046272,
-      "avgBuyAmount": "145.33"
+      "buyQuoteVolume": "773984707.87369",
+      "trades": 5325238,
+      "avgBuyAmount": "145.34"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "482041126.74367",
+      "buyQuoteVolume": "485297007.61209",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "KGEN",
-      "buyQuoteVolume": "80272027.902116",
-      "trades": 2231946,
-      "avgBuyAmount": "35.97"
+      "buyQuoteVolume": "115750936.15567",
+      "trades": 3061071,
+      "avgBuyAmount": "37.81"
     }
   ],
-  "bnb_price_usd": 549.5,
-  "bnb_price_ts": 1782981322,
+  "bnb_price_usd": 556.38,
+  "bnb_price_ts": 1782991223,
   "bnb_price_source": "coingecko"
 }
