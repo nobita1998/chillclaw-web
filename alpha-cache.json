@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "AKE",
       "date": "2026-07-08",
       "time": "17:00",
       "points": "245",
@@ -10,17 +10,54 @@
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "155555",
+      "name": "AKE",
       "created_timestamp": 1783494155,
-      "updated_timestamp": 1783494938,
-      "system_timestamp": 1783494938
+      "updated_timestamp": 1783501283,
+      "system_timestamp": 1783501283,
+      "contract_address": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+      "chain_id": "56",
+      "total_amount": "833208403",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false
+    },
+    {
+      "id": "warning_6a4e0f6721ad09.35722561",
+      "token": "ARTX",
+      "name": "ARTX",
+      "date": "2026-07-08",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1783500647,
+      "points": "245",
+      "amount": "235",
+      "total_amount": "1249900",
+      "contract_address": "0x8105743e8a19c915a604d7d9e7aa3a060a4c2c32",
+      "chain_id": "56",
+      "has_homonym": false,
+      "d976_tx_time": "2026-07-08 16:50:49",
+      "d976_auto_confirm_value": 27.6618,
+      "d976_auto_confirm_price": 0.11872,
+      "d976_auto_confirm_divisor": 20,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1783501283,
+      "completed": true,
+      "confirmed_at": "2026-07-08 16:50:49",
+      "confirm_source": "d976_pending_value_match",
+      "updated_timestamp": 1783501283,
+      "created_timestamp": 1783500672,
+      "language": "zh",
+      "futures_listed": false,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 54999
+      "count": 73071
     },
     {
       "key": "yesterday",
@@ -34,25 +71,25 @@
   "last_rollover_date": "2026-07-08",
   "top3_tokens": [
     {
+      "symbol": "ARX",
+      "buyQuoteVolume": "579780674.94142",
+      "trades": 4214949,
+      "avgBuyAmount": "137.55"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "489431285.2052",
+      "buyQuoteVolume": "511087346.38606",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "ARX",
-      "buyQuoteVolume": "420475201.66491",
-      "trades": 3076540,
-      "avgBuyAmount": "136.67"
-    },
-    {
       "symbol": "KGEN",
-      "buyQuoteVolume": "133947725.98638",
-      "trades": 2192705,
-      "avgBuyAmount": "61.09"
+      "buyQuoteVolume": "173518651.6981",
+      "trades": 2955868,
+      "avgBuyAmount": "58.7"
     }
   ],
-  "bnb_price_usd": 565.78,
-  "bnb_price_ts": 1783494923,
+  "bnb_price_usd": 561.98,
+  "bnb_price_ts": 1783503622,
   "bnb_price_source": "coingecko"
 }
