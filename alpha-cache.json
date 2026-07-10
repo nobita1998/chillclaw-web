@@ -1,9 +1,26 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-07-10",
+      "time": "17:00",
+      "points": "245",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1783665131,
+      "updated_timestamp": 1783670440,
+      "system_timestamp": 1783670440
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39763
+      "count": 65842
     },
     {
       "key": "yesterday",
@@ -17,25 +34,25 @@
   "last_rollover_date": "2026-07-10",
   "top3_tokens": [
     {
+      "symbol": "ARX",
+      "buyQuoteVolume": "566872912.31027",
+      "trades": 3585110,
+      "avgBuyAmount": "158.12"
+    },
+    {
       "symbol": "quq",
-      "buyQuoteVolume": "528934362.2646",
+      "buyQuoteVolume": "530815531.64605",
       "trades": null,
       "avgBuyAmount": null
     },
     {
-      "symbol": "ARX",
-      "buyQuoteVolume": "334757163.90923",
-      "trades": 2121288,
-      "avgBuyAmount": "157.81"
-    },
-    {
       "symbol": "NES",
-      "buyQuoteVolume": "26576534.608308",
-      "trades": 1113243,
-      "avgBuyAmount": "23.87"
+      "buyQuoteVolume": "96524726.995327",
+      "trades": 2727508,
+      "avgBuyAmount": "35.39"
     }
   ],
-  "bnb_price_usd": 575.3,
-  "bnb_price_ts": 1783660222,
+  "bnb_price_usd": 575.69,
+  "bnb_price_ts": 1783673122,
   "bnb_price_source": "coingecko"
 }
