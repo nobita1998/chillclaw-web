@@ -1,32 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "IRYS",
-      "date": "2026-07-10",
-      "time": "17:00",
-      "points": "245",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "futures_listed": false,
-      "amount": "2900",
-      "name": "IRYS",
-      "created_timestamp": 1783665131,
-      "updated_timestamp": 1783674072,
-      "system_timestamp": 1783674072,
-      "contract_address": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
-      "chain_id": "56",
-      "total_amount": "44880000",
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 56009
+      "count": 70758
     },
     {
       "key": "yesterday",
@@ -41,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "482044111.97353",
-      "trades": 3021882,
-      "avgBuyAmount": "159.52"
+      "buyQuoteVolume": "619932308.18056",
+      "trades": 3912050,
+      "avgBuyAmount": "158.47"
     },
     {
       "symbol": "quq",
-      "buyQuoteVolume": "460276258.42743",
+      "buyQuoteVolume": "441808444.15551",
       "trades": null,
       "avgBuyAmount": null
     },
     {
       "symbol": "NES",
-      "buyQuoteVolume": "69222106.979156",
-      "trades": 1895246,
-      "avgBuyAmount": "36.52"
+      "buyQuoteVolume": "107405695.98609",
+      "trades": 2689422,
+      "avgBuyAmount": "39.94"
     }
   ],
-  "bnb_price_usd": 575.76,
-  "bnb_price_ts": 1783753223,
+  "bnb_price_usd": 578.49,
+  "bnb_price_ts": 1783760423,
   "bnb_price_source": "coingecko"
 }
