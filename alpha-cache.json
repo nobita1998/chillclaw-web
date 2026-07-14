@@ -1,7 +1,7 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "MPLX",
       "date": "2026-07-14",
       "time": "19:00",
       "points": "251",
@@ -10,17 +10,54 @@
       "language": "en",
       "status": "announced",
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "1038",
+      "name": "MPLX",
       "created_timestamp": 1784021440,
-      "updated_timestamp": 1784024348,
-      "system_timestamp": 1784024348
+      "updated_timestamp": 1784026851,
+      "system_timestamp": 1784026851,
+      "completed": true,
+      "contract_address": "0x75a5863a19af60ec0098d62ed8c34cc594fb470f",
+      "chain_id": "56",
+      "has_homonym": true,
+      "spot_listed": false,
+      "total_amount": "5555387"
+    },
+    {
+      "id": "warning_6a561479987826.15566400",
+      "token": "ON",
+      "name": "ON",
+      "date": "2026-07-14",
+      "time": "19:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1784026233,
+      "points": "251",
+      "amount": "315",
+      "total_amount": "2247035",
+      "contract_address": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
+      "chain_id": "56",
+      "has_homonym": false,
+      "d976_tx_time": "2026-07-14 18:50:35",
+      "d976_auto_confirm_value": 29.7588,
+      "d976_auto_confirm_price": 0.083125,
+      "d976_auto_confirm_divisor": 50,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1784026851,
+      "completed": true,
+      "confirmed_at": "2026-07-14 18:50:35",
+      "confirm_source": "d976_pending_value_match",
+      "updated_timestamp": 1784026851,
+      "futures_listed": false,
+      "spot_listed": false,
+      "created_timestamp": 1784026271,
+      "language": "zh"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 66397
+      "count": 76054
     },
     {
       "key": "yesterday",
@@ -35,24 +72,24 @@
   "top3_tokens": [
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "644622624.17634",
-      "trades": 4424993,
-      "avgBuyAmount": "145.68"
+      "buyQuoteVolume": "717974315.97092",
+      "trades": 4972219,
+      "avgBuyAmount": "144.4"
     },
     {
       "symbol": "NES",
-      "buyQuoteVolume": "139373790.34904",
-      "trades": 3155686,
-      "avgBuyAmount": "44.17"
+      "buyQuoteVolume": "166813997.27283",
+      "trades": 3632411,
+      "avgBuyAmount": "45.92"
     },
     {
       "symbol": "O",
-      "buyQuoteVolume": "74385066.425091",
-      "trades": 2233615,
-      "avgBuyAmount": "33.3"
+      "buyQuoteVolume": "98641072.139972",
+      "trades": 2681387,
+      "avgBuyAmount": "36.79"
     }
   ],
-  "bnb_price_usd": 569.37,
-  "bnb_price_ts": 1784024723,
+  "bnb_price_usd": 569.93,
+  "bnb_price_ts": 1784029823,
   "bnb_price_source": "coingecko"
 }
