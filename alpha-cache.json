@@ -1,27 +1,41 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_6a58b78fe58724.10427140",
+      "token": "BSB",
+      "name": "BSB",
       "date": "2026-07-16",
       "time": "19:00",
-      "points": "250",
       "type": "grab",
       "phase": 1,
-      "language": "en",
       "status": "announced",
+      "timestamp": 1784199055,
+      "points": 250,
+      "amount": "245",
+      "total_amount": "2692307",
+      "contract_address": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "chain_id": "56",
+      "has_homonym": false,
       "box": false,
+      "d976_tx_time": "2026-07-16 18:50:57",
+      "d976_auto_confirm_value": 37.4815,
+      "d976_auto_confirm_price": 0.127488,
+      "d976_auto_confirm_divisor": 25,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1784199073,
+      "completed": true,
+      "confirmed_at": "2026-07-16 18:50:57",
+      "confirm_source": "d976_pending_value_match",
+      "updated_timestamp": 1784199073,
       "futures_listed": false,
-      "system_timestamp": 1784192408,
-      "created_timestamp": 1784190699,
-      "updated_timestamp": 1784192408,
-      "amount": "",
-      "name": ""
+      "spot_listed": false,
+      "pre_price": ""
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 58627
+      "count": 73043
     },
     {
       "key": "yesterday",
@@ -36,24 +50,24 @@
   "top3_tokens": [
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "605715778.89111",
-      "trades": 4240427,
-      "avgBuyAmount": "142.84"
+      "buyQuoteVolume": "730397821.78962",
+      "trades": 5162852,
+      "avgBuyAmount": "141.47"
     },
     {
       "symbol": "O",
-      "buyQuoteVolume": "132090567.28233",
-      "trades": 2840595,
-      "avgBuyAmount": "46.5"
+      "buyQuoteVolume": "191345661.6494",
+      "trades": 3744674,
+      "avgBuyAmount": "51.1"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "60569064.607731",
-      "trades": 54753,
-      "avgBuyAmount": "1106.22"
+      "buyQuoteVolume": "69599580.095923",
+      "trades": 63548,
+      "avgBuyAmount": "1095.23"
     }
   ],
-  "bnb_price_usd": 576.72,
-  "bnb_price_ts": 1784192723,
+  "bnb_price_usd": 576.29,
+  "bnb_price_ts": 1784200222,
   "bnb_price_source": "coingecko"
 }
