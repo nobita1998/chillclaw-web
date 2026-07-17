@@ -1,41 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_6a58b78fe58724.10427140",
-      "token": "BSB",
-      "name": "BSB",
-      "date": "2026-07-16",
-      "time": "19:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1784199055,
-      "points": 250,
-      "amount": "245",
-      "total_amount": "2692307",
-      "contract_address": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": false,
-      "d976_tx_time": "2026-07-16 18:50:57",
-      "d976_auto_confirm_value": 37.4815,
-      "d976_auto_confirm_price": 0.127488,
-      "d976_auto_confirm_divisor": 25,
-      "d976_auto_confirm_source": "d976",
-      "system_timestamp": 1784199073,
-      "completed": true,
-      "confirmed_at": "2026-07-16 18:50:57",
-      "confirm_source": "d976_pending_value_match",
-      "updated_timestamp": 1784199073,
-      "futures_listed": false,
-      "spot_listed": false,
-      "pre_price": ""
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 52531
+      "count": 57916
     },
     {
       "key": "yesterday",
@@ -50,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "ARX",
-      "buyQuoteVolume": "667891335.49162",
-      "trades": 4912016,
-      "avgBuyAmount": "135.97"
+      "buyQuoteVolume": "736681454.08261",
+      "trades": 5401428,
+      "avgBuyAmount": "136.39"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "59487249.57566",
-      "trades": 56160,
-      "avgBuyAmount": "1059.25"
+      "buyQuoteVolume": "63446575.574228",
+      "trades": 60300,
+      "avgBuyAmount": "1052.18"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "8140872.7105434",
-      "trades": 48059,
-      "avgBuyAmount": "169.39"
+      "buyQuoteVolume": "8855905.2494989",
+      "trades": 52102,
+      "avgBuyAmount": "169.97"
     }
   ],
-  "bnb_price_usd": 563.81,
-  "bnb_price_ts": 1784285723,
+  "bnb_price_usd": 563.7,
+  "bnb_price_ts": 1784289923,
   "bnb_price_source": "coingecko"
 }
