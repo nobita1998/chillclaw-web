@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 73150
+      "count": 73918
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "NES",
-      "buyQuoteVolume": "736528958.44525",
-      "trades": 5985805,
-      "avgBuyAmount": "123.05"
+      "buyQuoteVolume": "744858389.41783",
+      "trades": 6181576,
+      "avgBuyAmount": "120.5"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "191888058.43308",
-      "trades": 195487,
-      "avgBuyAmount": "981.59"
+      "buyQuoteVolume": "193243034.52521",
+      "trades": 197001,
+      "avgBuyAmount": "980.92"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "17411336.046404",
-      "trades": 225343,
-      "avgBuyAmount": "77.27"
+      "buyQuoteVolume": "17597310.776804",
+      "trades": 227636,
+      "avgBuyAmount": "77.3"
     }
   ],
-  "bnb_price_usd": 570.25,
-  "bnb_price_ts": 1784760323,
+  "bnb_price_usd": 570,
+  "bnb_price_ts": 1784763923,
   "bnb_price_source": "coingecko"
 }
