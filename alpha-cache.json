@@ -1,78 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "EDGE",
-      "date": "2026-07-21",
-      "time": "19:00",
-      "points": "256",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "box": true,
-      "futures_listed": false,
-      "amount": "69",
-      "name": "EDGE",
-      "created_timestamp": 1784625557,
-      "updated_timestamp": 1784631674,
-      "system_timestamp": 1784631674,
-      "total_quota": "11604",
-      "quota_event_id": "mystery_box_6a5f4a48ca4139.65745848",
-      "quota_type": "box",
-      "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-07-21 18:30:32",
-      "quota_expires_at": "2026-07-21 19:30:00",
-      "completed": true,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-07-21 19:00:32",
-      "claim_ended_at": "2026-07-21 19:00:25",
-      "contract_address": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
-      "chain_id": "56",
-      "total_amount": "487814",
-      "has_homonym": true
-    },
-    {
-      "id": "warning_6a5f4f2ed07d55.88029727",
-      "token": "BEE",
-      "name": "BEE",
-      "date": "2026-07-21",
-      "time": "19:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "pending",
-      "timestamp": 1784631086,
-      "points": "256",
-      "amount": "584",
-      "total_amount": "3124931",
-      "contract_address": "0xdb6f1f098b55e36b036603c8e54663a8d907d6e1",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": true,
-      "d976_tx_hash": "0xed4c823fd0941438b395e3ae8b7338c692001f9ee2367804fe56fd0c817e72cc",
-      "d976_tx_time": "2026-07-21 18:52:00",
-      "paired_transfer": true,
-      "paired_from": "0xb5893a55965a4a01c239f852d93ac47942415231",
-      "paired_tx_hash": "0x7e45c688939e62035fa54ac9bb1455bc12a6e933475c49f99d8d899ec454c038",
-      "paired_time_diff": 36,
-      "paired_lookup_source": "primary_lookup",
-      "quota_tx_hash": "0x7e45c688939e62035fa54ac9bb1455bc12a6e933475c49f99d8d899ec454c038",
-      "updated_at": "2026-07-21 18:53:17",
-      "system_timestamp": 1784631674,
-      "completed": true,
-      "confirmed_at": "2026-07-21 18:53:22",
-      "confirm_source": "manual_confirm",
-      "updated_timestamp": 1784631674,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-07-21 19:00:32",
-      "claim_ended_at": "2026-07-21 19:00:25",
-      "created_timestamp": 1784631632,
-      "language": "zh"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 34600
+      "count": 42976
     },
     {
       "key": "yesterday",
@@ -87,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "NES",
-      "buyQuoteVolume": "301899017.13421",
-      "trades": 1993616,
-      "avgBuyAmount": "151.43"
+      "buyQuoteVolume": "393253364.87586",
+      "trades": 2693602,
+      "avgBuyAmount": "146"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "136943805.4614",
-      "trades": 135628,
-      "avgBuyAmount": "1009.7"
+      "buyQuoteVolume": "152585271.27751",
+      "trades": 151980,
+      "avgBuyAmount": "1003.98"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "8235651.8070858",
-      "trades": 143911,
-      "avgBuyAmount": "57.23"
+      "buyQuoteVolume": "9610392.3506613",
+      "trades": 164785,
+      "avgBuyAmount": "58.32"
     }
   ],
-  "bnb_price_usd": 568.89,
-  "bnb_price_ts": 1784713223,
+  "bnb_price_usd": 571.24,
+  "bnb_price_ts": 1784720123,
   "bnb_price_source": "coingecko"
 }
