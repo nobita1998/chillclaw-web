@@ -1,27 +1,42 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "TRUTH",
       "date": "2026-07-23",
       "time": "19:00",
-      "points": "256",
+      "points": 256,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "ongoing",
       "box": false,
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "2501",
+      "name": "Swarm Network",
       "created_timestamp": 1784792485,
-      "updated_timestamp": 1784799009,
-      "system_timestamp": 1784799009
+      "updated_timestamp": 1784804552,
+      "system_timestamp": 1784804552,
+      "total_quota": "11662",
+      "quota_event_id": "single_quota_6a61ed31e4edc3.56131981",
+      "quota_type": "single",
+      "quota_source": "telegram_binance_velocity_cn",
+      "quota_received_at": "2026-07-23 18:30:09",
+      "quota_expires_at": "2026-07-23 19:30:00",
+      "completed": true,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-07-23 19:02:32",
+      "claim_ended_at": "2026-07-23 19:02:25",
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "29166662",
+      "contract_address": "0x0a48f85a3905cfa49a652bdb074d9e9fabad27892d54afaa5c9e0adeb7ac3cdf::swarm_network_token::SWARM_NETWORK_TOKEN",
+      "chain_id": "784"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 44548
+      "count": 52772
     },
     {
       "key": "yesterday",
@@ -36,24 +51,24 @@
   "top3_tokens": [
     {
       "symbol": "NES",
-      "buyQuoteVolume": "454695695.95619",
-      "trades": 3288693,
-      "avgBuyAmount": "138.26"
+      "buyQuoteVolume": "544020119.3043",
+      "trades": 3943498,
+      "avgBuyAmount": "137.95"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "113231621.14121",
-      "trades": 108078,
-      "avgBuyAmount": "1047.68"
+      "buyQuoteVolume": "127926677.83153",
+      "trades": 122885,
+      "avgBuyAmount": "1041.03"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "7995796.2165262",
-      "trades": 49214,
-      "avgBuyAmount": "162.47"
+      "buyQuoteVolume": "10424244.282794",
+      "trades": 62749,
+      "avgBuyAmount": "166.13"
     }
   ],
-  "bnb_price_usd": 569.7,
-  "bnb_price_ts": 1784799623,
+  "bnb_price_usd": 569.85,
+  "bnb_price_ts": 1784806822,
   "bnb_price_source": "coingecko"
 }
