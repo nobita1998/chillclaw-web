@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CAP",
-      "buyQuoteVolume": "617816227.56395",
-      "trades": 5952166,
-      "avgBuyAmount": "103.8"
+      "buyQuoteVolume": "626983621.59469",
+      "trades": 6208276,
+      "avgBuyAmount": "100.99"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "227794586.26482",
-      "trades": 234952,
-      "avgBuyAmount": "969.54"
+      "buyQuoteVolume": "229517286.72888",
+      "trades": 236922,
+      "avgBuyAmount": "968.75"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "59198793.863819",
-      "trades": 372753,
-      "avgBuyAmount": "158.82"
+      "buyQuoteVolume": "59355029.963006",
+      "trades": 374835,
+      "avgBuyAmount": "158.35"
     }
   ],
-  "bnb_price_usd": 564.23,
-  "bnb_price_ts": 1784928623,
+  "bnb_price_usd": 564.55,
+  "bnb_price_ts": 1784933122,
   "bnb_price_source": "coingecko"
 }
