@@ -1,42 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "TRUTH",
-      "date": "2026-07-23",
-      "time": "19:00",
-      "points": 256,
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "ongoing",
-      "box": false,
-      "futures_listed": false,
-      "amount": "2501",
-      "name": "Swarm Network",
-      "created_timestamp": 1784792485,
-      "updated_timestamp": 1784804552,
-      "system_timestamp": 1784804552,
-      "total_quota": "11662",
-      "quota_event_id": "single_quota_6a61ed31e4edc3.56131981",
-      "quota_type": "single",
-      "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-07-23 18:30:09",
-      "quota_expires_at": "2026-07-23 19:30:00",
-      "completed": true,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-07-23 19:02:32",
-      "claim_ended_at": "2026-07-23 19:02:25",
-      "has_homonym": false,
-      "spot_listed": false,
-      "total_amount": "29166662",
-      "contract_address": "0x0a48f85a3905cfa49a652bdb074d9e9fabad27892d54afaa5c9e0adeb7ac3cdf::swarm_network_token::SWARM_NETWORK_TOKEN",
-      "chain_id": "784"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 30323
+      "count": 38697
     },
     {
       "key": "yesterday",
@@ -51,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CAP",
-      "buyQuoteVolume": "222860842.00425",
-      "trades": 1967939,
-      "avgBuyAmount": "113.25"
+      "buyQuoteVolume": "295322518.22159",
+      "trades": 2599035,
+      "avgBuyAmount": "113.63"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "140374128.3416",
-      "trades": 138690,
-      "avgBuyAmount": "1012.14"
+      "buyQuoteVolume": "169432796.24559",
+      "trades": 169193,
+      "avgBuyAmount": "1001.42"
     },
     {
       "symbol": "UP",
-      "buyQuoteVolume": "70412308.26967",
-      "trades": 1930785,
-      "avgBuyAmount": "36.47"
+      "buyQuoteVolume": "92140436.014223",
+      "trades": 2396074,
+      "avgBuyAmount": "38.45"
     }
   ],
-  "bnb_price_usd": 566.6,
-  "bnb_price_ts": 1784885722,
+  "bnb_price_usd": 565.85,
+  "bnb_price_ts": 1784892323,
   "bnb_price_source": "coingecko"
 }
