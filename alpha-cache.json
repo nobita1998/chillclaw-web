@@ -1,9 +1,30 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "AEON",
+      "name": "AEON",
+      "date": "2026-07-27",
+      "time": "18:00",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1785121367,
+      "updated_timestamp": 1785122349,
+      "system_timestamp": 1785122349,
+      "contract_address": "0x277aDD739c6E0477616948357AF9E79Fe1Ec9B80",
+      "chain_id": "56"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 3594
+      "count": 23917
     },
     {
       "key": "yesterday",
@@ -18,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "32513896.804338",
-      "trades": 33333,
-      "avgBuyAmount": "975.43"
+      "buyQuoteVolume": "183772578.40325",
+      "trades": 190651,
+      "avgBuyAmount": "963.92"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "13898673.220345",
-      "trades": 268537,
-      "avgBuyAmount": "51.76"
+      "buyQuoteVolume": "125466228.49814",
+      "trades": 1501011,
+      "avgBuyAmount": "83.59"
     },
     {
       "symbol": "ON",
-      "buyQuoteVolume": "121522.03491719",
-      "trades": 12999,
-      "avgBuyAmount": "9.35"
+      "buyQuoteVolume": "608210.05065652",
+      "trades": 49396,
+      "avgBuyAmount": "12.31"
     }
   ],
-  "bnb_price_usd": 572.05,
-  "bnb_price_ts": 1785114023,
+  "bnb_price_usd": 573.24,
+  "bnb_price_ts": 1785128123,
   "bnb_price_source": "coingecko"
 }
