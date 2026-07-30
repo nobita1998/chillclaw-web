@@ -2,29 +2,33 @@
   "airdrops": [
     {
       "token": "GRVT",
-      "name": "Grvt",
       "date": "2026-07-30",
       "time": "20:00",
-      "points": "",
       "phase": 1,
-      "language": "zh",
+      "language": "en",
       "status": "announced",
       "utc": "",
       "box": false,
       "futures_listed": false,
-      "amount": "",
-      "type": "",
-      "created_timestamp": 1785337635,
-      "updated_timestamp": 1785337646,
-      "system_timestamp": 1785337646,
+      "system_timestamp": 1785396166,
+      "created_timestamp": 1785395303,
+      "updated_timestamp": 1785396166,
+      "points": 245,
+      "amount": "100",
+      "type": "grab",
+      "name": "Grvt",
       "contract_address": "0x46F2564E0FA8248d15125E7e54173cfbdEf91Be7",
-      "chain_id": "56"
+      "chain_id": "56",
+      "completed": false,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "3000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 30204
+      "count": 46087
     },
     {
       "key": "yesterday",
@@ -39,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "211906075.00567",
-      "trades": 196706,
-      "avgBuyAmount": "1077.27"
+      "buyQuoteVolume": "303300069.73443",
+      "trades": 285681,
+      "avgBuyAmount": "1061.67"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "177838690.35476",
-      "trades": 1839477,
-      "avgBuyAmount": "96.68"
+      "buyQuoteVolume": "286933930.55006",
+      "trades": 2765806,
+      "avgBuyAmount": "103.74"
     },
     {
       "symbol": "UP",
-      "buyQuoteVolume": "3518952.3409403",
-      "trades": 319662,
-      "avgBuyAmount": "11.01"
+      "buyQuoteVolume": "22491132.206014",
+      "trades": 1028590,
+      "avgBuyAmount": "21.87"
     }
   ],
-  "bnb_price_usd": 572.62,
-  "bnb_price_ts": 1785391823,
+  "bnb_price_usd": 578.04,
+  "bnb_price_ts": 1785402323,
   "bnb_price_source": "coingecko"
 }
