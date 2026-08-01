@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 68405
+      "count": 72469
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "595678658.21609",
-      "trades": 5285560,
-      "avgBuyAmount": "112.7"
+      "buyQuoteVolume": "638751717.7097",
+      "trades": 5685534,
+      "avgBuyAmount": "112.35"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "277861568.66769",
-      "trades": 328307,
-      "avgBuyAmount": "846.35"
+      "buyQuoteVolume": "286141267.672",
+      "trades": 333317,
+      "avgBuyAmount": "858.47"
     },
     {
       "symbol": "SPYB",
-      "buyQuoteVolume": "9014978.7563255",
-      "trades": 78092,
-      "avgBuyAmount": "115.44"
+      "buyQuoteVolume": "9992608.9329843",
+      "trades": 83377,
+      "avgBuyAmount": "119.85"
     }
   ],
-  "bnb_price_usd": 577.89,
-  "bnb_price_ts": 1785598226,
+  "bnb_price_usd": 577.91,
+  "bnb_price_ts": 1785602423,
   "bnb_price_source": "coingecko"
 }
