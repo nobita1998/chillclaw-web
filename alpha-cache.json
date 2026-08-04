@@ -4,19 +4,19 @@
       "token": "QUID",
       "name": "Squid",
       "date": "2026-08-04",
-      "time": "",
-      "points": "",
+      "time": "21:00",
+      "points": "243",
       "phase": 1,
       "language": "zh",
       "status": "announced",
       "utc": "",
       "box": false,
       "futures_listed": false,
-      "amount": "",
+      "amount": "550",
       "type": "grab",
       "created_timestamp": 1785744039,
-      "updated_timestamp": 1785827231,
-      "system_timestamp": 1785827231,
+      "updated_timestamp": 1785831548,
+      "system_timestamp": 1785831548,
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
@@ -28,7 +28,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 38657
+      "count": 51694
     },
     {
       "key": "yesterday",
@@ -43,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "282496788.85914",
-      "trades": 2528131,
-      "avgBuyAmount": "111.74"
+      "buyQuoteVolume": "384928578.0772",
+      "trades": 3438707,
+      "avgBuyAmount": "111.94"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "213005724.78617",
-      "trades": 199024,
-      "avgBuyAmount": "1070.25"
+      "buyQuoteVolume": "276509738.78788",
+      "trades": 254746,
+      "avgBuyAmount": "1085.43"
     },
     {
       "symbol": "SPYB",
-      "buyQuoteVolume": "4909376.01858",
-      "trades": 46046,
-      "avgBuyAmount": "106.62"
+      "buyQuoteVolume": "7681031.7925477",
+      "trades": 81641,
+      "avgBuyAmount": "94.08"
     }
   ],
-  "bnb_price_usd": 589.13,
-  "bnb_price_ts": 1785828323,
+  "bnb_price_usd": 588.29,
+  "bnb_price_ts": 1785837923,
   "bnb_price_source": "coingecko"
 }
