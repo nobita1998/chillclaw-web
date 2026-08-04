@@ -15,12 +15,12 @@
       "amount": "",
       "type": "grab",
       "created_timestamp": 1785744039,
-      "updated_timestamp": 1785745147,
-      "system_timestamp": 1785745147,
+      "updated_timestamp": 1785827231,
+      "system_timestamp": 1785827231,
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
-      "total_amount": "",
+      "total_amount": "10000000",
       "contract_address": "0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53",
       "chain_id": "8453"
     }
@@ -28,7 +28,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 22944
+      "count": 38657
     },
     {
       "key": "yesterday",
@@ -43,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "165684625.43309",
-      "trades": 1567012,
-      "avgBuyAmount": "105.73"
+      "buyQuoteVolume": "282496788.85914",
+      "trades": 2528131,
+      "avgBuyAmount": "111.74"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "129074859.65707",
-      "trades": 122362,
-      "avgBuyAmount": "1054.86"
+      "buyQuoteVolume": "213005724.78617",
+      "trades": 199024,
+      "avgBuyAmount": "1070.25"
     },
     {
       "symbol": "SPYB",
-      "buyQuoteVolume": "2199334.2734838",
-      "trades": 19879,
-      "avgBuyAmount": "110.64"
+      "buyQuoteVolume": "4909376.01858",
+      "trades": 46046,
+      "avgBuyAmount": "106.62"
     }
   ],
-  "bnb_price_usd": 591.09,
-  "bnb_price_ts": 1785818124,
+  "bnb_price_usd": 589.13,
+  "bnb_price_ts": 1785828323,
   "bnb_price_source": "coingecko"
 }
