@@ -1,37 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "QUID",
-      "name": "Squid",
-      "date": "2026-08-04",
-      "time": "21:00",
-      "points": "243",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "utc": "",
-      "box": false,
-      "futures_listed": false,
-      "amount": "550",
-      "type": "grab",
-      "created_timestamp": 1785744039,
-      "updated_timestamp": 1785928608,
-      "system_timestamp": 1785928608,
-      "completed": true,
-      "has_homonym": false,
-      "spot_listed": false,
-      "total_amount": "10000000",
-      "contract_address": "0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53",
-      "chain_id": "8453",
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-08-04 21:00:27",
-      "claim_ended_at": "2026-08-04 21:00:25"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 69439
+      "count": 83742
     },
     {
       "key": "yesterday",
@@ -46,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "442831874.90498",
-      "trades": 4330565,
-      "avgBuyAmount": "102.26"
+      "buyQuoteVolume": "544776385.67859",
+      "trades": 5238477,
+      "avgBuyAmount": "104"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "383170995.63987",
-      "trades": 337032,
-      "avgBuyAmount": "1136.9"
+      "buyQuoteVolume": "418746346.67071",
+      "trades": 365387,
+      "avgBuyAmount": "1146.04"
     },
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "64428009.785883",
-      "trades": 2344918,
-      "avgBuyAmount": "27.48"
+      "buyQuoteVolume": "106215506.92997",
+      "trades": 3094737,
+      "avgBuyAmount": "34.32"
     }
   ],
-  "bnb_price_usd": 597.76,
-  "bnb_price_ts": 1785932424,
+  "bnb_price_usd": 599.01,
+  "bnb_price_ts": 1785940823,
   "bnb_price_source": "coingecko"
 }
