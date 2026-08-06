@@ -1,27 +1,119 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_6a7466fc4ea468.60185633",
+      "token": "AIA",
+      "name": "AIA",
       "date": "2026-08-06",
       "time": "19:00",
-      "points": "245",
       "type": "grab",
       "phase": 1,
-      "language": "zh",
       "status": "announced",
+      "timestamp": 1786013436,
+      "points": "245",
+      "amount": "432",
+      "total_amount": "3076928",
+      "contract_address": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+      "chain_id": "56",
+      "has_homonym": false,
       "box": true,
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1786006875,
-      "updated_timestamp": 1786006915,
-      "system_timestamp": 1786006915
+      "d976_tx_hash": "0x0b40998e17a79a67554391a50ceed64e21c050dc47619ab17fd11f477a392429",
+      "d976_tx_time": "2026-08-06 18:50:52",
+      "quota_reward_index": 2,
+      "quota_common_per_share": "432",
+      "quota_rare_per_share": "540",
+      "quota_epic_per_share": "1538",
+      "quota_inference_engine": "php-local-v2",
+      "quota_event_id": "mystery_box_6a7462413de700.47565405",
+      "quota_inferred_at": "2026-08-06 18:51:29",
+      "quota_total_amount": "3076928",
+      "quota_candidate_groups": [
+        {
+          "reward_index": 1,
+          "common_shares": 5710,
+          "rare_shares": 852,
+          "epic_shares": 100,
+          "inferred_fields": [],
+          "assignment": null
+        },
+        {
+          "reward_index": 2,
+          "common_shares": 5704,
+          "rare_shares": 850,
+          "epic_shares": 100,
+          "inferred_fields": [],
+          "assignment": null
+        }
+      ],
+      "quota_selected_group": {
+        "reward_index": 2,
+        "common_shares": 5704,
+        "rare_shares": 850,
+        "epic_shares": 100
+      },
+      "quota_ratio_error": 0.0112433862433865,
+      "quota_amount_source": "46db_total_php_local",
+      "quota_unit_price_usd": null,
+      "quota_unit_price_source": "1inch_46db_transfer_monitor",
+      "quota_common_value_usd": null,
+      "quota_auto_confirm_target_usd": 30,
+      "quota_auto_confirm_range_min_usd": 22,
+      "quota_auto_confirm_range_max_usd": 38,
+      "quota_auto_confirm_value_matched": false,
+      "quota_auto_confirm_evaluated_at": "2026-08-06 18:51:29",
+      "paired_transfer": true,
+      "paired_from": "0x61a5da39de7eb14c4f80a08cf00158203ad21251",
+      "paired_tx_hash": "0xad5fb5c4eb6b0dafcf5b57ddda888d77cd13ca9d9412ef4d37a0bf55c2303b12",
+      "paired_time_diff": 18,
+      "paired_lookup_source": "primary_lookup",
+      "quota_tx_hash": "0xad5fb5c4eb6b0dafcf5b57ddda888d77cd13ca9d9412ef4d37a0bf55c2303b12",
+      "tx_hash": "0xad5fb5c4eb6b0dafcf5b57ddda888d77cd13ca9d9412ef4d37a0bf55c2303b12",
+      "tx_time": "2026-08-06 18:50:34",
+      "system_timestamp": 1786014068,
+      "completed": true,
+      "confirmed_at": "2026-08-06 18:52:00",
+      "confirm_source": "manual_confirm",
+      "created_timestamp": 1786013520,
+      "updated_timestamp": 1786014068,
+      "language": "zh",
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-08-06 19:00:51",
+      "claim_ended_at": "2026-08-06 19:00:44"
+    },
+    {
+      "id": "warning_6a7466d3587be4.22845226",
+      "token": "AGT",
+      "name": "AGT",
+      "date": "2026-08-06",
+      "time": "19:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1786013395,
+      "points": "245",
+      "amount": "1870",
+      "total_amount": "13333720",
+      "contract_address": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
+      "chain_id": "56",
+      "has_homonym": false,
+      "box": true,
+      "updated_at": "2026-08-06 18:56:47",
+      "system_timestamp": 1786014068,
+      "completed": true,
+      "confirmed_at": "2026-08-06 18:56:52",
+      "confirm_source": "manual_confirm",
+      "created_timestamp": 1786013812,
+      "updated_timestamp": 1786014068,
+      "language": "zh",
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-08-06 19:00:51",
+      "claim_ended_at": "2026-08-06 19:00:44"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 51570
+      "count": 65618
     },
     {
       "key": "yesterday",
@@ -36,24 +128,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "333309887.31157",
-      "trades": 3442113,
-      "avgBuyAmount": "96.83"
+      "buyQuoteVolume": "416315831.92569",
+      "trades": 4321552,
+      "avgBuyAmount": "96.33"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "261331436.83963",
-      "trades": 232270,
-      "avgBuyAmount": "1125.12"
+      "buyQuoteVolume": "316232356.84384",
+      "trades": 297304,
+      "avgBuyAmount": "1063.67"
     },
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "68411092.857126",
-      "trades": 2141738,
-      "avgBuyAmount": "31.94"
+      "buyQuoteVolume": "111029092.70527",
+      "trades": 3052185,
+      "avgBuyAmount": "36.38"
     }
   ],
-  "bnb_price_usd": 594.08,
-  "bnb_price_ts": 1786007723,
+  "bnb_price_usd": 593.55,
+  "bnb_price_ts": 1786016123,
   "bnb_price_source": "coingecko"
 }
