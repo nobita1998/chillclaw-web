@@ -4,7 +4,7 @@
       "token": "DOS",
       "name": "DAPPOS",
       "date": "2026-08-10",
-      "time": "",
+      "time": "17:00",
       "points": "",
       "phase": 1,
       "language": "en",
@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 95677
+      "count": 96022
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "729878655.88149",
-      "trades": 8145208,
-      "avgBuyAmount": "89.61"
+      "buyQuoteVolume": "732198353.78875",
+      "trades": 8204736,
+      "avgBuyAmount": "89.24"
     },
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "502043519.36869",
-      "trades": 6610851,
-      "avgBuyAmount": "75.94"
+      "buyQuoteVolume": "504072749.40415",
+      "trades": 6682948,
+      "avgBuyAmount": "75.43"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "24215388.068707",
-      "trades": 63103,
-      "avgBuyAmount": "383.74"
+      "buyQuoteVolume": "24629257.497442",
+      "trades": 63970,
+      "avgBuyAmount": "385.01"
     }
   ],
-  "bnb_price_usd": 607.58,
-  "bnb_price_ts": 1786308923,
+  "bnb_price_usd": 607.52,
+  "bnb_price_ts": 1786310423,
   "bnb_price_source": "coingecko"
 }
