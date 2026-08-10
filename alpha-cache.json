@@ -5,7 +5,7 @@
       "name": "DAPPOS",
       "date": "2026-08-10",
       "time": "17:00",
-      "points": "200",
+      "points": 200,
       "phase": 1,
       "language": "en",
       "status": "announced",
@@ -15,17 +15,23 @@
       "amount": "200",
       "type": "grab",
       "created_timestamp": 1786260978,
-      "updated_timestamp": 1786342748,
-      "system_timestamp": 1786342748,
+      "updated_timestamp": 1786353819,
+      "system_timestamp": 1786353819,
       "contract_address": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
       "chain_id": "56",
-      "total_amount": "10000000"
+      "total_amount": "10000000",
+      "completed": true,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-08-10 17:00:34",
+      "claim_ended_at": "2026-08-10 17:00:32",
+      "has_homonym": true,
+      "spot_listed": false
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 40150
+      "count": 48808
     },
     {
       "key": "yesterday",
@@ -40,24 +46,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "370087902.72647",
-      "trades": 3394004,
-      "avgBuyAmount": "109.04"
+      "buyQuoteVolume": "463416663.24389",
+      "trades": 4165630,
+      "avgBuyAmount": "111.25"
     },
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "143671207.09544",
-      "trades": 2146422,
-      "avgBuyAmount": "66.94"
+      "buyQuoteVolume": "161832360.52484",
+      "trades": 2438969,
+      "avgBuyAmount": "66.35"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "26659382.30699",
-      "trades": 46032,
-      "avgBuyAmount": "579.15"
+      "buyQuoteVolume": "29587598.909631",
+      "trades": 51570,
+      "avgBuyAmount": "573.74"
     }
   ],
-  "bnb_price_usd": 604.05,
-  "bnb_price_ts": 1786349122,
+  "bnb_price_usd": 603.45,
+  "bnb_price_ts": 1786355423,
   "bnb_price_source": "coingecko"
 }
