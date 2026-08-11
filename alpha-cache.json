@@ -1,37 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "DOS",
-      "name": "DAPPOS",
-      "date": "2026-08-10",
-      "time": "17:00",
-      "points": 200,
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "box": false,
-      "futures_listed": false,
-      "amount": "200",
-      "type": "grab",
-      "created_timestamp": 1786260978,
-      "updated_timestamp": 1786436845,
-      "system_timestamp": 1786436845,
-      "contract_address": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
-      "chain_id": "56",
-      "total_amount": "10000000",
-      "completed": true,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-08-10 17:00:34",
-      "claim_ended_at": "2026-08-10 17:00:32",
-      "has_homonym": true,
-      "spot_listed": false
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 46451
+      "count": 50946
     },
     {
       "key": "yesterday",
@@ -46,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "530437203.25918",
-      "trades": 3900084,
-      "avgBuyAmount": "136.01"
+      "buyQuoteVolume": "578876441.8923",
+      "trades": 4293960,
+      "avgBuyAmount": "134.81"
     },
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "59944761.031624",
-      "trades": 1756529,
-      "avgBuyAmount": "34.13"
+      "buyQuoteVolume": "68746764.289487",
+      "trades": 1990393,
+      "avgBuyAmount": "34.54"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "14272352.439117",
-      "trades": 21412,
-      "avgBuyAmount": "666.56"
+      "buyQuoteVolume": "15557923.268419",
+      "trades": 23475,
+      "avgBuyAmount": "662.74"
     }
   ],
-  "bnb_price_usd": 605.67,
-  "bnb_price_ts": 1786438223,
+  "bnb_price_usd": 606.28,
+  "bnb_price_ts": 1786441523,
   "bnb_price_source": "coingecko"
 }
