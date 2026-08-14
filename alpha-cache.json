@@ -5,18 +5,18 @@
       "name": "KiiChain",
       "date": "2026-08-14",
       "time": "21:00",
-      "points": "",
+      "points": "230",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "utc": "",
       "box": false,
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "360",
+      "type": "grab",
       "created_timestamp": 1786687352,
-      "updated_timestamp": 1786691412,
-      "system_timestamp": 1786691412,
+      "updated_timestamp": 1786702748,
+      "system_timestamp": 1786702748,
       "contract_address": "0xeec6574eabba52bac3f0277f2cd5ac7e67197886",
       "chain_id": "56",
       "completed": false,
@@ -28,7 +28,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 56321
+      "count": 65210
     },
     {
       "key": "yesterday",
@@ -43,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "523540114.71222",
-      "trades": 4135390,
-      "avgBuyAmount": "126.6"
+      "buyQuoteVolume": "573954587.80147",
+      "trades": 4595984,
+      "avgBuyAmount": "124.88"
     },
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "156871418.72838",
-      "trades": 3034138,
-      "avgBuyAmount": "51.7"
+      "buyQuoteVolume": "177061270.48297",
+      "trades": 3439943,
+      "avgBuyAmount": "51.47"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "46335861.450602",
-      "trades": 1425617,
-      "avgBuyAmount": "32.5"
+      "buyQuoteVolume": "90576147.025919",
+      "trades": 2199613,
+      "avgBuyAmount": "41.18"
     }
   ],
-  "bnb_price_usd": 607.6,
-  "bnb_price_ts": 1786699823,
+  "bnb_price_usd": 605.48,
+  "bnb_price_ts": 1786704023,
   "bnb_price_source": "coingecko"
 }
