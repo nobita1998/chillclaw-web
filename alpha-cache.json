@@ -4,7 +4,7 @@
       "token": "KII",
       "name": "KiiChain",
       "date": "2026-08-14",
-      "time": "",
+      "time": "21:00",
       "points": "",
       "phase": 1,
       "language": "en",
@@ -15,20 +15,20 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1786687352,
-      "updated_timestamp": 1786688360,
-      "system_timestamp": 1786688360,
-      "contract_address": "",
-      "chain_id": "",
+      "updated_timestamp": 1786691412,
+      "system_timestamp": 1786691412,
+      "contract_address": "0xeec6574eabba52bac3f0277f2cd5ac7e67197886",
+      "chain_id": "56",
       "completed": false,
       "has_homonym": false,
       "spot_listed": false,
-      "total_amount": ""
+      "total_amount": "17999640"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 36759
+      "count": 45481
     },
     {
       "key": "yesterday",
@@ -43,24 +43,24 @@
   "top3_tokens": [
     {
       "symbol": "BSB",
-      "buyQuoteVolume": "374108052.0671",
-      "trades": 2892582,
-      "avgBuyAmount": "129.33"
+      "buyQuoteVolume": "449480393.76264",
+      "trades": 3482499,
+      "avgBuyAmount": "129.07"
     },
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "94082082.631807",
-      "trades": 1954384,
-      "avgBuyAmount": "48.14"
+      "buyQuoteVolume": "123961822.87614",
+      "trades": 2464386,
+      "avgBuyAmount": "50.3"
     },
     {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "8680997.9297573",
-      "trades": 10310,
-      "avgBuyAmount": "842"
+      "symbol": "DOS",
+      "buyQuoteVolume": "13315226.994774",
+      "trades": 655240,
+      "avgBuyAmount": "20.32"
     }
   ],
-  "bnb_price_usd": 607.44,
-  "bnb_price_ts": 1786689923,
+  "bnb_price_usd": 607.05,
+  "bnb_price_ts": 1786694423,
   "bnb_price_source": "coingecko"
 }
