@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 6485
+      "count": 11871
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "80888304.418608",
-      "trades": 813935,
-      "avgBuyAmount": "99.38"
+      "buyQuoteVolume": "148845179.11167",
+      "trades": 1354039,
+      "avgBuyAmount": "109.93"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "5889192.4811684",
-      "trades": 35692,
-      "avgBuyAmount": "165"
+      "buyQuoteVolume": "9391069.9300202",
+      "trades": 57379,
+      "avgBuyAmount": "163.67"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "1490929.8112581",
-      "trades": 52932,
-      "avgBuyAmount": "28.17"
+      "buyQuoteVolume": "2343149.8195286",
+      "trades": 89535,
+      "avgBuyAmount": "26.17"
     }
   ],
-  "bnb_price_usd": 603.32,
-  "bnb_price_ts": 1786931723,
+  "bnb_price_usd": 604.55,
+  "bnb_price_ts": 1786935323,
   "bnb_price_source": "coingecko"
 }
