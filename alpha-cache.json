@@ -1,9 +1,27 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-08-19",
+      "time": "19:00",
+      "points": "243",
+      "type": "grab",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1787130032,
+      "updated_timestamp": 1787130079,
+      "system_timestamp": 1787130079
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 45485
+      "count": 49861
     },
     {
       "key": "yesterday",
@@ -18,24 +36,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "470120872.63491",
-      "trades": 3642582,
-      "avgBuyAmount": "129.06"
+      "buyQuoteVolume": "507371409.59131",
+      "trades": 3921881,
+      "avgBuyAmount": "129.37"
     },
     {
       "symbol": "KII",
-      "buyQuoteVolume": "93027725.680297",
-      "trades": 1846109,
-      "avgBuyAmount": "50.39"
+      "buyQuoteVolume": "109437022.94038",
+      "trades": 2130840,
+      "avgBuyAmount": "51.36"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "24552099.628035",
-      "trades": 172977,
-      "avgBuyAmount": "141.94"
+      "buyQuoteVolume": "25887787.427631",
+      "trades": 183012,
+      "avgBuyAmount": "141.45"
     }
   ],
-  "bnb_price_usd": 601.75,
-  "bnb_price_ts": 1787127923,
+  "bnb_price_usd": 602.31,
+  "bnb_price_ts": 1787130024,
   "bnb_price_source": "coingecko"
 }
