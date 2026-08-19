@@ -1,33 +1,51 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_6a858a48751300.12920034",
+      "token": "STABLE",
+      "name": "STABLE",
       "date": "2026-08-19",
       "time": "19:00",
-      "points": "243",
       "type": "grab",
       "phase": 1,
-      "language": "zh",
       "status": "announced",
+      "timestamp": 1787136584,
+      "points": 243,
+      "amount": "1053",
+      "total_amount": "11524032",
+      "contract_address": "0x011ebe7d75e2c9d1e0bd0be0bef5c36f0a90075f",
+      "chain_id": "56",
+      "has_homonym": false,
       "box": false,
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1787130032,
-      "updated_timestamp": 1787131159,
-      "system_timestamp": 1787131159,
-      "total_quota": "10944",
       "quota_event_id": "single_quota_6a8585c229cac7.84808198",
-      "quota_type": "single",
-      "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-08-19 18:30:26",
-      "quota_expires_at": "2026-08-19 19:30:00"
+      "quota_total_shares": "10944",
+      "quota_remainder": "0",
+      "quota_inference_engine": "php-intdiv-v1",
+      "quota_amount_source": "46db_total_div_telegram_quota",
+      "quota_inferred_at": "2026-08-19 18:49:44",
+      "quota_tx_hash": "",
+      "quota_unit_price_usd": null,
+      "quota_unit_price_source": "",
+      "quota_common_value_usd": null,
+      "quota_auto_confirm_value_matched": false,
+      "quota_auto_confirm_evaluated_at": "2026-08-19 18:49:44",
+      "system_timestamp": 1787137516,
+      "completed": true,
+      "confirmed_at": "2026-08-19 18:55:55",
+      "confirm_source": "manual_confirm",
+      "futures_listed": false,
+      "spot_listed": false,
+      "pre_price": "",
+      "updated_timestamp": 1787137516,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-08-19 19:05:16",
+      "claim_ended_at": "2026-08-19 19:05:11"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 62107
+      "count": 63849
     },
     {
       "key": "yesterday",
@@ -42,24 +60,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "600907537.19934",
-      "trades": 4676623,
-      "avgBuyAmount": "128.49"
+      "buyQuoteVolume": "615511733.258",
+      "trades": 4794014,
+      "avgBuyAmount": "128.39"
     },
     {
       "symbol": "KII",
-      "buyQuoteVolume": "162283405.6828",
-      "trades": 2972992,
-      "avgBuyAmount": "54.59"
+      "buyQuoteVolume": "167889540.91642",
+      "trades": 3082775,
+      "avgBuyAmount": "54.46"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "34028560.325454",
-      "trades": 1440319,
-      "avgBuyAmount": "23.63"
+      "buyQuoteVolume": "36149964.221807",
+      "trades": 1515157,
+      "avgBuyAmount": "23.86"
     }
   ],
-  "bnb_price_usd": 601.9,
-  "bnb_price_ts": 1787136622,
+  "bnb_price_usd": 602.42,
+  "bnb_price_ts": 1787137823,
   "bnb_price_source": "coingecko"
 }
