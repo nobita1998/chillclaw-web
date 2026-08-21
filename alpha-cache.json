@@ -1,33 +1,42 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "token": "COAI",
       "date": "2026-08-21",
       "time": "19:00",
-      "points": "242",
+      "points": 242,
       "type": "grab",
       "phase": 1,
       "language": "en",
       "status": "announced",
       "box": false,
       "futures_listed": false,
-      "amount": "",
-      "name": "",
+      "amount": "105",
+      "name": "ChainOpera AI",
       "created_timestamp": 1787295828,
-      "updated_timestamp": 1787296747,
-      "system_timestamp": 1787296747,
+      "updated_timestamp": 1787310314,
+      "system_timestamp": 1787310314,
       "total_quota": "11111",
       "quota_event_id": "single_quota_6a8828c70b8545.34625673",
       "quota_type": "single",
       "quota_source": "telegram_binance_velocity_cn",
       "quota_received_at": "2026-08-21 18:30:31",
-      "quota_expires_at": "2026-08-21 19:30:00"
+      "quota_expires_at": "2026-08-21 19:30:00",
+      "completed": true,
+      "has_homonym": false,
+      "spot_listed": false,
+      "total_amount": "",
+      "contract_address": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+      "chain_id": "56",
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-08-21 19:05:14",
+      "claim_ended_at": "2026-08-21 19:05:09"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 64896
+      "count": 66968
     },
     {
       "key": "yesterday",
@@ -42,24 +51,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "600747025.07274",
-      "trades": 4855692,
-      "avgBuyAmount": "123.72"
+      "buyQuoteVolume": "620284914.21639",
+      "trades": 5000900,
+      "avgBuyAmount": "124.03"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "117736105.94949",
-      "trades": 2799136,
-      "avgBuyAmount": "42.06"
+      "buyQuoteVolume": "122807573.35386",
+      "trades": 2894293,
+      "avgBuyAmount": "42.43"
     },
     {
       "symbol": "KII",
-      "buyQuoteVolume": "113906250.4367",
-      "trades": 2764461,
-      "avgBuyAmount": "41.2"
+      "buyQuoteVolume": "115985797.46344",
+      "trades": 2839908,
+      "avgBuyAmount": "40.84"
     }
   ],
-  "bnb_price_usd": 679.66,
-  "bnb_price_ts": 1787309423,
+  "bnb_price_usd": 678.27,
+  "bnb_price_ts": 1787310623,
   "bnb_price_source": "coingecko"
 }
