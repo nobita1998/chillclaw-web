@@ -15,13 +15,19 @@
       "name": "",
       "created_timestamp": 1787295828,
       "updated_timestamp": 1787296747,
-      "system_timestamp": 1787296747
+      "system_timestamp": 1787296747,
+      "total_quota": "11111",
+      "quota_event_id": "single_quota_6a8828c70b8545.34625673",
+      "quota_type": "single",
+      "quota_source": "telegram_binance_velocity_cn",
+      "quota_received_at": "2026-08-21 18:30:31",
+      "quota_expires_at": "2026-08-21 19:30:00"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 61101
+      "count": 64896
     },
     {
       "key": "yesterday",
@@ -36,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "572356306.45664",
-      "trades": 4624623,
-      "avgBuyAmount": "123.76"
-    },
-    {
-      "symbol": "KII",
-      "buyQuoteVolume": "107799586.16206",
-      "trades": 2615364,
-      "avgBuyAmount": "41.22"
+      "buyQuoteVolume": "600747025.07274",
+      "trades": 4855692,
+      "avgBuyAmount": "123.72"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "103441326.30837",
-      "trades": 2549789,
-      "avgBuyAmount": "40.57"
+      "buyQuoteVolume": "117736105.94949",
+      "trades": 2799136,
+      "avgBuyAmount": "42.06"
+    },
+    {
+      "symbol": "KII",
+      "buyQuoteVolume": "113906250.4367",
+      "trades": 2764461,
+      "avgBuyAmount": "41.2"
     }
   ],
-  "bnb_price_usd": 677.66,
-  "bnb_price_ts": 1787307323,
+  "bnb_price_usd": 679.66,
+  "bnb_price_ts": 1787309423,
   "bnb_price_source": "coingecko"
 }
