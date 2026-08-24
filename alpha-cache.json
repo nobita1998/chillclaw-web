@@ -4,7 +4,7 @@
       "token": "TMX",
       "name": "TermMax",
       "date": "2026-08-25",
-      "time": "",
+      "time": "18:00",
       "points": "",
       "phase": 1,
       "language": "en",
@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 96781
+      "count": 97095
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "1048815297.1232",
-      "trades": 8609205,
-      "avgBuyAmount": "121.82"
+      "buyQuoteVolume": "1052316758.1295",
+      "trades": 8684371,
+      "avgBuyAmount": "121.17"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "190100486.76965",
-      "trades": 4776762,
-      "avgBuyAmount": "39.8"
+      "buyQuoteVolume": "190542226.85756",
+      "trades": 4796470,
+      "avgBuyAmount": "39.73"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "59415715.775569",
-      "trades": 223809,
-      "avgBuyAmount": "265.48"
+      "buyQuoteVolume": "59903269.171426",
+      "trades": 225670,
+      "avgBuyAmount": "265.45"
     }
   ],
-  "bnb_price_usd": 702.93,
-  "bnb_price_ts": 1787604623,
+  "bnb_price_usd": 704.48,
+  "bnb_price_ts": 1787606123,
   "bnb_price_source": "coingecko"
 }
