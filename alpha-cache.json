@@ -1,9 +1,30 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "TMX",
+      "name": "TermMax",
+      "date": "2026-08-25",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1787540486,
+      "updated_timestamp": 1787541782,
+      "system_timestamp": 1787541782,
+      "contract_address": "0x3c2f61f2e27c865981d2e7aaf6b2cdf823030039",
+      "chain_id": "56"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 7424
+      "count": 15882
     },
     {
       "key": "yesterday",
@@ -18,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "90321397.186711",
-      "trades": 782040,
-      "avgBuyAmount": "115.49"
+      "buyQuoteVolume": "194944684.97164",
+      "trades": 1501783,
+      "avgBuyAmount": "129.81"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "7794068.0868418",
-      "trades": 45054,
-      "avgBuyAmount": "172.99"
+      "buyQuoteVolume": "11978705.17087",
+      "trades": 67095,
+      "avgBuyAmount": "178.53"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "3847067.3958286",
-      "trades": 176429,
-      "avgBuyAmount": "21.81"
+      "buyQuoteVolume": "7800064.3835981",
+      "trades": 361650,
+      "avgBuyAmount": "21.57"
     }
   ],
-  "bnb_price_usd": 695.26,
-  "bnb_price_ts": 1787536824,
+  "bnb_price_usd": 697.4,
+  "bnb_price_ts": 1787541923,
   "bnb_price_source": "coingecko"
 }
