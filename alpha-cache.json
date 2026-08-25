@@ -29,7 +29,7 @@
       "token": "DEBIT",
       "name": "Teller",
       "date": "2026-08-26",
-      "time": "",
+      "time": "18:00",
       "points": "",
       "phase": 1,
       "language": "zh",
@@ -49,7 +49,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 91182
+      "count": 91406
     },
     {
       "key": "yesterday",
@@ -64,24 +64,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "993568185.95695",
-      "trades": 8600580,
-      "avgBuyAmount": "115.52"
+      "buyQuoteVolume": "996064439.52359",
+      "trades": 8661946,
+      "avgBuyAmount": "114.99"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "168721978.96474",
-      "trades": 4737657,
-      "avgBuyAmount": "35.61"
+      "buyQuoteVolume": "169053668.41571",
+      "trades": 4756514,
+      "avgBuyAmount": "35.54"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "76559271.191193",
-      "trades": 291871,
-      "avgBuyAmount": "262.31"
+      "buyQuoteVolume": "76832742.017238",
+      "trades": 293653,
+      "avgBuyAmount": "261.64"
     }
   ],
-  "bnb_price_usd": 693.33,
-  "bnb_price_ts": 1787691028,
+  "bnb_price_usd": 690.2,
+  "bnb_price_ts": 1787692223,
   "bnb_price_source": "coingecko"
 }
