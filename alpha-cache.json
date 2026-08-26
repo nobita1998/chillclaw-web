@@ -1,31 +1,6 @@
 {
   "airdrops": [
     {
-      "token": "TMX",
-      "name": "TermMax",
-      "date": "2026-08-25",
-      "time": "18:00",
-      "points": "225",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "box": false,
-      "futures_listed": false,
-      "amount": "200",
-      "type": "grab",
-      "created_timestamp": 1787540486,
-      "updated_timestamp": 1787652040,
-      "system_timestamp": 1787652040,
-      "contract_address": "0x3c2f61f2e27c865981d2e7aaf6b2cdf823030039",
-      "chain_id": "56",
-      "total_amount": "10000000",
-      "completed": true,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-08-25 18:00:40",
-      "claim_ended_at": "2026-08-25 18:00:36"
-    },
-    {
       "token": "DEBIT",
       "name": "Teller",
       "date": "2026-08-26",
@@ -40,17 +15,21 @@
       "amount": "50",
       "type": "grab",
       "created_timestamp": 1787626820,
-      "updated_timestamp": 1787728751,
-      "system_timestamp": 1787728751,
+      "updated_timestamp": 1787738434,
+      "system_timestamp": 1787738434,
       "contract_address": "0x66661c7229901f568f16bd1551b3ba826f83ce49",
       "chain_id": "56",
-      "total_amount": "1000000"
+      "total_amount": "1000000",
+      "completed": true,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-08-26 18:00:34",
+      "claim_ended_at": "2026-08-26 18:00:26"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 44516
+      "count": 49180
     },
     {
       "key": "yesterday",
@@ -65,24 +44,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "513397127.20339",
-      "trades": 4067731,
-      "avgBuyAmount": "126.21"
+      "buyQuoteVolume": "560646972.07678",
+      "trades": 4444976,
+      "avgBuyAmount": "126.13"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "56218877.060881",
-      "trades": 1939918,
-      "avgBuyAmount": "28.98"
+      "buyQuoteVolume": "68789331.646513",
+      "trades": 2205230,
+      "avgBuyAmount": "31.19"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "23061659.318716",
-      "trades": 98649,
-      "avgBuyAmount": "233.77"
+      "buyQuoteVolume": "24070621.369876",
+      "trades": 101888,
+      "avgBuyAmount": "236.25"
     }
   ],
-  "bnb_price_usd": 698.09,
-  "bnb_price_ts": 1787735123,
+  "bnb_price_usd": 695.2,
+  "bnb_price_ts": 1787738423,
   "bnb_price_source": "coingecko"
 }
