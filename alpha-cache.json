@@ -30,18 +30,18 @@
       "name": "Teller",
       "date": "2026-08-26",
       "time": "18:00",
-      "points": "",
+      "points": "240",
       "phase": 1,
       "language": "zh",
       "status": "announced",
       "utc": "",
       "box": false,
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "50",
+      "type": "grab",
       "created_timestamp": 1787626820,
-      "updated_timestamp": 1787718911,
-      "system_timestamp": 1787718911,
+      "updated_timestamp": 1787727845,
+      "system_timestamp": 1787727845,
       "contract_address": "0x66661c7229901f568f16bd1551b3ba826f83ce49",
       "chain_id": "56",
       "total_amount": "1000000"
@@ -50,7 +50,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 29406
+      "count": 33816
     },
     {
       "key": "yesterday",
@@ -65,24 +65,24 @@
   "top3_tokens": [
     {
       "symbol": "GRVT",
-      "buyQuoteVolume": "351961296.94089",
-      "trades": 2836570,
-      "avgBuyAmount": "124.08"
+      "buyQuoteVolume": "399883836.70057",
+      "trades": 3196399,
+      "avgBuyAmount": "125.1"
     },
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "24397139.173326",
-      "trades": 1076804,
-      "avgBuyAmount": "22.66"
+      "buyQuoteVolume": "32765803.370701",
+      "trades": 1318237,
+      "avgBuyAmount": "24.86"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "15231317.61792",
-      "trades": 70046,
-      "avgBuyAmount": "217.45"
+      "buyQuoteVolume": "17500440.647038",
+      "trades": 81729,
+      "avgBuyAmount": "214.13"
     }
   ],
-  "bnb_price_usd": 695.98,
-  "bnb_price_ts": 1787725223,
+  "bnb_price_usd": 699.36,
+  "bnb_price_ts": 1787728223,
   "bnb_price_source": "coingecko"
 }
