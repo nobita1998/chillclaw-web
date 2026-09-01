@@ -3,39 +3,39 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 76670
+      "count": 1346
     },
     {
       "key": "yesterday",
-      "count": 78492
+      "count": 78574
     },
     {
       "key": "before_yesterday",
-      "count": 77361
+      "count": 78492
     }
   ],
-  "last_rollover_date": "2026-08-31",
+  "last_rollover_date": "2026-09-01",
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "952113054.44983",
-      "trades": 9398471,
-      "avgBuyAmount": "101.31"
+      "buyQuoteVolume": "16456198.237147",
+      "trades": 252756,
+      "avgBuyAmount": "65.11"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "64498991.060591",
-      "trades": 265785,
-      "avgBuyAmount": "242.67"
+      "buyQuoteVolume": "2327402.5114072",
+      "trades": 9655,
+      "avgBuyAmount": "241.06"
     },
     {
-      "symbol": "DEBIT",
-      "buyQuoteVolume": "19288620.956457",
-      "trades": 782025,
-      "avgBuyAmount": "24.66"
+      "symbol": "KII",
+      "buyQuoteVolume": "196155.78521288",
+      "trades": 606,
+      "avgBuyAmount": "323.69"
     }
   ],
-  "bnb_price_usd": 691.2,
-  "bnb_price_ts": 1788211822,
+  "bnb_price_usd": 692.67,
+  "bnb_price_ts": 1788223523,
   "bnb_price_source": "coingecko"
 }
