@@ -1,9 +1,33 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-09-01",
+      "time": "19:00",
+      "points": "250",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "language": "en",
+      "futures_listed": false,
+      "box": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1788251508,
+      "updated_timestamp": 1788256195,
+      "system_timestamp": 1788256195,
+      "total_quota": "11097",
+      "quota_event_id": "single_quota_6a96a9411e6f98.04599845",
+      "quota_type": "single",
+      "quota_source": "telegram_binance_velocity_cn",
+      "quota_received_at": "2026-09-01 18:30:25",
+      "quota_expires_at": "2026-09-01 19:30:00"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 22104
+      "count": 45243
     },
     {
       "key": "yesterday",
@@ -18,24 +42,24 @@
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "269281368.4793",
-      "trades": 2564344,
-      "avgBuyAmount": "105.01"
+      "buyQuoteVolume": "553900488.11535",
+      "trades": 4989800,
+      "avgBuyAmount": "111.01"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "15652291.508862",
-      "trades": 60122,
-      "avgBuyAmount": "260.34"
+      "buyQuoteVolume": "29788071.145976",
+      "trades": 91504,
+      "avgBuyAmount": "325.54"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "11600075.751501",
-      "trades": 422565,
-      "avgBuyAmount": "27.45"
+      "buyQuoteVolume": "21823118.799501",
+      "trades": 805827,
+      "avgBuyAmount": "27.08"
     }
   ],
-  "bnb_price_usd": 693.65,
-  "bnb_price_ts": 1788241524,
+  "bnb_price_usd": 686.82,
+  "bnb_price_ts": 1788258623,
   "bnb_price_source": "coingecko"
 }
