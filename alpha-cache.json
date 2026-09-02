@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 84989
+      "count": 86754
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "950204523.98026",
-      "trades": 9275507,
-      "avgBuyAmount": "102.44"
+      "buyQuoteVolume": "969773764.5424",
+      "trades": 9785169,
+      "avgBuyAmount": "99.11"
     },
     {
       "symbol": "TMX",
-      "buyQuoteVolume": "111826884.82805",
-      "trades": 3591310,
-      "avgBuyAmount": "31.14"
+      "buyQuoteVolume": "112232189.4051",
+      "trades": 3628922,
+      "avgBuyAmount": "30.93"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "43203620.111917",
-      "trades": 91499,
-      "avgBuyAmount": "472.18"
+      "buyQuoteVolume": "44373165.433458",
+      "trades": 94836,
+      "avgBuyAmount": "467.89"
     }
   ],
-  "bnb_price_usd": 687.21,
-  "bnb_price_ts": 1788383124,
+  "bnb_price_usd": 686.45,
+  "bnb_price_ts": 1788391224,
   "bnb_price_source": "coingecko"
 }
