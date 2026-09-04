@@ -1,27 +1,47 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "warning_6a9a6a20ac2e73.27482735",
+      "token": "CP",
+      "name": "Cluster Protocol",
       "date": "2026-09-04",
       "time": "15:00",
-      "points": "235",
       "type": "grab",
       "phase": 1,
-      "language": "en",
       "status": "announced",
-      "box": false,
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1788499152,
-      "updated_timestamp": 1788499152,
-      "system_timestamp": 1788499152
+      "timestamp": 1788504608,
+      "points": "235",
+      "amount": "860",
+      "total_amount": "49999540",
+      "contract_address": "0x001aad84c21a5cd4d696c56d44866e9703c43f77",
+      "chain_id": "8453",
+      "has_homonym": false,
+      "box": true,
+      "quota_event_id": "single_quota_6a9a65890be789.88978525",
+      "quota_total_shares": "58139",
+      "quota_remainder": "0",
+      "quota_inference_engine": "php-intdiv-v1",
+      "quota_amount_source": "46db_total_div_telegram_quota",
+      "quota_inferred_at": "2026-09-04 14:50:08",
+      "quota_tx_hash": "0xca1172887fe43f33427c9366921741457df769aa099796a492f4c87021deeb54",
+      "quota_unit_price_usd": 0.03627,
+      "quota_unit_price_source": "46db_transfer_monitor_push",
+      "quota_common_value_usd": 31.192199999999996,
+      "quota_auto_confirm_value_matched": true,
+      "quota_auto_confirm_evaluated_at": "2026-09-04 14:50:08",
+      "system_timestamp": 1788504662,
+      "completed": true,
+      "confirmed_at": "2026-09-04 14:50:08",
+      "confirm_source": "46db_total_div_telegram_quota_value_match",
+      "created_timestamp": 1788504608,
+      "updated_timestamp": 1788504662,
+      "language": "zh"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 28141
+      "count": 58135
     },
     {
       "key": "yesterday",
@@ -36,24 +56,24 @@
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "310547534.63702",
-      "trades": 2661518,
-      "avgBuyAmount": "116.68"
+      "buyQuoteVolume": "603105275.29038",
+      "trades": 5201439,
+      "avgBuyAmount": "115.95"
     },
     {
       "symbol": "TMX",
-      "buyQuoteVolume": "48132018.571995",
-      "trades": 1145580,
-      "avgBuyAmount": "42.02"
+      "buyQuoteVolume": "134392322.62117",
+      "trades": 2876663,
+      "avgBuyAmount": "46.72"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "11368107.834745",
-      "trades": 45157,
-      "avgBuyAmount": "251.75"
+      "buyQuoteVolume": "22795488.237062",
+      "trades": 96626,
+      "avgBuyAmount": "235.91"
     }
   ],
-  "bnb_price_usd": 724.48,
-  "bnb_price_ts": 1788501624,
+  "bnb_price_usd": 723.73,
+  "bnb_price_ts": 1788521123,
   "bnb_price_source": "coingecko"
 }
