@@ -1,9 +1,27 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "",
+      "date": "2026-09-04",
+      "time": "15:00",
+      "points": "235",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1788499152,
+      "updated_timestamp": 1788499152,
+      "system_timestamp": 1788499152
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 3001
+      "count": 28141
     },
     {
       "key": "yesterday",
@@ -18,24 +36,24 @@
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "36794587.142481",
-      "trades": 391550,
-      "avgBuyAmount": "93.97"
-    },
-    {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "1938429.3021504",
-      "trades": 6962,
-      "avgBuyAmount": "278.43"
+      "buyQuoteVolume": "310547534.63702",
+      "trades": 2661518,
+      "avgBuyAmount": "116.68"
     },
     {
       "symbol": "TMX",
-      "buyQuoteVolume": "1427738.7978262",
-      "trades": 60906,
-      "avgBuyAmount": "23.44"
+      "buyQuoteVolume": "48132018.571995",
+      "trades": 1145580,
+      "avgBuyAmount": "42.02"
+    },
+    {
+      "symbol": "QQQB",
+      "buyQuoteVolume": "11368107.834745",
+      "trades": 45157,
+      "avgBuyAmount": "251.75"
     }
   ],
-  "bnb_price_usd": 722.64,
-  "bnb_price_ts": 1788483923,
+  "bnb_price_usd": 724.48,
+  "bnb_price_ts": 1788501624,
   "bnb_price_source": "coingecko"
 }
