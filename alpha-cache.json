@@ -1,47 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_6a9a6a20ac2e73.27482735",
-      "token": "CP",
-      "name": "Cluster Protocol",
-      "date": "2026-09-04",
-      "time": "15:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1788504608,
-      "points": "235",
-      "amount": "860",
-      "total_amount": "49999540",
-      "contract_address": "0x001aad84c21a5cd4d696c56d44866e9703c43f77",
-      "chain_id": "8453",
-      "has_homonym": false,
-      "box": true,
-      "quota_event_id": "single_quota_6a9a65890be789.88978525",
-      "quota_total_shares": "58139",
-      "quota_remainder": "0",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-09-04 14:50:08",
-      "quota_tx_hash": "0xca1172887fe43f33427c9366921741457df769aa099796a492f4c87021deeb54",
-      "quota_unit_price_usd": 0.03627,
-      "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 31.192199999999996,
-      "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-09-04 14:50:08",
-      "system_timestamp": 1788504662,
-      "completed": true,
-      "confirmed_at": "2026-09-04 14:50:08",
-      "confirm_source": "46db_total_div_telegram_quota_value_match",
-      "created_timestamp": 1788504608,
-      "updated_timestamp": 1788504662,
-      "language": "zh"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 19551
+      "count": 38719
     },
     {
       "key": "yesterday",
@@ -56,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "234550775.81422",
-      "trades": 2156681,
-      "avgBuyAmount": "108.76"
-    },
-    {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "10384210.199112",
-      "trades": 57358,
-      "avgBuyAmount": "181.04"
+      "buyQuoteVolume": "456897361.62939",
+      "trades": 4106824,
+      "avgBuyAmount": "111.25"
     },
     {
       "symbol": "KII",
-      "buyQuoteVolume": "9794095.0312865",
-      "trades": 309016,
-      "avgBuyAmount": "31.69"
+      "buyQuoteVolume": "25575310.988319",
+      "trades": 638303,
+      "avgBuyAmount": "40.07"
+    },
+    {
+      "symbol": "QQQB",
+      "buyQuoteVolume": "18857427.880494",
+      "trades": 115691,
+      "avgBuyAmount": "163"
     }
   ],
-  "bnb_price_usd": 721.83,
-  "bnb_price_ts": 1788583224,
+  "bnb_price_usd": 747.59,
+  "bnb_price_ts": 1788597324,
   "bnb_price_source": "coingecko"
 }
