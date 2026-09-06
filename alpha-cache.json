@@ -1,9 +1,30 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "CNPY",
+      "name": "Canopy",
+      "date": "2026-09-07",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1788676383,
+      "updated_timestamp": 1788683334,
+      "system_timestamp": 1788683334,
+      "contract_address": "0xc69b16cf18cea1e5d0bb6a1a9db802097790ddd2",
+      "chain_id": "56"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 28030
+      "count": 53735
     },
     {
       "key": "yesterday",
@@ -18,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "DOS",
-      "buyQuoteVolume": "327104728.66583",
-      "trades": 2698287,
-      "avgBuyAmount": "121.23"
+      "buyQuoteVolume": "616559716.73414",
+      "trades": 5061074,
+      "avgBuyAmount": "121.82"
     },
     {
       "symbol": "KII",
-      "buyQuoteVolume": "23113422.907659",
-      "trades": 555297,
-      "avgBuyAmount": "41.62"
+      "buyQuoteVolume": "38552279.951549",
+      "trades": 990378,
+      "avgBuyAmount": "38.93"
     },
     {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "15710912.751737",
-      "trades": 123104,
-      "avgBuyAmount": "127.62"
+      "symbol": "TMX",
+      "buyQuoteVolume": "34216511.182047",
+      "trades": 1534740,
+      "avgBuyAmount": "22.29"
     }
   ],
-  "bnb_price_usd": 761.45,
-  "bnb_price_ts": 1788674423,
+  "bnb_price_usd": 757.07,
+  "bnb_price_ts": 1788692722,
   "bnb_price_source": "coingecko"
 }
