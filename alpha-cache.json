@@ -1,42 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "BSB",
-      "date": "2026-09-10",
-      "time": "19:00",
-      "points": 246,
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "ongoing",
-      "box": false,
-      "futures_listed": false,
-      "amount": "342",
-      "name": "Block Street",
-      "created_timestamp": 1789031980,
-      "updated_timestamp": 1789038312,
-      "system_timestamp": 1789038312,
-      "total_quota": "11371",
-      "quota_event_id": "single_quota_6aa286bb8b6ca2.82427848",
-      "quota_type": "single",
-      "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-09-10 18:30:19",
-      "quota_expires_at": "2026-09-10 19:30:00",
-      "contract_address": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-      "chain_id": "56",
-      "completed": true,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-09-10 19:05:12",
-      "claim_ended_at": "2026-09-10 19:05:07",
-      "has_homonym": false,
-      "spot_listed": false,
-      "total_amount": "3888882"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 28433
+      "count": 53674
     },
     {
       "key": "yesterday",
@@ -51,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "KII",
-      "buyQuoteVolume": "361101914.29117",
-      "trades": 2905335,
-      "avgBuyAmount": "124.29"
+      "buyQuoteVolume": "668791701.41411",
+      "trades": 5446926,
+      "avgBuyAmount": "122.78"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "19873847.278992",
-      "trades": 66612,
-      "avgBuyAmount": "298.35"
+      "buyQuoteVolume": "66040284.892644",
+      "trades": 164882,
+      "avgBuyAmount": "400.53"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "1700293.1528711",
-      "trades": 63341,
-      "avgBuyAmount": "26.84"
+      "buyQuoteVolume": "8515014.6556557",
+      "trades": 354394,
+      "avgBuyAmount": "24.03"
     }
   ],
-  "bnb_price_usd": 714.41,
-  "bnb_price_ts": 1789108823,
+  "bnb_price_usd": 712.5,
+  "bnb_price_ts": 1789127424,
   "bnb_price_source": "coingecko"
 }
