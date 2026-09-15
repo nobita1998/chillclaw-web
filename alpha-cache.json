@@ -1,9 +1,28 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "APM",
+      "name": "apM Fashion",
+      "date": "2026-09-17",
+      "time": "",
+      "points": "",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1789463570,
+      "updated_timestamp": 1789463949,
+      "system_timestamp": 1789463949
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 20126
+      "count": 49177
     },
     {
       "key": "yesterday",
@@ -18,24 +37,24 @@
   "top3_tokens": [
     {
       "symbol": "CNPY",
-      "buyQuoteVolume": "211819859.76358",
-      "trades": 1995980,
-      "avgBuyAmount": "106.12"
+      "buyQuoteVolume": "505272740.61553",
+      "trades": 4440975,
+      "avgBuyAmount": "113.78"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "42324302.654965",
-      "trades": 1462771,
-      "avgBuyAmount": "28.93"
+      "buyQuoteVolume": "117461652.18668",
+      "trades": 3327790,
+      "avgBuyAmount": "35.3"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "21304165.265008",
-      "trades": 73538,
-      "avgBuyAmount": "289.7"
+      "buyQuoteVolume": "31330449.053455",
+      "trades": 112017,
+      "avgBuyAmount": "279.69"
     }
   ],
-  "bnb_price_usd": 718.93,
-  "bnb_price_ts": 1789449924,
+  "bnb_price_usd": 718.13,
+  "bnb_price_ts": 1789467323,
   "bnb_price_source": "coingecko"
 }
