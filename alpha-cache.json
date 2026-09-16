@@ -44,7 +44,7 @@
       "token": "APM",
       "name": "apM Fashion",
       "date": "2026-09-17",
-      "time": "",
+      "time": "21:00",
       "points": "",
       "phase": 1,
       "language": "zh",
@@ -64,7 +64,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 88788
+      "count": 91602
     },
     {
       "key": "yesterday",
@@ -79,24 +79,24 @@
   "top3_tokens": [
     {
       "symbol": "CNPY",
-      "buyQuoteVolume": "911141489.30142",
-      "trades": 9460992,
-      "avgBuyAmount": "96.31"
+      "buyQuoteVolume": "941248866.05556",
+      "trades": 10354589,
+      "avgBuyAmount": "90.9"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "225405327.19569",
-      "trades": 5208685,
-      "avgBuyAmount": "43.27"
+      "buyQuoteVolume": "228379476.02088",
+      "trades": 5409488,
+      "avgBuyAmount": "42.22"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "35882026.225466",
-      "trades": 80069,
-      "avgBuyAmount": "448.14"
+      "buyQuoteVolume": "46303379.010305",
+      "trades": 88982,
+      "avgBuyAmount": "520.37"
     }
   ],
-  "bnb_price_usd": 715.57,
-  "bnb_price_ts": 1789584923,
+  "bnb_price_usd": 719.48,
+  "bnb_price_ts": 1789595123,
   "bnb_price_source": "coingecko"
 }
