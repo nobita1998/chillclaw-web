@@ -15,17 +15,21 @@
       "amount": "5000",
       "type": "grab",
       "created_timestamp": 1789463570,
-      "updated_timestamp": 1789636750,
-      "system_timestamp": 1789636750,
+      "updated_timestamp": 1789650038,
+      "system_timestamp": 1789650038,
       "contract_address": "0x72a22faa6a522c81a8f5d508381e18af3da0921e",
       "chain_id": "56",
-      "total_amount": "150000000"
+      "total_amount": "150000000",
+      "completed": true,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-09-17 21:00:38",
+      "claim_ended_at": "2026-09-17 21:00:33"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 58410
+      "count": 86246
     },
     {
       "key": "yesterday",
@@ -40,24 +44,24 @@
   "top3_tokens": [
     {
       "symbol": "CNPY",
-      "buyQuoteVolume": "620909024.8871",
-      "trades": 6026673,
-      "avgBuyAmount": "103.03"
+      "buyQuoteVolume": "868661115.83895",
+      "trades": 8727894,
+      "avgBuyAmount": "99.53"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "114751816.12169",
-      "trades": 3013467,
-      "avgBuyAmount": "38.08"
+      "buyQuoteVolume": "221578238.36271",
+      "trades": 5002312,
+      "avgBuyAmount": "44.3"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "18102600.71125",
-      "trades": 47890,
-      "avgBuyAmount": "378"
+      "buyQuoteVolume": "28173863.838602",
+      "trades": 70427,
+      "avgBuyAmount": "400.04"
     }
   ],
-  "bnb_price_usd": 725.38,
-  "bnb_price_ts": 1789647023,
+  "bnb_price_usd": 728.8,
+  "bnb_price_ts": 1789664723,
   "bnb_price_source": "coingecko"
 }
