@@ -55,16 +55,17 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1789463570,
-      "updated_timestamp": 1789529022,
-      "system_timestamp": 1789529022,
+      "updated_timestamp": 1789626131,
+      "system_timestamp": 1789626131,
       "contract_address": "0x72a22faa6a522c81a8f5d508381e18af3da0921e",
-      "chain_id": "56"
+      "chain_id": "56",
+      "total_amount": "150000000"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 4781
+      "count": 27004
     },
     {
       "key": "yesterday",
@@ -79,24 +80,24 @@
   "top3_tokens": [
     {
       "symbol": "CNPY",
-      "buyQuoteVolume": "56459981.651336",
-      "trades": 780780,
-      "avgBuyAmount": "72.31"
-    },
-    {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "4185561.372918",
-      "trades": 7923,
-      "avgBuyAmount": "528.28"
+      "buyQuoteVolume": "326064053.27713",
+      "trades": 3266223,
+      "avgBuyAmount": "99.83"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "3398270.4234896",
-      "trades": 201679,
-      "avgBuyAmount": "16.85"
+      "buyQuoteVolume": "16211766.068038",
+      "trades": 917234,
+      "avgBuyAmount": "17.67"
+    },
+    {
+      "symbol": "QQQB",
+      "buyQuoteVolume": "10372484.581604",
+      "trades": 22518,
+      "avgBuyAmount": "460.63"
     }
   ],
-  "bnb_price_usd": 726.24,
-  "bnb_price_ts": 1789609823,
+  "bnb_price_usd": 725.46,
+  "bnb_price_ts": 1789627523,
   "bnb_price_source": "coingecko"
 }
