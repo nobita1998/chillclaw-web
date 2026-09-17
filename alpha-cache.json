@@ -1,62 +1,22 @@
 {
   "airdrops": [
     {
-      "id": "warning_6aaa49db9ae250.68665070",
-      "token": "DGAI",
-      "name": "DGrid AI",
-      "date": "2026-09-16",
-      "time": "16:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1789544923,
-      "points": "240",
-      "amount": "44",
-      "total_amount": "1322816",
-      "contract_address": "0x10d4183389e99233db3cc981c43443ebd28ebd5e",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": true,
-      "quota_event_id": "single_quota_6aaa458be263a7.95363174",
-      "quota_total_shares": "30064",
-      "quota_remainder": "0",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-09-16 15:48:43",
-      "quota_tx_hash": "0x76b40cbc82dd5e6791a497aa2e6d4a64de1de58900b411f93c9c28878ec756a4",
-      "quota_unit_price_usd": 0.762,
-      "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 33.528,
-      "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-09-16 15:48:43",
-      "system_timestamp": 1789546003,
-      "completed": true,
-      "confirmed_at": "2026-09-16 15:48:43",
-      "confirm_source": "46db_total_div_telegram_quota_value_match",
-      "created_timestamp": 1789544923,
-      "updated_timestamp": 1789546003,
-      "language": "zh",
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-09-16 16:05:25",
-      "claim_ended_at": "2026-09-16 16:05:20"
-    },
-    {
       "token": "APM",
       "name": "apM Fashion",
       "date": "2026-09-17",
       "time": "21:00",
-      "points": "",
+      "points": "235",
       "phase": 1,
       "language": "zh",
       "status": "announced",
       "utc": "",
       "box": false,
       "futures_listed": false,
-      "amount": "",
-      "type": "",
+      "amount": "5000",
+      "type": "grab",
       "created_timestamp": 1789463570,
-      "updated_timestamp": 1789626131,
-      "system_timestamp": 1789626131,
+      "updated_timestamp": 1789636750,
+      "system_timestamp": 1789636750,
       "contract_address": "0x72a22faa6a522c81a8f5d508381e18af3da0921e",
       "chain_id": "56",
       "total_amount": "150000000"
@@ -65,7 +25,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 27004
+      "count": 58410
     },
     {
       "key": "yesterday",
@@ -80,24 +40,24 @@
   "top3_tokens": [
     {
       "symbol": "CNPY",
-      "buyQuoteVolume": "326064053.27713",
-      "trades": 3266223,
-      "avgBuyAmount": "99.83"
+      "buyQuoteVolume": "620909024.8871",
+      "trades": 6026673,
+      "avgBuyAmount": "103.03"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "16211766.068038",
-      "trades": 917234,
-      "avgBuyAmount": "17.67"
+      "buyQuoteVolume": "114751816.12169",
+      "trades": 3013467,
+      "avgBuyAmount": "38.08"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "10372484.581604",
-      "trades": 22518,
-      "avgBuyAmount": "460.63"
+      "buyQuoteVolume": "18102600.71125",
+      "trades": 47890,
+      "avgBuyAmount": "378"
     }
   ],
-  "bnb_price_usd": 725.46,
-  "bnb_price_ts": 1789627523,
+  "bnb_price_usd": 725.38,
+  "bnb_price_ts": 1789647023,
   "bnb_price_source": "coingecko"
 }
