@@ -1,35 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "APM",
-      "name": "apM Fashion",
-      "date": "2026-09-17",
-      "time": "21:00",
-      "points": "235",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "utc": "",
-      "box": false,
-      "futures_listed": false,
-      "amount": "5000",
-      "type": "grab",
-      "created_timestamp": 1789463570,
-      "updated_timestamp": 1789650038,
-      "system_timestamp": 1789650038,
-      "contract_address": "0x72a22faa6a522c81a8f5d508381e18af3da0921e",
-      "chain_id": "56",
-      "total_amount": "150000000",
-      "completed": true,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-09-17 21:00:38",
-      "claim_ended_at": "2026-09-17 21:00:33"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 45909
+      "count": 76028
     },
     {
       "key": "yesterday",
@@ -44,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CNPY",
-      "buyQuoteVolume": "367914935.95241",
-      "trades": 4113806,
-      "avgBuyAmount": "89.43"
+      "buyQuoteVolume": "535427348.57233",
+      "trades": 6049328,
+      "avgBuyAmount": "88.51"
     },
     {
       "symbol": "DEBIT",
-      "buyQuoteVolume": "151994163.71566",
-      "trades": 3135821,
-      "avgBuyAmount": "48.47"
+      "buyQuoteVolume": "318302580.85374",
+      "trades": 5442976,
+      "avgBuyAmount": "58.48"
     },
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "69005757.04583",
-      "trades": 1652546,
-      "avgBuyAmount": "41.76"
+      "buyQuoteVolume": "122203039.23801",
+      "trades": 2735626,
+      "avgBuyAmount": "44.67"
     }
   ],
-  "bnb_price_usd": 750.73,
-  "bnb_price_ts": 1789725023,
+  "bnb_price_usd": 759.77,
+  "bnb_price_ts": 1789739723,
   "bnb_price_source": "coingecko"
 }
