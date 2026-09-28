@@ -1,27 +1,40 @@
 {
   "airdrops": [
     {
-      "token": "",
+      "id": "large_transfer_6aba77e0a54067.43828430",
+      "token": "XDP",
+      "name": "Doppler Finance",
       "date": "2026-09-28",
       "time": "22:30",
-      "points": "230",
       "type": "grab",
       "phase": 1,
-      "language": "en",
       "status": "announced",
+      "timestamp": 1790605280,
+      "points": "230",
+      "amount": "1666",
+      "total_amount": "99999984",
+      "contract_address": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+      "chain_id": "8453",
+      "has_homonym": false,
       "box": false,
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1790604692,
-      "updated_timestamp": 1790604772,
-      "system_timestamp": 1790604772
+      "tx_hash": "0x903b60984c4095c4749b9854e0d7d4912bcd1c881e4ea9bcacb66621611c1f11",
+      "tx_time": "2026-09-28 22:20:45",
+      "source": "large_transfer_monitor",
+      "d976_tx_hash": "0xcb6708e27e05f9063ca6208395864b8d088f55f944a82a67b127203f6f397ce9",
+      "d976_tx_time": "2026-09-28 22:21:39",
+      "system_timestamp": 1790605853,
+      "completed": true,
+      "confirmed_at": "2026-09-28 22:26:59",
+      "confirm_source": "manual_confirm",
+      "language": "en",
+      "created_timestamp": 1790605619,
+      "updated_timestamp": 1790605853
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 65114
+      "count": 81510
     },
     {
       "key": "yesterday",
@@ -36,24 +49,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "837093608.40307",
-      "trades": 7637508,
-      "avgBuyAmount": "109.6"
+      "buyQuoteVolume": "1046260361.0286",
+      "trades": 10211507,
+      "avgBuyAmount": "102.46"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "22701935.734985",
-      "trades": 75594,
-      "avgBuyAmount": "300.31"
+      "buyQuoteVolume": "32255968.255224",
+      "trades": 94116,
+      "avgBuyAmount": "342.73"
     },
     {
       "symbol": "KII",
-      "buyQuoteVolume": "939771.68914041",
-      "trades": 4950,
-      "avgBuyAmount": "189.85"
+      "buyQuoteVolume": "2453912.6312356",
+      "trades": 43594,
+      "avgBuyAmount": "56.29"
     }
   ],
-  "bnb_price_usd": 765.07,
-  "bnb_price_ts": 1790604624,
+  "bnb_price_usd": 764.81,
+  "bnb_price_ts": 1790627723,
   "bnb_price_source": "coingecko"
 }
