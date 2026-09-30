@@ -1,9 +1,31 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "token": "CT",
+      "name": "Concrete",
+      "date": "2026-09-30",
+      "time": "16:00",
+      "points": "223",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "200",
+      "type": "grab",
+      "created_timestamp": 1790740545,
+      "updated_timestamp": 1790751551,
+      "system_timestamp": 1790751551,
+      "contract_address": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
+      "chain_id": "56",
+      "total_amount": "10000000"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 5104
+      "count": 34184
     },
     {
       "key": "yesterday",
@@ -18,24 +40,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "65103067.160213",
-      "trades": 769157,
-      "avgBuyAmount": "84.64"
+      "buyQuoteVolume": "439797378.15431",
+      "trades": 4139964,
+      "avgBuyAmount": "106.23"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "2307623.5935353",
-      "trades": 8026,
-      "avgBuyAmount": "287.52"
+      "buyQuoteVolume": "11093806.747166",
+      "trades": 33760,
+      "avgBuyAmount": "328.61"
     },
     {
-      "symbol": "KII",
-      "buyQuoteVolume": "1255915.0872198",
-      "trades": 59599,
-      "avgBuyAmount": "21.07"
+      "symbol": "CNPY",
+      "buyQuoteVolume": "296153.44493959",
+      "trades": 30347,
+      "avgBuyAmount": "9.76"
     }
   ],
-  "bnb_price_usd": 765.64,
-  "bnb_price_ts": 1790687724,
+  "bnb_price_usd": 758.85,
+  "bnb_price_ts": 1790753424,
   "bnb_price_source": "coingecko"
 }
