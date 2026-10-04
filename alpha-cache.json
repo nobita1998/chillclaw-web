@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 89408
+      "count": 91998
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "981184510.4976",
-      "trades": 10243609,
-      "avgBuyAmount": "95.79"
+      "buyQuoteVolume": "1011784236.6964",
+      "trades": 11106815,
+      "avgBuyAmount": "91.1"
     },
     {
       "symbol": "CT",
-      "buyQuoteVolume": "173539313.1456",
-      "trades": 5307182,
-      "avgBuyAmount": "32.7"
+      "buyQuoteVolume": "176083314.30835",
+      "trades": 5590151,
+      "avgBuyAmount": "31.5"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "15201507.272182",
-      "trades": 73565,
-      "avgBuyAmount": "206.64"
+      "buyQuoteVolume": "16770280.943986",
+      "trades": 77065,
+      "avgBuyAmount": "217.61"
     }
   ],
-  "bnb_price_usd": 789.79,
-  "bnb_price_ts": 1791145824,
+  "bnb_price_usd": 795.76,
+  "bnb_price_ts": 1791156924,
   "bnb_price_source": "coingecko"
 }
