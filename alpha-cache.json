@@ -1,9 +1,39 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "id": "large_transfer_6ac60808c90bd4.66019922",
+      "token": "US",
+      "name": "US",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "pending",
+      "timestamp": 1791363080,
+      "points": "246",
+      "amount": "2280",
+      "total_amount": "25000200",
+      "contract_address": "0x51f1AFC16E154d1601e61EcA21d8Af4897f1e840",
+      "chain_id": "56",
+      "has_homonym": false,
+      "box": false,
+      "tx_hash": "AwmbyumMQ5ZnMZJkEebdG1XDy8jnemz2wAEWKrKCTSN2",
+      "tx_time": "2026-10-07 16:50:30",
+      "source": "large_transfer_monitor",
+      "updated_at": "2026-10-07 16:54:53",
+      "system_timestamp": 1791363676,
+      "completed": false,
+      "confirmed_at": "2026-10-07 16:55:02",
+      "confirm_source": "manual_confirm",
+      "updated_timestamp": 1791363676,
+      "language": "en",
+      "created_timestamp": 1791363319
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 9877
+      "count": 42537
     },
     {
       "key": "yesterday",
@@ -18,24 +48,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "125658055.1668",
-      "trades": 1140667,
-      "avgBuyAmount": "110.16"
-    },
-    {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "2002389.733445",
-      "trades": 7631,
-      "avgBuyAmount": "262.4"
+      "buyQuoteVolume": "540293203.02442",
+      "trades": 4555671,
+      "avgBuyAmount": "118.6"
     },
     {
       "symbol": "CT",
-      "buyQuoteVolume": "1875629.3621692",
-      "trades": 219689,
-      "avgBuyAmount": "8.54"
+      "buyQuoteVolume": "9276352.7344089",
+      "trades": 1005744,
+      "avgBuyAmount": "9.22"
+    },
+    {
+      "symbol": "QQQB",
+      "buyQuoteVolume": "7409945.3137347",
+      "trades": 25799,
+      "avgBuyAmount": "287.22"
     }
   ],
-  "bnb_price_usd": 765.29,
-  "bnb_price_ts": 1791339923,
+  "bnb_price_usd": 772.7,
+  "bnb_price_ts": 1791363623,
   "bnb_price_source": "coingecko"
 }
