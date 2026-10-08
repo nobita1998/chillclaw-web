@@ -1,39 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "large_transfer_6ac60808c90bd4.66019922",
-      "token": "US",
-      "name": "US",
-      "date": "2026-10-07",
-      "time": "17:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "pending",
-      "timestamp": 1791363080,
-      "points": "246",
-      "amount": "2280",
-      "total_amount": "25000200",
-      "contract_address": "0x51f1AFC16E154d1601e61EcA21d8Af4897f1e840",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": false,
-      "tx_hash": "AwmbyumMQ5ZnMZJkEebdG1XDy8jnemz2wAEWKrKCTSN2",
-      "tx_time": "2026-10-07 16:50:30",
-      "source": "large_transfer_monitor",
-      "updated_at": "2026-10-07 16:54:53",
-      "system_timestamp": 1791363676,
-      "completed": true,
-      "confirmed_at": "2026-10-07 16:55:02",
-      "confirm_source": "manual_confirm",
-      "updated_timestamp": 1791363676,
-      "language": "en",
-      "created_timestamp": 1791363319
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 34401
+      "count": 74912
     },
     {
       "key": "yesterday",
@@ -48,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "434961640.37375",
-      "trades": 3507629,
-      "avgBuyAmount": "124"
+      "buyQuoteVolume": "836840372.70775",
+      "trades": 7002601,
+      "avgBuyAmount": "119.5"
     },
     {
       "symbol": "CT",
-      "buyQuoteVolume": "9294922.8595083",
-      "trades": 670948,
-      "avgBuyAmount": "13.85"
+      "buyQuoteVolume": "130491666.29322",
+      "trades": 3186531,
+      "avgBuyAmount": "40.95"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "6416711.6765399",
-      "trades": 25795,
-      "avgBuyAmount": "248.76"
+      "buyQuoteVolume": "13990996.056724",
+      "trades": 61569,
+      "avgBuyAmount": "227.24"
     }
   ],
-  "bnb_price_usd": 770.1,
-  "bnb_price_ts": 1791444624,
+  "bnb_price_usd": 757.31,
+  "bnb_price_ts": 1791471322,
   "bnb_price_source": "coingecko"
 }
