@@ -1,9 +1,140 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "id": "warning_6ac8aac5141678.41583702",
+      "token": "CLO",
+      "name": "CLO",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1791535813,
+      "points": "245",
+      "amount": "467",
+      "total_amount": "3333735",
+      "contract_address": "0x81d3a238b02827f62b9f390f947d36d4a5bf89d2",
+      "chain_id": "56",
+      "has_homonym": false,
+      "box": true,
+      "quota_reward_index": 1,
+      "quota_common_per_share": "467",
+      "quota_rare_per_share": "583",
+      "quota_epic_per_share": "1666",
+      "quota_inference_engine": "php-local-v2",
+      "quota_event_id": "mystery_box_6ac8a6173386f9.37213094",
+      "quota_inferred_at": "2026-10-09 16:50:14",
+      "quota_total_amount": "3333735",
+      "quota_candidate_groups": [
+        {
+          "reward_index": 1,
+          "common_shares": 5712,
+          "rare_shares": 857,
+          "epic_shares": 100,
+          "inferred_fields": [],
+          "assignment": null
+        },
+        {
+          "reward_index": 2,
+          "common_shares": 4285,
+          "rare_shares": 644,
+          "epic_shares": 75,
+          "inferred_fields": [],
+          "assignment": null
+        }
+      ],
+      "quota_selected_group": {
+        "reward_index": 1,
+        "common_shares": 5712,
+        "rare_shares": 857,
+        "epic_shares": 100
+      },
+      "quota_ratio_error": 0.005582747017436773,
+      "quota_amount_source": "46db_total_php_local",
+      "quota_unit_price_usd": 0.056026840384511216,
+      "quota_unit_price_source": "1inch_46db_transfer_monitor",
+      "quota_common_value_usd": 26.164534459566738,
+      "quota_auto_confirm_target_usd": 30,
+      "quota_auto_confirm_range_min_usd": 22,
+      "quota_auto_confirm_range_max_usd": 38,
+      "quota_auto_confirm_value_matched": true,
+      "quota_auto_confirm_evaluated_at": "2026-10-09 16:50:14",
+      "system_timestamp": 1791536436,
+      "completed": true,
+      "confirmed_at": "2026-10-09 16:50:45",
+      "confirm_source": "manual_confirm",
+      "language": "en",
+      "created_timestamp": 1791535845,
+      "updated_timestamp": 1791536436,
+      "futures_listed": false,
+      "spot_listed": false
+    },
+    {
+      "id": "warning_6ac8aae5be8c86.15878479",
+      "token": "BTR",
+      "name": "BTR",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1791535845,
+      "points": "245",
+      "amount": "560",
+      "total_amount": "3000400",
+      "contract_address": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+      "chain_id": "56",
+      "has_homonym": false,
+      "box": true,
+      "quota_reward_index": 2,
+      "quota_common_per_share": "560",
+      "quota_rare_per_share": "700",
+      "quota_epic_per_share": "2000",
+      "quota_inference_engine": "php-local-v2",
+      "quota_event_id": "mystery_box_6ac8a6173386f9.37213094",
+      "quota_inferred_at": "2026-10-09 16:50:46",
+      "quota_total_amount": "3000400",
+      "quota_candidate_groups": [
+        {
+          "reward_index": 2,
+          "common_shares": 4285,
+          "rare_shares": 644,
+          "epic_shares": 75,
+          "inferred_fields": [],
+          "assignment": null
+        }
+      ],
+      "quota_selected_group": {
+        "reward_index": 2,
+        "common_shares": 4285,
+        "rare_shares": 644,
+        "epic_shares": 75
+      },
+      "quota_ratio_error": 0,
+      "quota_amount_source": "46db_total_php_local",
+      "quota_unit_price_usd": 0.0510744146962689,
+      "quota_unit_price_source": "1inch_46db_transfer_monitor",
+      "quota_common_value_usd": 28.601672229910584,
+      "quota_auto_confirm_target_usd": 30,
+      "quota_auto_confirm_range_min_usd": 22,
+      "quota_auto_confirm_range_max_usd": 38,
+      "quota_auto_confirm_value_matched": true,
+      "quota_auto_confirm_evaluated_at": "2026-10-09 16:50:46",
+      "system_timestamp": 1791536436,
+      "completed": true,
+      "confirmed_at": "2026-10-09 16:51:00",
+      "confirm_source": "manual_confirm",
+      "language": "en",
+      "created_timestamp": 1791535860,
+      "updated_timestamp": 1791536436,
+      "futures_listed": false,
+      "spot_listed": false
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 32457
+      "count": 74136
     },
     {
       "key": "yesterday",
@@ -18,24 +149,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "409085855.12615",
-      "trades": 3254000,
-      "avgBuyAmount": "125.72"
+      "buyQuoteVolume": "813807630.98824",
+      "trades": 6618976,
+      "avgBuyAmount": "122.95"
     },
     {
       "symbol": "CT",
-      "buyQuoteVolume": "10569579.878927",
-      "trades": 605743,
-      "avgBuyAmount": "17.45"
+      "buyQuoteVolume": "144999718.27902",
+      "trades": 3701448,
+      "avgBuyAmount": "39.17"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "4320767.9213495",
-      "trades": 17789,
-      "avgBuyAmount": "242.89"
+      "buyQuoteVolume": "8807186.4596423",
+      "trades": 28669,
+      "avgBuyAmount": "307.2"
     }
   ],
-  "bnb_price_usd": 743.17,
-  "bnb_price_ts": 1791528325,
+  "bnb_price_usd": 737.77,
+  "bnb_price_ts": 1791553825,
   "bnb_price_source": "coingecko"
 }
