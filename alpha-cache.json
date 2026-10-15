@@ -1,50 +1,30 @@
 {
   "airdrops": [
     {
-      "id": "warning_6acf504d4737f1.77795784",
-      "token": "DRV",
-      "name": "Derive",
-      "date": "2026-10-14",
-      "time": "18:00",
-      "type": "grab",
+      "token": "DNA",
+      "name": "NeoSoul",
+      "date": "2026-10-16",
+      "time": "",
+      "points": "",
       "phase": 1,
+      "language": "en",
       "status": "announced",
-      "timestamp": 1791971405,
-      "points": "245",
-      "amount": "70",
-      "total_amount": "1675940",
-      "contract_address": "0x9d0e8f5b25384c7310cb8c6ae32c8fbeb645d083",
-      "chain_id": "8453",
-      "has_homonym": false,
-      "box": true,
-      "quota_event_id": "single_quota_6acf4bb993bba7.93483594",
-      "quota_total_shares": "23942",
-      "quota_remainder": "0",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-10-14 17:50:05",
-      "quota_tx_hash": "0xa5484047e60c7efcc420601cdf280f898d582dccc9185b5648844fea7d01529b",
-      "quota_unit_price_usd": 0.4409,
-      "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 30.863,
-      "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-10-14 17:50:05",
-      "system_timestamp": 1791972075,
-      "completed": true,
-      "confirmed_at": "2026-10-14 17:50:05",
-      "confirm_source": "46db_total_div_telegram_quota_value_match",
-      "created_timestamp": 1791971405,
-      "updated_timestamp": 1791972075,
-      "language": "zh",
-      "completion_source": "telegram_claim_progress_edit",
-      "completion_received_at": "2026-10-14 18:00:36",
-      "claim_ended_at": "2026-10-14 18:00:35"
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1792063846,
+      "updated_timestamp": 1792066746,
+      "system_timestamp": 1792066746,
+      "contract_address": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
+      "chain_id": "56"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 50177
+      "count": 77760
     },
     {
       "key": "yesterday",
@@ -59,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "636704970.3932",
-      "trades": 5965016,
-      "avgBuyAmount": "106.74"
+      "buyQuoteVolume": "968344847.07158",
+      "trades": 8834836,
+      "avgBuyAmount": "109.61"
     },
     {
       "symbol": "CT",
-      "buyQuoteVolume": "12027771.079783",
-      "trades": 994954,
-      "avgBuyAmount": "12.09"
+      "buyQuoteVolume": "36617324.295388",
+      "trades": 2174208,
+      "avgBuyAmount": "16.84"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "6978741.6926786",
-      "trades": 18018,
-      "avgBuyAmount": "387.32"
+      "buyQuoteVolume": "12354091.372376",
+      "trades": 26377,
+      "avgBuyAmount": "468.37"
     }
   ],
-  "bnb_price_usd": 721.58,
-  "bnb_price_ts": 1792056323,
+  "bnb_price_usd": 721.28,
+  "bnb_price_ts": 1792073723,
   "bnb_price_source": "coingecko"
 }
