@@ -4,7 +4,7 @@
       "token": "DNA",
       "name": "NeoSoul",
       "date": "2026-10-16",
-      "time": "",
+      "time": "16:00",
       "points": "",
       "phase": 1,
       "language": "en",
@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 92320
+      "count": 96132
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "DGAI",
-      "buyQuoteVolume": "1150389104.221",
-      "trades": 10721051,
-      "avgBuyAmount": "107.3"
+      "buyQuoteVolume": "1195432754.7477",
+      "trades": 11618560,
+      "avgBuyAmount": "102.89"
     },
     {
       "symbol": "CT",
-      "buyQuoteVolume": "41368354.044302",
-      "trades": 2746160,
-      "avgBuyAmount": "15.06"
+      "buyQuoteVolume": "44892354.923368",
+      "trades": 3433797,
+      "avgBuyAmount": "13.07"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "20214277.681509",
-      "trades": 38305,
-      "avgBuyAmount": "527.72"
+      "buyQuoteVolume": "23604495.072697",
+      "trades": 41947,
+      "avgBuyAmount": "562.72"
     }
   ],
-  "bnb_price_usd": 732.25,
-  "bnb_price_ts": 1792088423,
+  "bnb_price_usd": 730.31,
+  "bnb_price_ts": 1792099824,
   "bnb_price_source": "coingecko"
 }
