@@ -1,32 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "DNA",
-      "name": "NeoSoul",
-      "date": "2026-10-16",
-      "time": "16:00",
-      "points": "245",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "box": false,
-      "futures_listed": false,
-      "amount": "400",
-      "type": "grab",
-      "created_timestamp": 1792063846,
-      "updated_timestamp": 1792143711,
-      "system_timestamp": 1792143711,
-      "contract_address": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
-      "chain_id": "56",
-      "total_amount": "10000000",
-      "completed": true
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 19195
+      "count": 36143
     },
     {
       "key": "yesterday",
@@ -41,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "242234195.54367",
-      "trades": 2603966,
-      "avgBuyAmount": "93.03"
+      "buyQuoteVolume": "456933814.22972",
+      "trades": 4743547,
+      "avgBuyAmount": "96.33"
     },
     {
       "symbol": "AGT",
-      "buyQuoteVolume": "7382993.2913191",
-      "trades": 86811,
-      "avgBuyAmount": "85.05"
+      "buyQuoteVolume": "11141307.061044",
+      "trades": 139737,
+      "avgBuyAmount": "79.73"
     },
     {
-      "symbol": "QQQB",
-      "buyQuoteVolume": "3792428.2953737",
-      "trades": 7004,
-      "avgBuyAmount": "541.47"
+      "symbol": "DNA",
+      "buyQuoteVolume": "7511452.6377669",
+      "trades": 97175,
+      "avgBuyAmount": "77.3"
     }
   ],
-  "bnb_price_usd": 722.06,
-  "bnb_price_ts": 1792213522,
+  "bnb_price_usd": 721.65,
+  "bnb_price_ts": 1792229123,
   "bnb_price_source": "coingecko"
 }
