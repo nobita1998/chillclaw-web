@@ -1,9 +1,50 @@
 {
-  "airdrops": [],
+  "airdrops": [
+    {
+      "id": "warning_6ad611faaab7d6.05581727",
+      "token": "CT",
+      "name": "CT",
+      "date": "2026-10-19",
+      "time": "21:00",
+      "type": "grab",
+      "phase": 1,
+      "status": "announced",
+      "timestamp": 1792414202,
+      "points": "255",
+      "amount": "87",
+      "total_amount": "1388888",
+      "contract_address": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
+      "chain_id": "56",
+      "has_homonym": false,
+      "box": false,
+      "quota_event_id": "single_quota_6ad60d69eb2ec8.64154445",
+      "quota_total_shares": "15964",
+      "quota_remainder": "20",
+      "quota_inference_engine": "php-intdiv-v1",
+      "quota_amount_source": "46db_total_div_telegram_quota",
+      "quota_inferred_at": "2026-10-19 20:50:02",
+      "quota_tx_hash": "0x9df021c0faf706c41da51e53ffdd77f9a40b8e8a603361347cc394bb83a005d8",
+      "quota_unit_price_usd": 0.3414,
+      "quota_unit_price_source": "46db_transfer_monitor_push",
+      "quota_common_value_usd": 29.7018,
+      "quota_auto_confirm_value_matched": true,
+      "quota_auto_confirm_evaluated_at": "2026-10-19 20:50:02",
+      "system_timestamp": 1792415406,
+      "completed": true,
+      "confirmed_at": "2026-10-19 20:50:02",
+      "confirm_source": "46db_total_div_telegram_quota_value_match",
+      "created_timestamp": 1792414202,
+      "updated_timestamp": 1792415406,
+      "language": "en",
+      "completion_source": "telegram_claim_progress_edit",
+      "completion_received_at": "2026-10-19 21:10:06",
+      "claim_ended_at": "2026-10-19 21:10:06"
+    }
+  ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 25479
+      "count": 53842
     },
     {
       "key": "yesterday",
@@ -18,24 +59,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "326863911.34229",
-      "trades": 3564480,
-      "avgBuyAmount": "91.7"
+      "buyQuoteVolume": "676663801.18765",
+      "trades": 7287528,
+      "avgBuyAmount": "92.85"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "6574359.0653754",
-      "trades": 15189,
-      "avgBuyAmount": "432.84"
+      "buyQuoteVolume": "25966242.564441",
+      "trades": 45240,
+      "avgBuyAmount": "573.97"
     },
     {
       "symbol": "DNA",
-      "buyQuoteVolume": "1439202.3630182",
-      "trades": 22221,
-      "avgBuyAmount": "64.77"
+      "buyQuoteVolume": "13934081.320443",
+      "trades": 279212,
+      "avgBuyAmount": "49.91"
     }
   ],
-  "bnb_price_usd": 727.4,
-  "bnb_price_ts": 1792393223,
+  "bnb_price_usd": 726.11,
+  "bnb_price_ts": 1792421123,
   "bnb_price_source": "coingecko"
 }
