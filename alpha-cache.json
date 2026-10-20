@@ -1,50 +1,30 @@
 {
   "airdrops": [
     {
-      "id": "warning_6ad611faaab7d6.05581727",
-      "token": "CT",
-      "name": "CT",
-      "date": "2026-10-19",
-      "time": "21:00",
-      "type": "grab",
+      "token": "AXIS",
+      "name": "Axis Robotics",
+      "date": "2026-10-21",
+      "time": "",
+      "points": "",
       "phase": 1,
-      "status": "announced",
-      "timestamp": 1792414202,
-      "points": "255",
-      "amount": "87",
-      "total_amount": "1388888",
-      "contract_address": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": false,
-      "quota_event_id": "single_quota_6ad60d69eb2ec8.64154445",
-      "quota_total_shares": "15964",
-      "quota_remainder": "20",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-10-19 20:50:02",
-      "quota_tx_hash": "0x9df021c0faf706c41da51e53ffdd77f9a40b8e8a603361347cc394bb83a005d8",
-      "quota_unit_price_usd": 0.3414,
-      "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 29.7018,
-      "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-10-19 20:50:02",
-      "system_timestamp": 1792415406,
-      "completed": true,
-      "confirmed_at": "2026-10-19 20:50:02",
-      "confirm_source": "46db_total_div_telegram_quota_value_match",
-      "created_timestamp": 1792414202,
-      "updated_timestamp": 1792415406,
       "language": "en",
-      "completion_source": "telegram_claim_progress_edit",
-      "completion_received_at": "2026-10-19 21:10:06",
-      "claim_ended_at": "2026-10-19 21:10:06"
+      "status": "announced",
+      "utc": "",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "type": "",
+      "created_timestamp": 1792499451,
+      "updated_timestamp": 1792499484,
+      "system_timestamp": 1792499484,
+      "contract_address": "0x5bE75e3b0aFf5D1A042A5363Ae36AcB1d6d755ea",
+      "chain_id": "8453"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 29965
+      "count": 51340
     },
     {
       "key": "yesterday",
@@ -59,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "385911403.73407",
-      "trades": 4255816,
-      "avgBuyAmount": "90.68"
+      "buyQuoteVolume": "658917803.511",
+      "trades": 7070304,
+      "avgBuyAmount": "93.2"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "5002398.1163276",
-      "trades": 6388,
-      "avgBuyAmount": "783.09"
+      "buyQuoteVolume": "14088943.043058",
+      "trades": 16721,
+      "avgBuyAmount": "842.59"
     },
     {
       "symbol": "DNA",
-      "buyQuoteVolume": "1292278.1914081",
-      "trades": 33841,
-      "avgBuyAmount": "38.19"
+      "buyQuoteVolume": "2743098.8606692",
+      "trades": 107186,
+      "avgBuyAmount": "25.59"
     }
   ],
-  "bnb_price_usd": 728.15,
-  "bnb_price_ts": 1792482328,
+  "bnb_price_usd": 730.86,
+  "bnb_price_ts": 1792501223,
   "bnb_price_source": "coingecko"
 }
