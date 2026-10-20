@@ -15,8 +15,8 @@
       "amount": "",
       "type": "",
       "created_timestamp": 1792499451,
-      "updated_timestamp": 1792499484,
-      "system_timestamp": 1792499484,
+      "updated_timestamp": 1792504239,
+      "system_timestamp": 1792504239,
       "contract_address": "0x5bE75e3b0aFf5D1A042A5363Ae36AcB1d6d755ea",
       "chain_id": "8453"
     }
@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 51340
+      "count": 74581
     },
     {
       "key": "yesterday",
@@ -38,25 +38,25 @@
   "last_rollover_date": "2026-10-20",
   "top3_tokens": [
     {
-      "symbol": "CT",
-      "buyQuoteVolume": "658917803.511",
-      "trades": 7070304,
-      "avgBuyAmount": "93.2"
+      "symbol": "DNA",
+      "buyQuoteVolume": "84635740.880232",
+      "trades": 1936455,
+      "avgBuyAmount": "43.71"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "14088943.043058",
-      "trades": 16721,
-      "avgBuyAmount": "842.59"
+      "buyQuoteVolume": "33474983.517686",
+      "trades": 36613,
+      "avgBuyAmount": "914.29"
     },
     {
-      "symbol": "DNA",
-      "buyQuoteVolume": "2743098.8606692",
-      "trades": 107186,
-      "avgBuyAmount": "25.59"
+      "symbol": "AGT",
+      "buyQuoteVolume": "2162048.4482751",
+      "trades": 40223,
+      "avgBuyAmount": "53.75"
     }
   ],
-  "bnb_price_usd": 730.86,
-  "bnb_price_ts": 1792501223,
+  "bnb_price_usd": 737.74,
+  "bnb_price_ts": 1792519230,
   "bnb_price_source": "coingecko"
 }
