@@ -15,17 +15,21 @@
       "amount": "250",
       "type": "grab",
       "created_timestamp": 1792499451,
-      "updated_timestamp": 1792567146,
-      "system_timestamp": 1792567146,
+      "updated_timestamp": 1792583010,
+      "system_timestamp": 1792583010,
       "contract_address": "0x5bE75e3b0aFf5D1A042A5363Ae36AcB1d6d755ea",
       "chain_id": "8453",
-      "total_amount": "10000000"
+      "total_amount": "10000000",
+      "completed": true,
+      "completion_source": "telegram_claim_progress_edit",
+      "completion_received_at": "2026-10-21 19:00:34",
+      "claim_ended_at": "2026-10-21 19:00:33"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 44485
+      "count": 71636
     },
     {
       "key": "yesterday",
@@ -40,24 +44,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "525236645.63144",
-      "trades": 5591227,
-      "avgBuyAmount": "93.94"
+      "buyQuoteVolume": "779279358.71359",
+      "trades": 8158860,
+      "avgBuyAmount": "95.51"
     },
     {
       "symbol": "DNA",
-      "buyQuoteVolume": "49845452.011236",
-      "trades": 1788525,
-      "avgBuyAmount": "27.87"
+      "buyQuoteVolume": "146702547.80967",
+      "trades": 3775938,
+      "avgBuyAmount": "38.85"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "5694487.0277015",
-      "trades": 7763,
-      "avgBuyAmount": "733.54"
+      "buyQuoteVolume": "9486533.164876",
+      "trades": 15129,
+      "avgBuyAmount": "627.04"
     }
   ],
-  "bnb_price_usd": 744.94,
-  "bnb_price_ts": 1792578022,
+  "bnb_price_usd": 747.51,
+  "bnb_price_ts": 1792596023,
   "bnb_price_source": "coingecko"
 }
