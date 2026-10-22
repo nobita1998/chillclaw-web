@@ -1,35 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "AXIS",
-      "name": "Axis Robotics",
-      "date": "2026-10-21",
-      "time": "19:00",
-      "points": "235",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "utc": "",
-      "box": false,
-      "futures_listed": false,
-      "amount": "250",
-      "type": "grab",
-      "created_timestamp": 1792499451,
-      "updated_timestamp": 1792583010,
-      "system_timestamp": 1792583010,
-      "contract_address": "0x5bE75e3b0aFf5D1A042A5363Ae36AcB1d6d755ea",
-      "chain_id": "8453",
-      "total_amount": "10000000",
-      "completed": true,
-      "completion_source": "telegram_claim_progress_edit",
-      "completion_received_at": "2026-10-21 19:00:34",
-      "claim_ended_at": "2026-10-21 19:00:33"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 46672
+      "count": 73966
     },
     {
       "key": "yesterday",
@@ -44,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "542938308.21846",
-      "trades": 5603112,
-      "avgBuyAmount": "96.9"
-    },
-    {
-      "symbol": "DNA",
-      "buyQuoteVolume": "61079328.454282",
-      "trades": 2465172,
-      "avgBuyAmount": "24.78"
+      "buyQuoteVolume": "796546126.3517",
+      "trades": 8360588,
+      "avgBuyAmount": "95.27"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "3632217.0769249",
-      "trades": 6964,
-      "avgBuyAmount": "521.57"
+      "buyQuoteVolume": "5948900.8071623",
+      "trades": 12921,
+      "avgBuyAmount": "460.41"
+    },
+    {
+      "symbol": "CLO",
+      "buyQuoteVolume": "157518.67363057",
+      "trades": 2071,
+      "avgBuyAmount": "76.06"
     }
   ],
-  "bnb_price_usd": 734.2,
-  "bnb_price_ts": 1792665623,
+  "bnb_price_usd": 730.64,
+  "bnb_price_ts": 1792683629,
   "bnb_price_source": "coingecko"
 }
