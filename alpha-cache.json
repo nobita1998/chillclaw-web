@@ -1,40 +1,9 @@
 {
-  "airdrops": [
-    {
-      "token": "PREDICT",
-      "name": "Predict.fun",
-      "date": "2026-10-29",
-      "time": "16:00",
-      "type": "tge",
-      "phase": 1,
-      "language": "zh",
-      "status": "announced",
-      "pretge": true,
-      "bctge": false,
-      "box": false,
-      "futures_listed": false,
-      "system_timestamp": 1793251153,
-      "created_timestamp": 1793172657,
-      "updated_timestamp": 1793251153,
-      "points": 60,
-      "amount": 409.8,
-      "collection_address": "0x46c84f9493acb866a8465b0eb16ae2da1e404922",
-      "target_bnb": "7794.12753",
-      "actual_bnb": "292823.45",
-      "bnb_limit": "6",
-      "tge_total": "20000000",
-      "contract_address": "0x8888cef3923385c7f90ade66d09f41fb16668888",
-      "chain_id": "56",
-      "completed": false,
-      "has_homonym": false,
-      "spot_listed": false,
-      "total_amount": "20000000"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 8061
+      "count": 45492
     },
     {
       "key": "yesterday",
@@ -49,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "101744882.79469",
-      "trades": 1286403,
-      "avgBuyAmount": "79.09"
+      "buyQuoteVolume": "512460521.94337",
+      "trades": 5428661,
+      "avgBuyAmount": "94.4"
     },
     {
       "symbol": "DNA",
-      "buyQuoteVolume": "2373768.7317017",
-      "trades": 171333,
-      "avgBuyAmount": "13.85"
+      "buyQuoteVolume": "76346520.525726",
+      "trades": 2613380,
+      "avgBuyAmount": "29.21"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "1464329.7436579",
-      "trades": 3090,
-      "avgBuyAmount": "473.89"
+      "buyQuoteVolume": "3653825.1711694",
+      "trades": 8717,
+      "avgBuyAmount": "419.16"
     }
   ],
-  "bnb_price_usd": 709.37,
-  "bnb_price_ts": 1793329223,
+  "bnb_price_usd": 701.53,
+  "bnb_price_ts": 1793355024,
   "bnb_price_source": "coingecko"
 }
