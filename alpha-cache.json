@@ -3,7 +3,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 57234
+      "count": 73912
     },
     {
       "key": "yesterday",
@@ -18,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "689305126.37096",
-      "trades": 7981271,
-      "avgBuyAmount": "86.37"
+      "buyQuoteVolume": "894211651.18135",
+      "trades": 10579088,
+      "avgBuyAmount": "84.53"
     },
     {
       "symbol": "DNA",
-      "buyQuoteVolume": "46138684.831773",
-      "trades": 1724707,
-      "avgBuyAmount": "26.75"
+      "buyQuoteVolume": "57146282.569182",
+      "trades": 2420859,
+      "avgBuyAmount": "23.61"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "14508705.660112",
-      "trades": 165667,
-      "avgBuyAmount": "87.58"
+      "buyQuoteVolume": "15286964.471515",
+      "trades": 179304,
+      "avgBuyAmount": "85.26"
     }
   ],
-  "bnb_price_usd": 694.82,
-  "bnb_price_ts": 1794058523,
+  "bnb_price_usd": 695.49,
+  "bnb_price_ts": 1794075623,
   "bnb_price_source": "coingecko"
 }
