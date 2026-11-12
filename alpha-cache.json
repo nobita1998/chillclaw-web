@@ -1,29 +1,55 @@
 {
   "airdrops": [
     {
-      "token": "PREDICT",
-      "name": "predictdotfun",
-      "date": "2026-11-18",
-      "time": "17:00",
-      "type": "tge",
+      "id": "warning_6af599cf248cf3.24993510",
+      "token": "B2",
+      "name": "B2",
+      "date": "2026-11-12",
+      "time": "19:00",
+      "type": "grab",
       "phase": 1,
-      "language": "zh",
       "status": "announced",
-      "pretge": false,
-      "bctge": false,
+      "timestamp": 1794480591,
+      "points": "250",
+      "amount": "72",
+      "total_amount": "795384",
+      "contract_address": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+      "chain_id": "56",
+      "has_homonym": false,
       "box": false,
-      "futures_listed": false,
-      "system_timestamp": 1794468696,
-      "created_timestamp": 1794468659,
-      "updated_timestamp": 1794468696,
-      "points": "",
-      "amount": ""
+      "quota_event_id": "single_quota_6af59546ad0413.11835518",
+      "quota_total_shares": "11",
+      "quota_remainder": "7",
+      "quota_inference_engine": "php-intdiv-v1",
+      "quota_amount_source": "46db_total_div_telegram_quota",
+      "quota_inferred_at": "2026-11-12 18:49:51",
+      "quota_tx_hash": "0x4246e7e985ab253a8b68a16f51345c49634da5c6ce9530a1f250466c8279717b",
+      "quota_unit_price_usd": 0.4295,
+      "quota_unit_price_source": "46db_transfer_monitor_push",
+      "quota_common_value_usd": 31055.856499999998,
+      "quota_auto_confirm_value_matched": false,
+      "quota_auto_confirm_evaluated_at": "2026-11-12 18:49:51",
+      "d976_tx_time": "2026-11-12 18:50:18",
+      "d976_auto_confirm_value": 30.9016,
+      "d976_auto_confirm_price": 0.429189,
+      "d976_auto_confirm_divisor": 20,
+      "d976_auto_confirm_source": "d976",
+      "system_timestamp": 1794481227,
+      "completed": true,
+      "confirmed_at": "2026-11-12 18:50:18",
+      "confirm_source": "d976_pending_value_match",
+      "language": "en",
+      "created_timestamp": 1794480618,
+      "updated_timestamp": 1794481227,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-11-12 19:00:27",
+      "claim_ended_at": "2026-11-12 19:00:19"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 30800
+      "count": 68213
     },
     {
       "key": "yesterday",
@@ -38,24 +64,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "394634423.60507",
-      "trades": 5127399,
-      "avgBuyAmount": "76.97"
+      "buyQuoteVolume": "876474726.11273",
+      "trades": 10660321,
+      "avgBuyAmount": "82.22"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "11962359.736924",
-      "trades": 48534,
-      "avgBuyAmount": "246.47"
+      "buyQuoteVolume": "14143711.355099",
+      "trades": 60750,
+      "avgBuyAmount": "232.82"
     },
     {
-      "symbol": "AGT",
-      "buyQuoteVolume": "1537164.6922445",
-      "trades": 17328,
-      "avgBuyAmount": "88.71"
+      "symbol": "IDOL",
+      "buyQuoteVolume": "3369876.6258423",
+      "trades": 28093,
+      "avgBuyAmount": "119.95"
     }
   ],
-  "bnb_price_usd": 672.77,
-  "bnb_price_ts": 1794471922,
+  "bnb_price_usd": 655.9,
+  "bnb_price_ts": 1794502523,
   "bnb_price_source": "coingecko"
 }
