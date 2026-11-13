@@ -1,72 +1,57 @@
 {
   "airdrops": [
     {
-      "id": "warning_6af599cf248cf3.24993510",
-      "token": "B2",
-      "name": "B2",
-      "date": "2026-11-12",
+      "id": "warning_6af6d05d319606.36898612",
+      "token": "RAVE",
+      "name": "RAVE",
+      "date": "2026-11-13",
       "time": "19:00",
       "type": "grab",
       "phase": 1,
       "status": "announced",
-      "timestamp": 1794480591,
-      "points": "250",
-      "amount": "72",
-      "total_amount": "795384",
-      "contract_address": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+      "timestamp": 1794560093,
+      "points": "256",
+      "amount": "270",
+      "total_amount": "2916540",
+      "contract_address": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
       "chain_id": "56",
       "has_homonym": false,
       "box": false,
-      "quota_event_id": "single_quota_6af59546ad0413.11835518",
-      "quota_total_shares": "11",
-      "quota_remainder": "7",
+      "quota_event_id": "single_quota_6af6e6b9145577.17000477",
+      "quota_total_shares": "10",
+      "quota_remainder": "0",
       "quota_inference_engine": "php-intdiv-v1",
       "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-11-12 18:49:51",
-      "quota_tx_hash": "0x4246e7e985ab253a8b68a16f51345c49634da5c6ce9530a1f250466c8279717b",
-      "quota_unit_price_usd": 0.4295,
+      "quota_inferred_at": "2026-11-13 18:46:29",
+      "quota_tx_hash": "0x6e73b18d7061729973bff7729793667a64168c81c0700a532d7b3acdce6e91ca",
+      "quota_unit_price_usd": 0.1207,
       "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 31055.856499999998,
+      "quota_common_value_usd": 35202.637800000004,
       "quota_auto_confirm_value_matched": false,
-      "quota_auto_confirm_evaluated_at": "2026-11-12 18:49:51",
-      "d976_tx_time": "2026-11-12 18:50:18",
-      "d976_auto_confirm_value": 30.9016,
-      "d976_auto_confirm_price": 0.429189,
+      "quota_auto_confirm_evaluated_at": "2026-11-13 18:46:29",
+      "d976_tx_time": "2026-11-13 18:48:02",
+      "d976_auto_confirm_value": 29.0312,
+      "d976_auto_confirm_price": 0.11947,
       "d976_auto_confirm_divisor": 20,
       "d976_auto_confirm_source": "d976",
-      "system_timestamp": 1794481227,
+      "system_timestamp": 1794567920,
       "completed": true,
-      "confirmed_at": "2026-11-12 18:50:18",
+      "confirmed_at": "2026-11-13 18:48:02",
       "confirm_source": "d976_pending_value_match",
       "language": "en",
-      "created_timestamp": 1794480618,
-      "updated_timestamp": 1794481227,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-11-12 19:00:27",
-      "claim_ended_at": "2026-11-12 19:00:19"
-    },
-    {
-      "token": "",
-      "date": "2026-11-13",
-      "time": "19:00",
-      "points": "256",
-      "type": "grab",
-      "phase": 1,
-      "language": "en",
-      "status": "announced",
-      "box": false,
+      "created_timestamp": 1794566882,
+      "updated_timestamp": 1794567920,
       "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1794555151,
-      "updated_timestamp": 1794557963,
-      "system_timestamp": 1794557963
+      "spot_listed": false,
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-11-13 19:05:20",
+      "claim_ended_at": "2026-11-13 19:05:15"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 40133
+      "count": 70199
     },
     {
       "key": "yesterday",
@@ -81,24 +66,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "513670647.68495",
-      "trades": 6099725,
-      "avgBuyAmount": "84.21"
+      "buyQuoteVolume": "893608378.72094",
+      "trades": 10852801,
+      "avgBuyAmount": "82.34"
+    },
+    {
+      "symbol": "AKE",
+      "buyQuoteVolume": "26204039.841252",
+      "trades": 221286,
+      "avgBuyAmount": "118.42"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "6677020.7221996",
-      "trades": 31470,
-      "avgBuyAmount": "212.17"
-    },
-    {
-      "symbol": "DNA",
-      "buyQuoteVolume": "3914869.3703983",
-      "trades": 111147,
-      "avgBuyAmount": "35.22"
+      "buyQuoteVolume": "8556000.0998097",
+      "trades": 35051,
+      "avgBuyAmount": "244.1"
     }
   ],
-  "bnb_price_usd": 638.08,
-  "bnb_price_ts": 1794564323,
+  "bnb_price_usd": 634.28,
+  "bnb_price_ts": 1794592224,
   "bnb_price_source": "coingecko"
 }
