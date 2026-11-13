@@ -44,12 +44,29 @@
       "completion_source": "telegram_airdrop_ended_reminder",
       "completion_received_at": "2026-11-12 19:00:27",
       "claim_ended_at": "2026-11-12 19:00:19"
+    },
+    {
+      "token": "",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "points": "256",
+      "type": "grab",
+      "phase": 1,
+      "language": "en",
+      "status": "announced",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1794555151,
+      "updated_timestamp": 1794557963,
+      "system_timestamp": 1794557963
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 9463
+      "count": 40133
     },
     {
       "key": "yesterday",
@@ -64,24 +81,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "122208686.00782",
-      "trades": 1554636,
-      "avgBuyAmount": "78.61"
+      "buyQuoteVolume": "513670647.68495",
+      "trades": 6099725,
+      "avgBuyAmount": "84.21"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "361360.53461491",
-      "trades": 1320,
-      "avgBuyAmount": "273.76"
+      "buyQuoteVolume": "6677020.7221996",
+      "trades": 31470,
+      "avgBuyAmount": "212.17"
     },
     {
-      "symbol": "AGT",
-      "buyQuoteVolume": "358398.5371137",
-      "trades": 3117,
-      "avgBuyAmount": "114.98"
+      "symbol": "DNA",
+      "buyQuoteVolume": "3914869.3703983",
+      "trades": 111147,
+      "avgBuyAmount": "35.22"
     }
   ],
-  "bnb_price_usd": 647.61,
-  "bnb_price_ts": 1794537623,
+  "bnb_price_usd": 638.08,
+  "bnb_price_ts": 1794564323,
   "bnb_price_source": "coingecko"
 }
