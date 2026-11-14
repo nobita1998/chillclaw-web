@@ -1,57 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "warning_6af6d05d319606.36898612",
-      "token": "RAVE",
-      "name": "RAVE",
-      "date": "2026-11-13",
-      "time": "19:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1794560093,
-      "points": "256",
-      "amount": "270",
-      "total_amount": "2916540",
-      "contract_address": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": false,
-      "quota_event_id": "single_quota_6af6e6b9145577.17000477",
-      "quota_total_shares": "10",
-      "quota_remainder": "0",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-11-13 18:46:29",
-      "quota_tx_hash": "0x6e73b18d7061729973bff7729793667a64168c81c0700a532d7b3acdce6e91ca",
-      "quota_unit_price_usd": 0.1207,
-      "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 35202.637800000004,
-      "quota_auto_confirm_value_matched": false,
-      "quota_auto_confirm_evaluated_at": "2026-11-13 18:46:29",
-      "d976_tx_time": "2026-11-13 18:48:02",
-      "d976_auto_confirm_value": 29.0312,
-      "d976_auto_confirm_price": 0.11947,
-      "d976_auto_confirm_divisor": 20,
-      "d976_auto_confirm_source": "d976",
-      "system_timestamp": 1794567920,
-      "completed": true,
-      "confirmed_at": "2026-11-13 18:48:02",
-      "confirm_source": "d976_pending_value_match",
-      "language": "en",
-      "created_timestamp": 1794566882,
-      "updated_timestamp": 1794567920,
-      "futures_listed": false,
-      "spot_listed": false,
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-11-13 19:05:20",
-      "claim_ended_at": "2026-11-13 19:05:15"
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 39239
+      "count": 67758
     },
     {
       "key": "yesterday",
@@ -66,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "CT",
-      "buyQuoteVolume": "498386775.2248",
-      "trades": 5580909,
-      "avgBuyAmount": "89.3"
+      "buyQuoteVolume": "864086015.26524",
+      "trades": 9710394,
+      "avgBuyAmount": "88.99"
     },
     {
       "symbol": "AKE",
-      "buyQuoteVolume": "34635825.552888",
-      "trades": 419684,
-      "avgBuyAmount": "82.53"
+      "buyQuoteVolume": "46331401.749473",
+      "trades": 599053,
+      "avgBuyAmount": "77.34"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "1401246.2479986",
-      "trades": 11742,
-      "avgBuyAmount": "119.34"
+      "buyQuoteVolume": "2153849.4524101",
+      "trades": 18417,
+      "avgBuyAmount": "116.95"
     }
   ],
-  "bnb_price_usd": 615.22,
-  "bnb_price_ts": 1794648623,
+  "bnb_price_usd": 594.08,
+  "bnb_price_ts": 1794672623,
   "bnb_price_source": "coingecko"
 }
