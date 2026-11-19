@@ -21,33 +21,54 @@
       "amount": ""
     },
     {
-      "token": "",
+      "id": "warning_6afec56f0145a4.04873327",
+      "token": "ZEST",
+      "name": "ZEST",
       "date": "2026-11-19",
       "time": "18:00",
-      "points": "250",
       "type": "grab",
       "phase": 1,
-      "language": "zh",
       "status": "announced",
+      "timestamp": 1795081583,
+      "points": "250",
+      "amount": "280",
+      "total_amount": "3500000",
+      "contract_address": "0x5506599c722389a60580b5213ea1da60d64754a1",
+      "chain_id": "56",
+      "has_homonym": false,
       "box": false,
-      "futures_listed": false,
-      "amount": "",
-      "name": "",
-      "created_timestamp": 1795075947,
-      "updated_timestamp": 1795076347,
-      "system_timestamp": 1795076347,
-      "total_quota": "12500",
       "quota_event_id": "single_quota_6afec19f850a24.81605279",
+      "quota_total_shares": "12500",
+      "quota_remainder": "0",
+      "quota_inference_engine": "php-intdiv-v1",
+      "quota_amount_source": "46db_total_div_telegram_quota",
+      "quota_inferred_at": "2026-11-19 17:46:23",
+      "quota_tx_hash": "0xf9005999347ee93a94e744c8e87292c8f93014f4bb77beabc7f3a327f069a85b",
+      "quota_unit_price_usd": 0.1091,
+      "quota_unit_price_source": "46db_transfer_monitor_push",
+      "quota_common_value_usd": 30.548000000000002,
+      "quota_auto_confirm_value_matched": true,
+      "quota_auto_confirm_evaluated_at": "2026-11-19 17:46:23",
+      "system_timestamp": 1795082421,
+      "completed": true,
+      "confirmed_at": "2026-11-19 17:46:23",
+      "confirm_source": "46db_total_div_telegram_quota_value_match",
+      "updated_timestamp": 1795082421,
+      "upgraded_from_warning_at": "2026-11-19 18:00:21",
+      "total_quota": "12500",
       "quota_type": "single",
       "quota_source": "telegram_binance_velocity_cn",
       "quota_received_at": "2026-11-19 17:30:07",
-      "quota_expires_at": "2026-11-19 18:30:00"
+      "quota_expires_at": "2026-11-19 18:30:00",
+      "completion_source": "telegram_airdrop_ended_reminder",
+      "completion_received_at": "2026-11-19 18:00:21",
+      "claim_ended_at": "2026-11-19 18:00:17"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 28574
+      "count": 58234
     },
     {
       "key": "yesterday",
@@ -62,24 +83,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "368146134.88644",
-      "trades": 4147341,
-      "avgBuyAmount": "88.77"
+      "buyQuoteVolume": "751668975.68889",
+      "trades": 8634058,
+      "avgBuyAmount": "87.06"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "7575079.0853292",
-      "trades": 9220,
-      "avgBuyAmount": "821.59"
+      "buyQuoteVolume": "10231159.101608",
+      "trades": 22209,
+      "avgBuyAmount": "460.68"
     },
     {
       "symbol": "PIEVERSE",
-      "buyQuoteVolume": "1512476.6429475",
-      "trades": 15920,
-      "avgBuyAmount": "95"
+      "buyQuoteVolume": "2797494.7512585",
+      "trades": 33686,
+      "avgBuyAmount": "83.05"
     }
   ],
   "bnb_price_usd": 589.17,
-  "bnb_price_ts": 1795080622,
+  "bnb_price_ts": 1795113623,
   "bnb_price_source": "coingecko"
 }
