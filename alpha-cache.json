@@ -19,12 +19,35 @@
       "updated_timestamp": 1794895443,
       "points": "",
       "amount": ""
+    },
+    {
+      "token": "",
+      "date": "2026-11-19",
+      "time": "18:00",
+      "points": "250",
+      "type": "grab",
+      "phase": 1,
+      "language": "zh",
+      "status": "announced",
+      "box": false,
+      "futures_listed": false,
+      "amount": "",
+      "name": "",
+      "created_timestamp": 1795075947,
+      "updated_timestamp": 1795076347,
+      "system_timestamp": 1795076347,
+      "total_quota": "12500",
+      "quota_event_id": "single_quota_6afec19f850a24.81605279",
+      "quota_type": "single",
+      "quota_source": "telegram_binance_velocity_cn",
+      "quota_received_at": "2026-11-19 17:30:07",
+      "quota_expires_at": "2026-11-19 18:30:00"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 2404
+      "count": 28574
     },
     {
       "key": "yesterday",
@@ -39,18 +62,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "31115101.612813",
-      "trades": 527340,
-      "avgBuyAmount": "59"
+      "buyQuoteVolume": "368146134.88644",
+      "trades": 4147341,
+      "avgBuyAmount": "88.77"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "184526.50710126",
-      "trades": 415,
-      "avgBuyAmount": "444.64"
+      "buyQuoteVolume": "7575079.0853292",
+      "trades": 9220,
+      "avgBuyAmount": "821.59"
+    },
+    {
+      "symbol": "PIEVERSE",
+      "buyQuoteVolume": "1512476.6429475",
+      "trades": 15920,
+      "avgBuyAmount": "95"
     }
   ],
-  "bnb_price_usd": 580.49,
-  "bnb_price_ts": 1795051823,
+  "bnb_price_usd": 589.17,
+  "bnb_price_ts": 1795080622,
   "bnb_price_source": "coingecko"
 }
