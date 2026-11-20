@@ -21,54 +21,54 @@
       "amount": ""
     },
     {
-      "id": "warning_6afec56f0145a4.04873327",
-      "token": "ZEST",
-      "name": "ZEST",
-      "date": "2026-11-19",
+      "id": "warning_6b0017d38b6a51.02727356",
+      "token": "STBL",
+      "name": "STBL",
+      "date": "2026-11-20",
       "time": "18:00",
       "type": "grab",
       "phase": 1,
       "status": "announced",
-      "timestamp": 1795081583,
+      "timestamp": 1795168211,
       "points": "250",
-      "amount": "280",
-      "total_amount": "3500000",
-      "contract_address": "0x5506599c722389a60580b5213ea1da60d64754a1",
+      "amount": "1675",
+      "total_amount": "18917450",
+      "contract_address": "0x8dedf84656fa932157e27c060d8613824e7979e3",
       "chain_id": "56",
       "has_homonym": false,
       "box": false,
-      "quota_event_id": "single_quota_6afec19f850a24.81605279",
-      "quota_total_shares": "12500",
-      "quota_remainder": "0",
+      "quota_event_id": "single_quota_6b001335d45137.74808604",
+      "quota_total_shares": "11300",
+      "quota_remainder": "1250",
       "quota_inference_engine": "php-intdiv-v1",
       "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-11-19 17:46:23",
-      "quota_tx_hash": "0xf9005999347ee93a94e744c8e87292c8f93014f4bb77beabc7f3a327f069a85b",
-      "quota_unit_price_usd": 0.1091,
+      "quota_inferred_at": "2026-11-20 17:50:11",
+      "quota_tx_hash": "0xc57a09b6995243a8f0a354723cf5bfb64a66ad0405c32fdd5d2647ea677ac0fa",
+      "quota_unit_price_usd": 0.01806,
       "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 30.548000000000002,
+      "quota_common_value_usd": 30.23244,
       "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-11-19 17:46:23",
-      "system_timestamp": 1795082421,
+      "quota_auto_confirm_evaluated_at": "2026-11-20 17:50:11",
+      "system_timestamp": 1795168827,
       "completed": true,
-      "confirmed_at": "2026-11-19 17:46:23",
+      "confirmed_at": "2026-11-20 17:50:11",
       "confirm_source": "46db_total_div_telegram_quota_value_match",
-      "updated_timestamp": 1795082421,
-      "upgraded_from_warning_at": "2026-11-19 18:00:21",
-      "total_quota": "12500",
+      "updated_timestamp": 1795168827,
+      "upgraded_from_warning_at": "2026-11-20 18:00:27",
+      "total_quota": "11300",
       "quota_type": "single",
       "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-11-19 17:30:07",
-      "quota_expires_at": "2026-11-19 18:30:00",
-      "completion_source": "telegram_airdrop_ended_reminder",
-      "completion_received_at": "2026-11-19 18:00:21",
-      "claim_ended_at": "2026-11-19 18:00:17"
+      "quota_received_at": "2026-11-20 17:30:29",
+      "quota_expires_at": "2026-11-20 18:30:00",
+      "completion_source": "telegram_claim_progress_edit",
+      "completion_received_at": "2026-11-20 18:00:27",
+      "claim_ended_at": "2026-11-20 18:00:27"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 25715
+      "count": 56776
     },
     {
       "key": "yesterday",
@@ -83,24 +83,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "331619680.2643",
-      "trades": 3796842,
-      "avgBuyAmount": "87.34"
+      "buyQuoteVolume": "727802689.7307",
+      "trades": 8432348,
+      "avgBuyAmount": "86.31"
+    },
+    {
+      "symbol": "AKE",
+      "buyQuoteVolume": "22472576.757282",
+      "trades": 207264,
+      "avgBuyAmount": "108.42"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "5334308.6023162",
-      "trades": 9244,
-      "avgBuyAmount": "577.06"
-    },
-    {
-      "symbol": "RAVE",
-      "buyQuoteVolume": "248460.40490618",
-      "trades": 3266,
-      "avgBuyAmount": "76.07"
+      "buyQuoteVolume": "6955635.4623379",
+      "trades": 18997,
+      "avgBuyAmount": "366.14"
     }
   ],
-  "bnb_price_usd": 570.95,
-  "bnb_price_ts": 1795161023,
+  "bnb_price_usd": 547.94,
+  "bnb_price_ts": 1795191922,
   "bnb_price_source": "coingecko"
 }
