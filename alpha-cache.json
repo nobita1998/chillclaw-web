@@ -19,56 +19,12 @@
       "updated_timestamp": 1794895443,
       "points": "",
       "amount": ""
-    },
-    {
-      "id": "warning_6b0017d38b6a51.02727356",
-      "token": "STBL",
-      "name": "STBL",
-      "date": "2026-11-20",
-      "time": "18:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1795168211,
-      "points": "250",
-      "amount": "1675",
-      "total_amount": "18917450",
-      "contract_address": "0x8dedf84656fa932157e27c060d8613824e7979e3",
-      "chain_id": "56",
-      "has_homonym": false,
-      "box": false,
-      "quota_event_id": "single_quota_6b001335d45137.74808604",
-      "quota_total_shares": "11300",
-      "quota_remainder": "1250",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "46db_total_div_telegram_quota",
-      "quota_inferred_at": "2026-11-20 17:50:11",
-      "quota_tx_hash": "0xc57a09b6995243a8f0a354723cf5bfb64a66ad0405c32fdd5d2647ea677ac0fa",
-      "quota_unit_price_usd": 0.01806,
-      "quota_unit_price_source": "46db_transfer_monitor_push",
-      "quota_common_value_usd": 30.23244,
-      "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-11-20 17:50:11",
-      "system_timestamp": 1795168827,
-      "completed": true,
-      "confirmed_at": "2026-11-20 17:50:11",
-      "confirm_source": "46db_total_div_telegram_quota_value_match",
-      "updated_timestamp": 1795168827,
-      "upgraded_from_warning_at": "2026-11-20 18:00:27",
-      "total_quota": "11300",
-      "quota_type": "single",
-      "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-11-20 17:30:29",
-      "quota_expires_at": "2026-11-20 18:30:00",
-      "completion_source": "telegram_claim_progress_edit",
-      "completion_received_at": "2026-11-20 18:00:27",
-      "claim_ended_at": "2026-11-20 18:00:27"
     }
   ],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 7831
+      "count": 34792
     },
     {
       "key": "yesterday",
@@ -83,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "100991267.31042",
-      "trades": 1649001,
-      "avgBuyAmount": "61.24"
-    },
-    {
-      "symbol": "AKE",
-      "buyQuoteVolume": "1540187.4554168",
-      "trades": 24977,
-      "avgBuyAmount": "61.66"
+      "buyQuoteVolume": "446344439.41757",
+      "trades": 6044777,
+      "avgBuyAmount": "73.84"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "332194.94517259",
-      "trades": 944,
-      "avgBuyAmount": "351.9"
+      "buyQuoteVolume": "11526455.748104",
+      "trades": 24398,
+      "avgBuyAmount": "472.43"
+    },
+    {
+      "symbol": "AKE",
+      "buyQuoteVolume": "5089093.7826211",
+      "trades": 87279,
+      "avgBuyAmount": "58.31"
     }
   ],
-  "bnb_price_usd": 530.6,
-  "bnb_price_ts": 1795231823,
+  "bnb_price_usd": 529.73,
+  "bnb_price_ts": 1795261823,
   "bnb_price_source": "coingecko"
 }
