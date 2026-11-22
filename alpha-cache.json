@@ -24,7 +24,7 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 60733
+      "count": 64832
     },
     {
       "key": "yesterday",
@@ -39,24 +39,24 @@
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "778677884.75646",
-      "trades": 9701923,
-      "avgBuyAmount": "80.26"
+      "buyQuoteVolume": "832371604.90239",
+      "trades": 11476532,
+      "avgBuyAmount": "72.53"
     },
     {
       "symbol": "PIEVERSE",
-      "buyQuoteVolume": "18706895.280519",
-      "trades": 297789,
-      "avgBuyAmount": "62.82"
+      "buyQuoteVolume": "19412046.083465",
+      "trades": 305376,
+      "avgBuyAmount": "63.57"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "11801172.34525",
-      "trades": 24967,
-      "avgBuyAmount": "472.67"
+      "buyQuoteVolume": "12202638.419249",
+      "trades": 27960,
+      "avgBuyAmount": "436.43"
     }
   ],
-  "bnb_price_usd": 557.98,
-  "bnb_price_ts": 1795372823,
+  "bnb_price_usd": 558.15,
+  "bnb_price_ts": 1795391423,
   "bnb_price_source": "coingecko"
 }
