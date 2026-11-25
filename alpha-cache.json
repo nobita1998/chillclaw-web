@@ -69,39 +69,39 @@
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 61245
+      "count": 17248
     },
     {
       "key": "yesterday",
-      "count": 62555
+      "count": 62282
     },
     {
       "key": "before_yesterday",
-      "count": 64958
+      "count": 62555
     }
   ],
-  "last_rollover_date": "2026-11-24",
+  "last_rollover_date": "2026-11-25",
   "top3_tokens": [
     {
       "symbol": "UP",
-      "buyQuoteVolume": "791413599.96222",
-      "trades": 10502599,
-      "avgBuyAmount": "75.35"
+      "buyQuoteVolume": "223245381.48521",
+      "trades": 2612106,
+      "avgBuyAmount": "85.47"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "9567038.380679",
-      "trades": 23280,
-      "avgBuyAmount": "410.96"
+      "buyQuoteVolume": "718863.08521678",
+      "trades": 1841,
+      "avgBuyAmount": "390.47"
     },
     {
-      "symbol": "ZEST",
-      "buyQuoteVolume": "113667.65657679",
-      "trades": 1498,
-      "avgBuyAmount": "75.88"
+      "symbol": "ON",
+      "buyQuoteVolume": "164350.53474465",
+      "trades": 1676,
+      "avgBuyAmount": "98.06"
     }
   ],
-  "bnb_price_usd": 549.67,
-  "bnb_price_ts": 1795560323,
+  "bnb_price_usd": 541.56,
+  "bnb_price_ts": 1795582822,
   "bnb_price_source": "coingecko"
 }
