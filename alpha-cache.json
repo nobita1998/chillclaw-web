@@ -1,62 +1,9 @@
 {
-  "airdrops": [
-    {
-      "id": "large_transfer_6b07e4c1aea432.20256260",
-      "token": "MAGMA",
-      "name": "MAGMA",
-      "date": "2026-11-26",
-      "time": "16:00",
-      "type": "grab",
-      "phase": 1,
-      "status": "announced",
-      "timestamp": 1795679425,
-      "points": "250",
-      "amount": "120",
-      "total_amount": "1399920",
-      "contract_address": "0x9f854b3ad20f8161ec0886f15f4a1752bf75d22261556f14cc8d3a1c5d50e529::magma::MAGMA",
-      "chain_id": "784",
-      "has_homonym": false,
-      "box": false,
-      "tx_hash": "ELQvoLdvDag9FpeHzDcFHShEAGQ7KRVYYA66rstHVYHi",
-      "tx_time": "2026-11-26 15:50:07",
-      "source": "large_transfer_monitor",
-      "quota_event_id": "single_quota_6b07dffe6cc6a7.48077894",
-      "quota_total_shares": "11700",
-      "quota_remainder": "7620",
-      "quota_inference_engine": "php-intdiv-v1",
-      "quota_amount_source": "sui_total_div_telegram_quota",
-      "quota_inferred_at": "2026-11-26 15:50:25",
-      "quota_tx_hash": "ELQvoLdvDag9FpeHzDcFHShEAGQ7KRVYYA66rstHVYHi",
-      "quota_unit_price_usd": 0.24420047340560652,
-      "quota_unit_price_source": "binance_alpha_sui_transfer_monitor",
-      "quota_common_value_usd": 29.059856335267177,
-      "quota_auto_confirm_value_matched": true,
-      "quota_auto_confirm_evaluated_at": "2026-11-26 15:50:25",
-      "quota_validation_status": "no_d976_amount",
-      "quota_validation_previous_amount": "",
-      "quota_validation_calculated_amount": "119",
-      "quota_validation_at": "2026-11-26 15:50:25",
-      "total_amount_source": "sui_primary_total_transfer",
-      "system_timestamp": 1795679425,
-      "completed": true,
-      "confirmed_at": "2026-11-26 15:50:25",
-      "confirm_source": "sui_total_div_telegram_quota_value_match",
-      "confirm_evidence": "weak",
-      "upgraded_from_warning_at": "2026-11-26 16:43:28",
-      "total_quota": "11700",
-      "quota_type": "single",
-      "quota_source": "telegram_binance_velocity_cn",
-      "quota_received_at": "2026-11-26 15:30:06",
-      "quota_expires_at": "2026-11-26 16:30:00",
-      "futures_listed": false,
-      "spot_listed": false,
-      "pre_price": ""
-    }
-  ],
+  "airdrops": [],
   "alpha_checkins": [
     {
       "key": "today",
-      "count": 8
+      "count": 25642
     },
     {
       "key": "yesterday",
@@ -71,24 +18,24 @@
   "top3_tokens": [
     {
       "symbol": "B2",
-      "buyQuoteVolume": "38251.21541322",
-      "trades": 292,
-      "avgBuyAmount": "131"
+      "buyQuoteVolume": "332041660.44435",
+      "trades": 3489684,
+      "avgBuyAmount": "95.15"
     },
     {
       "symbol": "QQQB",
-      "buyQuoteVolume": "18669.226950452",
-      "trades": 58,
-      "avgBuyAmount": "321.88"
+      "buyQuoteVolume": "1311159.8020104",
+      "trades": 2780,
+      "avgBuyAmount": "471.64"
     },
     {
       "symbol": "STBL",
-      "buyQuoteVolume": "9786.27876678",
-      "trades": 73,
-      "avgBuyAmount": "134.06"
+      "buyQuoteVolume": "44355.88458958",
+      "trades": 711,
+      "avgBuyAmount": "62.39"
     }
   ],
-  "bnb_price_usd": 554.84,
-  "bnb_price_ts": 1795737922,
+  "bnb_price_usd": 564.32,
+  "bnb_price_ts": 1795769122,
   "bnb_price_source": "coingecko"
 }
